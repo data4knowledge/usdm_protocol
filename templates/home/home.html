@@ -48,7 +48,7 @@
             <ul class="nav nav-pills flex-column">
               {% for record in data: %}
                 <li class="nav-item">
-                  <a class="nav-link" data-bs-dismiss="offcanvas" hx-get="/m11/sections/{{record['key']}}" hx-trigger="click" hx-target="#m11Section" hx-swap="outerHTML">{{record['section_number']}} {{record['section_title']}}</a>
+                  <a class="nav-link" data-bs-dismiss="offcanvas" hx-get="/sections/{{record['key']}}" hx-trigger="click" hx-target="#m11Section" hx-swap="outerHTML">{{record}}</a>
                 </li>
               {% endfor %}
             </ul>

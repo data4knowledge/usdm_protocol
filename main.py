@@ -3,7 +3,7 @@ from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from d4kms_ui.release_notes import ReleaseNotes
-# from utility.database import Database
+from utility.database import Database
 from d4kms_generic.service_environment import ServiceEnvironment
 from d4kms_generic import application_logger
 # from utility.uml_view import UMLView
@@ -24,7 +24,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 se = ServiceEnvironment()
-#database = Database()
+database = Database()
 cookie_name = se.get("COOKIE_NAME")
 cookie_value = se.get("COOKIE_VALUE")
 backdoor = se.get("BACKDOOR")
@@ -89,7 +89,10 @@ async def logout(request: Request):
 @app.get('/home')
 async def home(request: Request):
   check_simple_authentication(request)
-  #data = database.toc_level_1_sections()
-  response = templates.TemplateResponse('home/home.html', { "request": request})
+  data = database.toc_level_1_sections()
+  print(f"SECTIONS 1: {data}")
+  data = database.toc_sections()
+  print(f"SECTIONS: {data}")
+  response = templates.TemplateResponse('home/home.html', { "request": request, 'data': data})
   return response
 
