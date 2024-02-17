@@ -12,10 +12,13 @@ class Database:
     self._lock = threading.Lock()
 
   def toc_sections(self):
-    return [{'key': k, 'sectionNumber': x['sectionNumber'], 'sectionTitle': x['sectionTitle']} for k,x in self._data.items()]
+    order = self._section_order()
+    #print(f"ORDER: {order}")
+    return [{'key': x, 'sectionNumber': self._data[x]['sectionNumber'], 'sectionTitle': self._data[x]['sectionTitle']} for x in order]
 
   def toc_level_1_sections(self):
-    return [{'key': k, 'sectionNumber': x['sectionNumber'], 'sectionTitle': x['sectionTitle']} for k,x in self._data.items() if self._level(x['sectionNumber']) == 1]
+    order = self._section_order()
+    return [{'key': x, 'sectionNumber': self._data[x]['sectionNumber'], 'sectionTitle': self._data[x]['sectionTitle']} for x in order if self._level(self._data[x]['sectionNumber']) == 1]
 
   def get_section(self, section_key):
     try:
@@ -59,3 +62,12 @@ class Database:
   def _write(self):
     with open(self.FILEPATH, "w") as f:
       data = yaml.dump(self._data, f)
+
+  def _section_order(self):
+    return sorted(list(self._data.keys()), key=self._section)
+
+  def _section(self, s):
+    try:
+      return [int(_) for _ in s.split("-")]
+    except:
+      print(f"EXCEPTION: {s}")

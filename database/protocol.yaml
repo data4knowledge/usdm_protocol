@@ -1180,10 +1180,10 @@
 
     <p>An automated blood pressure cuff may be used in place of a mercury manometer
     if it is regularly (at least monthly) standardized against a mercury manometer.</p>'
-3-9-3-4-2-Cardiovascular:
+3-9-3-4-2:
   name: ''
-  sectionNumber: 3.9.3.4.2.Cardiovascular
-  sectionTitle: Safety Measures
+  sectionNumber: 3.9.3.4.2.
+  sectionTitle: Cardiovascular Safety Measures
   text: "<p>Cardiovascular status will be assessed during the trial with the following\
     \ measures:</p>\n<p>\u2022 All patients will be screened by obtaining a 12-lead\
     \ ECG, and will have \nrepeat ECGs performed at Visits 4, 5, 7, 8, 9, 10, 11,\
