@@ -23,6 +23,7 @@ app = FastAPI(
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
+database = Database()
 se = ServiceEnvironment()
 cookie_name = se.get("COOKIE_NAME")
 cookie_value = se.get("COOKIE_VALUE")
@@ -88,7 +89,7 @@ async def logout(request: Request):
 @app.get('/home')
 async def home(request: Request):
   check_simple_authentication(request)
-  database = Database()
+  #database = Database()
   data = database.toc_sections()
   #print(f"ToC: {data}")
   response = templates.TemplateResponse('home/home.html', { "request": request, 'data': data})
@@ -97,7 +98,7 @@ async def home(request: Request):
 @app.get('/sections/{section}')
 async def get_section(request: Request, section: str):
   check_simple_authentication(request)
-  database = Database()
+  #database = Database()
   data = database.get_section(section)
   can_add = database.can_add_section(section)
   response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
@@ -106,7 +107,7 @@ async def get_section(request: Request, section: str):
 @app.post('/sections/{section}')
 async def post_section(request: Request, section: str, text: str = Form(...)):
   check_simple_authentication(request)
-  database = Database()
+  #database = Database()
   database.put_section(section, text)
   # can_add = database.can_add_section(section)
   # response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
@@ -116,7 +117,7 @@ async def post_section(request: Request, section: str, text: str = Form(...)):
 @app.get('/sections/{section}/document')
 async def document(request: Request, section: str):
   check_simple_authentication(request)
-  database = Database()
+  #database = Database()
   data = database.get_section(section)
   #print(f"DATA: {data}")
   response = templates.TemplateResponse('home/partials/document.html', { "request": request, 'key': section, 'data': data})
@@ -125,7 +126,7 @@ async def document(request: Request, section: str):
 @app.post('/sections/{section}/add')
 async def post_section(request: Request, section: str):
   check_simple_authentication(request)
-  database = Database()
+  #database = Database()
   new_section = database.add_section(section)
   if new_section:
     data = database.get_section(new_section)
@@ -138,7 +139,7 @@ async def post_section(request: Request, section: str):
 @app.delete('/sections/{section}')
 async def post_section(request: Request, section: str):
   check_simple_authentication(request)
-  database = Database()
+  #database = Database()
   deleted = database.delete_section(section)
   if deleted:
     data = database.get_section("1")
@@ -147,5 +148,3 @@ async def post_section(request: Request, section: str):
     return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': '1', 'data': data, 'can_add': can_add, 'toc': toc})
   else:
     return templates.TemplateResponse('errors/partials/errors.html', {"request": request, 'data': {'error': f'Failed to delete section {section}'}})
-
-

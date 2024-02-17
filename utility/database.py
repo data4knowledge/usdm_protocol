@@ -13,13 +13,26 @@ class Database:
     self._lock = threading.Lock()
 
   def toc_sections(self):
-    order = self._section_order()
-    #print(f"ORDER: {order}")
-    return [{'key': x, 'sectionNumber': self._data[x]['sectionNumber'], 'sectionTitle': self._data[x]['sectionTitle']} for x in order]
+    try:
+      self._lock.acquire()
+      order = self._section_order()
+      self._lock.release()
+      return [{'key': x, 'sectionNumber': self._data[x]['sectionNumber'], 'sectionTitle': self._data[x]['sectionTitle']} for x in order]
+    except Exception as e:
+      application_logger.exception("Exception during toc sections", e)
+      self._lock.release()
+      return []
 
   def toc_level_1_sections(self):
-    order = self._section_order()
-    return [{'key': x, 'sectionNumber': self._data[x]['sectionNumber'], 'sectionTitle': self._data[x]['sectionTitle']} for x in order if self._level(self._data[x]['sectionNumber']) == 1]
+    try:
+      self._lock.acquire()
+      order = self._section_order()
+      self._lock.release()
+      return [{'key': x, 'sectionNumber': self._data[x]['sectionNumber'], 'sectionTitle': self._data[x]['sectionTitle']} for x in order if self._level(self._data[x]['sectionNumber']) == 1]
+    except Exception as e:
+      application_logger.exception("Exception during toc level 1 sections", e)
+      self._lock.release()
+      return []
 
   def get_section(self, section_key):
     try:
@@ -29,48 +42,54 @@ class Database:
       return None
 
   def put_section(self, section_key, text):
-    section = self.get_section(section_key)
-    if section:
-      try:
+    try:
+      self._lock.acquire()
+      section = self.get_section(section_key)
+      if section:
         application_logger.info(f"Updatting section {section_key}")
-        self._lock.acquire()
         self._data[section_key]['text'] = text
         self._write()
-        self._lock.release()
-      except Exception as e:
-        application_logger.exception("Exception during section write", e)
-        self._lock.release()
+      self._lock.release()
+    except Exception as e:
+      application_logger.exception("Exception during section write", e)
+      self._lock.release()
 
   def delete_section(self, section_key):
-    section = self.get_section(section_key)
-    if section:
-      try:
-        self._lock.acquire()
+    try:
+      self._lock.acquire()
+      section = self.get_section(section_key)
+      if section:
         self._data.pop(section_key)
         self._write()
-        self._lock.release()
-        return True
-      except Exception as e:
-        application_logger.exception("Exception during section delete", e)
-        self._lock.release()
-    return False
+        result = True
+      else:
+        result = False
+      self._lock.release()
+      return result
+    except Exception as e:
+      application_logger.exception("Exception during section delete", e)
+      self._lock.release()
+      return False
 
   def can_add_section(self, section_key):
     potential_section_key = self._increment_section_number(section_key)
     return self._section_is_permitted(potential_section_key)
   
   def add_section(self, section_key):
-    new_section_key = self._increment_section_number(section_key)
-    if self._section_is_permitted(new_section_key):
-      try:
-        self._lock.acquire()
+    try:
+      self._lock.acquire()
+      new_section_key = self._increment_section_number(section_key)
+      if self._section_is_permitted(new_section_key):
         self._data[new_section_key] = {'sectionNumber': new_section_key.replace('-', '.'), 'sectionTitle': 'To Be Provided', 'name': '', 'text': ''}
         self._write()
-        self._lock.release()
-        return new_section_key
-      except Exception as e:
-        application_logger.exception("Exception during section add", e)
-    return None
+        result = new_section_key
+      else:
+        result = None
+      self._lock.release()
+      return result
+    except Exception as e:
+      application_logger.exception("Exception during section add", e)
+      return None
 
   def _level(self, section):
     text = section[:-1] if section.endswith('.') else section
