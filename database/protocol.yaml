@@ -18,23 +18,47 @@
   name: ''
   sectionNumber: '1.'
   sectionTitle: Introduction
-  text: "<p>The primary objectives of this study are</p>\n<p>\u2022 To determine if\
-    \ there is a statistically significant relationship (overall  Type 1 error rate,\
-    \ \u03B1=.05) between the change in both ADAS-Cog (see Attachment LZZT.2) and\
-    \ CIBIC+ (see Attachment LZZT.3) scores, and drug dose (0, 50 cm 2 [54 mg], and\
-    \ 75 cm 2 [81 mg]).</p> \n<p>\u2022 To document the safety profile of the xanomeline\
-    \ TTS. </p>\n<b>2.2. Secondary Objectives</b> \nThe secondary objectives of this\
-    \ study are</p>\n<p>\u2022 To assess the dose-dependent improvement in behavior.\
-    \ Improved scores \non the Revised Neuropsychiatric Inventory (NPI-X) will indicate\
-    \ \nimprovement in these areas (see Attachment LZZT.4).</p>\n<p>\u2022 To assess\
-    \ the dose-dependent improvements in activities of daily living. \nImproved scores\
-    \ on the Disability Assessment for Dementia (DAD) will indicate improvement in\
-    \ these areas (see Attachment LZZT.5).</p>\n<p>\u2022 To assess the dose-dependent\
-    \ improvements in an extended assessment of \ncognition that integrates attention/concentration\
-    \ tasks. The Alzheimer's \nDisease Assessment Scale-14 item Cognitive Subscale,\
-    \ hereafter referred \nto as ADAS-Cog (14), will be used for this assessment (see\
-    \ Attachment \nLZZT.2).</p>\n<p>\u2022 To assess the treatment response as a function\
-    \ of Apo E genotype.</p>"
+  text: "<p>The M1 muscarinic-cholinergic receptor is 1 of 5 characterized muscarinic-cholinergic\n\
+    \    receptor subtypes (Fisher and Barak 1994). M1 receptors in the cerebral cortex\n\
+    \    and hippocampus are, for the most part, preserved in Alzheimer''s disease\
+    \ (AD),\n    while the presynaptic neurons projecting to these receptors from\
+    \ the nucleus basalis\n    of Meynert degenerate (Bierer et al. 1995). The presynaptic\
+    \ loss of cholinergic\n    neurons has been correlated to the antimortum cognitive\
+    \ impairment in AD patients,\n    prompting speculation that replacement therapy\
+    \ with cholinomimetics will alleviate\n    the cognitive dysfunction of the disorder\
+    \ (Fisher and Barak 1994).</p>\n\n    <p>Xanomeline is a novel M1 agonist which\
+    \ has shown high affinity for the M1 receptor\n    subtype (in transfected cells),\
+    \ and substantially less or no affinity for other\n    muscarinic subtypes. Positron\
+    \ emission tomography (PET) studies of 11C-labeled\n    xanomeline in cynomolgus\
+    \ monkeys have suggested that the compound crosses the\n    blood-brain barrier\
+    \ and preferentially binds the striatum and neocortex.</p>\n\n    <p>Clinical\
+    \ development of an oral formulation of xanomeline for the indication\n    of\
+    \ mild and moderate AD was initiated approximately 4 years ago. A large-scale\n\
+    \    study of safety and efficacy provided evidence that an oral dosing regimen\
+    \ of\n    75 mg three times daily (TID) may be associated with enhanced cognition\
+    \ and improved\n    clinical global impression, relative to placebo. As well,\
+    \ a dramatic reduction\n    in psychosis, agitation, and other problematic behaviors,\
+    \ which often complicate\n    the course of the disease, was documented. However,\
+    \ the discontinuation rate associated\n    with this oral dosing regimen was 58.6%,\
+    \ and alternative clinical strategies have\n    been sought to improve tolerance\
+    \ for the compound.</p>\n\n    <p>To that end, development of a Transdermal Therapeutic\
+    \ System (TTS) has been\n    initiated. Relative to the oral formulation, the\
+    \ transdermal formulation eliminates\n    high concentrations of xanomeline in\
+    \ the gastrointestinal (GI) tract and presystemic\n    (firstpass) metabolism.\
+    \ Three transdermal delivery systems, hereafter referred\n    to as the xanomeline\
+    \ TTS Formulation A, xanomeline TTS Formulation B, and xanomeline\n    TTS formulation\
+    \ E have been manufactured by Lohman Therapy Systems GmbH of Andernach\n    Germany.\
+    \ TTS Formulation A is 27 mg xanomeline freebase in a 25-cm2 matrix. TTS\n   \
+    \ Formulation B is 57.6 mg xanomeline freebase in a 40-cm2 matrix. Formulation\
+    \ E\n    has been produced in 2 patch sizes: 1) 54 mg xanomeline freebase with\
+    \ 0.06 mg\n    Vitamin E USP in a 50-cm2 matrix and 2) 27 mg xanomeline freebase\
+    \ with 0.03 mg\n    Vitamin E USP in a 25-cm2 matrix. For a detailed description\
+    \ of the composition\n    of</p>\n\n    <p>these formulations please refer to\
+    \ Part II, Section 14 of the Xanomeline (LY246708)\n    Clinical Investigator''s\
+    \ Brochure. For characterization of the safety, tolerance,\n    and pharmacokinetics\
+    \ of xanomeline TTS Formulations A, B, and E, please refer\n    to Part II, Sections\
+    \ 7, 8, and 10 of the Xanomeline (LY246708) Clinical Investigator''s\n    Brochure.\
+    \ Formulation E will be studied in this protocol, H2Q-MC-LZZT(c).</p>"
 '2':
   name: ''
   sectionNumber: '2.'
