@@ -129,5 +129,15 @@ async def post_section(request: Request, section: str):
   else:
     return templates.TemplateResponse('errors/partials/errors.html', {"request": request, 'data': {'error': f'Failed to add section {section}'}})
 
+@app.delete('/sections/{section}')
+async def post_section(request: Request, section: str):
+  check_simple_authentication(request)
+  deleted = database.delete_section(section)
+  if deleted:
+    data = database.get_section("1")
+    can_add = database.can_add_section("1")
+    return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': '1', 'data': data, 'can_add': can_add})
+  else:
+    return templates.TemplateResponse('errors/partials/errors.html', {"request": request, 'data': {'error': f'Failed to delete section {section}'}})
 
 

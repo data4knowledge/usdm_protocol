@@ -49,9 +49,11 @@ class Database:
         self._data.pop(section_key)
         self._write()
         self._lock.release()
+        return True
       except Exception as e:
         application_logger.exception("Exception during section delete", e)
         self._lock.release()
+    return False
 
   def can_add_section(self, section_key):
     potential_section_key = self._increment_section_number(section_key)
