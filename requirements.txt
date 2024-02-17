@@ -1,0 +1,10 @@
+requests
+pyyaml
+fastapi
+uvicorn
+markdown
+Jinja2
+httpx
+python-dotenv
+python-multipart
+d4kms

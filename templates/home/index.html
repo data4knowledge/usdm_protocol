@@ -1,0 +1,12 @@
+{% extends "shared/_home_layout.html" %}
+{% block main_content %}
+  <div class="container py-4">
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid "></div>
+        <h1><span><i class="bi bi-github"></i></span> Github OAuth</h1>
+        <p>Authorize your app with:</p>
+        <a href="https://github.com/login/oauth/authorize?client_id={{client_id}}" class="btn btn-danger"><span><i class="bi bi-github"></i></span> Github Login</a>
+      </div>
+    </div>
+  </div>
+{% endblock %}

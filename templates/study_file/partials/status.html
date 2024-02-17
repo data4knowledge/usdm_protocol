@@ -1,0 +1,28 @@
+{% if data['status'] == 'complete' %}
+  <div class="col-6" id="status_div" hx-swap="outerHTML">
+    <div class="card border-primary mb-3">
+      <div class="card-header">Upload Complete</div>
+      <div class="card-body">
+        <div class="d-flex justify-right">
+          <a href="/studies" class="btn btn-primary">Go to studies</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% else %}
+  <div class="col-6" id="status_div" hx-get="/studyFiles/{{uuid}}/status" hx-trigger="every 1s" hx-swap="outerHTML">
+    <div class="card border-primary mb-3">
+      <div class="card-header">Upload Status</div>
+      <div class="card-body">
+        <div class="d-flex justify-right">
+          <i>Stage: {{data['stage']}}. Progress: {{data['percentage']}}%</i>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+
+
+
+
