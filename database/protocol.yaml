@@ -280,24 +280,32 @@
   name: ''
   sectionNumber: 3.10.1.
   sectionTitle: Discontinuations
-  text: "<p>Participation in the study shall be terminated for any patient who is\
-    \ unable or unwilling to comply with the study protocol or who develops a serious\
-    \ adverse event.</p>\n<p>In addition, patients may be discontinued for any of\
-    \ the following reasons:</p>\n<p>\u2022 In the opinion of the investigator, a\
-    \ significant adverse event occurs or the \nsafety of the patient is otherwise\
-    \ compromised.</p>\n<p>\u2022 The patient requests to be withdrawn from the study.</p>\n\
-    <p>\u2022 The physician in charge of the study or Lilly, for any reason stops\
-    \ the \npatient's participation in the study.</p>\n<p>If a patient's participation\
-    \ terminates early, an early termination visit should be scheduled. Upon decision\
-    \ to discontinue a patient from the study, the patient's dose should be titrated\
-    \ down by instructing the patient to immediately remove the 25-cm2 patch. Patients\
-    \ should be instructed to continue to apply a 50-cm2 patch daily until the early\
-    \ termination visit, at which time the drug will be discontinued. Physical exam,\
-    \ vital signs, temperature, use of concomitant medications, chemistry/hematology/urinalysis\
-    \ labs, xanomeline plasma sample, TTS acceptability survey, efficacy measures,\
-    \ adverse events, and an ECG will be collected at the early termination visit.</p>\n\
-    <p>In the event that a patient's participation or the study itself is terminated,\
-    \ the patient shall return all study drug(s) to the investigator.</p>"
+  text: '<p>Participation in the study shall be terminated for any patient who is
+    unable or unwilling to comply with the study protocol or who develops a serious
+    adverse event.</p>
+
+    <p>In addition, patients may be discontinued for any of the following reasons:</p>
+
+    <p>&bull; In the opinion of the investigator, a significant adverse event occurs
+    or the safety of the patient is otherwise compromised.</p>
+
+    <p>&bull; The patient requests to be withdrawn from the study.</p>
+
+    <p>&bull; The physician in charge of the study or Lilly, for any reason stops
+    the patient''s participation in the study.</p>
+
+    <p>If a patient''s participation terminates early, an early termination visit
+    should be scheduled. Upon decision to discontinue a patient from the study, the
+    patient''s dose should be titrated down by instructing the patient to immediately
+    remove the 25-cm2 patch. Patients should be instructed to continue to apply a
+    50-cm2 patch daily until the early termination visit, at which time the drug will
+    be discontinued. Physical exam, vital signs, temperature, use of concomitant medications,
+    chemistry/hematology/urinalysis labs, xanomeline plasma sample, TTS acceptability
+    survey, efficacy measures, adverse events, and an ECG will be collected at the
+    early termination visit.</p>
+
+    <p>In the event that a patient''s participation or the study itself is terminated,
+    the patient shall return all study drug(s) to the investigator.</p>'
 3-10-1-1:
   name: ''
   sectionNumber: 3.10.1.1.
@@ -319,13 +327,17 @@
   name: ''
   sectionNumber: 3.10.3.
   sectionTitle: Study Extensions
-  text: <p>Patients who successfully complete the study will be eligible for participation
+  text: '<p>Patients who successfully complete the study will be eligible for participation
     in an openlabel extension phase, where every patient will be treated with active
     agent. The patients who elect to participate in the open-label extension phase
     will be titrated to their maximally titrated dose. This open-label extension phase
     will continue until the time the product becomes marketed and is available to
     the public or until the project is discontinued by the sponsor. Patients may terminate
     at any time at their request.</p>
+
+    <p>&nbsp;</p>
+
+    <p>&nbsp;</p>'
 3-10-3-1:
   name: ''
   sectionNumber: 3.10.3.1.
@@ -395,12 +407,16 @@
   name: ''
   sectionNumber: 3.3.
   sectionTitle: Investigator Information
-  text: <p>The name, title, and institution of the investigator(s) is/are listed on
-    the Investigator/Contacts cover pages provided with this protocol. If the investigator
+  text: '<p>The name, title, and institution of the investigator(s) is/are listed
+    on the Investigator/Contacts cover pages provided with this protocol. If the investigator
     is changed after the study has been approved by an ethical review board, or a
     regulatory agency, or by Lilly, this addition will not be considered a change
     to the protocol. However, the Investigator/Contacts cover pages will be updated
     to provide this information.</p>
+
+    <p>&nbsp;</p>
+
+    <p>&nbsp;</p>'
 3-3-1:
   name: ''
   sectionNumber: 3.3.1.
@@ -412,7 +428,11 @@
     <p>The investigator who will serve as the final report coordinating investigator
     will be an individual that is involved with the design and analysis of the study.
     This final report coordinating investigator will be named by the sponsor of the
-    study.</p>'
+    study.</p>
+
+    <p>dddddddddd</p>
+
+    <p>&nbsp;</p>'
 3-4:
   name: ''
   sectionNumber: 3.4.
@@ -742,12 +762,24 @@
   name: ''
   sectionNumber: 3.4.4.
   sectionTitle: Sample Size
-  text: <p>Approximately 100 patients will be randomized to each of the 3 treatment
+  text: '<p>Approximately 100 patients will be randomized to each of the 3 treatment
     groups. Previous experience with the oral formulation of xanomeline suggests that
     this sample size has 90% power to detect a 3.0 mean treatment difference in ADAS-Cog
     (p&lt;.05, two-sided), based on a standard deviation of 6.5. Furthermore, this
     sample size has 80% power to detect a 0.36 mean treatment difference in CIBIC+
     (p&lt;.05, two-sided), based on a standard deviation of 0.9.</p>
+
+    <p>ddddd</p>
+
+    <p>ddddvvvvvvvvvvvvvvv</p>
+
+    <p>&nbsp;</p>
+
+    <p>dddd</p>
+
+    <p>&nbsp;</p>
+
+    <p>&nbsp;</p>'
 3-5:
   name: ''
   sectionNumber: 3.5.

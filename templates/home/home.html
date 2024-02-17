@@ -1,5 +1,7 @@
 {% extends "shared/_layout.html" %}
 {% block additional_css %}
+  <script src="/static/js/tinymce/tinymce.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <style>
     .card-body-height { overflow-y: scroll; width: 100%; }
     .table td.fit,
@@ -26,7 +28,7 @@
         <!-- Card Header -->
         <div class="card-header">
           <div class="d-flex justify-content-between">
-            <h5>M11 Section Detail</h5>
+            <h5 id="section_title_div">Section Detail</h5>
             <div class="d-flex justify-right">
               <a class="link-dark" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#m11HelpModal">
                 <i class="ps-2 bi bi-info-circle"></i>
@@ -48,7 +50,7 @@
             <ul class="nav nav-pills flex-column">
               {% for record in data: %}
                 <li class="nav-item">
-                  <a class="nav-link" data-bs-dismiss="offcanvas" hx-get="/sections/{{record['key']}}" hx-trigger="click" hx-target="#m11Section" hx-swap="outerHTML">{{record}}</a>
+                  <a class="nav-link" data-bs-dismiss="offcanvas" hx-get="/sections/{{record['key']}}" hx-trigger="click" hx-target="#section_edit_div" hx-swap="outerHTML">{{record['sectionNumber']}} {{record['sectionTitle']}}</a>
                 </li>
               {% endfor %}
             </ul>
@@ -72,7 +74,7 @@
 
         <!-- Card Body -->
         <div class="card-body card-body-height">
-          <div id="m11Section">
+          <div id="section_edit_div">
             <p class="lead"><i>Section details will appear here</i></p>
             <hr class="hr" />
           </div>
@@ -90,7 +92,7 @@
         </div>        
         
         <div class="card-body card-body-height">
-          <div id="usdmMapping">
+          <div id="section_results_div">
             <p class="lead"><i>Narrative Content Here</i></p>
             <hr class="hr" />
           </div>
