@@ -1,6 +1,7 @@
 import os
 import yaml
 import threading 
+from d4kms_generic.logger import application_logger
 
 class Database:
   
@@ -23,19 +24,21 @@ class Database:
   def get_section(self, section_key):
     try:
       return self._data[section_key]
-    except:
+    except Exception as e:
+      application_logger.exception("Exception during section read", e)
       return None
 
   def put_section(self, section_key, text):
     section = self.get_section(section_key)
-    #print(f"PUT SECT: {section}")
     if section:
       try:
+        application_logger.info("Updatting section {section_key}")
         self._lock.acquire()
         self._data[section_key]['text'] = text
         self._write()
         self._lock.release()
-      except:
+      except Exception as e:
+        application_logger.exception("Exception during section write", e)
         self._lock.release()
 
   def delete_section(self, section_key):
@@ -46,8 +49,26 @@ class Database:
         self._data.pop(section_key)
         self._write()
         self._lock.release()
-      except:
+      except Exception as e:
+        application_logger.exception("Exception during section delete", e)
         self._lock.release()
+
+  def can_add_section(self, section_key):
+    potential_section_key = self._increment_section_number(section_key)
+    return self._section_is_permitted(potential_section_key)
+  
+  def add_section(self, section_key):
+    new_section_key = self._increment_section_number(section_key)
+    if self._section_is_permitted(new_section_key):
+      try:
+        self._lock.acquire()
+        self._data[new_section_key] = {'sectionNumber': new_section_key.replace('-', '.'), 'sectionTitle': 'To Be Provided', 'name': '', 'text': ''}
+        self._write()
+        self._lock.release()
+        return new_section_key
+      except Exception as e:
+        application_logger.exception("Exception during section add", e)
+    return None
 
   def _level(self, section):
     text = section[:-1] if section.endswith('.') else section
@@ -61,7 +82,7 @@ class Database:
   
   def _write(self):
     with open(self.FILEPATH, "w") as f:
-      data = yaml.dump(self._data, f)
+      yaml.dump(self._data, f)
 
   def _section_order(self):
     return sorted(list(self._data.keys()), key=self._section)
@@ -69,5 +90,15 @@ class Database:
   def _section(self, s):
     try:
       return [int(_) for _ in s.split("-")]
-    except:
-      print(f"EXCEPTION: {s}")
+    except Exception as e:
+      application_logger.exception("Exception during numeric section formation", e)
+
+  def _increment_section_number(self, section_key):
+    parts = section_key.split('-')
+    parts[-1] = str(int(parts[-1]) + 1)
+    return '-'.join(parts)
+
+  def _section_is_permitted(self, section_key):
+    result = True if section_key not in self._data.keys() else False
+    application_logger.info(f"Section is permitted for {section_key}={result}")
+    return result

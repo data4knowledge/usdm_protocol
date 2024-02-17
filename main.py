@@ -98,15 +98,16 @@ async def home(request: Request):
 async def get_section(request: Request, section: str):
   check_simple_authentication(request)
   data = database.get_section(section)
-  #print(f"DATA: {data}")
-  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data})
+  can_add = database.can_add_section(section)
+  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add})
   return response
 
 @app.post('/sections/{section}')
 async def post_section(request: Request, section: str, text: str = Form(...)):
   check_simple_authentication(request)
   data = database.put_section(section, text)
-  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data})
+  can_add = database.can_add_section(section)
+  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add})
   return response
 
 @app.get('/sections/{section}/document')
@@ -116,4 +117,17 @@ async def document(request: Request, section: str):
   #print(f"DATA: {data}")
   response = templates.TemplateResponse('home/partials/document.html', { "request": request, 'key': section, 'data': data})
   return response
+
+@app.post('/sections/{section}/add')
+async def post_section(request: Request, section: str):
+  check_simple_authentication(request)
+  new_section = database.add_section(section)
+  if new_section:
+    data = database.get_section(new_section)
+    can_add = database.can_add_section(new_section)
+    return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': new_section, 'data': data, 'can_add': can_add})
+  else:
+    return templates.TemplateResponse('errors/partials/errors.html', {"request": request, 'data': {'error': f'Failed to add section {section}'}})
+
+
 
