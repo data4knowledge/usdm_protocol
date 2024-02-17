@@ -38,5 +38,14 @@
 <div id="section_results_div" hx-swap-oob="#section_results_div">
   {{data['text']|safe}}
 </div>
+{% if toc %}
+  <div id="menu_div" hx-swap-oob="#menu_div">
+    {% with data=toc %}
+      {% include "home/partials/menu.html" %}
+    {% endwith %}
+  </div>
+{% endif %}
+
+
 
 

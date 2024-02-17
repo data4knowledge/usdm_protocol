@@ -32,7 +32,7 @@ class Database:
     section = self.get_section(section_key)
     if section:
       try:
-        application_logger.info("Updatting section {section_key}")
+        application_logger.info(f"Updatting section {section_key}")
         self._lock.acquire()
         self._data[section_key]['text'] = text
         self._write()

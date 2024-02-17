@@ -34,7 +34,7 @@
               <a class="link-dark" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#m11HelpModal">
                 <i class="ps-2 bi bi-info-circle"></i>
               </a>  
-              <a class="link-dark" style="font-size: 20px;" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button">
+              <a class="link-dark" style="font-size: 20px;" data-bs-toggle="offcanvas" href="#section_menu_div" role="button">
                 <i class="ps-2 bi bi-list"></i>
               </a>  
             </div>  
@@ -42,20 +42,10 @@
         </div>
 
         <!-- Menu -->
-        <div class="offcanvas offcanvas-start" data-bs-backdrop="false" tabindex="-1" id="offcanvasExample">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="nav nav-pills flex-column">
-              {% for record in data: %}
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-dismiss="offcanvas" hx-get="/sections/{{record['key']}}" hx-trigger="click" hx-target="#section_edit_div" hx-swap="outerHTML">{{record['sectionNumber']}} {{record['sectionTitle']}}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
+        <div id="menu_div">
+          {% with data=data %}
+            {% include "home/partials/menu.html" %}
+          {% endwith %}
         </div>
 
         <!-- Modal -->
