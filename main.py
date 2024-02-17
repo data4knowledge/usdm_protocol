@@ -90,7 +90,7 @@ async def logout(request: Request):
 async def home(request: Request):
   check_simple_authentication(request)
   data = database.toc_sections()
-  print(f"ToC: {data}")
+  #print(f"ToC: {data}")
   response = templates.TemplateResponse('home/home.html', { "request": request, 'data': data})
   return response
 
@@ -98,7 +98,7 @@ async def home(request: Request):
 async def get_section(request: Request, section: str):
   check_simple_authentication(request)
   data = database.get_section(section)
-  print(f"DATA: {data}")
+  #print(f"DATA: {data}")
   response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data})
   return response
 
@@ -113,7 +113,7 @@ async def post_section(request: Request, section: str, text: str = Form(...)):
 async def document(request: Request, section: str):
   check_simple_authentication(request)
   data = database.get_section(section)
-  print(f"DATA: {data}")
+  #print(f"DATA: {data}")
   response = templates.TemplateResponse('home/partials/document.html', { "request": request, 'key': section, 'data': data})
   return response
 

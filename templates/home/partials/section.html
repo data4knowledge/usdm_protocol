@@ -1,10 +1,13 @@
 <div id="section_edit_div">
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     tinymce.remove('textarea'); // Important, kill off old controls
     tinymce.init({
       selector: '#textEdit',
-      menubar:false,
+      //menubar: false,
       height: 800,
+      plugins: 'code',
+      toolbar: 'code',
+      //menubar: 'tools',
       setup: (editor) => {
         editor.on('change', (e) => {
           $.ajax({
@@ -20,8 +23,22 @@
         })
       }
     });
+  </script> -->
+  <script type="text/javascript">
+    $(document).on('change keyup paste oninput',"#textEdit", function() {
+     $.ajax({
+        type: 'POST',
+        url: '/sections/{{key}}',
+        data: {
+          text: document.getElementById("textEdit").value
+        },
+        success: function(data){
+         htmx.ajax('GET', '/sections/{{key}}/document', '#section_results_div')
+        }
+      });
+    });
   </script>
-  <textarea name="textEdit" id="textEdit" class="textEditDiv">{{data['text']}}</textarea>
+  <textarea class="form-control" rows="20" name="textEdit" id="textEdit" class="textEditDiv">{{data['text']}}</textarea>
 </div>
 <h5 id="section_title_div" hx-swap-oob="#section_title_div">
   {{data['sectionNumber']}} {{data['sectionTitle']}}

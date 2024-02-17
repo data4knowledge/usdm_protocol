@@ -305,7 +305,9 @@
     early termination visit.</p>
 
     <p>In the event that a patient''s participation or the study itself is terminated,
-    the patient shall return all study drug(s) to the investigator.</p>'
+    the patient shall return all study drug(s) to the investigator.</p>
+
+    <p>&nbsp;</p>'
 3-10-1-1:
   name: ''
   sectionNumber: 3.10.1.1.
@@ -319,10 +321,14 @@
   name: ''
   sectionNumber: 3.10.2.
   sectionTitle: Qualifications for Analysis
-  text: <p>All patients who are enrolled in the study will be included in the efficacy
+  text: '<p>All patients who are enrolled in the study will be included in the efficacy
     analysis and the safety analysis. Patients will not be excluded from the efficacy
     analysis for reasons such as non-compliance or ineligibility, except for the time
     period immediately preceding the efficacy assessment (see Section 3.9.1.2).</p>
+
+    <p>sss</p>
+
+    <p>&nbsp;</p> '
 3-10-3:
   name: ''
   sectionNumber: 3.10.3.
@@ -342,44 +348,66 @@
   name: ''
   sectionNumber: 3.10.3.1.
   sectionTitle: Compliance
-  text: "<p>Because patients enrolled in this study will be outpatients, the knowledge\
-    \ that patients have taken the medication as prescribed will be assured in the\
-    \ following ways:</p>\n<p>a)  Investigators will attempt to select those patients\
-    \ and caregivers who \nhave been judged to be compliant.</p>\n<p>b)  Study medication\
-    \ including unused, partially used, and empty patch \ncontainers will be returned\
-    \ at each clinical visit so that the remaining \nmedication can be counted by\
-    \ authorized investigator staff (nurse, \npharmacist, or physician). The number\
-    \ of patches remaining will be \nrecorded on the CRF.</p>\n<p>c)  Following randomization\
-    \ at Visit 3, patients will be instructed to call \nthe site if they have difficulty\
-    \ with application or wearing of patches. If \ndaily doses are reduced, improperly\
-    \ administered, or if a patch becomes \ndetached and requires application of a\
-    \ new patch on three or more days \nin any 30-day period, the CRO research physician\
-    \ will be notified.</p>\n<p>If the daily dose is reduced or improperly administered\
-    \ in the 24 hours prior to any scheduled clinic visit, the visit should be rescheduled\
-    \ (except for early termination and retrieval visits).</p>"
+  text: '<p>Because patients enrolled in this study will be outpatients, the knowledge
+    that patients have taken the medication as prescribed will be assured in the following
+    ways:</p>
+
+    <ul>
+
+    <li>
+
+    <p>Investigators will attempt to select those patients and caregivers who have
+    been judged to be compliant.</p>
+
+    </li>
+
+    <li>
+
+    <p>Study medication including unused, partially used, and empty patch containers
+    will be returned at each clinical visit so that the remaining medication can be
+    counted by authorized investigator staff (nurse, pharmacist, or physician). The
+    number of patches remaining will be recorded on the CRF.</p>
+
+    </li>
+
+    <li>
+
+    <p>Following randomization at Visit 3, patients will be instructed to call the
+    site if they have difficulty with application or wearing of patches. If daily
+    doses are reduced, improperly administered, or if a patch becomes detached and
+    requires application of a new patch on three or more days in any 30-day period,
+    the CRO research physician will be notified.</p>
+
+    </li>
+
+    </ul>
+
+    <p>If the daily dose is reduced or improperly administered in the 24 hours prior
+    to any scheduled clinic visit, the visit should be rescheduled (except for early
+    termination and retrieval visits).</p>'
 3-11:
   name: ''
   sectionNumber: 3.11.
   sectionTitle: Quality Assurance
   text: "<p>To ensure both the safety of participants in the study, and the collection\
     \ of accurate, complete, and reliable data, Lilly or its representatives will\
-    \ perform the following activities:</p>\n<p>\u2022 Provide instructional material\
-    \ to the study sites, as appropriate.</p>\n<p>\u2022 Sponsor a start-up training\
+    \ perform the following activities:</p>\n<ul>\n<li><p>Provide instructional material\
+    \ to the study sites, as appropriate.</p></li>\n<li><p>Sponsor a start-up training\
     \ session to instruct the investigators and study \ncoordinators. This session\
     \ will give instruction on the protocol, the \ncompletion of the clinical report\
-    \ forms, and study procedures.</p>\n<p>\u2022 Make periodic visits to the study\
-    \ site.</p>\n<p>\u2022 Be available for consultation and stay in contact with\
-    \ the study site \npersonnel by mail, telephone, and/or fax.</p>\n<p>\u2022 Review\
+    \ forms, and study procedures.</p></li>\n<li><p>Make periodic visits to the study\
+    \ site.</p></li>\n<li><p>Be available for consultation and stay in contact with\
+    \ the study site \npersonnel by mail, telephone, and/or fax.</p></li>\n<li><p>Review\
     \ and evaluate clinical report form data and use standard computer \nedits to\
-    \ detect errors in data collection.</p>\n<p>To ensure the safety of participants\
-    \ in the study and to ensure accurate, complete, and reliable data, the investigator\
-    \ will do the following:</p>\n<p>\u2022 Keep records of laboratory tests, clinical\
-    \ notes, and patient medical \nrecords in the patient files as original source\
-    \ documents for the study.</p>\n<p>Lilly or its representatives may periodically\
-    \ check a sample of the patient data recorded against source documents at the\
-    \ study site. The study may be audited by Lilly Medical Quality Assurance (MQA)\
-    \ and/or regulatory agencies at any time. Investigators will be given notice before\
-    \ an MQA audit occurs.</p>"
+    \ detect errors in data collection.</p></li>\n</ul>\n<p>To ensure the safety of\
+    \ participants in the study and to ensure accurate, complete, and reliable data,\
+    \ the investigator will do the following:</p>\n<ul>\n<li><p>Keep records of laboratory\
+    \ tests, clinical notes, and patient medical records in the patient files as original\
+    \ source documents for the study.</p></li>\n</ul>\n<p>Lilly or its representatives\
+    \ may periodically check a sample of the patient data recorded against source\
+    \ documents at the study site. The study may be audited by Lilly Medical Quality\
+    \ Assurance (MQA) and/or regulatory agencies at any time. Investigators will be\
+    \ given notice before an MQA audit occurs.</p>"
 3-2:
   name: ''
   sectionNumber: 3.2.

@@ -25,7 +25,7 @@ class Database:
 
   def put_section(self, section_key, text):
     section = self.get_section(section_key)
-    print(f"PUT SECT: {section}")
+    #print(f"PUT SECT: {section}")
     if section:
       try:
         self._lock.acquire()
