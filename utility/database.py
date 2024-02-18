@@ -130,10 +130,12 @@ class Database:
     return full_path, filename, media_type
 
   def _write_csv_file(self, full_path):
+    order = self._section_order()
+    data = [{'name': self._data[x]['name'], 'text': self._data[x]['text'], 'sectionNumber': str(self._data[x]['sectionNumber']), 'sectionTitle': self._data[x]['sectionTitle']} for x in order]
     with open(full_path, "w") as f:
       writer = csv.DictWriter(f, fieldnames=['sectionNumber',	'name',	'sectionTitle',	'text'])
       writer.writeheader()
-      writer.writerows(list(self._data.values()))
+      writer.writerows(data)
 
   def _level(self, section):
     text = section[:-1] if section.endswith('.') else section
@@ -189,5 +191,3 @@ class Database:
 
   def _insert_text(self, s, i, index):
     return s[:index] + i + s[index:]
-
-# ['_xref', '_image', '_element', '_section', '_note']
