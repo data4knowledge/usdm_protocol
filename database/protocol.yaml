@@ -170,21 +170,22 @@
   text: "<p>Participation in the study shall be terminated for any patient who is\
     \ unable or unwilling to comply with the study protocol or who develops a serious\
     \ adverse event.</p>\n<p>In addition, patients may be discontinued for any of\
-    \ the following reasons:</p>\n<p>\u2022 In the opinion of the investigator, a\
-    \ significant adverse event occurs or the \nsafety of the patient is otherwise\
-    \ compromised.</p>\n<p>\u2022 The patient requests to be withdrawn from the study.</p>\n\
-    <p>\u2022 The physician in charge of the study or Lilly, for any reason stops\
-    \ the \npatient's participation in the study.</p>\n<p>If a patient's participation\
-    \ terminates early, an early termination visit should be scheduled. Upon decision\
-    \ to discontinue a patient from the study, the patient's dose should be titrated\
-    \ down by instructing the patient to immediately remove the 25-cm2 patch. Patients\
-    \ should be instructed to continue to apply a 50-cm2 patch daily until the early\
-    \ termination visit, at which time the drug will be discontinued. Physical exam,\
-    \ vital signs, temperature, use of concomitant medications, chemistry/hematology/urinalysis\
-    \ labs, xanomeline plasma sample, TTS acceptability survey, efficacy measures,\
-    \ adverse events, and an ECG will be collected at the early termination visit.</p>\n\
-    <p>In the event that a patient's participation or the study itself is terminated,\
-    \ the patient shall return all study drug(s) to the investigator.</p>"
+    \ the following reasons:</p>\n<ul>\n<li><p>In the opinion of the investigator,\
+    \ a significant adverse event occurs or the \nsafety of the patient is otherwise\
+    \ compromised.</p></li>\n<li><p>The patient requests to be withdrawn from the\
+    \ study.</p></li>\n<li><p>The physician in charge of the study or Lilly, for any\
+    \ reason stops the \npatient's participation in the study.</p></li>\n</ul>\n<p>If\
+    \ a patient's participation terminates early, an early termination visit should\
+    \ be scheduled. Upon decision to discontinue a patient from the study, the patient's\
+    \ dose should be titrated down by instructing the patient to immediately remove\
+    \ the 25-cm2 patch. Patients should be instructed to continue to apply a 50-cm2\
+    \ patch daily until the early termination visit, at which time the drug will be\
+    \ discontinued. Physical exam, vital signs, temperature, use of concomitant medications,\
+    \ chemistry/hematology/urinalysis labs, xanomeline plasma sample, TTS acceptability\
+    \ survey, efficacy measures, adverse events, and an ECG will be collected at the\
+    \ early termination visit.</p>\n<p>In the event that a patient's participation\
+    \ or the study itself is terminated, the patient shall return all study drug(s)\
+    \ to the investigator.</p>"
 3-10-1-1:
   name: ''
   sectionNumber: 3.10.1.1.
@@ -219,42 +220,43 @@
   sectionTitle: Compliance
   text: "<p>Because patients enrolled in this study will be outpatients, the knowledge\
     \ that patients have taken the medication as prescribed will be assured in the\
-    \ following ways:</p>\n<p>a)  Investigators will attempt to select those patients\
-    \ and caregivers who \nhave been judged to be compliant.</p>\n<p>b)  Study medication\
-    \ including unused, partially used, and empty patch \ncontainers will be returned\
-    \ at each clinical visit so that the remaining \nmedication can be counted by\
-    \ authorized investigator staff (nurse, \npharmacist, or physician). The number\
-    \ of patches remaining will be \nrecorded on the CRF.</p>\n<p>c)  Following randomization\
-    \ at Visit 3, patients will be instructed to call \nthe site if they have difficulty\
-    \ with application or wearing of patches. If \ndaily doses are reduced, improperly\
-    \ administered, or if a patch becomes \ndetached and requires application of a\
-    \ new patch on three or more days \nin any 30-day period, the CRO research physician\
-    \ will be notified.</p>\n<p>If the daily dose is reduced or improperly administered\
-    \ in the 24 hours prior to any scheduled clinic visit, the visit should be rescheduled\
-    \ (except for early termination and retrieval visits).</p>"
+    \ following ways:</p>\n<ol type=\"a\">\n<li><p>Investigators will attempt to select\
+    \ those patients and caregivers who \nhave been judged to be compliant.</p></li>\n\
+    <li><p>Study medication including unused, partially used, and empty patch \ncontainers\
+    \ will be returned at each clinical visit so that the remaining \nmedication can\
+    \ be counted by authorized investigator staff (nurse, \npharmacist, or physician).\
+    \ The number of patches remaining will be \nrecorded on the CRF.</p></li>\n<li><p>Following\
+    \ randomization at Visit 3, patients will be instructed to call \nthe site if\
+    \ they have difficulty with application or wearing of patches. If \ndaily doses\
+    \ are reduced, improperly administered, or if a patch becomes \ndetached and requires\
+    \ application of a new patch on three or more days \nin any 30-day period, the\
+    \ CRO research physician will be notified.</p></li>\n</ol>\n<p>If the daily dose\
+    \ is reduced or improperly administered in the 24 hours prior to any scheduled\
+    \ clinic visit, the visit should be rescheduled (except for early termination\
+    \ and retrieval visits).</p>"
 3-11:
   name: ''
   sectionNumber: 3.11.
   sectionTitle: Quality Assurance
   text: "<p>To ensure both the safety of participants in the study, and the collection\
     \ of accurate, complete, and reliable data, Lilly or its representatives will\
-    \ perform the following activities:</p>\n<p>\u2022 Provide instructional material\
-    \ to the study sites, as appropriate.</p>\n<p>\u2022 Sponsor a start-up training\
+    \ perform the following activities:</p>\n<ul>\n<li><p>Provide instructional material\
+    \ to the study sites, as appropriate.</p></li>\n<li><p>Sponsor a start-up training\
     \ session to instruct the investigators and study \ncoordinators. This session\
     \ will give instruction on the protocol, the \ncompletion of the clinical report\
-    \ forms, and study procedures.</p>\n<p>\u2022 Make periodic visits to the study\
-    \ site.</p>\n<p>\u2022 Be available for consultation and stay in contact with\
-    \ the study site \npersonnel by mail, telephone, and/or fax.</p>\n<p>\u2022 Review\
+    \ forms, and study procedures.</p></li>\n<li><p>Make periodic visits to the study\
+    \ site.</p></li>\n<li><p>Be available for consultation and stay in contact with\
+    \ the study site \npersonnel by mail, telephone, and/or fax.</p></li>\n<li><p>Review\
     \ and evaluate clinical report form data and use standard computer \nedits to\
-    \ detect errors in data collection.</p>\n<p>To ensure the safety of participants\
-    \ in the study and to ensure accurate, complete, and reliable data, the investigator\
-    \ will do the following:</p>\n<p>\u2022 Keep records of laboratory tests, clinical\
-    \ notes, and patient medical \nrecords in the patient files as original source\
-    \ documents for the study.</p>\n<p>Lilly or its representatives may periodically\
-    \ check a sample of the patient data recorded against source documents at the\
-    \ study site. The study may be audited by Lilly Medical Quality Assurance (MQA)\
-    \ and/or regulatory agencies at any time. Investigators will be given notice before\
-    \ an MQA audit occurs.</p>"
+    \ detect errors in data collection.</p></li>\n</ul>\n<p>To ensure the safety of\
+    \ participants in the study and to ensure accurate, complete, and reliable data,\
+    \ the investigator will do the following:</p>\n<ul>\n<li><p>Keep records of laboratory\
+    \ tests, clinical notes, and patient medical records in the patient files as original\
+    \ source documents for the study.</p></li>\n</ul>\n<p>Lilly or its representatives\
+    \ may periodically check a sample of the patient data recorded against source\
+    \ documents at the study site. The study may be audited by Lilly Medical Quality\
+    \ Assurance (MQA) and/or regulatory agencies at any time. Investigators will be\
+    \ given notice before an MQA audit occurs.</p>"
 3-2:
   name: ''
   sectionNumber: 3.2.
@@ -618,15 +620,15 @@
   sectionNumber: 3.4.3.
   sectionTitle: Disease Diagnostic Criteria
   text: "<p>Probable AD will be defined clinically by NINCDS/ADRDA guidelines as follows:</p>\n\
-    <p>\u2022 Diagnosis of probable AD as defined by National Institute of \nNeurological\
-    \ and Communicative Disorders and Stroke (NINCDS) \nand the Alzheimer's Disease\
-    \ and Related Disorders Association \n(ADRDA) guidelines.</p>\n<p>\u2022 Mild\
-    \ to moderate severity of AD will be defined by the Mini-Mental \nState Exam as\
-    \ follows:</p>\n<p>\u2022 Mini-Mental State Examination (MMSE) score of 10 to\
-    \ 23.</p>\n<p>\u2022 The absence of other causes of dementia will be performed\
-    \ by clinical \nopinion and by the following:</p>\n<p>\u2022 Hachinski Ischemic\
-    \ Scale score of \u22644.</p>\n<p>\u2022 CNS imaging (CT scan or MRI of brain)\
-    \ compatible with AD \nwithin past 1 year (see Section 3.4.2.1).</p>"
+    <ul>\n<li><p>Diagnosis of probable AD as defined by National Institute of Neurological\
+    \ and Communicative Disorders and Stroke (NINCDS) and the Alzheimer's Disease\
+    \ and Related Disorders Association (ADRDA) guidelines.</p></li>\n<li><p>Mild\
+    \ to moderate severity of AD will be defined by the Mini-Mental State Exam as\
+    \ follows:</p></li>\n<li><p>Mini-Mental State Examination (MMSE) score of 10 to\
+    \ 23.</p></li>\n<li><p>The absence of other causes of dementia will be performed\
+    \ by clinical opinion and by the following:</p></li>\n<li><p>Hachinski Ischemic\
+    \ Scale score of \u22644.</p></li>\n<li><p>CNS imaging (CT scan or MRI of brain)\
+    \ compatible with AD within past 1 year (see Section 3.4.2.1).</p></li>\n</ul>\n"
 3-4-4:
   name: ''
   sectionNumber: 3.4.4.
@@ -656,30 +658,15 @@
   name: ''
   sectionNumber: 3.6.1.
   sectionTitle: Materials and Supplies
-  text: '<p>Primary Study Material:</p>
-
-    <p>Comparator Material:</p>
-
-    <p>Xanomeline</p>
-
-    <p>Placebo</p>
-
-    <p>TTS (adhesive patches)</p>
-
-    <p>TTS</p>
-
-    <p>50 cm 2 , 54 mg* 25 cm 2 , 27 mg*</p>
-
-    <p>Identical in appearance to primary study material</p>
-
-    <p>*All doses are measured in terms of the xanomeline base.</p>
-
-    <p>Patches should be stored at controlled room temperature, and all used patches
-    must be handled and disposed of as biohazardous waste.</p>
-
-    <p>For a detailed description of the composition of these formulations please
-    refer to Part II, Section 14 of the Xanomeline (LY246708) Clinical Investigator''s
-    Brochure.</p>'
+  text: "<table class=\"table small\">\n<tr>\n  <td><p>Primary Study Material:</p></td><td><p>Xanomeline</p></td><td><p>TTS\
+    \ (adhesive patches)</p></td><td><p>50 cm 2 , 54 mg* 25 cm 2 , 27 mg<sup>*</sup</p></td>\n\
+    </tr>\n<tr>\n  <td><p>Comparator Material:</p></td><td><p>Placebo</p></td><td><p>TTS</p></td><td><p>Identical\
+    \ in appearance to primary study material</p></td>\n</tr>\n</table>\n<p class=\"\
+    small\"><sup>*</sup>All doses are measured in terms of the xanomeline base.</p>\n\
+    <p>Patches should be stored at controlled room temperature, and all used patches\
+    \ must be handled and disposed of as biohazardous waste.</p>\n<p>For a detailed\
+    \ description of the composition of these formulations please refer to Part II,\
+    \ Section 14 of the Xanomeline (LY246708) Clinical Investigator's Brochure.</p>"
 3-6-2:
   name: ''
   sectionNumber: 3.6.2.
@@ -700,34 +687,38 @@
     \ cream (1%) should be applied locally to the site of administration.</p>\n<p>Patches\
     \ should be applied to a dry, intact, non-hairy area. Applying the patch to a\
     \ shaved area is not recommended. The application site of the patches should be\
-    \ rotated according to the following schedule:</p>\n<p><b>Day Patch Location</b></p>\n\
-    <p>Sunday \nMonday \nTuesday \nWednesday \nThursday \nFriday \nSaturday</p>\n\
-    <p>right or left upper arm \nright or left upper back \nright or left lower back\
-    \ (above belt line) \nright or left buttocks \nright or left mid-axillary region\
-    \ \nright or left upper thigh \nright or left upper chest</p>\n<p>Patients and\
-    \ caregivers are free to select either the left or right site within the constraints\
-    \ of the rotation schedule noted above. Patches should be applied at approximately\
-    \ the same time each day. For patients who habitually bathe in the morning, the\
-    \ patient should bathe prior to application of new patches. Every effort should\
-    \ be taken to allow for morning administration of the patches. Exceptions allowing\
-    \ administration of TTS patches at night instead of in the morning will be made\
-    \ on a case-by-case basis by the CRO medical monitor. In the event that some adhesive\
-    \ remains on the patient's skin and cannot be removed with normal bathing, a special\
-    \ solution will be provided to remove the adhesive.</p>\n<p>Following randomization\
-    \ at Visit 3, patients will be instructed to call the site if they have difficulty\
-    \ with application or wearing of patches. In the event that a patch becomes detached,\
-    \ a new patch of the same size should be applied (at earliest convenience) to\
-    \ an area of the dermis adjacent to the detachment site, and the rotation schedule\
-    \ should be resumed the following morning. If needed, the edges of the patch may\
-    \ be secured with a special adhesive tape that will be provided. If daily doses\
-    \ are reduced, improperly administered, or if a patch becomes detached and requires\
-    \ application of a new patch on three or more days in any 30-day period, the CRO\
-    \ research physician will be notified.</p>\n<p>If the daily dose is reduced or\
-    \ improperly administered in the 24 hours prior to any scheduled clinic visit,\
-    \ the visit should be rescheduled (except for early termination and retrieval\
-    \ visits).</p>\n<p>Patients must be instructed to return all used and unused study\
-    \ drug to the investigator at each visit for proper disposal and CT reconciliation\
-    \ by the investigator.</p>"
+    \ rotated according to the following schedule:</p>\n<table class=\"table\">\n\
+    <tr>\n  <th><p>Day</p></th><th><p>Patch Location</p></th>\n</tr>\n<tr>\n  <td><p>Sunday\
+    \ </p></td><td><p>right or left upper arm </p></td>\n</tr>\n<tr>\n  <td><p>Monday\
+    \ </p></td><td><p>right or left upper back </p></td>\n</tr>\n<tr>\n  <td><p>Tuesday\
+    \ </p></td><td><p>right or left lower back (above belt line) </p></td>\n</tr>\n\
+    <tr>\n  <td><p>Wednesday </p></td><td><p>right or left buttocks </p></td>\n</tr>\n\
+    <tr>\n  <td><p>Thursday </p></td><td><p>right or left mid-axillary region </p></td>\n\
+    </tr>\n<tr>\n  <td><p>Friday </p></td><td><p>right or left upper thigh </p></td>\n\
+    </tr>\n<tr>\n  <td><p>Saturday</p></td><td><p>right or left upper chest</p></td>\n\
+    </tr>\n</table>\n<p>Patients and caregivers are free to select either the left\
+    \ or right site within the constraints of the rotation schedule noted above. Patches\
+    \ should be applied at approximately the same time each day. For patients who\
+    \ habitually bathe in the morning, the patient should bathe prior to application\
+    \ of new patches. Every effort should be taken to allow for morning administration\
+    \ of the patches. Exceptions allowing administration of TTS patches at night instead\
+    \ of in the morning will be made on a case-by-case basis by the CRO medical monitor.\
+    \ In the event that some adhesive remains on the patient's skin and cannot be\
+    \ removed with normal bathing, a special solution will be provided to remove the\
+    \ adhesive.</p>\n<p>Following randomization at Visit 3, patients will be instructed\
+    \ to call the site if they have difficulty with application or wearing of patches.\
+    \ In the event that a patch becomes detached, a new patch of the same size should\
+    \ be applied (at earliest convenience) to an area of the dermis adjacent to the\
+    \ detachment site, and the rotation schedule should be resumed the following morning.\
+    \ If needed, the edges of the patch may be secured with a special adhesive tape\
+    \ that will be provided. If daily doses are reduced, improperly administered,\
+    \ or if a patch becomes detached and requires application of a new patch on three\
+    \ or more days in any 30-day period, the CRO research physician will be notified.</p>\n\
+    <p>If the daily dose is reduced or improperly administered in the 24 hours prior\
+    \ to any scheduled clinic visit, the visit should be rescheduled (except for early\
+    \ termination and retrieval visits).</p>\n<p>Patients must be instructed to return\
+    \ all used and unused study drug to the investigator at each visit for proper\
+    \ disposal and CT reconciliation by the investigator.</p>"
 3-7:
   name: ''
   sectionNumber: 3.7.
@@ -797,23 +788,23 @@
     \ interview. Efficacy measures will also be collected at early termination visits,\
     \ and at the retrieval visit. The neuropsychological assessment should be performed\
     \ first; other protocol requirements, such as labs and the physical, should follow.</p>\n\
-    <p><b>a)</b> <b>Alzheimer's Disease Assessment Scale - Cognitive Subscale</b>\n\
-    <b>(ADAS-Cog):</b> ADAS-Cog is an established measure of cognitive \nfunction\
-    \ in Alzheimer's Disease. This scale has been incorporated into \nthis study by\
-    \ permission of Dr. Richard C. Mohs and the American \nJournal of Psychiatry and\
-    \ was adapted from an article entitled, \u201CThe \nAlzheimer's Disease Assessment\
-    \ Scale (ADAS),\u201D which was \npublished in the American Journal of Psychiatry,\
-    \ Volume No.141, \npages 1356-1364, November, 1984, Copyright 1984.</p>\n<p><b>The\
-    \ ADAS-Cog (11) and the ADAS-Cog (14):</b> The ADAS-Cog (11) is a standard 11-item\
-    \ instrument used to assess word recall, naming objects, commands, constructional\
-    \ praxis, ideational praxis, orientation, word recognition tasks, spoken language\
-    \ ability, comprehension, word finding difficulty, and recall of test instructions.\
-    \ For the purposes of this study, three items (delayed word recall, attention/visual\
-    \ search task, and maze solution) have been added to the ADAS-Cog (11) to assess\
-    \ the patient's attention and concentration. The 14 item instrument will be referred\
-    \ to as the ADAS-Cog (14). At each efficacy visit, all 14 items will be assessed,\
-    \ and in subsequent data analyses, performance on the ADAS-Cog (14) and performance\
-    \ on the subset ADAS-Cog (11) will be considered.</p>\n<p>b) <b>Video-referenced\
+    <ol type=\"a\">\n<li><p><b>Alzheimer's Disease Assessment Scale - Cognitive Subscale\
+    \ (ADAS-Cog):</b> ADAS-Cog is an established measure of cognitive function in\
+    \ Alzheimer's Disease. This scale has been incorporated into this study by permission\
+    \ of Dr. Richard C. Mohs and the American Journal of Psychiatry and was adapted\
+    \ from an article entitled, \u201CThe Alzheimer's Disease Assessment Scale (ADAS),\u201D\
+    \ which was published in the American Journal of Psychiatry, Volume No.141, pages\
+    \ 1356-1364, November, 1984, Copyright 1984.</p>\n<p><b>The ADAS-Cog (11) and\
+    \ the ADAS-Cog (14):</b> The ADAS-Cog (11) is a standard 11-item instrument used\
+    \ to assess word recall, naming objects, commands, constructional praxis, ideational\
+    \ praxis, orientation, word recognition tasks, spoken language ability, comprehension,\
+    \ word finding difficulty, and recall of test instructions. For the purposes of\
+    \ this study, three items (delayed word recall, attention/visual search task,\
+    \ and maze solution) have been added to the ADAS-Cog (11) to assess the patient's\
+    \ attention and concentration. The 14 item instrument will be referred to as the\
+    \ ADAS-Cog (14). At each efficacy visit, all 14 items will be assessed, and in\
+    \ subsequent data analyses, performance on the ADAS-Cog (14) and performance on\
+    \ the subset ADAS-Cog (11) will be considered.</p></li>\n<li><p><b>Video-referenced\
     \ Clinician's Interview-Based Impression of Change (CIBIC+):</b> The CIBIC+ is\
     \ an assessment of the global clinical status relative to baseline. The CIBIC+\
     \ used in this study is derived from the Clinical Global Impression of Change,\
@@ -825,21 +816,22 @@
     \ of a global numeric score on a 1 to 7 scale (1 = marked improvement; 4 = no\
     \ change; and 7 = marked worsening).</p>\n<p>The clinician assessing CIBIC+ will\
     \ have at least one year of experience with the instrument and will remain blinded\
-    \ to all other efficacy and safety measures.</p>\n<p>c) <b>Revised Neuropsychiatric\
+    \ to all other efficacy and safety measures.</p></li>\n<li><p><b>Revised Neuropsychiatric\
     \ Inventory (NPI-X):</b> The NPI-X is an assessment of change in psychopathology\
     \ in patients with dementia. The NPI-X is administered to the designated caregiver.\
     \ This instrument has been revised from its original version (Cummings et al.\
     \ 1994) and incorporated into this study with the permission of Dr. Jeffrey L.\
-    \ Cummings.</p>\n<p>d) <b>Disability Assessment for Dementia (DAD):</b> The DAD\
-    \ is used to assess functional abilities of activities of daily living (ADL) in\
-    \ individuals with cognitive impairment. This scale has been revised and incorporated\
-    \ into this study by permission of Louise Gauthier, M.Sc., and Dr. Isabelle Gelinas.\
-    \ The DAD is administered to the designated caregiver.</p>\n<p>For each instrument,\
-    \ each assessment is to be performed by the same trained health care professional.\
-    \ If circumstances preclude meeting this requirement, the situation is to be documented\
-    \ on the Clinical Report Form (CRF), and the CRO research physician is to be notified.</p>\n\
-    <p>In addition to the efficacy measures noted above, a survey form will be used\
-    \ to collect information from the caregiver on TTS acceptability (Attachment LZZT.9).</p>"
+    \ Cummings.</p></li>\n<li><p>d) <b>Disability Assessment for Dementia (DAD):</b>\
+    \ The DAD is used to assess functional abilities of activities of daily living\
+    \ (ADL) in individuals with cognitive impairment. This scale has been revised\
+    \ and incorporated into this study by permission of Louise Gauthier, M.Sc., and\
+    \ Dr. Isabelle Gelinas. The DAD is administered to the designated caregiver.</p></li>\n\
+    </ol>\n<p>For each instrument, each assessment is to be performed by the same\
+    \ trained health care professional. If circumstances preclude meeting this requirement,\
+    \ the situation is to be documented on the Clinical Report Form (CRF), and the\
+    \ CRO research physician is to be notified.</p>\n<p>In addition to the efficacy\
+    \ measures noted above, a survey form will be used to collect information from\
+    \ the caregiver on TTS acceptability (Attachment LZZT.9).</p>"
 3-9-1-2:
   name: ''
   sectionNumber: 3.9.1.2.
@@ -946,91 +938,124 @@
   name: ''
   sectionNumber: 3.9.3.2.2.
   sectionTitle: Serious Adverse Events
-  text: "<p>Study site personnel must report to CRO immediately, by telephone, any\
-    \ adverse event from this study that is alarming or that:</p>\n<p>\u2022 Results\
-    \ in death</p>\n<p>\u2022 Results in initial or prolonged inpatient hospitalization</p>\n\
-    <p>\u2022 Is life-threatening</p>\n<p>\u2022 Results in severe or permanent disability</p>\n\
-    <p>\u2022 Results in cancer [(other than cancers diagnosed prior to enrollment\
-    \ in \nstudies involving patients with cancer)]</p>\n<p>\u2022 Results in a congenital\
-    \ anomaly</p>\n<p>\u2022 Is a drug overdose</p>\n<p>\u2022 Is significant for\
-    \ any other reason.</p>\n<p>Definition of <i>overdose</i>: For a drug under clinical\
-    \ investigation, an overdose is any intentional or unintentional consumption of\
-    \ the drug (by any route) that exceeds the dose recommended in the Clinical Investigator's\
-    \ Brochure or in an investigational protocol, whichever dose is larger. For a\
-    \ marketed drug, a drug overdose is any intentional or unintentional consumption\
-    \ of the drug (by any route) that exceeds the dose listed in product labeling,\
-    \ even if the larger dose is prescribed by a physician.</p>"
+  text: '<p>Study site personnel must report to CRO immediately, by telephone, any
+    adverse event from this study that is alarming or that:</p>
+
+    <ul>
+
+    <li><p>Results in death</p></li>
+
+    <li><p>Results in initial or prolonged inpatient hospitalization</p></li>
+
+    <li><p>Is life-threatening</p></li>
+
+    <li><p>Results in severe or permanent disability</p></li>
+
+    <li><p>Results in cancer [(other than cancers diagnosed prior to enrollment in
+    studies involving patients with cancer)]</p></li>
+
+    <li><p>Results in a congenital anomaly</p></li>
+
+    <li><p>Is a drug overdose</p></li>
+
+    <li><p>Is significant for any other reason.</p></li>
+
+    </ul>
+
+    <p>Definition of <i>overdose</i>: For a drug under clinical investigation, an
+    overdose is any intentional or unintentional consumption of the drug (by any route)
+    that exceeds the dose recommended in the Clinical Investigator''s Brochure or
+    in an investigational protocol, whichever dose is larger. For a marketed drug,
+    a drug overdose is any intentional or unintentional consumption of the drug (by
+    any route) that exceeds the dose listed in product labeling, even if the larger
+    dose is prescribed by a physician.</p>'
 3-9-3-3:
   name: ''
   sectionNumber: 3.9.3.3.
   sectionTitle: Clinical Laboratory Tests
   text: "<p>Table LZZT.1 lists the clinical laboratory tests that will be performed\
     \ at Visit 1.</p>\n<p><b>Table LZZT.1. Laboratory Tests Performed at Admission\
-    \ (Visit 1)</b></p>\n<p><b>Hematology: Clinical Chemistry Serum Concentrations\
-    \ of:</b></p>\n<p>Hemoglobin \nHematocrit \nErythrocyte count (RBC) \nMean cell\
-    \ volume (MCV) \nMean cell hemoglobin (MCH) \nMean cell hemoglobin concentration\
-    \ (MCHC) \nLeukocytes (WBC) \nNeutrophils, segmented \nNeutrophils, juvenile (bands)\
-    \ \nLymphocytes \nMonocytes \nEosinophils \nBasophils \nPlatelet \nCell morphology</p>\n\
-    <p><b>Urinalysis:</b></p>\n<p>Color \nSpecific gravity \npH \nProtein \nGlucose\
-    \ \nKetones \nBilirubin \nUrobilinogen \nBlood \nNitrite \nMicroscopic examination\
-    \ of sediment</p>\n<p>Sodium \nPotassium \nBicarbonate \nChloride \nTotal bilirubin\
-    \ \nAlkaline phosphatase (ALP) \nGamma-glutamyl transferase (GGT) \nAlanine transaminase\
-    \ (ALT/SGPT) \nAspartate transaminase (AST/SGOT) \nBlood urea nitrogen (BUN) \n\
-    Serum creatinine \nUric acid \nPhosphorus \nCalcium \nGlucose, nonfasting \nTotal\
-    \ protein \nAlbumin \nCholesterol \nCreatine kinase (CK)</p>\n<p><b>Thyroid Function\
-    \ Test (Visit 1 only):</b></p>\n<p>Free thyroid index \nT 3 Uptake \nT 4 \nThyroid-stimulating\
-    \ hormone (TSH)</p>\n<p><b>Other Tests (Visit 1 only):</b></p>\n<p>Folate \nVitamin\
-    \ B 12 \nSyphilis screening \nHemoglobin A 1C (IDDM patients only)</p>\n<p>Laboratory\
-    \ values that fall outside a clinically accepted reference range or values that\
-    \ differ significantly from previous values must be evaluated and commented on\
-    \ by the investigator by marking CS (for clinically significant) or NCS (for not\
-    \ clinically significant) next to the values. Any clinically significant laboratory\
-    \ values that are outside a clinically acceptable range or differ importantly\
-    \ from a previous value should be further commented on in the clinical report\
-    \ form comments page.</p>\n<p>Hematology, and clinical chemistry will also be\
-    \ performed at Visits 4, 5, 7, 8, 9, 10, 11, 12, and 13. Patients that experience\
-    \ a rash and/or eosinophilia may have additional hematology samples obtained as\
-    \ described in 3.9.3.4 (Other Safety Measures).</p>\n<p>Urinalysis will also be\
-    \ performed at Visits 4, 9, and 12. The following criteria have been developed\
-    \ to monitor hepatic function.</p>\n<p>\u2022 Patients with ALT/SGPT levels &gt;120\
-    \ IU will be retested weekly.</p>\n<p>\u2022 Patients with ALT/SGPT values &gt;400\
-    \ IU, or alternatively, an elevated \nALT/SGPT accompanied by GGT and/or ALP values\
-    \ &gt;500 IU will be \nretested within 2 days. The sponsor's clinical research\
-    \ administrator or \nclinical research physician is to be notified. If the retest\
-    \ value does not \ndecrease by at least 10%, the study drug will be discontinued;\
-    \ additional \nlaboratory tests will be performed until levels return to normal.\
-    \ If the \nretest value does decrease by 10% or more, the study drug may be \n\
-    continued with monitoring at 3 day intervals until ALT/SGPT values \ndecrease\
-    \ to &lt;400 IU or GGT and/or ALP values decrease to &lt;500 IU. \n<b>3.9.3.4.\
-    \ Other Safety Measures</b>\n<b>Patients experiencing Rash and/or Eosinophilia</b></p>\n\
-    <p>The administration of placebo and xanomeline TTS is associated with a rash\
-    \ and/or eosinophilia in some patients. The rash is characterized in the following\
-    \ ways:</p>\n<p>\u2022 The rash is confined to sites of application.</p>\n<p>\u2022\
-    \ The rash may be associated with pruritus.</p>\n<p>\u2022 In 5% of cases of rash\
-    \ observed in the Interim Analysis, blistering has \nbeen observed.</p>\n<p>\u2022\
-    \ The onset of rash may occur at any time during the course of the study.</p>\n\
-    <p>\u2022 A moderate eosinophilia (0.6-1.5 x 103 /microliter) is associated with\
-    \ rash \nand has been noted in approximately 10% of patients.</p>\n<p>It does\
-    \ not appear that the rash constitutes a significant safety risk; however, it\
-    \ could affect the well-being of the patients. The following monitoring is specified:</p>\n\
-    <p><b>Skin Rash Follow-up</b></p>\n<p>For patients who exit the study or its extension\
-    \ with rash at the site(s) of application:</p>\n<p>a)  Approximately 2 weeks after\
-    \ the last visit, the study site personnel \nshould contact the patient/caregiver\
-    \ by phone and complete the skin \nrash questionnaire. (Note: those patients with\
-    \ rash who have \npreviously exited the study or its extension should be contacted\
-    \ at \nearliest convenience.)</p>\n<p>b)  If caregiver states unequivocally that\
-    \ skin problems have completely \nresolved, no further follow-up is needed.</p>\n\
-    <p>c)  If caregiver reports scarring and/or other problems, patient should \n\
-    return to clinic for a follow-up visit. The skin rash questionnaire \nshould again\
-    \ be completed. If in the opinion of the investigator, \nfurther follow-up is\
-    \ required, contact the CRO medical monitor. \nCompleted skin rash questionnaires\
-    \ should be faxed to CRO.</p>\n<p>Completion of the questionnaires will create\
-    \ a separate data set for solicited adverse events. In completing these forms\
-    \ please note the following:</p>\n<p>1. Solicited events (events discovered as\
-    \ result of completion of follow-up \nquestionnaires) should be reported on questionnaire\
-    \ page only.</p>\n<p>2. Spontaneously reported adverse events (events presented\
-    \ by the patient \nwithout direct questioning of the event) should be reported\
-    \ as described in</p>\n<p>3.9.3.2 .1 (Adverse Event Reporting Requirements).</p>\n\
+    \ (Visit 1)</b></p>\n<style>\n  ul.no-bullets {\n    list-style-type: none;\n\
+    \    margin: 0;\n    padding: 5;\n  }\n</style>\n<p><b>Safety Laboratory Tests</b></p>\n\
+    <table class=\"table\">\n  <tr>\n    <td>\n      <p><b>Hematology:</b></p>\n \
+    \     <p><ul class=\"no-bullets\">\n        <li>Hemoglobin</li>\n        <li>Hematocrit</li>\n\
+    \        <li>Erythrocyte count (RBC)</li>\n        <li>Mean cell volume (MCV)</li>\n\
+    \        <li>Mean cell hemoglobin (MCH) </li>\n        <li>Mean cell hemoglobin\
+    \ concentration (MCHC) </li>\n        <li>Leukocytes (WBC)</li>\n        <li>Neutrophils,\
+    \ segmented </li>\n        <li>Neutrophils, juvenile (bands)</li> \n        <li>Lymphocytes\
+    \ </li>\n        <li>Monocytes </li>\n        <li>Eosinophils </li>\n        <li>Basophils\
+    \ </li>\n        <li>Platelet </li>\n        <li>Cell morphology</li>\n      </ul></p>\n\
+    \      <p><b>Urinalysis:</b></p>\n      <p><ul class=\"no-bullets\">\n       \
+    \ <li>Color </li>\n        <li>Specific gravity</li>\n        <li>pH</li>\n  \
+    \      <li>Protein</li>\n        <li>Glucose</li>\n        <li>Ketones</li>\n\
+    \        <li>Bilirubin</li>\n        <li>Urobilinogen</li>\n        <li>Blood\
+    \ </li>\n        <li>Nitrite</li>\n        <li>Microscopic examination of sediment</li>\n\
+    \      </ul></p>\n    </td>\n    <td>\n      <p><b>Clinical Chemistry - Serum\
+    \ Concentration of:</b></p>\n      <p><ul class=\"no-bullets\">\n        <li>Sodium</li>\n\
+    \        <li>Potassium</li>\n        <li>Bicarbonate</li> \n        <li>Total\
+    \ bilirubin </li>\n        <li>Alkaline phosphatase (ALP) </li>\n        <li>Gamma-glutamyl\
+    \ transferase (GGT) </li>\n        <li>Alanine transaminase (ALT/SGPT) </li>\n\
+    \        <li>Aspartate transaminase (AST/SGOT) </li>\n        <li>Blood urea nitrogen\
+    \ (BUN) </li>\n        <li>Serum creatinine </li>\n        <li>Uric acid </li>\n\
+    \        <li>Phosphorus </li>\n        <li>Calcium </li>\n        <li>Glucose,\
+    \ nonfasting </li>\n        <li>Total protein </li>\n        <li>Albumin </li>\n\
+    \        <li>Cholesterol </li>\n        <li>Creatine kinase (CK)</li>\n      </ul></p>\n\
+    \      <p><b>Thyroid Function Test (Visit 1 only):</b></p>\n      <ul class=\"\
+    no-bullets\">\n        <li>Free thyroid index</li>\n        <li>T<sub>3</sub>\
+    \ Uptake</li>\n        <li>T<sub>4</sub></li>\n        <li>Thyroid-stimulating\
+    \ hormone (TSH)</li>\n      </ul>\n      <p><b>Other Tests (Visit 1 only):</b></p>\n\
+    \      <ul class=\"no-bullets\">\n        <li>Folate</ul>\n        <li>Vitamin\
+    \ B 12</ul>\n        <li>Syphilis screening</ul> \n        <li>Hemoglobin A<sup>1C</sup>\
+    \ (IDDM patients only)</ul>\n    </td>\n  </tr>\n</table>\n<p>Laboratory values\
+    \ that fall outside a clinically accepted reference range or values that differ\
+    \ significantly from previous values must be evaluated and commented on by the\
+    \ investigator by marking CS (for clinically significant) or NCS (for not clinically\
+    \ significant) next to the values. Any clinically significant laboratory values\
+    \ that are outside a clinically acceptable range or differ importantly from a\
+    \ previous value should be further commented on in the clinical report form comments\
+    \ page.</p>\n<p>Hematology, and clinical chemistry will also be performed at Visits\
+    \ 4, 5, 7, 8, 9, 10, 11, 12, and 13. Patients that experience a rash and/or eosinophilia\
+    \ may have additional hematology samples obtained as described in 3.9.3.4 (Other\
+    \ Safety Measures).</p>\n<p>Urinalysis will also be performed at Visits 4, 9,\
+    \ and 12. The following criteria have been developed to monitor hepatic function.</p>\n\
+    <ul>\n<li><p>Patients with ALT/SGPT levels &gt;120 IU will be retested weekly.</p>\n\
+    <li><p>Patients with ALT/SGPT values &gt;400 IU, or alternatively, an elevated\
+    \ ALT/SGPT accompanied by GGT and/or ALP values &gt;500 IU will be retested within\
+    \ 2 days. The sponsor's clinical research administrator or clinical research physician\
+    \ is to be notified. If the retest value does not decrease by at least 10%, the\
+    \ study drug will be discontinued; additional laboratory tests will be performed\
+    \ until levels return to normal. If the retest value does decrease by 10% or more,\
+    \ the study drug may be continued with monitoring at 3 day intervals until ALT/SGPT\
+    \ values decrease to &lt;400 IU or GGT and/or ALP values decrease to &lt;500 IU.\
+    \ \n</ul>\n\n<b>3.9.3.4. Other Safety Measures</b>\n<b>Patients experiencing Rash\
+    \ and/or Eosinophilia</b></p>\n<p>The administration of placebo and xanomeline\
+    \ TTS is associated with a rash and/or eosinophilia in some patients. The rash\
+    \ is characterized in the following ways:</p>\n<p>\u2022 The rash is confined\
+    \ to sites of application.</p>\n<p>\u2022 The rash may be associated with pruritus.</p>\n\
+    <p>\u2022 In 5% of cases of rash observed in the Interim Analysis, blistering\
+    \ has \nbeen observed.</p>\n<p>\u2022 The onset of rash may occur at any time\
+    \ during the course of the study.</p>\n<p>\u2022 A moderate eosinophilia (0.6-1.5\
+    \ x 103 /microliter) is associated with rash \nand has been noted in approximately\
+    \ 10% of patients.</p>\n<p>It does not appear that the rash constitutes a significant\
+    \ safety risk; however, it could affect the well-being of the patients. The following\
+    \ monitoring is specified:</p>\n<p><b>Skin Rash Follow-up</b></p>\n<p>For patients\
+    \ who exit the study or its extension with rash at the site(s) of application:</p>\n\
+    <p>a)  Approximately 2 weeks after the last visit, the study site personnel \n\
+    should contact the patient/caregiver by phone and complete the skin \nrash questionnaire.\
+    \ (Note: those patients with rash who have \npreviously exited the study or its\
+    \ extension should be contacted at \nearliest convenience.)</p>\n<p>b)  If caregiver\
+    \ states unequivocally that skin problems have completely \nresolved, no further\
+    \ follow-up is needed.</p>\n<p>c)  If caregiver reports scarring and/or other\
+    \ problems, patient should \nreturn to clinic for a follow-up visit. The skin\
+    \ rash questionnaire \nshould again be completed. If in the opinion of the investigator,\
+    \ \nfurther follow-up is required, contact the CRO medical monitor. \nCompleted\
+    \ skin rash questionnaires should be faxed to CRO.</p>\n<p>Completion of the questionnaires\
+    \ will create a separate data set for solicited adverse events. In completing\
+    \ these forms please note the following:</p>\n<p>1. Solicited events (events discovered\
+    \ as result of completion of follow-up \nquestionnaires) should be reported on\
+    \ questionnaire page only.</p>\n<p>2. Spontaneously reported adverse events (events\
+    \ presented by the patient \nwithout direct questioning of the event) should be\
+    \ reported as described in</p>\n<p>3.9.3.2 .1 (Adverse Event Reporting Requirements).</p>\n\
     <p>Serious adverse events should be handled and reported as described in 3.9.3.2.1\
     \ without regard to whether the event is solicited or spontaneously reported.</p>\n\
     <p><b>Eosinophilia Follow-up</b></p>\n<p>1. For patients that are currently in\
@@ -1046,6 +1071,55 @@
     \ of the investigator, explained by other causes. (Note: \npatients with eosinophil\
     \ counts greater than 0.6x10 3 /microliter who \nhave previously exited the study\
     \ or its extension should return for \nhematology profile at earliest convenience.)</p>"
+3-9-3-4:
+  name: ''
+  sectionNumber: 3.9.3.4
+  sectionTitle: To Be Provided
+  text: "<b>Patients experiencing Rash and/or Eosinophilia</b></p>\n<p>The administration\
+    \ of placebo and xanomeline TTS is associated with a rash and/or eosinophilia\
+    \ in some patients. The rash is characterized in the following ways:</p>\n<ul>\n\
+    <li><p>The rash is confined to sites of application.</p></li>\n<li><p>The rash\
+    \ may be associated with pruritus.</p></li>\n<li><p>In 5% of cases of rash observed\
+    \ in the Interim Analysis, blistering has been observed.</p></li>\n<li><p>The\
+    \ onset of rash may occur at any time during the course of the study.</p></li>\n\
+    <li><p>A moderate eosinophilia (0.6-1.5 x 103 /microliter) is associated with\
+    \ rash and has been noted in approximately 10% of patients.</p></li>\n</ul>\n\
+    <p>It does not appear that the rash constitutes a significant safety risk; however,\
+    \ it could affect the well-being of the patients. The following monitoring is\
+    \ specified:</p>\n<p><b>Skin Rash Follow-up</b></p>\n<p>For patients who exit\
+    \ the study or its extension with rash at the site(s) of application:</p>\n<ol\
+    \ type=\"a\">\n<li><p>Approximately 2 weeks after the last visit, the study site\
+    \ personnel should contact the patient/caregiver by phone and complete the skin\
+    \ rash questionnaire. (Note: those patients with rash who have previously exited\
+    \ the study or its extension should be contacted at earliest convenience.)</p></li>\n\
+    <li><p>b)  If caregiver states unequivocally that skin problems have completely\
+    \ resolved, no further follow-up is needed.</p></li>\n<li><p>If caregiver reports\
+    \ scarring and/or other problems, patient should return to clinic for a follow-up\
+    \ visit. The skin rash questionnaire should again be completed. If in the opinion\
+    \ of the investigator, further follow-up is required, contact the CRO medical\
+    \ monitor. Completed skin rash questionnaires should be faxed to CRO.</p></li>\n\
+    </ol>\n<p>Completion of the questionnaires will create a separate data set for\
+    \ solicited adverse events. In completing these forms please note the following:</p>\n\
+    <ol>\n<li><p>Solicited events (events discovered as result of completion of follow-up\
+    \ questionnaires) should be reported on questionnaire page only.</p></li>\n<li><p>2.\
+    \ Spontaneously reported adverse events (events presented by the patient without\
+    \ direct questioning of the event) should be reported as described in 3.9.3.2\
+    \ .1 (Adverse Event Reporting Requirements).</p></li>\n</ol>\n<p>Serious adverse\
+    \ events should be handled and reported as described in 3.9.3.2.1 without regard\
+    \ to whether the event is solicited or spontaneously reported.</p>\n<p><b>Eosinophilia\
+    \ Follow-up</b></p>\n<ol>\n<li><p>For patients that are currently in the study\
+    \ with eosinophil counts greater than 0. 6x10 3 /microliter:</p>\n<ul><li><p>Repeat\
+    \ hematology at each visit until resolved in the opinion of the investigator.</p></li></ul>\n\
+    <li><p>For patients that are currently in the study with eosinophil counts greater\
+    \ than 1.5x10 3 /microliter:</p>\n<ul><li><p>Obtain hematology profile every 2\
+    \ weeks until resolved or explained by other causes in the opinion of the investigator.</p></li>\n\
+    <li><p>Notify CRO medical monitor.</p></li>\n</ul>\n<li><p>For patients with eosinophil\
+    \ counts greater than 0.6x10 3 /microliter at exit \nfrom the study or its extension:</p>\n\
+    <ul>\n<li><p>Obtain hematology profile approximately every 2 weeks until resolved\
+    \ or, in the opinion of the investigator, explained by other causes. (Note: patients\
+    \ with eosinophil counts greater than 0.6x10 3 /microliter who have previously\
+    \ exited the study or its extension should return for hematology profile at earliest\
+    \ convenience.)</p></li>\n</ul>\n<ol>"
 3-9-3-4-1:
   name: ''
   sectionNumber: 3.9.3.4.1
@@ -1054,11 +1128,9 @@
     signs measurement. Blood pressure should be measured in the dominant arm with
     a standardized mercury manometer according to the American Heart Association standard
     recommendations. Diastolic blood pressure will be measured as the point of disappearance
-    of the Korotkoff</p>
-
-    <p>sounds (phase V). Heart rate will be measured by auscultation. Patient should
-    then stand up. Blood pressure should again be measured in the dominant arm and
-    heart rate should be measured after approximately 1 and 3 minutes.</p>
+    of the Korotkoff sounds (phase V). Heart rate will be measured by auscultation.
+    Patient should then stand up. Blood pressure should again be measured in the dominant
+    arm and heart rate should be measured after approximately 1 and 3 minutes.</p>
 
     <p>An automated blood pressure cuff may be used in place of a mercury manometer
     if it is regularly (at least monthly) standardized against a mercury manometer.</p>'
@@ -1067,23 +1139,23 @@
   sectionNumber: 3.9.3.4.2
   sectionTitle: Cardiovascular Safety Measures
   text: "<p>Cardiovascular status will be assessed during the trial with the following\
-    \ measures:</p>\n<p>\u2022 All patients will be screened by obtaining a 12-lead\
-    \ ECG, and will have \nrepeat ECGs performed at Visits 4, 5, 7, 8, 9, 10, 11,\
-    \ 12, 13, and early \ntermination (ET) (see Schedule of Events, Attachment LZZT.1).</p>\n\
-    <p>\u2022 All patients will undergo a 24-hour Ambulatory ECG at Visit 2 (prior\
-    \ to \nthe initiation of study medication). Although every effort will be made\
-    \ to \nobtain the entire 24-hour ambulatory ECG recording, this may not always\
-    \ \nbe feasible because of patient behavior or technical difficulties. The \n\
-    minimal recording period for an ambulatory ECG to be considered \ninterpretable\
-    \ will be 8 hours, of which at least 3 hours must be sleep.</p>\n<p>\u2022 The\
-    \ incidence of syncope, defined as an observed loss of consciousness \nand muscle\
-    \ tone not attributable to transient ischemic attack or to seizure, \nwill be\
-    \ closely monitored. Caregivers will be instructed to report any \ninstance of\
-    \ syncopal episodes to the investigator within 24 hours. The \ninvestigator should\
-    \ immediately report such events to the CRO research \nphysician. The CRO research\
-    \ physician will make a clinical assessment \nof each episode, and with the investigator\
-    \ determine if continuation of \ntherapy is appropriate. These findings will be\
-    \ reported to the Lilly \nresearch physician immediately.</p>"
+    \ measures:</p>\n<ul>\n<li><p>All patients will be screened by obtaining a 12-lead\
+    \ ECG, and will have repeat ECGs performed at Visits 4, 5, 7, 8, 9, 10, 11, 12,\
+    \ 13, and early termination (ET) (see Schedule of Events, Attachment LZZT.1).</p></li>\n\
+    <li><p>All patients will undergo a 24-hour Ambulatory ECG at Visit 2 (prior to\
+    \ the initiation of study medication). Although every effort will be made to obtain\
+    \ the entire 24-hour ambulatory ECG recording, this may not always be feasible\
+    \ because of patient behavior or technical difficulties. The minimal recording\
+    \ period for an ambulatory ECG to be considered interpretable will be 8 hours,\
+    \ of which at least 3 hours must be sleep.</p></li>\n<li><p>The incidence of syncope,\
+    \ defined as an observed loss of consciousness and muscle tone not attributable\
+    \ to transient ischemic attack or to seizure, will be closely monitored. Caregivers\
+    \ will be instructed to report any instance of syncopal episodes to the investigator\
+    \ within 24 hours. The investigator should immediately report such events to the\
+    \ CRO research physician. The CRO research physician will make a clinical assessment\
+    \ of each episode, and with the investigator determine if continuation of \ntherapy\
+    \ is appropriate. These findings will be reported to the Lilly research physician\
+    \ immediately.</p></li>\n<ul>\n"
 3-9-4:
   name: ''
   sectionNumber: 3.9.4.
@@ -1091,75 +1163,84 @@
   text: "<p>The CRO research physician will monitor safety data throughout the course\
     \ of the study.</p>\n<p>Cardiovascular measures, including ECGs and 24-hour Ambulatory\
     \ ECGs (see Section 3.9.3.4.2) will be monitored on an ongoing basis as follows:</p>\n\
-    <p>\u2022 As noted in Section 3.9.3.4.2, all patients will be screened by obtaining\
-    \ a \n12-lead ECG, and will have repeat ECGs performed at Visits 4, 5, 7, 8, 9,\
-    \ \n10, 11, 12, 13, and early termination (ET) (see Schedule of Events for \n\
-    Protocol H2Q-MC-LZZT(c), Attachment LZZT.1). ECG data will be \ninterpreted at\
-    \ the site and express mailed overnight to a central facility \nwhich will produce\
-    \ a report within 48 hours. The report will be forwarded \nto the investigator.\
-    \ At screening, the report of the central facility will be \nused to exclude patients\
-    \ according to criteria specified in Section 3.4.2.2. \nIf, during the treatment\
-    \ phase of the study, review of ECG data (either at \nthe site or at the central\
-    \ facility) reveals left bundle branch block, \nbradycardia \u226450 beats per\
-    \ minute, sinus pauses &gt;2 seconds, second degree \nheart block, third degree\
-    \ heart block, Wolff-Parkinson-White syndrome, \nsustained supraventricular tachyarrhythmia,\
-    \ or ventricular tachycardia at a \nrate of \u2265120 beats per minute lasting\
-    \ \u226510 seconds, the investigator, the \nLilly research physician, the CRO\
-    \ research physician, and the cardiologist \nchairing the DSMB will be notified\
-    \ immediately, and discontinuation of \nthe patient will be considered.</p>\n\
-    <p>\u2022 As noted in Section 3.9.3.4.2, all patients will undergo a 24-hour \n\
-    Ambulatory ECG at Visit 2 (prior to the initiation of study medication). \nAmbulatory\
-    \ ECG data from Visit 2 will be express mailed overnight to a \ncentral facility\
-    \ which will produce a report within 24 hours. The report \nwill be forwarded\
-    \ to the investigator. If a report documents sustained \nventricular tachycardia\
-    \ with rate &gt;120 beats per minute, third degree heart \nblock, or sinus pauses\
-    \ of &gt;6.0 seconds, the investigator, the Lilly research \nphysician, the CRO\
-    \ research physician, and the cardiologist chairing the \nDSMB will be notified\
-    \ immediately, and the patient will be discontinued. \nIf any report documents\
-    \ sinus pauses of &gt;3.0 seconds or second degree \nheart block, the CRO research\
-    \ physician, and Lilly research physician, and \ncardiologist chairing the DSMB\
-    \ will be immediately notified and the \nrecord will be reviewed within 24 hours\
-    \ of notification by the cardiologist \nchairing the DSMB.</p>\n<p>In addition\
-    \ to ongoing monitoring of cardiac measures, a comprehensive, periodic review\
-    \ of cardiovascular safety data will be conducted by the DSMB, which will be chaired\
-    \ by an external cardiologist with expertise in arrhythmias, their pharmacological\
-    \ bases, and their clinical implications. The membership of the board will also\
-    \ include two other external cardiologists, a cardiologist from Lilly, a statistician\
-    \ from Lilly, and the Lilly research physician. Only the three external cardiologists\
-    \ will be voting members.</p>\n<p>After approximately 75 patients have completed\
-    \ 1 month of treatment, the DSMB will meet to decide:</p>\n<p>\u2022 If discontinuation\
-    \ of the study or any treatment arm is appropriate</p>\n<p>\u2022 If additional\
-    \ cardiovascular monitoring is required</p>\n<p>\u2022 If further cardiovascular\
-    \ monitoring is unnecessary</p>\n<p>\u2022 If adjustment of dose within a treatment\
-    \ arm (or arms) is appropriate.</p>\n<p>If necessary, this analysis will be repeated\
-    \ after 150 patients have completed 1 month of treatment, after 225 patients have\
-    \ completed 1 month of treatment, and after 300 patients have completed 1 month\
-    \ of treatment. Primary consideration will be given to the frequency of pauses\
-    \ documented in Ambulatory ECG reports. The number of pauses greater than or equal\
-    \ to 2, 3, 4, 5, and 6 seconds will be tabulated. Primary analysis will focus\
-    \ on the number of pauses greater than or equal to 3 seconds.</p>\n<p>In the event\
-    \ of a high incidence of patient discontinuation due to syncope, the following\
-    \ guideline may be employed by the DSMB in determining if discontinuation of any\
-    \ treatment arm is appropriate. If the frequency of syncope in a xanomeline treatment\
-    \ arm relative to the frequency of syncope in the placebo arm equals or exceeds\
-    \ the following numbers, then consideration will be given to discontinuing that\
-    \ treatment arm. The Type I error rate for this rule is approximately 0.032 if\
-    \ the incidence in each group is 0.04. The power of this rule is 0.708 if the\
-    \ incidence is 0.04 for placebo and 0.16 for xanomeline TTS.</p>\n<p>Placebo Xanomeline\
-    \ Placebo Xanomeline</p>\n<p>0 6</p>\n<p>1 7</p>\n<p>2 9</p>\n<p>3 11</p>\n<p>4\
-    \ 12</p>\n<p>5 13</p>\n<p>6 \n7 \n8 \n9 \n10 \nX</p>\n<p>15 \n16 \n17 \n18 \n\
-    20 \n2X (2-fold)</p>\n<p>This rule has been used in other studies for monitoring\
-    \ spontaneous events with an incidence of less than 10%. This rule is constructed\
-    \ assuming a 2-group comparison with each group having a final sample size of\
-    \ 100. Unblinding which occurs during these analyses will be at the group level\
-    \ and will be documented.</p>\n<p>The stopping rule based on Ambulatory ECG findings\
-    \ is as follows:</p>\n<p>If the number of patients experiencing a pause of \u2265\
-    6 seconds in a xanomeline treatment arm relative to the number of patients in\
-    \ the placebo arm equals or exceeds the numbers in the following table, then that\
-    \ treatment arm will be discontinued. The Type I error rate for this rule is approximately\
-    \ 0.044 if the incidence in each group is 0.01. The power of this rule is 0.500\
-    \ if the incidence is 0.01 for placebo and 0.04 for xanomeline TTS.</p>\n<p>Placebo\
-    \ Xanomeline</p>\n<p>0 1 2 3 4 x</p>\n<p>3 \n5 \n6 \n7 \n8 \n2x</p>"
+    <ul>\n<li><p>As noted in Section 3.9.3.4.2, all patients will be screened by obtaining\
+    \ a 12-lead ECG, and will have repeat ECGs performed at Visits 4, 5, 7, 8, 9,\
+    \ 10, 11, 12, 13, and early termination (ET) (see Schedule of Events for Protocol\
+    \ H2Q-MC-LZZT(c), Attachment LZZT.1). ECG data will be interpreted at the site\
+    \ and express mailed overnight to a central facility which will produce a report\
+    \ within 48 hours. The report will be forwarded to the investigator. At screening,\
+    \ the report of the central facility will be used to exclude patients according\
+    \ to criteria specified in Section 3.4.2.2. If, during the treatment phase of\
+    \ the study, review of ECG data (either at the site or at the central facility)\
+    \ reveals left bundle branch block, bradycardia \u226450 beats per minute, sinus\
+    \ pauses &gt;2 seconds, second degree heart block, third degree heart block, Wolff-Parkinson-White\
+    \ syndrome, sustained supraventricular tachyarrhythmia, or ventricular tachycardia\
+    \ at a rate of \u2265120 beats per minute lasting \u226510 seconds, the investigator,\
+    \ the Lilly research physician, the CRO research physician, and the cardiologist\
+    \ chairing the DSMB will be notified immediately, and discontinuation of the patient\
+    \ will be considered.</p></li>\n<li><p>As noted in Section 3.9.3.4.2, all patients\
+    \ will undergo a 24-hour Ambulatory ECG at Visit 2 (prior to the initiation of\
+    \ study medication).  Ambulatory ECG data from Visit 2 will be express mailed\
+    \ overnight to a central facility which will produce a report within 24 hours.\
+    \ The report will be forwarded to the investigator. If a report documents sustained\
+    \ ventricular tachycardia with rate &gt;120 beats per minute, third degree heart\
+    \ block, or sinus pauses of &gt;6.0 seconds, the investigator, the Lilly research\
+    \ \nphysician, the CRO research physician, and the cardiologist chairing the DSMB\
+    \ will be notified immediately, and the patient will be discontinued. If any report\
+    \ documents sinus pauses of &gt;3.0 seconds or second degree heart block, the\
+    \ CRO research physician, and Lilly research physician, and cardiologist chairing\
+    \ the DSMB will be immediately notified and the record will be reviewed within\
+    \ 24 hours of notification by the cardiologist chairing the DSMB.</p></li>\n</ul>\n\
+    <p>In addition to ongoing monitoring of cardiac measures, a comprehensive, periodic\
+    \ review of cardiovascular safety data will be conducted by the DSMB, which will\
+    \ be chaired by an external cardiologist with expertise in arrhythmias, their\
+    \ pharmacological bases, and their clinical implications. The membership of the\
+    \ board will also include two other external cardiologists, a cardiologist from\
+    \ Lilly, a statistician from Lilly, and the Lilly research physician. Only the\
+    \ three external cardiologists will be voting members.</p>\n<p>After approximately\
+    \ 75 patients have completed 1 month of treatment, the DSMB will meet to decide:</p>\n\
+    <ul>\n<li><p>If discontinuation of the study or any treatment arm is appropriate</p></li>\n\
+    <li><p>If additional cardiovascular monitoring is required</p></li>\n<li><p>If\
+    \ further cardiovascular monitoring is unnecessary</p></li>\n<li><p>If adjustment\
+    \ of dose within a treatment arm (or arms) is appropriate.</p></li>\n</ul>\n<p>If\
+    \ necessary, this analysis will be repeated after 150 patients have completed\
+    \ 1 month of treatment, after 225 patients have completed 1 month of treatment,\
+    \ and after 300 patients have completed 1 month of treatment. Primary consideration\
+    \ will be given to the frequency of pauses documented in Ambulatory ECG reports.\
+    \ The number of pauses greater than or equal to 2, 3, 4, 5, and 6 seconds will\
+    \ be tabulated. Primary analysis will focus on the number of pauses greater than\
+    \ or equal to 3 seconds.</p>\n<p>In the event of a high incidence of patient discontinuation\
+    \ due to syncope, the following guideline may be employed by the DSMB in determining\
+    \ if discontinuation of any treatment arm is appropriate. If the frequency of\
+    \ syncope in a xanomeline treatment arm relative to the frequency of syncope in\
+    \ the placebo arm equals or exceeds the following numbers, then consideration\
+    \ will be given to discontinuing that treatment arm. The Type I error rate for\
+    \ this rule is approximately 0.032 if the incidence in each group is 0.04. The\
+    \ power of this rule is 0.708 if the incidence is 0.04 for placebo and 0.16 for\
+    \ xanomeline TTS.</p>\n<table class=\"table table-bordered\">\n<tr><td><p>Placebo</p></td><td><p>Xanomeline</p></td><td></td><td>Placebo</td><td>Xanomeline</p></td></tr>\n\
+    <tr><td><p>0</p></td><td><p>6</p></td><td></td><td>6</td><td>15</p></td></tr>\n\
+    <tr><td><p>1</p></td><td><p>7</p></td><td></td><td>7</td><td>16</p></td></tr>\n\
+    <tr><td><p>2</p></td><td><p>9</p></td><td></td><td>8</td><td>17</p></td></tr>\n\
+    <tr><td><p>3</p></td><td><p>11</p></td><td></td><td>9</td><td>18</p></td></tr>\n\
+    <tr><td><p>4</p></td><td><p>12</p></td><td></td><td>10</td><td>20</p></td></tr>\n\
+    <tr><td><p>5</p></td><td><p>13</p></td><td></td><td>X</td><td>2X (2-fold)</p></td></tr>\n\
+    </table>  \n\n<p>This rule has been used in other studies for monitoring spontaneous\
+    \ events with an incidence of less than 10%. This rule is constructed assuming\
+    \ a 2-group comparison with each group having a final sample size of 100. Unblinding\
+    \ which occurs during these analyses will be at the group level and will be documented.</p>\n\
+    <p>The stopping rule based on Ambulatory ECG findings is as follows:</p>\n<style\
+    \ type=\"text/css\">\n .indent { margin-left: 20px; }\n</style>\n<p class=\"indent\"\
+    >If the number of patients experiencing a pause of \u22656 seconds in a xanomeline\
+    \ treatment arm relative to the number of patients in the placebo arm equals or\
+    \ exceeds the numbers in the following table, then that treatment arm will be\
+    \ discontinued. The Type I error rate for this rule is approximately 0.044 if\
+    \ the incidence in each group is 0.01. The power of this rule is 0.500 if the\
+    \ incidence is 0.01 for placebo and 0.04 for xanomeline TTS.</p>\n<table class=\"\
+    table table-bordered\">\n<tr><td><p>Placebo</p></td><td><p>Xanomeline</p></td></tr>\n\
+    <tr><td><p>0</p></td><td><p>3</p></td></tr>\n<tr><td><p>1</p></td><td><p>5</p></td></tr>\n\
+    <tr><td><p>2</p></td><td><p>6</p></td></tr>\n<tr><td><p>3</p></td><td><p>7</p></td></tr>\n\
+    <tr><td><p>4</p></td><td><p>8</p></td></tr>\n<tr><td><p>x</p></td><td><p>2x</p></td></tr>\n\
+    </table>  "
 3-9-5:
   name: ''
   sectionNumber: 3.9.5.
@@ -1256,23 +1337,22 @@
     \ this is referred to as a \u201Ccompleter\u201D analysis.</p>\n<p>Additionally,\
     \ each of the efficacy variables will be analyzed at each time point both as \u201C\
     actual cases,\u201D that is, analyzing the data collected at the various time\
-    \ points, and also as</p>\n<p>a last-observation-carried-forward (LOCF). Note\
-    \ that the LOCF analysis at 24 weeks is the same as the endpoint analysis described\
-    \ previously.</p>\n<p>Several additional analyses of NPI-X will be conducted.\
-    \ Data from this instrument will be collected every 2 weeks, and represent not\
-    \ the condition of the patient at that moment in time, but rather the worst condition\
-    \ of the patient in the time period since the most recent NPI-X administration.\
-    \ For this reason, the primary analysis of the NPI-X will be of the average of\
-    \ all postrandomization NPI-X subscores except for the one obtained at Week 2.\
-    \ In the event of early discontinuations, those scores that correspond to the\
-    \ interval between Weeks 2 to 24 will be averaged. The reason for excluding Week\
-    \ 2 data from this analysis is that patients could be confused about when a behavior\
-    \ actually stops after randomization; the data obtained at Week 2 could be somewhat\
-    \ \u201Ctainted.\u201D Also, by requiring 2 weeks of therapy prior to use of the\
-    \ NPI-X data, the treatment difference should be maximized by giving the drug\
-    \ 2 weeks to work, thereby increasing the statistical power. Secondary analyses\
-    \ of the NPI-X will include the average of all postrandomization weeks, including\
-    \ measures obtained at Weeks 2 and 26.</p>"
+    \ points, and also as a last-observation-carried-forward (LOCF). Note that the\
+    \ LOCF analysis at 24 weeks is the same as the endpoint analysis described previously.</p>\n\
+    <p>Several additional analyses of NPI-X will be conducted. Data from this instrument\
+    \ will be collected every 2 weeks, and represent not the condition of the patient\
+    \ at that moment in time, but rather the worst condition of the patient in the\
+    \ time period since the most recent NPI-X administration. For this reason, the\
+    \ primary analysis of the NPI-X will be of the average of all postrandomization\
+    \ NPI-X subscores except for the one obtained at Week 2. In the event of early\
+    \ discontinuations, those scores that correspond to the interval between Weeks\
+    \ 2 to 24 will be averaged. The reason for excluding Week 2 data from this analysis\
+    \ is that patients could be confused about when a behavior actually stops after\
+    \ randomization; the data obtained at Week 2 could be somewhat \u201Ctainted.\u201D\
+    \ Also, by requiring 2 weeks of therapy prior to use of the NPI-X data, the treatment\
+    \ difference should be maximized by giving the drug 2 weeks to work, thereby increasing\
+    \ the statistical power. Secondary analyses of the NPI-X will include the average\
+    \ of all postrandomization weeks, including measures obtained at Weeks 2 and 26.</p>"
 4-3-3:
   name: ''
   sectionNumber: 4.3.3.
@@ -1300,11 +1380,11 @@
     \ to test for investigator and treatment main effects. By doing so, all ANCOVA\
     \ and ANOVA models will be able to validly test for treatment differences without\
     \ weighting each investigator equally, which is what occurs when using Type III\
-    \ sums of squares (cell means model) with the interaction term</p>\n<p>present\
-    \ in the model. This equal weighting of investigators can become a serious problem\
-    \ when sample sizes are dramatically different between investigators.</p>\n<p>For\
-    \ all ANOVA and ANCOVA models, data collected from investigators who enrolled\
-    \ fewer than 3 patients in any one treatment group will be combined prior to analysis.\
+    \ sums of squares (cell means model) with the interaction term present in the\
+    \ model. This equal weighting of investigators can become a serious problem when\
+    \ sample sizes are dramatically different between investigators.</p>\n<p>For all\
+    \ ANOVA and ANCOVA models, data collected from investigators who enrolled fewer\
+    \ than 3 patients in any one treatment group will be combined prior to analysis.\
     \ If this combination still results in a treatment group having fewer than 3 patients\
     \ in any one treatment group, then this group of patients will be combined with\
     \ the next fewestenrolling investigator. In the event that there is a tie for\
@@ -1344,9 +1424,9 @@
     \ is that the drug has greater efficacy than placebo. A Type I error occurs only\
     \ when it is concluded that a study drug is effective when in fact it is not.\
     \ This can occur in only one tail of the distribution of the treatment difference.\
-    \ Further details of the</p>\n<p>arguments for one-sided tests in placebo-controlled\
-    \ trials are available in statistical publications (Fisher 1991; Koch 1991; Overall\
-    \ 1991; and Peace 1991).</p>\n<p>The argument for one-sided tests does not necessarily\
+    \ Further details of the arguments for one-sided tests in placebo-controlled trials\
+    \ are available in statistical publications (Fisher 1991; Koch 1991; Overall 1991;\
+    \ and Peace 1991).</p>\n<p>The argument for one-sided tests does not necessarily\
     \ transfer to safety measures, in general, because one can accept a certain level\
     \ of toxicity in the presence of strong efficacy. That is, safety is evaluated\
     \ as part of a benefit/risk ratio.</p>\n<p>Note that this justification is similar\
@@ -1431,9 +1511,8 @@
     data, by ANOVA on the ranks.</p>
 
     <p>Treatment-emergent adverse events (also referred to as treatment-emergent signs
-    and symptoms, or TESS) are defined as any event reported during the postrandomization</p>
-
-    <p>period (Weeks 0 - 26) that is worse in severity than during the baseline period,
+    and symptoms, or TESS) are defined as any event reported during the postrandomization
+    period (Weeks 0 - 26) that is worse in severity than during the baseline period,
     or one that occurs for the first time during the postrandomization period.</p>'
 4-5:
   name: ''
@@ -1477,18 +1556,17 @@
   name: ''
   sectionNumber: 4.7.
   sectionTitle: Interim Safety Analyses
-  text: '<p>An analysis of the cardiovascular safety monitoring (see section 3.9.4)
+  text: <p>An analysis of the cardiovascular safety monitoring (see section 3.9.4)
     will be performed when approximately 25 patients from each treatment arm have
-    completed at least 2 weeks at the treatment arms'' respective full dosage (Visit
+    completed at least 2 weeks at the treatment arms' respective full dosage (Visit
     5). If necessary, this analysis will be repeated every 25 patients per arm. This
     analysis will be conducted under the auspices of the DSMB. This board membership
-    will be composed of 3 external</p>
-
-    <p>cardiologists who will be the voting members of the board, a Lilly cardiologist,
-    a Lilly statistician, and the Lilly research physician in charge of the study.
-    Only the DSMB is authorized to review completely unblinded cardiovascular safety
-    analyses and, if necessary, to disseminate those results. The outcome of the cardiovascular
-    safety analyses will determine the need for further Ambulatory ECGs.</p>'
+    will be composed of 3 external cardiologists who will be the voting members of
+    the board, a Lilly cardiologist, a Lilly statistician, and the Lilly research
+    physician in charge of the study. Only the DSMB is authorized to review completely
+    unblinded cardiovascular safety analyses and, if necessary, to disseminate those
+    results. The outcome of the cardiovascular safety analyses will determine the
+    need for further Ambulatory ECGs.</p>
 4-8:
   name: ''
   sectionNumber: 4.8.
