@@ -390,179 +390,61 @@
   name: ''
   sectionNumber: 3.4.2.1.
   sectionTitle: Inclusion Criteria
-  text: "<p>Patients may be included in the study only if they meet <b>all</b> the\
-    \ following criteria:</p>\n<p>[1] Males and postmenopausal females at least 50\
-    \ years of age.</p>\n<p>[2] Diagnosis of probable AD as defined by National Institute\
-    \ of \nNeurological and Communicative Disorders and Stroke (NINCDS) \nand the\
-    \ Alzheimer's Disease and Related Disorders Association \n(ADRDA) guidelines (Attachment\
-    \ LZZT.7).</p>\n<p>[3] MMSE score of 10 to 23.</p>\n<p>[4] Hachinski Ischemic\
-    \ Scale score of \u22644 (Attachment LZZT.8).</p>\n<p>[5] CNS imaging (CT scan\
-    \ or MRI of brain) compatible with AD within \npast 1 year.</p>\n<p>The following\
-    \ findings are incompatible with AD:</p>\n<p>a)  Large vessel strokes</p>\n<p>1)\
-    \ Any definite area of encephalomalacia consistent with ischemic \nnecrosis in\
-    \ any cerebral artery territory.</p>\n<p>2) Large, confluent areas of encephalomalacia\
-    \ in parieto-occipital \nor frontal regions consistent with watershed infarcts.</p>\n\
-    <p>The above are exclusionary. Exceptions are made for small areas of cortical\
-    \ asymmetry which may represent a small cortical stroke or a focal area of atrophy\
-    \ provided there is no abnormal signal intensity in the immediately underlying\
-    \ parenchyma. Only one such questionable area allowed per scan, and size is restricted\
-    \ to \u22641cm in frontal/parietal/temporal cortices and \u22642 cm in occipital\
-    \ cortex.</p>\n<p>b) Small vessel ischemia</p>\n<p>1) Lacunar infarct is defined\
-    \ as an area of abnormal intensity seen \non CT scan or on both T1 and T2 weighted\
-    \ MRI images in the \nbasal ganglia, thalamus or deep white matter which is \u2264\
-    1 cm in \nmaximal diameter. A maximum of one lacune is allowed per \nscan.</p>\n\
-    <p>2) Leukoariosis or leukoencephalopathy is regarded as an \nabnormality seen\
-    \ on T2 but not T1 weighted MRIs, or on CT. \nThis is accepted if mild or moderate\
-    \ in extent, meaning \ninvolvement of less than 25% of cortical white matter.\
-    \ \nc) Miscellaneous</p>\n<p>1) Benign small extra-axial tumors (ie, meningiomas)\
-    \ are accepted \nif they do not contact or indent the brain parenchyma.</p>\n\
-    <p>2) Small extra-axial arachnoid cysts are accepted if they do not \nindent or\
-    \ deform the brain parenchyma.</p>\n<p>[6] Investigator has obtained informed\
-    \ consent signed by the patient \n(and/or legal representative) and by the caregiver.</p>\n\
-    <p>[7] Geographic proximity to investigator's site that allows adequate \nfollow-up.</p>\n\
-    <p>[8] A reliable caregiver who is in frequent or daily contact with the patient\
-    \ \nand who will accompany the patient to the office and/or be available \nby\
-    \ telephone at designated times, will monitor administration of \nprescribed medications,\
-    \ and will be responsible for the overall care of \nthe patient at home. The caregiver\
-    \ and the patient must be able to \ncommunicate in English and willing to comply\
-    \ with 26 weeks of \ntransdermal therapy.</p>"
+  text: '<p>Patients may be included in the study only if they meet <b>all</b> the
+    following criteria:</p>
+
+    <usdm:macro id="section" name="inclusion" template="plain"/>'
 3-4-2-2:
   name: ''
   sectionNumber: 3.4.2.2.
   sectionTitle: Exclusion Criteria
   text: "<p>Patients will be excluded from the study for <b>any</b> of the following\
-    \ reasons:</p>\n<p>[9] Persons who have previously completed or withdrawn from\
-    \ this study \nor any other study investigating xanomeline TTS or the oral \n\
-    formulation of xanomeline.</p>\n<p>[10] Use of any investigational agent or approved\
-    \ Alzheimer's therapeutic \nmedication within 30 days prior to enrollment into\
-    \ the study.</p>\n<p>[11] Serious illness which required hospitalization within\
-    \ 3 months of \nscreening.</p>\n<p>[12] Diagnosis of serious neurological conditions,\
-    \ including \na) Stroke or vascular dementia documented by clinical history and/or\
-    \ radiographic findings interpretable by the investigator as indicative of these\
-    \ disorders</p>\n<p>b)  Seizure disorder other than simple childhood febrile seizures</p>\n\
-    <p>c) Severe head trauma resulting in protracted loss of consciousness within\
-    \ the last 5 years, or multiple episodes of head trauma</p>\n<p>d)  Parkinson's\
-    \ disease</p>\n<p>e)  Multiple sclerosis</p>\n<p>f)  Amyotrophic lateral sclerosis</p>\n\
-    <p>g)  Myasthenia gravis.</p>\n<p>[13] Episode of depression meeting DSM-IV criteria\
-    \ within 3 months of \nscreening.</p>\n<p>[14] A history within the last 5 years\
-    \ of the following:</p>\n<p>a)  Schizophrenia</p>\n<p>b)  Bipolar Disease</p>\n\
-    <p>c)  Ethanol or psychoactive drug abuse or dependence. \n[15] A history of syncope\
-    \ within the last 5 years.</p>\n<p>[16b] Evidence from ECG recording at screening\
-    \ of any of the following \nconditions :</p>\n<p>a)  Left bundle branch block</p>\n\
-    <p>b)  Bradycardia \u226450 beats per minute</p>\n<p>c)  Sinus pauses &gt;2 seconds</p>\n\
-    <p>d)  Second or third degree heart block unless treated with a pacemaker</p>\n\
-    <p>e)  Wolff-Parkinson-White syndrome</p>\n<p>f) Sustained supraventricular tachyarrhythmia\
-    \ including SVT\u226510 sec, atrial fibrillation, atrial flutter.</p>\n<p>g) Ventricular\
-    \ tachycardia at a rate of \u2265120 beats per minute lasting</p>\n<p>\u226510\
-    \ seconds.</p>\n<p>[17] A history within the last 5 years of a serious cardiovascular\
-    \ disorder, \nincluding</p>\n<p>a)  Clinically significant arrhythmia</p>\n<p>b)\
-    \  Symptomatic sick sinus syndrome not treated with a pacemaker</p>\n<p>c)  Congestive\
-    \ heart failure refractory to treatment</p>\n<p>d)  Angina except angina controlled\
-    \ with PRN nitroglycerin</p>\n<p>e)  Resting heart rate &lt;50 or &gt;100 beats\
-    \ per minute, on physical exam</p>\n<p>f)  Uncontrolled hypertension.</p>\n<p>[18]\
-    \ A history within the last 5 years of a serious gastrointestinal disorder, \n\
-    including \na) Chronic peptic/duodenal/gastric/esophageal ulcer that are untreated\
-    \ or refractory to treatment</p>\n<p>b)  Symptomatic diverticular disease</p>\n\
-    <p>c)  Inflammatory bowel disease</p>\n<p>d)  Pancreatitis</p>\n<p>e)  Hepatitis</p>\n\
-    <p>f)  Cirrhosis of the liver.</p>\n<p>[19] A history within the last 5 years\
-    \ of a serious endocrine disorder, \nincluding</p>\n<p>a)  Uncontrolled Insulin\
-    \ Dependent Diabetes Mellitus (IDDM)</p>\n<p>b)  Diabetic ketoacidosis</p>\n<p>c)\
-    \  Untreated hyperthyroidism</p>\n<p>d)  Untreated hypothyroidism</p>\n<p>e) \
-    \ Other untreated endocrinological disorder</p>\n<p>[20] A history within the\
-    \ last 5 years of a serious respiratory disorder, \nincluding</p>\n<p>a) Asthma\
-    \ with bronchospasm refractory to treatment</p>\n<p>b)  Decompensated chronic\
-    \ obstructive pulmonary disease.</p>\n<p>[21] A history within the last 5 years\
-    \ of a serious genitourinary disorder, \nincluding</p>\n<p>a)  Renal failure</p>\n\
-    <p>b)  Uncontrolled urinary retention.</p>\n<p>[22] A history within the last\
-    \ 5 years of a serious rheumatologic disorder, \nincluding</p>\n<p>a)  Lupus</p>\n\
-    <p>b)  Temporal arteritis</p>\n<p>c)  Severe rheumatoid arthritis.</p>\n<p>[23]\
-    \ A known history of human immunodeficiency virus (HIV) within the \nlast 5 years.</p>\n\
-    <p>[24] A history within the last 5 years of a serious infectious disease \nincluding</p>\n\
-    <p>a)  Neurosyphilis</p>\n<p>b)  Meningitis</p>\n<p>c)  Encephalitis.</p>\n<p>[25]\
-    \ A history within the last 5 years of a primary or recurrent malignant \ndisease\
-    \ with the exception of resected cutaneous squamous cell \ncarcinoma in situ,\
-    \ basal cell carcinoma, cervical carcinoma in situ, or \nin situ prostate cancer\
-    \ with a normal PSA postresection.</p>\n<p>[26] Visual, hearing, or communication\
-    \ disabilities impairing the ability to \nparticipate in the study; (for example,\
-    \ inability to speak or understand \nEnglish, illiteracy).</p>\n<p>[27b] Laboratory\
-    \ test values exceeding the Lilly Reference Range III for the \npatient's age\
-    \ in any of the following analytes: \u2191 creatinine, \u2191 total \nbilirubin,\
-    \ \u2191 SGOT, \u2191 SGPT, \u2191 alkaline phosphatase, \u2191 GGT, \n\u2191\u2193\
-    \ hemoglobin, \u2191\u2193 white blood cell count, \u2191\u2193 platelet count,\
-    \ \n\u2191\u2193 serum sodium, potassium, or calcium.</p>\n<p>If values exceed\
-    \ these laboratory reference ranges, clinical significance will be judged by the\
-    \ monitoring physicians. If the monitoring physician determines that the deviation\
-    \ from the reference range is not clinically significant, the patient may be included\
-    \ in the study. This decision will be documented.</p>\n<p>[28b] Central laboratory\
-    \ test values below reference range for folate, and Vitamin B 12 , and outside\
-    \ reference range for thyroid function tests.</p>\n<p>a)  Folate reference range\
-    \ 2.0 to 25.0 ng/mL. Patients will be allowed \nto enroll if their folate levels\
-    \ are above the upper end of the range if \npatients are taking vitamin supplements.</p>\n\
-    <p>b)  Vitamin B 12 reference range 130 to 900 pg/mL. Patients will be \nallowed\
-    \ to enroll if their B 12 levels are above the upper reference \nrange if patients\
-    \ are taking oral vitamin supplements.</p>\n<p>c)  Thyroid functions</p>\n<p>i)\
-    \  Thyroid Uptake reference range 25 to 38%. Patients will be \nallowed to enroll\
-    \ with results of 23 to 51% provided the \nremainder of the thyroid profile is\
-    \ normal and there are no \nclinical signs or symptoms of thyroid abnormality.</p>\n\
-    <p>ii) TSH reference range 0.32 to 5.0. Patients will be allowed to enroll \n\
-    with results of 0.03 to 6.2 if patients are taking stable doses of \nexogenous\
-    \ thyroid supplements, with normal free thyroid index, \nand show no clinical\
-    \ signs or symptoms of thyroid abnormality.</p>\n<p>iii) Total T4 reference range\
-    \ 4.5 to 12.5. Patients will be allowed to \nenroll with results of 4.1 to 13.4\
-    \ if patients are taking stable \ndoses of exogenous thyroid hormone, with normal\
-    \ free thyroid \nindex, and show no clinical signs or symptoms of thyroid \nabnormality.</p>\n\
-    <p>iv) Free Thyroid Index reference range 1.1 to 4.6.</p>\n<p>[29b] Positive syphilis\
-    \ screening.</p>\n<p>Positive syphilis screening. As determined by positive RPR\
-    \ followed up by confirmatory FTA-Abs. Confirmed patients are excluded unless\
-    \ there is a documented medical history of an alternative disease (for example,\
-    \ yaws) which caused the lab abnormality.</p>\n<p>[30b] Glycosylated hemoglobin\
-    \ (A1C). Required only on patients with \nknown diabetes mellitus or random blood\
-    \ sugar &gt;200 on screening \nlabs. Patients will be excluded if levels are &gt;9.5%</p>\n\
-    <p>[31b] Treatment with the following medications within the specified washout\
-    \ periods prior to enrollment and during the study:</p>\n<p>a)  Anticonvulsants\
-    \ including but not limited to \nDepakote\xAE (valproic acid) \nDilantin\xAE (phenytoin)\
-    \ \nFelbatol\xAE (felbamate) \nKlonopin\xAE (clonazepam) \nLamictal\xAE (lamotrigine)\
-    \ \nMysoline\xAE (primidone) \nNeurontin\xAE (gabapentin) \nPhenobarbitol \nTegretol\xAE\
-    \ (carbamazepine)</p>\n<p>2 weeks 2 weeks 1 month 2 weeks 2 weeks 1 month 2 weeks\
-    \ 1 month 2 weeks</p>\n<p>b)  Alpha receptor blockers including but not limited\
-    \ to \nAldomet\xAE (methyldopa) 2 weeks \nCardura\xAE (doxazosin) 2 weeks \nCatapres\xAE\
-    \ (clonidine) 2 weeks \nHytrin\xAE (terazosin) 2 weeks \nMinipress\xAE (prazosin)\
-    \ 2 weeks \nTenex\xAE (guanfacine) 2 weeks \nWytensin\xAE (guanabenz) 2 weeks</p>\n\
-    <p><b>The use of low doses (2 mg daily) of either Hytrin</b>\xAE <b>or Cardura</b>\xAE\
-    \ <b>for relief of urinary retention for patients with prostatic hypertrophy will\
-    \ be considered on a case-by-case basis provided blood pressure is stable and\
-    \ the medication has not had demonstrable effect on dementia symptoms in the opinion\
-    \ of the treating physician. Contact CRO medical monitor.</b></p>\n<p>c)  Calcium\
-    \ channel blockers that are CNS active including but not \nlimited to \nCalan\xAE\
-    \ , Isoptin\xAE , Verelan\xAE (verapamil) 2 weeks \nCardizem\xAE (diltiazem) 2\
-    \ weeks \nNimotop\xAE (nimodipine) 2 weeks \nAdalat\xAE , Procardia XL\xAE (nifedipine)\
-    \ 2 weeks</p>\n<p><b>Cardene</b>\xAE <b>(nicardipine), Norvasc</b>\xAE <b>, (amlodipine),\
-    \ and DynaCirc</b>\xAE <b>(isradipine) will be allowed during the study. If a\
-    \ patient is taking an excluded calcium channel blocker and is changed to an equivalent\
-    \ dose of an allowed calcium channel blocker, enrollment may proceed in as little\
-    \ as 24 hours though 1 week is preferred when possible.</b></p>\n<p>d) Beta blockers\
-    \ including but not limited to \nBetapace\xAE (sotalol) \nInderal\xAE (propranolol)\
-    \ \nLopressor\xAE , Toprol XL\xAE (metoprolol) \nCorgard\xAE (nadolol) \nSectral\xAE\
-    \ (acebutolol) \nTenormin\xAE (atenolol) \nVisken\xAE (pindolol)</p>\n<p>2 weeks\
-    \ 2 weeks 2 weeks 2 weeks 2 weeks 2 weeks 2 weeks</p>\n<p><b>Beta blocker eye\
-    \ drops for glaucoma will be considered on a case-by-case basis. Call medical\
-    \ monitor.</b></p>\n<p>e)  Beta sympathomimetics (unless inhaled) including but\
-    \ not limited to \nAlupent\xAE tablets (metaproterenol) 2 weeks \nBrethine\xAE\
-    \ tablets (terbutaline) 2 weeks \nDopamine 2 weeks \nProventil Repetabs\xAE ,\
-    \ Ventolin\xAE tablets \n(albuterol tablets) 2 weeks \nf) Parasympathomimetics\
-    \ (cholinergics) (unless opthalmic) including \nbut not limited to \nAntilirium\xAE\
-    \ (physostigmine) 1 month \nAricept\xAE (donepezil) 1 month \nCognex\xAE (tacrine)\
-    \ 1 month \nMestinon\xAE (pyridostigmine) 1 week \nReglan\xAE (metoclopramide)\
-    \ 2 weeks \nUrecholine\xAE , Duvoid (bethanechol) 2 weeks \n<b>Cholinergic eye\
-    \ drops for treatment of glaucoma will be allowed during the study on a case-by-case\
-    \ basis. Please contact the CRO medical monitor.</b></p>\n<p>g)  Muscle relaxants-centrally\
-    \ active including but not limited to \nEquanil\xAE (meprobamate) 2 weeks \nFlexeril\xAE\
-    \ (cyclobenzaprine) 2 weeks \nLioresal\xAE (baclofen) 2 weeks \nNorflex\xAE (orphenadrine)\
-    \ 2 weeks \nParafon Forte\xAE (chlorzoxazone) 2 weeks \nRobaxin\xAE (methocarbamol)\
-    \ 2 weeks \nSkelaxin\xAE (metaxalone) 2 weeks \nSoma\xAE (carisoprodol) 2 weeks</p>\n\
-    <p>h)  Monamine oxidase inhibitors (MAOI) including but not limited to \nEldepryl\xAE\
-    \ (selegiline) 1 month \nNardil\xAE (phenelzine) 1 month \nParnate\xAE (tranylcypromine)\
-    \ 1 month</p>\n<p>i)  Parasympatholytics including but not limited to \nAntivert\xAE\
+    \ reasons:</p>\n\n[28b] \n\n\n\n\n\n\n\n\n<p>[] Treatment with the following medications\
+    \ within the specified washout periods prior to enrollment and during the study:</p>\n\
+    <p>a)  Anticonvulsants including but not limited to \nDepakote\xAE (valproic acid)\
+    \ \nDilantin\xAE (phenytoin) \nFelbatol\xAE (felbamate) \nKlonopin\xAE (clonazepam)\
+    \ \nLamictal\xAE (lamotrigine) \nMysoline\xAE (primidone) \nNeurontin\xAE (gabapentin)\
+    \ \nPhenobarbitol \nTegretol\xAE (carbamazepine)</p>\n<p>2 weeks 2 weeks 1 month\
+    \ 2 weeks 2 weeks 1 month 2 weeks 1 month 2 weeks</p>\n<p>b)  Alpha receptor blockers\
+    \ including but not limited to \nAldomet\xAE (methyldopa) 2 weeks \nCardura\xAE\
+    \ (doxazosin) 2 weeks \nCatapres\xAE (clonidine) 2 weeks \nHytrin\xAE (terazosin)\
+    \ 2 weeks \nMinipress\xAE (prazosin) 2 weeks \nTenex\xAE (guanfacine) 2 weeks\
+    \ \nWytensin\xAE (guanabenz) 2 weeks</p>\n<p><b>The use of low doses (2 mg daily)\
+    \ of either Hytrin</b>\xAE <b>or Cardura</b>\xAE <b>for relief of urinary retention\
+    \ for patients with prostatic hypertrophy will be considered on a case-by-case\
+    \ basis provided blood pressure is stable and the medication has not had demonstrable\
+    \ effect on dementia symptoms in the opinion of the treating physician. Contact\
+    \ CRO medical monitor.</b></p>\n<p>c)  Calcium channel blockers that are CNS active\
+    \ including but not \nlimited to \nCalan\xAE , Isoptin\xAE , Verelan\xAE (verapamil)\
+    \ 2 weeks \nCardizem\xAE (diltiazem) 2 weeks \nNimotop\xAE (nimodipine) 2 weeks\
+    \ \nAdalat\xAE , Procardia XL\xAE (nifedipine) 2 weeks</p>\n<p><b>Cardene</b>\xAE\
+    \ <b>(nicardipine), Norvasc</b>\xAE <b>, (amlodipine), and DynaCirc</b>\xAE <b>(isradipine)\
+    \ will be allowed during the study. If a patient is taking an excluded calcium\
+    \ channel blocker and is changed to an equivalent dose of an allowed calcium channel\
+    \ blocker, enrollment may proceed in as little as 24 hours though 1 week is preferred\
+    \ when possible.</b></p>\n<p>d) Beta blockers including but not limited to \n\
+    Betapace\xAE (sotalol) \nInderal\xAE (propranolol) \nLopressor\xAE , Toprol XL\xAE\
+    \ (metoprolol) \nCorgard\xAE (nadolol) \nSectral\xAE (acebutolol) \nTenormin\xAE\
+    \ (atenolol) \nVisken\xAE (pindolol)</p>\n<p>2 weeks 2 weeks 2 weeks 2 weeks 2\
+    \ weeks 2 weeks 2 weeks</p>\n<p><b>Beta blocker eye drops for glaucoma will be\
+    \ considered on a case-by-case basis. Call medical monitor.</b></p>\n<p>e)  Beta\
+    \ sympathomimetics (unless inhaled) including but not limited to \nAlupent\xAE\
+    \ tablets (metaproterenol) 2 weeks \nBrethine\xAE tablets (terbutaline) 2 weeks\
+    \ \nDopamine 2 weeks \nProventil Repetabs\xAE , Ventolin\xAE tablets \n(albuterol\
+    \ tablets) 2 weeks \nf) Parasympathomimetics (cholinergics) (unless opthalmic)\
+    \ including \nbut not limited to \nAntilirium\xAE (physostigmine) 1 month \nAricept\xAE\
+    \ (donepezil) 1 month \nCognex\xAE (tacrine) 1 month \nMestinon\xAE (pyridostigmine)\
+    \ 1 week \nReglan\xAE (metoclopramide) 2 weeks \nUrecholine\xAE , Duvoid (bethanechol)\
+    \ 2 weeks \n<b>Cholinergic eye drops for treatment of glaucoma will be allowed\
+    \ during the study on a case-by-case basis. Please contact the CRO medical monitor.</b></p>\n\
+    <p>g)  Muscle relaxants-centrally active including but not limited to \nEquanil\xAE\
+    \ (meprobamate) 2 weeks \nFlexeril\xAE (cyclobenzaprine) 2 weeks \nLioresal\xAE\
+    \ (baclofen) 2 weeks \nNorflex\xAE (orphenadrine) 2 weeks \nParafon Forte\xAE\
+    \ (chlorzoxazone) 2 weeks \nRobaxin\xAE (methocarbamol) 2 weeks \nSkelaxin\xAE\
+    \ (metaxalone) 2 weeks \nSoma\xAE (carisoprodol) 2 weeks</p>\n<p>h)  Monamine\
+    \ oxidase inhibitors (MAOI) including but not limited to \nEldepryl\xAE (selegiline)\
+    \ 1 month \nNardil\xAE (phenelzine) 1 month \nParnate\xAE (tranylcypromine) 1\
+    \ month</p>\n<p>i)  Parasympatholytics including but not limited to \nAntivert\xAE\
     \ , Bonine\xAE , Dramamine II\xAE \n(meclizine) 3 days \nArtane\xAE (trihexyphenidyl)\
     \ 2 weeks \nBellergal-S\xAE (alkaloids of belladonna \nand ergotamine) 2 weeks\
     \ \nBentyl\xAE (dicyclomine) 3 days \nCogentin\xAE (benztropine) 2 weeks \nCystospaz\xAE\
