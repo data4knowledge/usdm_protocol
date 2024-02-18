@@ -2,17 +2,15 @@ from fastapi import FastAPI, Request, status, Form
 from fastapi.responses import RedirectResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from d4kms_ui.release_notes import ReleaseNotes
 from utility.database import Database
+from d4kms_ui.release_notes import ReleaseNotes
 from d4kms_generic.service_environment import ServiceEnvironment
 from d4kms_generic import application_logger
-# from utility.uml_view import UMLView
 from d4kms_ui import get_access_token, get_user_data
-# from utility.uml_views import m11_uml, full_uml
 
 import logging
 
-VERSION = '0.1'
+VERSION = '0.2'
 SYSTEM_NAME = "Protocol to USDM"
 
 app = FastAPI(
