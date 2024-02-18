@@ -56,6 +56,48 @@
     and pharmacokinetics of xanomeline TTS Formulations A, B, and E, please refer
     to Part II, Sections 7, 8, and 10 of the Xanomeline (LY246708) Clinical Investigator''s
     Brochure. Formulation E will be studied in this protocol, H2Q-MC-LZZT(c).</p>'
+'10':
+  name: ''
+  sectionNumber: Appendix 4
+  sectionTitle: Protocol Attachment LZZT.4. Revised Neuropsychiatric Inventory (NPI-X)
+  text: <usdm:macro id="note" text="The attachment has not been included in this issue
+    of the protocol. It may be included in future versions."/>
+'11':
+  name: ''
+  sectionNumber: Appendix 5
+  sectionTitle: Protocol Attachment LZZT.5. Disability Assessment for Dementia (DAD)
+  text: <usdm:macro id="note" text="The attachment has not been included in this issue
+    of the protocol. It may be included in future versions."/>
+'12':
+  name: ''
+  sectionNumber: Appendix 6
+  sectionTitle: Protocol Attachment LZZT.6. Mini-Mental State Examination (MMSE)
+  text: <usdm:macro id="note" text="The attachment has not been included in this issue
+    of the protocol. It may be included in future versions."/>
+'13':
+  name: ''
+  sectionNumber: Appendix 7
+  sectionTitle: Protocol Attachment LZZT.7. NINCDS/ADRDA Guidelines
+  text: <usdm:macro id="note" text="The attachment has not been included in this issue
+    of the protocol. It may be included in future versions."/>
+'14':
+  name: ''
+  sectionNumber: Appendix 8
+  sectionTitle: Protocol Attachment LZZT.8. Hachinski Ischemic Scale
+  text: <usdm:macro id="note" text="The attachment has not been included in this issue
+    of the protocol. It may be included in future versions."/>
+'15':
+  name: ''
+  sectionNumber: Appendix 9
+  sectionTitle: Protocol Attachment LZZT.9. TTS Acceptability Survey
+  text: <usdm:macro id="note" text="The attachment has not been included in this issue
+    of the protocol. It may be included in future versions."/>
+'16':
+  name: ''
+  sectionNumber: Appendix 10
+  sectionTitle: Protocol Attachment LZZT.10. Protocol Signatures
+  text: <usdm:macro id="note" text="The attachment has not been included in this issue
+    of the protocol. It may be included in future versions."/>
 '2':
   name: ''
   sectionNumber: '2.'
@@ -1074,7 +1116,7 @@
 3-9-3-4:
   name: ''
   sectionNumber: 3.9.3.4
-  sectionTitle: To Be Provided
+  sectionTitle: Other Safety Measures
   text: "<b>Patients experiencing Rash and/or Eosinophilia</b></p>\n<p>The administration\
     \ of placebo and xanomeline TTS is associated with a rash and/or eosinophilia\
     \ in some patients. The rash is characterized in the following ways:</p>\n<ul>\n\
@@ -1695,3 +1737,23 @@
     \     <p>Peace KE. 1991. Oneside or two-sided p-values: which most appropriately\
     \ address the \nquestion of drug efficacy? J Biop Stat 1:133-8.</p>\n    </div>\n\
     \  </div>\n</div>\n"
+'7':
+  name: ''
+  sectionNumber: Appendix 1
+  sectionTitle: Protocol Attachment LZZT.1. Schedule of Events for Protocol H2Q-MC-LZZT(c)
+  text: <usdm:macro id="note" text="The attachment has not been included in this issue
+    of the protocol. It may be included in future versions."/>
+'8':
+  name: ''
+  sectionNumber: Appendix 2
+  sectionTitle: Protocol Attachment LZZT.2. Alzheimer's Disease Assessment Scale-Cognitive
+    Subscale (ADAS-Cog) with Attention and Concentration Tasks
+  text: <usdm:macro id="note" text="The attachment has not been included in this issue
+    of the protocol. It may be included in future versions."/>
+'9':
+  name: ''
+  sectionNumber: Appendix 3
+  sectionTitle: Protocol Attachment LZZT.3. Video-referenced Clinician's Interview-Based
+    Impression of Change (CIBIC+)
+  text: <usdm:macro id="note" text="The attachment has not been included in this issue
+    of the protocol. It may be included in future versions."/>
