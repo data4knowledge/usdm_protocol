@@ -54,6 +54,21 @@ class Database:
       application_logger.exception("Exception during section write", e)
       self._lock.release()
 
+  def insert_usdm(self, section_key: str, type: str, position: int) -> str:
+    try:
+      print("A")
+      self._lock.acquire()
+      section = self.get_section(section_key)
+      if section:
+        application_logger.info(f"USDM insert {section_key}, type {type}, @ {position}")
+        self._data[section_key]['text'] = self._insert_usdm(self._data[section_key]['text'], type, position)
+        self._write()
+      self._lock.release()
+      return self._data[section_key]
+    except Exception as e:
+      application_logger.exception("Exception during insert of USDM tag", e)
+      self._lock.release()
+
   def delete_section(self, section_key):
     try:
       self._lock.acquire()
@@ -123,3 +138,27 @@ class Database:
     result = True if section_key not in self._data.keys() else False
     application_logger.info(f"Section is permitted for {section_key}={result}")
     return result
+
+  def _insert_usdm(self, text: str, type: str, position: int) -> str:
+    if type == "reference":
+      return self._insert_text(text, '<usdm:ref klass="klass name" id="identifier" attribute="attribute name"/>', position)
+    elif type == "tag":
+      return self._insert_text(text, '<usdm:tag name="dictionary parameter tag name"/>', position)
+    elif type == "xref":
+      return self._insert_text(text, '<usdm:macro id="xref" klass="klass name" name="item name" attribute="attribute name"/>', position)
+    elif type == "image":
+      return self._insert_text(text, '<usdm:macro id="image" file="file name" type="png|jpg"/>', position)
+    elif type == "element":
+      return self._insert_text(text, '<usdm:macro id=element" name="study_phase|study_short_title|study_full_title|study_acronym|study_rationale|study_version_identifier|study_identifier|study_regulatory_identifiers|study_date|approval_date|organization_name_and_address|amendment|amendment_scopes"/>', position)
+    elif type == "section":
+      return self._insert_text(text, '<usdm:macro id="section" name="title_page|inclusion|exclusion|objective_endpoints" template="m11|plain"/>', position)
+    elif type == "note":
+      return self._insert_text(text, '<usdm:macro id="note" text="note text"/>', position)
+    else:
+      application_logger.error(f"Failed to recognize usdm type '{type}'")
+      return ""
+
+  def _insert_text(self, s, i, index):
+    return s[:index] + i + s[index:]
+
+# ['_xref', '_image', '_element', '_section', '_note']

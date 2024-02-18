@@ -1,10 +1,14 @@
 <div id="section_edit_div">
   <script type="text/javascript">
     var previous = "";
-    $(document).on('change keyup paste',"#textEdit", function() {
+    var textArea = document.getElementById("textEdit")
+    var textCursor = document.getElementById("textCursor")
+    $(document).on('change keyup paste click',"#textEdit", function() {
       var url1 = "/sections/" + document.getElementById("textSection").value;
       var url2 = url1 + "/document";
-      var text = document.getElementById("textEdit").value
+      var text = textArea.value
+      textCursor.value = textArea.selectionStart;
+      console.log("Cursor: " + textCursor.value)
       if (text != previous) {
         previous = text;
         $.ajax({
@@ -21,11 +25,28 @@
     });
   </script>
   <input type="hidden" id="textSection" name="textSection" value="{{key}}">
+  <input type="hidden" id="textCursor" name="textCursor" value="0">
   <textarea class="form-control" rows="30" name="textEdit" id="textEdit" class="textEditDiv">{{data['text']}}</textarea>
 </div>
 <h5 id="section_title_div" hx-swap-oob="#section_title_div">
   {{data['sectionNumber']}} {{data['sectionTitle']}}
 </h5>
+<div id="usdm_section_div" hx-swap-oob="#usdm_section_div">
+  <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" style="font-size: 20px;">
+      <i class="ps-2 bi bi-code"></i>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=reference" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">reference</a></li>
+      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=tag" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">tag</a></li>
+      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=xref" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">cross reference</a></li>
+      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=image" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">image</a></li>
+      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=element" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">element</a></li>
+      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=section" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">section</a></li>
+      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=note" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">note</a></li>
+    </ul>
+  </div>
+</div>
 {% if can_add %}
   <div id="add_section_div" hx-swap-oob="#add_section_div">
     <a class="link-dark" style="font-size: 20px;" hx-post="/sections/{{key}}/add" hx-trigger="click" hx-target="#section_edit_div" role="button">

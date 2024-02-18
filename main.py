@@ -148,3 +148,13 @@ async def post_section(request: Request, section: str):
     return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': '1', 'data': data, 'can_add': can_add, 'toc': toc})
   else:
     return templates.TemplateResponse('errors/partials/errors.html', {"request": request, 'data': {'error': f'Failed to delete section {section}'}})
+
+@app.post('/sections/{section}/usdm')
+async def post_section(request: Request, section: str, type: str, textCursor: int = Form(...)):
+  check_simple_authentication(request)
+  print(f"USDM: {section} @ {textCursor}, {type}")
+  data = database.insert_usdm(section, type, textCursor)
+  #data = database.get_section(section)
+  can_add = database.can_add_section(section)
+  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
+  return response
