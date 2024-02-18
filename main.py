@@ -1,5 +1,5 @@
-from fastapi import FastAPI, Depends, HTTPException, Request, status, Form, Response
-from fastapi.responses import RedirectResponse
+from fastapi import FastAPI, Request, status, Form
+from fastapi.responses import RedirectResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from d4kms_ui.release_notes import ReleaseNotes
@@ -158,3 +158,9 @@ async def post_section(request: Request, section: str, type: str, textCursor: in
   can_add = database.can_add_section(section)
   response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
   return response
+
+@app.get('/download')
+async def get_csv(request: Request):
+  check_simple_authentication(request)
+  full_path, filename, media_type = database.download()
+  return FileResponse(path=full_path, filename=filename, media_type=media_type)

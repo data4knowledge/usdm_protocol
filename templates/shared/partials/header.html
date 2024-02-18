@@ -3,21 +3,35 @@
     <div class="d-flex justify-content-between">
       <h4 class="card-title">{{title}}</h4>
       <div class="d-flex justify-right">
-        <i class="ps-2 bi bi-info-circle" data-bs-toggle="tooltip" data-bs-placement="left" title="{{help}}"></i>
+        <a class="link-dark" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#headerHelpModal">
+          <i class="ps-2 bi bi-info-circle"></i>
+        </a>  
         {% for link in links: %}
-          <a class="{{link['klass']}}" href="{{link['href']}}">
-            {% if 'confirm' in link: %}
-              <i class="ps-2 {{link['icon']}}" onclick="return confirm('Are you sure?')" data-bs-toggle="tooltip" data-bs-placement="left" title="{{link['tooltip']}}"></i>            
-            {% else %}
-              <i class="ps-2 {{link['icon']}}" data-bs-toggle="tooltip" data-bs-placement="left" title="{{link['tooltip']}}"></i>
-            {% endif %}
+          <a href="{{link['href']}}">
+            <i class="ps-2 {{link['icon']}}" style="font-size: 20px;" data-bs-toggle="tooltip" data-bs-placement="left" title="{{link['tooltip']}}"></i>
           </a>
         {% endfor %}
         <a href="#" onclick="history.back()">
-          <i class="ps-2 bi bi-arrow-up-circle" data-bs-toggle="tooltip" data-bs-placement="left" title="Go to previous page."></i>
-        </a>
+          <i class="ps-2 bi bi-arrow-up-circle" style="font-size: 20px;" data-bs-toggle="tooltip" data-bs-placement="left" title="Go to previous page."></i>
+        </a>  
       </div>
     </div>
     <p class="card-text">{{text}}</p>
   </div>
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="headerHelpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Page Help</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        {{help|safe}}
+      </div>
+    </div>
+  </div>
+</div>
+

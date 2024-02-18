@@ -1,6 +1,7 @@
 import os
 import yaml
 import threading 
+import csv
 from d4kms_generic.logger import application_logger
 
 class Database:
@@ -105,6 +106,19 @@ class Database:
     except Exception as e:
       application_logger.exception("Exception during section add", e)
       return None
+
+  def download(self):
+    full_path = os.path.join(self.DIR, "protocol_section.csv")
+    filename = os.path.basename(full_path)
+    media_type = 'text/plain' 
+    self._write_csv_file(full_path)
+    return full_path, filename, media_type
+
+  def _write_csv_file(self, full_path):
+    with open(full_path, "w") as f:
+      writer = csv.DictWriter(f, fieldnames=['sectionNumber',	'name',	'sectionTitle',	'text'])
+      writer.writeheader()
+      writer.writerows(list(self._data.values()))
 
   def _level(self, section):
     text = section[:-1] if section.endswith('.') else section
