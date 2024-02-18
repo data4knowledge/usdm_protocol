@@ -1,18 +1,26 @@
 <div id="section_edit_div">
   <script type="text/javascript">
+    var previous = "";
     $(document).on('change keyup paste',"#textEdit", function() {
-     $.ajax({
-        type: 'POST',
-        url: '/sections/{{key}}',
-        data: {
-          text: document.getElementById("textEdit").value
-        },
-        success: function(data){
-         htmx.ajax('GET', '/sections/{{key}}/document', '#section_results_div')
-        }
-      });
+      var url1 = "/sections/" + document.getElementById("textSection").value;
+      var url2 = url1 + "/document";
+      var text = document.getElementById("textEdit").value
+      if (text != previous) {
+        previous = text;
+        $.ajax({
+          type: 'POST',
+          url: url1,
+          data: {
+            text: text
+          },
+          success: function(data){
+           htmx.ajax('GET', url2, '#section_results_div')
+          }
+        });
+      } 
     });
   </script>
+  <input type="hidden" id="textSection" name="textSection" value="{{key}}">
   <textarea class="form-control" rows="30" name="textEdit" id="textEdit" class="textEditDiv">{{data['text']}}</textarea>
 </div>
 <h5 id="section_title_div" hx-swap-oob="#section_title_div">
