@@ -2,77 +2,156 @@
   name: ''
   sectionNumber: '0.'
   sectionTitle: Title Page
-  text: '<p>Xanomeline (LY246708)</p>
-
-    <p>Protocol H2Q-MC-LZZT(c)</p>
-
-    <p>Safety and Efficacy of the Xanomeline Transdermal Therapeutic System (TTS)
-    in Patients with Mild to Moderate Alzheimer''s Disease</p>
-
-    <p>Safety and Efficacy of the Xanomeline Transdermal Therapeutic System (TTS)
-    in Patients with Mild to Moderate Alzheimer''s Disease</p>
-
-    <p>Safety and Efficacy of the Xanomeline  Transdermal Therapeutic System (TTS)
-    in Patients with Mild to Moderate Alzheimer''s Disease</p>'
+  text: "<p>Xanomeline (LY246708)</p>\n<p>Protocol H2Q-MC-LZZT(c)</p>\n<p>Safety and\
+    \ Efficacy of the Xanomeline \nTransdermal Therapeutic System (TTS) in Patients\
+    \ \nwith Mild to Moderate Alzheimer's Disease</p>\n<p>Safety and Efficacy of the\
+    \ Xanomeline \nTransdermal Therapeutic System (TTS) in Patients \nwith Mild to\
+    \ Moderate Alzheimer's Disease</p>\n<p>Table of Contents</p>\n<p>Section Page</p>\n\
+    <p>1. Introductio<span class=\"s7\">n</span>......................................................................................................................5</p>\n\
+    <p>2. Objectives ........................................................................................................................7</p>\n\
+    <p>2.1. Primary Objective<span class=\"s8\">s</span>.....................................................................................................7</p>\n\
+    <p>2.2. Secondary Objective<span class=\"s8\">s</span>.................................................................................................7</p>\n\
+    <p>3. Investigational Plan..........................................................................................................8</p>\n\
+    <p>3.1. Summary of Study Design .........................................................................................8</p>\n\
+    <p>3.2. Discussion of Design and Control..............................................................................9</p>\n\
+    <p>3.3. Investigator Information...........................................................................................10</p>\n\
+    <p>3.3.1 . Final Report Signatur<span class=\"s11\">e</span>.......................................................................................10</p>\n\
+    <p>3.4. Study Population ......................................................................................................10</p>\n\
+    <p>3.4.1 . Entry Procedure<span class=\"s12\">s</span>................................................................................................10</p>\n\
+    <p>3.4.2 . Criteria for Enrollment.......................................................................................10</p>\n\
+    <p>3.4.2.1 . Inclusion Criteria .........................................................................................11</p>\n\
+    <p>3.4.2.2 . Exclusion Criteria ........................................................................................13</p>\n\
+    <p>3.4.2.3 . Violation of Criteria for Enrollment ............................................................23</p>\n\
+    <p>3.4.3 . Disease Diagnostic Criteria ...............................................................................23</p>\n\
+    <p>3.4.4 . Sample Siz<span class=\"s13\">e</span>........................................................................................................24</p>\n\
+    <p>3.5. Patient Assignmen<span class=\"s13\">t</span>...................................................................................................24</p>\n\
+    <p>3.6. Dosage and Administratio<span class=\"s8\">n</span>......................................................................................24</p>\n\
+    <p>3.6.1 . Materials and Supplie<span class=\"s14\">s</span>.......................................................................................24</p>\n\
+    <p>3.6.2 . TTS Administration Procedures ........................................................................24</p>\n\
+    <p>3.7. Blindin<span class=\"s8\">g</span>....................................................................................................................26</p>\n\
+    <p>3.8. Concomitant Therap<span class=\"s15\">y</span>...............................................................................................26</p>\n\
+    <p>3.9. Efficacy, Pharmacokinetic, and Safety Evaluations.................................................27</p>\n\
+    <p>3.9.1 . Efficac<span class=\"s16\">y</span>..............................................................................................................27</p>\n\
+    <p>3.9.1.1 . Efficacy Measure<span class=\"s17\">s</span>........................................................................................27</p>\n\
+    <p>3.9.1.2 . Efficacy Criteri<span class=\"s8\">a</span>...........................................................................................29</p>\n\
+    <p>3.9.2 . Pharmacokinetic<span class=\"s18\">s</span>...............................................................................................29</p>\n\
+    <p>Table of Contents (continued)</p>\n<p>Section Page</p>\n<p>3.9.3 . Safety .................................................................................................................30</p>\n\
+    <p>3.9.3.1 . Safety Measure<span class=\"s18\">s</span>...........................................................................................30</p>\n\
+    <p>3.9.3.2 . Clinical Adverse Event<span class=\"s7\">s</span>...............................................................................30</p>\n\
+    <p>3.9.3.2 .1. Adverse Event Reporting Requirement<span class=\"s19\">s</span>................................................30</p>\n\
+    <p>3.9.3.2 .2. Serious Adverse Events .........................................................................31</p>\n\
+    <p>3.9.3.3 . Clinical Laboratory Test<span class=\"s7\">s</span>.............................................................................31</p>\n\
+    <p>3.9.3.4 . Other Safety Measure<span class=\"s20\">s</span>.................................................................................33</p>\n\
+    <p>3.9.3.4 .1 Vital Sign Determinatio<span class=\"s18\">n</span>........................................................................34</p>\n\
+    <p>3.9.3.4 .2. Cardiovascular Safety Measure<span class=\"s14\">s</span>...............................................................35</p>\n\
+    <p>3.9.4 . Safety Monitorin<span class=\"s18\">g</span>..............................................................................................35</p>\n\
+    <p>3.9.5 . Appropriateness and Consistency of Measurements .........................................38</p>\n\
+    <p>3.10. Patient Disposition Criteri<span class=\"s11\">a</span>....................................................................................38</p>\n\
+    <p>3.10.1 . Discontinuations ..............................................................................................38</p>\n\
+    <p>3.10.1.1 . Retrieval of Discontinuations ....................................................................39</p>\n\
+    <p>3.10.2 . Qualifications for Analysis ..............................................................................39</p>\n\
+    <p>3.10.3 . Study Extension<span class=\"s19\">s</span>..............................................................................................39</p>\n\
+    <p>3.10.3.1 . Compliance ................................................................................................39</p>\n\
+    <p>3.11. Quality Assurance ..................................................................................................40</p>\n\
+    <p>4. Data Analysis Method<span class=\"s21\">s</span>..................................................................................................41</p>\n\
+    <p>4.1. General Considerations ............................................................................................41</p>\n\
+    <p>4.2. Demographics and Patient Characteristics Measured at \nBaseline ................................................................................................................41</p>\n\
+    <p>4.3. Efficacy Analyse<span class=\"s13\">s</span>.....................................................................................................41</p>\n\
+    <p>4.3.1 . Efficacy Variables to be Analyzed ....................................................................41</p>\n\
+    <p>4.3.2 . Times of Analyses..............................................................................................42</p>\n\
+    <p>4.3.3 . Statistical Methodolog<span class=\"s22\">y</span>.....................................................................................43</p>\n\
+    <p>4.3.4 . One-sided Justification ......................................................................................44</p>\n\
+    <p>4.3.5 . Nominal P-value Adjustment<span class=\"s22\">s</span>...........................................................................45</p>\n\
+    <p>4.4. Safety Analyse<span class=\"s16\">s</span>........................................................................................................46</p>\n\
+    <p>4.5. Subgroup Analyse<span class=\"s13\">s</span>...................................................................................................47</p>\n\
+    <p>4.6. Interim Efficacy Analyse<span class=\"s15\">s</span>........................................................................................47</p>\n\
+    <p>4.7. Interim Safety Analyses ...........................................................................................47</p>\n\
+    <p>4.8. Pharmacokinetic/Pharmacodynamic Analyses ........................................................48</p>\n\
+    <p>Table of Contents (concluded)</p>\n<p>Section Page</p>\n<p>5. Informed Consent,\
+    \ Ethical Review, and Regulatory \nConsideration<span class=\"s22\">s</span>...........................................................................................................49</p>\n\
+    <p>5.1. Informed Consen<span class=\"s21\">t</span>.....................................................................................................49</p>\n\
+    <p>5.2. Ethical Review .........................................................................................................50</p>\n\
+    <p>5.3. Regulatory Consideration<span class=\"s18\">s</span>.......................................................................................50</p>\n\
+    <p>6. Reference<span class=\"s17\">s</span>......................................................................................................................51</p>\n\
+    <p>List of Attachments</p>\n<p>Protocol Attachment LZZT.1.</p>\n<p>Schedule of\
+    \ Events for Protocol H2Q-MC-LZZT(c)</p>\n<p>Protocol Attachment LZZT.2.</p>\n\
+    <p>Alzheimer's Disease Assessment Scale\u2212Cognitive Subscale (ADAS-Cog) with\
+    \ Attention and Concentration Tasks</p>\n<p>Protocol Attachment LZZT.3.</p>\n\
+    <p>Video-referenced Clinician's Interview-Based Impression of Change (CIBIC+)</p>\n\
+    <p>Protocol Attachment LZZT.4.</p>\n<p>Revised Neuropsychiatric Inventory (NPI-X)</p>\n\
+    <p>Protocol Attachment LZZT.5.</p>\n<p>Disability Assessment for Dementia (DAD)</p>\n\
+    <p>Protocol Attachment LZZT.6.</p>\n<p>Mini-Mental State Examination (MMSE)</p>\n\
+    <p>Protocol Attachment LZZT.7.</p>\n<p>NINCDS/ADRDA Guidelines</p>\n<p>Protocol\
+    \ Attachment LZZT.8.</p>\n<p>Hachinski Ischemic Scale</p>\n<p>Protocol Attachment\
+    \ LZZT.9.</p>\n<p>TTS Acceptability Survey</p>\n<p>Protocol Attachment LZZT.10.</p>\n\
+    <p>Protocol Signatures</p>\n<p>Safety and Efficacy of the Xanomeline \nTransdermal\
+    \ Therapeutic System (TTS) in Patients \nwith Mild to Moderate Alzheimer's Disease</p>"
 '1':
   name: ''
   sectionNumber: '1.'
   sectionTitle: Introduction
-  text: "<p>The M1 muscarinic-cholinergic receptor is 1 of 5 characterized muscarinic-cholinergic\n\
-    \    receptor subtypes (Fisher and Barak 1994). M1 receptors in the cerebral cortex\n\
-    \    and hippocampus are, for the most part, preserved in Alzheimer''s disease\
-    \ (AD),\n    while the presynaptic neurons projecting to these receptors from\
-    \ the nucleus basalis\n    of Meynert degenerate (Bierer et al. 1995). The presynaptic\
-    \ loss of cholinergic\n    neurons has been correlated to the antimortum cognitive\
-    \ impairment in AD patients,\n    prompting speculation that replacement therapy\
-    \ with cholinomimetics will alleviate\n    the cognitive dysfunction of the disorder\
-    \ (Fisher and Barak 1994).</p>\n\n    <p>Xanomeline is a novel M1 agonist which\
-    \ has shown high affinity for the M1 receptor\n    subtype (in transfected cells),\
-    \ and substantially less or no affinity for other\n    muscarinic subtypes. Positron\
-    \ emission tomography (PET) studies of 11C-labeled\n    xanomeline in cynomolgus\
-    \ monkeys have suggested that the compound crosses the\n    blood-brain barrier\
-    \ and preferentially binds the striatum and neocortex.</p>\n\n    <p>Clinical\
-    \ development of an oral formulation of xanomeline for the indication\n    of\
-    \ mild and moderate AD was initiated approximately 4 years ago. A large-scale\n\
-    \    study of safety and efficacy provided evidence that an oral dosing regimen\
-    \ of\n    75 mg three times daily (TID) may be associated with enhanced cognition\
-    \ and improved\n    clinical global impression, relative to placebo. As well,\
-    \ a dramatic reduction\n    in psychosis, agitation, and other problematic behaviors,\
-    \ which often complicate\n    the course of the disease, was documented. However,\
-    \ the discontinuation rate associated\n    with this oral dosing regimen was 58.6%,\
-    \ and alternative clinical strategies have\n    been sought to improve tolerance\
-    \ for the compound.</p>\n\n    <p>To that end, development of a Transdermal Therapeutic\
-    \ System (TTS) has been\n    initiated. Relative to the oral formulation, the\
-    \ transdermal formulation eliminates\n    high concentrations of xanomeline in\
-    \ the gastrointestinal (GI) tract and presystemic\n    (firstpass) metabolism.\
-    \ Three transdermal delivery systems, hereafter referred\n    to as the xanomeline\
-    \ TTS Formulation A, xanomeline TTS Formulation B, and xanomeline\n    TTS formulation\
-    \ E have been manufactured by Lohman Therapy Systems GmbH of Andernach\n    Germany.\
-    \ TTS Formulation A is 27 mg xanomeline freebase in a 25-cm2 matrix. TTS\n   \
-    \ Formulation B is 57.6 mg xanomeline freebase in a 40-cm2 matrix. Formulation\
-    \ E\n    has been produced in 2 patch sizes: 1) 54 mg xanomeline freebase with\
-    \ 0.06 mg\n    Vitamin E USP in a 50-cm2 matrix and 2) 27 mg xanomeline freebase\
-    \ with 0.03 mg\n    Vitamin E USP in a 25-cm2 matrix. For a detailed description\
-    \ of the composition\n    of</p>\n\n    <p>these formulations please refer to\
-    \ Part II, Section 14 of the Xanomeline (LY246708)\n    Clinical Investigator''s\
-    \ Brochure. For characterization of the safety, tolerance,\n    and pharmacokinetics\
-    \ of xanomeline TTS Formulations A, B, and E, please refer\n    to Part II, Sections\
-    \ 7, 8, and 10 of the Xanomeline (LY246708) Clinical Investigator''s\n    Brochure.\
-    \ Formulation E will be studied in this protocol, H2Q-MC-LZZT(c).</p>"
+  text: '<p>The M1 muscarinic-cholinergic receptor is 1 of 5 characterized muscarinic-cholinergic
+    receptor subtypes (Fisher and Barak 1994). M1 receptors in the cerebral cortex
+    and hippocampus are, for the most part, preserved in Alzheimer''s disease (AD),
+    while the presynaptic neurons projecting to these receptors from the nucleus basalis
+    of Meynert degenerate (Bierer et al. 1995). The presynaptic loss of cholinergic
+    neurons has been correlated to the antimortum cognitive impairment in AD patients,
+    prompting speculation that replacement therapy with cholinomimetics will alleviate
+    the cognitive dysfunction of the disorder (Fisher and Barak 1994).</p>
+
+    <p>Xanomeline is a novel M1 agonist which has shown high affinity for the M1 receptor
+    subtype (in transfected cells), and substantially less or no affinity for other
+    muscarinic subtypes. Positron emission tomography (PET) studies of 11C-labeled
+    xanomeline in cynomolgus monkeys have suggested that the compound crosses the
+    blood-brain barrier and preferentially binds the striatum and neocortex.</p>
+
+    <p>Clinical development of an oral formulation of xanomeline for the indication
+    of mild and moderate AD was initiated approximately 4 years ago. A large-scale
+    study of safety and efficacy provided evidence that an oral dosing regimen of
+    75 mg three times daily (TID) may be associated with enhanced cognition and improved
+    clinical global impression, relative to placebo. As well, a dramatic reduction
+    in psychosis, agitation, and other problematic behaviors, which often complicate
+    the course of the disease, was documented. However, the discontinuation rate associated
+    with this oral dosing regimen was 58.6%, and alternative clinical strategies have
+    been sought to improve tolerance for the compound.</p>
+
+    <p>To that end, development of a Transdermal Therapeutic System (TTS) has been
+    initiated. Relative to the oral formulation, the transdermal formulation eliminates
+    high concentrations of xanomeline in the gastrointestinal (GI) tract and presystemic
+    (firstpass) metabolism. Three transdermal delivery systems, hereafter referred
+    to as the xanomeline TTS Formulation A, xanomeline TTS Formulation B, and xanomeline
+    TTS formulation E have been manufactured by Lohman Therapy Systems GmbH of Andernach
+    Germany. TTS Formulation A is 27 mg xanomeline freebase in a 25-cm2 matrix. TTS
+    Formulation B is 57.6 mg xanomeline freebase in a 40-cm2 matrix. Formulation E
+    has been produced in 2 patch sizes: 1) 54 mg xanomeline freebase with 0.06 mg
+    Vitamin E USP in a 50-cm2 matrix and 2) 27 mg xanomeline freebase with 0.03 mg
+    Vitamin E USP in a 25-cm2 matrix. For a detailed description of the composition
+    of</p>
+
+    <p>these formulations please refer to Part II, Section 14 of the Xanomeline (LY246708)
+    Clinical Investigator''s Brochure. For characterization of the safety, tolerance,
+    and pharmacokinetics of xanomeline TTS Formulations A, B, and E, please refer
+    to Part II, Sections 7, 8, and 10 of the Xanomeline (LY246708) Clinical Investigator''s
+    Brochure. Formulation E will be studied in this protocol, H2Q-MC-LZZT(c).</p>'
 '2':
   name: ''
   sectionNumber: '2.'
   sectionTitle: Objectives
+  text: ''
+2-1:
+  name: ''
+  sectionNumber: 2.1.
+  sectionTitle: Primary Objectives
   text: "<p>The primary objectives of this study are</p>\n<p>\u2022 To determine if\
-    \ there is a statistically significant relationship (overall  Type 1 error rate,\
-    \ \u03B1=.05) between the change in both ADAS-Cog (see Attachment LZZT.2) and\
-    \ CIBIC+ (see Attachment LZZT.3) scores, and drug dose (0, 50 cm 2 [54 mg], and\
-    \ 75 cm 2 [81 mg]).</p> \n<p>\u2022 To document the safety profile of the xanomeline\
-    \ TTS. </p>\n<b>2.2. Secondary Objectives</b> \nThe secondary objectives of this\
-    \ study are</p>\n<p>\u2022 To assess the dose-dependent improvement in behavior.\
-    \ Improved scores \non the Revised Neuropsychiatric Inventory (NPI-X) will indicate\
-    \ \nimprovement in these areas (see Attachment LZZT.4).</p>\n<p>\u2022 To assess\
-    \ the dose-dependent improvements in activities of daily living. \nImproved scores\
+    \ there is a statistically significant relationship (overall \nType 1 error rate,\
+    \ \u03B1=.05) between the change in both ADAS-Cog (see \nAttachment LZZT.2) and\
+    \ CIBIC+ (see Attachment LZZT.3) scores, and \ndrug dose (0, 50 cm 2 [54 mg],\
+    \ and 75 cm 2 [81 mg]).</p>\n<p>\u2022 To document the safety profile of the xanomeline\
+    \ TTS. \n<b>2.2. Secondary Objectives</b> \nThe secondary objectives of this study\
+    \ are</p>\n<p>\u2022 To assess the dose-dependent improvement in behavior. Improved\
+    \ scores \non the Revised Neuropsychiatric Inventory (NPI-X) will indicate \n\
+    improvement in these areas (see Attachment LZZT.4).</p>\n<p>\u2022 To assess the\
+    \ dose-dependent improvements in activities of daily living. \nImproved scores\
     \ on the Disability Assessment for Dementia (DAD) will indicate improvement in\
     \ these areas (see Attachment LZZT.5).</p>\n<p>\u2022 To assess the dose-dependent\
     \ improvements in an extended assessment of \ncognition that integrates attention/concentration\
@@ -80,24 +159,6 @@
     \ hereafter referred \nto as ADAS-Cog (14), will be used for this assessment (see\
     \ Attachment \nLZZT.2).</p>\n<p>\u2022 To assess the treatment response as a function\
     \ of Apo E genotype.</p>"
-2-1:
-  name: ''
-  sectionNumber: 2.1.
-  sectionTitle: Primary Objectives
-  text: "<p>The primary objectives of this study are</p>\n<p>To determine if there\
-    \ is a statistically significant relationship (overall  Type 1 error rate, \u03B1\
-    =.05) between the change in both ADAS-Cog (see Attachment LZZT.2) and CIBIC+ (see\
-    \ Attachment LZZT.3) scores, and drug dose (0, 50 cm 2 [54 mg], and 75 cm 2 [81\
-    \ mg]).</p> \n<p>To document the safety profile of the xanomeline TTS. </p>\n"
-2-2:
-  name: ''
-  sectionNumber: 2.2.
-  sectionTitle: Secondary Objectives
-  text: "<p>The primary objectives of this study are</p>\n<p>To determine if there\
-    \ is a statistically significant relationship (overall  Type 1 error rate, \u03B1\
-    =.05) between the change in both ADAS-Cog (see Attachment LZZT.2) and CIBIC+ (see\
-    \ Attachment LZZT.3) scores, and drug dose (0, 50 cm 2 [54 mg], and 75 cm 2 [81\
-    \ mg]).</p> \n<p>To document the safety profile of the xanomeline TTS. </p>\n"
 '3':
   name: ''
   sectionNumber: '3.'
@@ -219,34 +280,24 @@
   name: ''
   sectionNumber: 3.10.1.
   sectionTitle: Discontinuations
-  text: '<p>Participation in the study shall be terminated for any patient who is
-    unable or unwilling to comply with the study protocol or who develops a serious
-    adverse event.</p>
-
-    <p>In addition, patients may be discontinued for any of the following reasons:</p>
-
-    <p>&bull; In the opinion of the investigator, a significant adverse event occurs
-    or the safety of the patient is otherwise compromised.</p>
-
-    <p>&bull; The patient requests to be withdrawn from the study.</p>
-
-    <p>&bull; The physician in charge of the study or Lilly, for any reason stops
-    the patient''s participation in the study.</p>
-
-    <p>If a patient''s participation terminates early, an early termination visit
-    should be scheduled. Upon decision to discontinue a patient from the study, the
-    patient''s dose should be titrated down by instructing the patient to immediately
-    remove the 25-cm2 patch. Patients should be instructed to continue to apply a
-    50-cm2 patch daily until the early termination visit, at which time the drug will
-    be discontinued. Physical exam, vital signs, temperature, use of concomitant medications,
-    chemistry/hematology/urinalysis labs, xanomeline plasma sample, TTS acceptability
-    survey, efficacy measures, adverse events, and an ECG will be collected at the
-    early termination visit.</p>
-
-    <p>In the event that a patient''s participation or the study itself is terminated,
-    the patient shall return all study drug(s) to the investigator.</p>
-
-    <p>&nbsp;</p>'
+  text: "<p>Participation in the study shall be terminated for any patient who is\
+    \ unable or unwilling to comply with the study protocol or who develops a serious\
+    \ adverse event.</p>\n<p>In addition, patients may be discontinued for any of\
+    \ the following reasons:</p>\n<p>\u2022 In the opinion of the investigator, a\
+    \ significant adverse event occurs or the \nsafety of the patient is otherwise\
+    \ compromised.</p>\n<p>\u2022 The patient requests to be withdrawn from the study.</p>\n\
+    <p>\u2022 The physician in charge of the study or Lilly, for any reason stops\
+    \ the \npatient's participation in the study.</p>\n<p>If a patient's participation\
+    \ terminates early, an early termination visit should be scheduled. Upon decision\
+    \ to discontinue a patient from the study, the patient's dose should be titrated\
+    \ down by instructing the patient to immediately remove the 25-cm2 patch. Patients\
+    \ should be instructed to continue to apply a 50-cm2 patch daily until the early\
+    \ termination visit, at which time the drug will be discontinued. Physical exam,\
+    \ vital signs, temperature, use of concomitant medications, chemistry/hematology/urinalysis\
+    \ labs, xanomeline plasma sample, TTS acceptability survey, efficacy measures,\
+    \ adverse events, and an ECG will be collected at the early termination visit.</p>\n\
+    <p>In the event that a patient's participation or the study itself is terminated,\
+    \ the patient shall return all study drug(s) to the investigator.</p>"
 3-10-1-1:
   name: ''
   sectionNumber: 3.10.1.1.
@@ -260,166 +311,63 @@
   name: ''
   sectionNumber: 3.10.2.
   sectionTitle: Qualifications for Analysis
-  text: '<p>All patients who are enrolled in the study will be included in the efficacy
+  text: <p>All patients who are enrolled in the study will be included in the efficacy
     analysis and the safety analysis. Patients will not be excluded from the efficacy
     analysis for reasons such as non-compliance or ineligibility, except for the time
     period immediately preceding the efficacy assessment (see Section 3.9.1.2).</p>
-
-    <p>sss</p>
-
-    <p>&nbsp;</p> '
 3-10-3:
   name: ''
   sectionNumber: 3.10.3.
   sectionTitle: Study Extensions
-  text: '<p>Patients who successfully complete the study will be eligible for participation
+  text: <p>Patients who successfully complete the study will be eligible for participation
     in an openlabel extension phase, where every patient will be treated with active
     agent. The patients who elect to participate in the open-label extension phase
     will be titrated to their maximally titrated dose. This open-label extension phase
     will continue until the time the product becomes marketed and is available to
     the public or until the project is discontinued by the sponsor. Patients may terminate
     at any time at their request.</p>
-
-    <p>&nbsp;</p>
-
-    <p>&nbsp;</p>'
 3-10-3-1:
   name: ''
   sectionNumber: 3.10.3.1.
   sectionTitle: Compliance
-  text: '<p>Because patients enrolled in this study will be outpatients, the knowledge
-    that patients have taken the medication as prescribed will be assured in the following
-    ways:</p>
-
-    <ul>
-
-    <li>
-
-    <p>Investigators will attempt to select those patients and caregivers who have
-    been judged to be compliant.</p>
-
-    </li>
-
-    <li>
-
-    <p>Study medication including unused, partially used, and empty patch containers
-    will be returned at each clinical visit so that the remaining medication can be
-    counted by authorized investigator staff (nurse, pharmacist, or physician). The
-    number of patches remaining will be recorded on the CRF.</p>
-
-    </li>
-
-    <li>
-
-    <p>Following randomization at Visit 3, patients will be instructed to call the
-    site if they have difficulty with application or wearing of patches. If daily
-    doses are reduced, improperly administered, or if a patch becomes detached and
-    requires application of a new patch on three or more days in any 30-day period,
-    the CRO research physician will be notified.</p>
-
-    </li>
-
-    </ul>
-
-    <p>If the daily dose is reduced or improperly administered in the 24 hours prior
-    to any scheduled clinic visit, the visit should be rescheduled (except for early
-    termination and retrieval visits).</p>'
+  text: "<p>Because patients enrolled in this study will be outpatients, the knowledge\
+    \ that patients have taken the medication as prescribed will be assured in the\
+    \ following ways:</p>\n<p>a)  Investigators will attempt to select those patients\
+    \ and caregivers who \nhave been judged to be compliant.</p>\n<p>b)  Study medication\
+    \ including unused, partially used, and empty patch \ncontainers will be returned\
+    \ at each clinical visit so that the remaining \nmedication can be counted by\
+    \ authorized investigator staff (nurse, \npharmacist, or physician). The number\
+    \ of patches remaining will be \nrecorded on the CRF.</p>\n<p>c)  Following randomization\
+    \ at Visit 3, patients will be instructed to call \nthe site if they have difficulty\
+    \ with application or wearing of patches. If \ndaily doses are reduced, improperly\
+    \ administered, or if a patch becomes \ndetached and requires application of a\
+    \ new patch on three or more days \nin any 30-day period, the CRO research physician\
+    \ will be notified.</p>\n<p>If the daily dose is reduced or improperly administered\
+    \ in the 24 hours prior to any scheduled clinic visit, the visit should be rescheduled\
+    \ (except for early termination and retrieval visits).</p>"
 3-11:
   name: ''
   sectionNumber: 3.11.
   sectionTitle: Quality Assurance
-  text: "<p>Xanomeline (LY246708)</p>\n<p>Protocol H2Q-MC-LZZT(c)</p>\n<p>Safety and\
-    \ Efficacy of the Xanomeline \nTransdermal Therapeutic System (TTS) in Patients\
-    \ \nwith Mild to Moderate Alzheimer's Disease</p>\n<p>Safety and Efficacy of the\
-    \ Xanomeline \nTransdermal Therapeutic System (TTS) in Patients \nwith Mild to\
-    \ Moderate Alzheimer's Disease</p>\n<p>3.9.3.2 .2. Serious Adverse Events .........................................................................31</p>\n\
-    <p>3.9.3.3 . Clinical Laboratory Test<span class=\"s7\">s</span>.............................................................................31</p>\n\
-    <p>3.9.3.4 . Other Safety Measure<span class=\"s20\">s</span>.................................................................................33</p>\n\
-    <p>3.9.3.4 .1 Vital Sign Determinatio<span class=\"s18\">n</span>........................................................................34</p>\n\
-    <p>3.9.3.4 .2. Cardiovascular Safety Measure<span class=\"s14\">s</span>...............................................................35</p>\n\
-    <p>3.9.4 . Safety Monitorin<span class=\"s18\">g</span>..............................................................................................35</p>\n\
-    <p>3.9.5 . Appropriateness and Consistency of Measurements .........................................38</p>\n\
-    <p>3.10. Patient Disposition Criteri<span class=\"s11\">a</span>....................................................................................38</p>\n\
-    <p>3.10.1 . Discontinuations ..............................................................................................38</p>\n\
-    <p>3.10.1.1 . Retrieval of Discontinuations ....................................................................39</p>\n\
-    <p>3.10.2 . Qualifications for Analysis ..............................................................................39</p>\n\
-    <p>3.10.3 . Study Extension<span class=\"s19\">s</span>..............................................................................................39</p>\n\
-    <p>3.10.3.1 . Compliance ................................................................................................39</p>\n\
-    <p>3.11. Quality Assurance ..................................................................................................40</p>\n\
-    <p>4. Data Analysis Method<span class=\"s21\">s</span>..................................................................................................41</p>\n\
-    <p>4.1. General Considerations ............................................................................................41</p>\n\
-    <p>4.2. Demographics and Patient Characteristics Measured at \nBaseline ................................................................................................................41</p>\n\
-    <p>4.3. Efficacy Analyse<span class=\"s13\">s</span>.....................................................................................................41</p>\n\
-    <p>4.3.1 . Efficacy Variables to be Analyzed ....................................................................41</p>\n\
-    <p>4.3.2 . Times of Analyses..............................................................................................42</p>\n\
-    <p>4.3.3 . Statistical Methodolog<span class=\"s22\">y</span>.....................................................................................43</p>\n\
-    <p>4.3.4 . One-sided Justification ......................................................................................44</p>\n\
-    <p>4.3.5 . Nominal P-value Adjustment<span class=\"s22\">s</span>...........................................................................45</p>\n\
-    <p>4.4. Safety Analyse<span class=\"s16\">s</span>........................................................................................................46</p>\n\
-    <p>4.5. Subgroup Analyse<span class=\"s13\">s</span>...................................................................................................47</p>\n\
-    <p>4.6. Interim Efficacy Analyse<span class=\"s15\">s</span>........................................................................................47</p>\n\
-    <p>4.7. Interim Safety Analyses ...........................................................................................47</p>\n\
-    <p>4.8. Pharmacokinetic/Pharmacodynamic Analyses ........................................................48</p>\n\
-    <p>Table of Contents (concluded)</p>\n<p>Section Page</p>\n<p>5. Informed Consent,\
-    \ Ethical Review, and Regulatory \nConsideration<span class=\"s22\">s</span>...........................................................................................................49</p>\n\
-    <p>5.1. Informed Consen<span class=\"s21\">t</span>.....................................................................................................49</p>\n\
-    <p>5.2. Ethical Review .........................................................................................................50</p>\n\
-    <p>5.3. Regulatory Consideration<span class=\"s18\">s</span>.......................................................................................50</p>\n\
-    <p>6. Reference<span class=\"s17\">s</span>......................................................................................................................51</p>\n\
-    <p>List of Attachments</p>\n<p>Protocol Attachment LZZT.1.</p>\n<p>Schedule of\
-    \ Events for Protocol H2Q-MC-LZZT(c)</p>\n<p>Protocol Attachment LZZT.2.</p>\n\
-    <p>Alzheimer's Disease Assessment Scale\u2212Cognitive Subscale (ADAS-Cog) with\
-    \ Attention and Concentration Tasks</p>\n<p>Protocol Attachment LZZT.3.</p>\n\
-    <p>Video-referenced Clinician's Interview-Based Impression of Change (CIBIC+)</p>\n\
-    <p>Protocol Attachment LZZT.4.</p>\n<p>Revised Neuropsychiatric Inventory (NPI-X)</p>\n\
-    <p>Protocol Attachment LZZT.5.</p>\n<p>Disability Assessment for Dementia (DAD)</p>\n\
-    <p>Protocol Attachment LZZT.6.</p>\n<p>Mini-Mental State Examination (MMSE)</p>\n\
-    <p>Protocol Attachment LZZT.7.</p>\n<p>NINCDS/ADRDA Guidelines</p>\n<p>Protocol\
-    \ Attachment LZZT.8.</p>\n<p>Hachinski Ischemic Scale</p>\n<p>Protocol Attachment\
-    \ LZZT.9.</p>\n<p>TTS Acceptability Survey</p>\n<p>Protocol Attachment LZZT.10.</p>\n\
-    <p>Protocol Signatures</p>\n<p>Safety and Efficacy of the Xanomeline \nTransdermal\
-    \ Therapeutic System (TTS) in Patients \nwith Mild to Moderate Alzheimer's Disease</p>"
-3-12:
-  name: ''
-  sectionNumber: '3.12'
-  sectionTitle: To Be Provided
-  text: ''
-3-13:
-  name: ''
-  sectionNumber: '3.13'
-  sectionTitle: To Be Provided
-  text: ''
-3-14:
-  name: ''
-  sectionNumber: '3.14'
-  sectionTitle: To Be Provided
-  text: 'dddddd
-
-    d
-
-    d
-
-    d
-
-    d
-
-    d
-
-    d
-
-    d'
-3-15:
-  name: ''
-  sectionNumber: '3.15'
-  sectionTitle: To Be Provided
-  text: ''
-3-16:
-  name: ''
-  sectionNumber: '3.16'
-  sectionTitle: To Be Provided
-  text: 'dddddddd
-
-    '
+  text: "<p>To ensure both the safety of participants in the study, and the collection\
+    \ of accurate, complete, and reliable data, Lilly or its representatives will\
+    \ perform the following activities:</p>\n<p>\u2022 Provide instructional material\
+    \ to the study sites, as appropriate.</p>\n<p>\u2022 Sponsor a start-up training\
+    \ session to instruct the investigators and study \ncoordinators. This session\
+    \ will give instruction on the protocol, the \ncompletion of the clinical report\
+    \ forms, and study procedures.</p>\n<p>\u2022 Make periodic visits to the study\
+    \ site.</p>\n<p>\u2022 Be available for consultation and stay in contact with\
+    \ the study site \npersonnel by mail, telephone, and/or fax.</p>\n<p>\u2022 Review\
+    \ and evaluate clinical report form data and use standard computer \nedits to\
+    \ detect errors in data collection.</p>\n<p>To ensure the safety of participants\
+    \ in the study and to ensure accurate, complete, and reliable data, the investigator\
+    \ will do the following:</p>\n<p>\u2022 Keep records of laboratory tests, clinical\
+    \ notes, and patient medical \nrecords in the patient files as original source\
+    \ documents for the study.</p>\n<p>Lilly or its representatives may periodically\
+    \ check a sample of the patient data recorded against source documents at the\
+    \ study site. The study may be audited by Lilly Medical Quality Assurance (MQA)\
+    \ and/or regulatory agencies at any time. Investigators will be given notice before\
+    \ an MQA audit occurs.</p>"
 3-2:
   name: ''
   sectionNumber: 3.2.
@@ -447,16 +395,12 @@
   name: ''
   sectionNumber: 3.3.
   sectionTitle: Investigator Information
-  text: '<p>The name, title, and institution of the investigator(s) is/are listed
-    on the Investigator/Contacts cover pages provided with this protocol. If the investigator
+  text: <p>The name, title, and institution of the investigator(s) is/are listed on
+    the Investigator/Contacts cover pages provided with this protocol. If the investigator
     is changed after the study has been approved by an ethical review board, or a
     regulatory agency, or by Lilly, this addition will not be considered a change
     to the protocol. However, the Investigator/Contacts cover pages will be updated
     to provide this information.</p>
-
-    <p>&nbsp;</p>
-
-    <p>&nbsp;</p>'
 3-3-1:
   name: ''
   sectionNumber: 3.3.1.
@@ -468,11 +412,7 @@
     <p>The investigator who will serve as the final report coordinating investigator
     will be an individual that is involved with the design and analysis of the study.
     This final report coordinating investigator will be named by the sponsor of the
-    study.</p>
-
-    <p>dddddddddd</p>
-
-    <p>&nbsp;</p>'
+    study.</p>'
 3-4:
   name: ''
   sectionNumber: 3.4.
@@ -802,24 +742,12 @@
   name: ''
   sectionNumber: 3.4.4.
   sectionTitle: Sample Size
-  text: '<p>Approximately 100 patients will be randomized to each of the 3 treatment
+  text: <p>Approximately 100 patients will be randomized to each of the 3 treatment
     groups. Previous experience with the oral formulation of xanomeline suggests that
     this sample size has 90% power to detect a 3.0 mean treatment difference in ADAS-Cog
     (p&lt;.05, two-sided), based on a standard deviation of 6.5. Furthermore, this
     sample size has 80% power to detect a 0.36 mean treatment difference in CIBIC+
     (p&lt;.05, two-sided), based on a standard deviation of 0.9.</p>
-
-    <p>ddddd</p>
-
-    <p>ddddvvvvvvvvvvvvvvv</p>
-
-    <p>&nbsp;</p>
-
-    <p>dddd</p>
-
-    <p>&nbsp;</p>
-
-    <p>&nbsp;</p>'
 3-5:
   name: ''
   sectionNumber: 3.5.
@@ -1245,10 +1173,10 @@
 
     <p>An automated blood pressure cuff may be used in place of a mercury manometer
     if it is regularly (at least monthly) standardized against a mercury manometer.</p>'
-3-9-3-4-2:
+3-9-3-4-2-Cardiovascular:
   name: ''
-  sectionNumber: 3.9.3.4.2.
-  sectionTitle: Cardiovascular Safety Measures
+  sectionNumber: 3.9.3.4.2.Cardiovascular
+  sectionTitle: Safety Measures
   text: "<p>Cardiovascular status will be assessed during the trial with the following\
     \ measures:</p>\n<p>\u2022 All patients will be screened by obtaining a 12-lead\
     \ ECG, and will have \nrepeat ECGs performed at Visits 4, 5, 7, 8, 9, 10, 11,\
