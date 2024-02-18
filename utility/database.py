@@ -56,6 +56,20 @@ class Database:
       application_logger.exception("Exception during section write", e)
       self._lock.release()
 
+  def put_section_title(self, section_key, title):
+    try:
+      self._lock.acquire()
+      section = self.get_section(section_key)
+      if section:
+        application_logger.info(f"Updatting section title {section_key}")
+        self._data[section_key]['sectionTitle'] = title
+        self._write()
+      self._lock.release()
+      return self._data[section_key]
+    except Exception as e:
+      application_logger.exception("Exception during put section title", e)
+      self._lock.release()
+
   def insert_usdm(self, section_key: str, type: str, position: int) -> str:
     try:
       print("A")

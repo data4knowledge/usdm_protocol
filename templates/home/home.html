@@ -33,12 +33,16 @@
         <!-- Card Header -->
         <div class="card-header">
           <div class="d-flex justify-content-between">
-            <h5 id="section_title_div">Section Detail</h5>
+            <div class="d-flex">
+                <div id="section_number_div" class="p-2"><h5>#</h5></div>
+                <div id="section_title_div" class="p-2 flex-grow-1"><h5>Section</h5></div>
+            </div>
             <div class="d-flex justify-right">
               <div id="usdm_section_div"></div>
               <div id="delete_section_div"></div>
               <div id="add_section_div"></div>
-              <a class="link-dark" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#m11HelpModal">
+              <div id="edit_title_div"></div>
+              <a class="link-dark" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="editHelpModal">
                 <i class="ps-2 bi bi-info-circle"></i>
               </a>  
               <a class="link-dark" style="font-size: 20px;" data-bs-toggle="offcanvas" href="#section_menu_div" role="button">
@@ -56,7 +60,7 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="m11HelpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="editHelpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">

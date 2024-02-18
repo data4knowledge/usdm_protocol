@@ -157,6 +157,23 @@ async def post_section(request: Request, section: str, type: str, textCursor: in
   response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
   return response
 
+@app.get('/sections/{section}/title')
+async def get_title(request: Request, section: str):
+  check_simple_authentication(request)
+  data = database.get_section(section)
+  response = templates.TemplateResponse('home/partials/section_title.html', { "request": request, 'key': section, 'data': data})
+  return response
+
+@app.post('/sections/{section}/title')
+async def put_title(request: Request, section: str, section_title_input: str = Form(...)):
+  check_simple_authentication(request)
+  data = database.put_section_title(section, section_title_input)
+  data = database.get_section(section)
+  can_add = database.can_add_section(section)
+  toc = database.toc_sections()
+  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': toc})
+  return response
+
 @app.get('/download')
 async def get_csv(request: Request):
   check_simple_authentication(request)

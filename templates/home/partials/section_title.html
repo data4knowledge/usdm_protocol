@@ -1,0 +1,6 @@
+<div id="section_title_div" class="p-2 flex-grow-1">
+  <div class="input-group mb-3">
+    <input type="text" name="section_title_input" id="section_title_input" class="form-control" value="{{data['sectionTitle']}}">
+    <button class="btn btn-outline-secondary" type="button" id="section_title_button" hx-post="/sections/{{key}}/title" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='section_title_input']">Save</button>  
+  </div>
+</div>
