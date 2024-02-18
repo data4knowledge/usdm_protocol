@@ -51,6 +51,7 @@ class Database:
         self._data[section_key]['text'] = text
         self._write()
       self._lock.release()
+      return self._data[section_key]
     except Exception as e:
       application_logger.exception("Exception during section write", e)
       self._lock.release()

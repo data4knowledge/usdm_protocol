@@ -106,10 +106,10 @@ async def get_section(request: Request, section: str):
 async def post_section(request: Request, section: str, text: str = Form(...)):
   check_simple_authentication(request)
   #database = Database()
-  database.put_section(section, text)
-  # can_add = database.can_add_section(section)
-  # response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
-  # return response
+  data = database.put_section(section, text)
+  #can_add = database.can_add_section(section)
+  #response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
+  #return response
   return {}
 
 @app.get('/sections/{section}/document')
