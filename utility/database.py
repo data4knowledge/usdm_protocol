@@ -2,6 +2,7 @@ import os
 import yaml
 import threading 
 import csv
+import pandas as pd
 from d4kms_generic.logger import application_logger
 
 class Database:
@@ -72,7 +73,6 @@ class Database:
 
   def insert_usdm(self, section_key: str, type: str, position: int) -> str:
     try:
-      print("A")
       self._lock.acquire()
       section = self.get_section(section_key)
       if section:
@@ -122,21 +122,37 @@ class Database:
       application_logger.exception("Exception during section add", e)
       return None
 
-  def download(self):
+  def download_csv(self):
     full_path = os.path.join(self.DIR, "protocol_section.csv")
     filename = os.path.basename(full_path)
     media_type = 'text/plain' 
     self._write_csv_file(full_path)
     return full_path, filename, media_type
 
+  def download_excel(self):
+    full_path = os.path.join(self.DIR, "protocol_section.xlsx")
+    filename = os.path.basename(full_path)
+    media_type = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    self._write_excel_file(full_path)
+    return full_path, filename, media_type
+
   def _write_csv_file(self, full_path):
     order = self._section_order()
     data = [{'name': self._data[x]['name'], 'text': self._data[x]['text'], 'sectionNumber': str(self._data[x]['sectionNumber']), 'sectionTitle': self._data[x]['sectionTitle']} for x in order]
     with open(full_path, "w") as f:
-      writer = csv.DictWriter(f, fieldnames=['sectionNumber',	'name',	'sectionTitle',	'text'])
+      writer = csv.DictWriter(f, fieldnames=['sectionNumber',	'name',	'sectionTitle',	'text'], quoting=csv.QUOTE_ALL)
       writer.writeheader()
       writer.writerows(data)
 
+  def _write_excel_file(self, full_path):
+    order = self._section_order()
+    df = pd.DataFrame(columns=['sectionNumber',	'name',	'sectionTitle',	'text'])
+    for x in order:
+      row = {'name': self._data[x]['name'], 'text': self._data[x]['text'], 'sectionNumber': str(self._data[x]['sectionNumber']), 'sectionTitle': self._data[x]['sectionTitle']}
+      df.loc[len(df)]=row
+    with pd.ExcelWriter(full_path) as writer:
+      df.to_excel(writer, sheet_name="studyDesignContent", header=True, index=False)
+   
   def _level(self, section):
     text = section[:-1] if section.endswith('.') else section
     parts = text.split('.')
@@ -144,12 +160,12 @@ class Database:
   
   def _read(self):
     with open(self.FILEPATH, "r") as f:
-      data = yaml.load(f, Loader=yaml.FullLoader)
+      data = yaml.safe_load(f)
     return data
   
   def _write(self):
     with open(self.FILEPATH, "w") as f:
-      yaml.dump(self._data, f)
+      yaml.safe_dump(self._data, f)
 
   def _section_order(self):
     return sorted(list(self._data.keys()), key=self._section)
@@ -180,7 +196,7 @@ class Database:
     elif type == "image":
       return self._insert_text(text, '<usdm:macro id="image" file="file name" type="png|jpg"/>', position)
     elif type == "element":
-      return self._insert_text(text, '<usdm:macro id=element" name="study_phase|study_short_title|study_full_title|study_acronym|study_rationale|study_version_identifier|study_identifier|study_regulatory_identifiers|study_date|approval_date|organization_name_and_address|amendment|amendment_scopes"/>', position)
+      return self._insert_text(text, '<usdm:macro id="element" name="study_phase|study_short_title|study_full_title|study_acronym|study_rationale|study_version_identifier|study_identifier|study_regulatory_identifiers|study_date|approval_date|organization_name_and_address|amendment|amendment_scopes"/>', position)
     elif type == "section":
       return self._insert_text(text, '<usdm:macro id="section" name="title_page|inclusion|exclusion|objective_endpoints" template="m11|plain"/>', position)
     elif type == "note":

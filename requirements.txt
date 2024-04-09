@@ -8,3 +8,6 @@ httpx
 python-dotenv
 python-multipart
 d4kms
+pd
+openpyxl
+xlwt

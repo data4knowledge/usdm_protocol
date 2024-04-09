@@ -177,5 +177,5 @@ async def put_title(request: Request, section: str, section_title_input: str = F
 @app.get('/download')
 async def get_csv(request: Request):
   check_simple_authentication(request)
-  full_path, filename, media_type = database.download()
+  full_path, filename, media_type = database.download_excel()
   return FileResponse(path=full_path, filename=filename, media_type=media_type)

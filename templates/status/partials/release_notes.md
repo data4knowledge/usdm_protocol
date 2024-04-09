@@ -1,6 +1,8 @@
-**Release 0.2, 2024-02-18**
+**Release 0.2, 2024-04-09**
 
-Not yet released
+- Changed the download from CSV to MS Excel
+_ Fixed bug with macro and missing quote
+
 
 **Release 0.1, 2024-02-18**
 
