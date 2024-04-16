@@ -1097,98 +1097,64 @@
   name: ''
   sectionNumber: '2.3'
   sectionTitle: Benefit-Risk Assessment
-  text: '<p>Detailed information about the known and expected benefits, risks, and
-    reasonably expected adverse events (AEs) of ALXN1840 are presented in the IB.
-    Information about the known or potential risks and benefits are detailed in the
-    following sections.</p>
-
-    '
-2-3-1:
-  name: ''
-  sectionNumber: 2.3.1
-  sectionTitle: Risk Assessment
-  text: "<p>Details of the potential risks and mitigation strategy are provided in\
-    \ Table 3.</p>\n<p>ALXN1840-WD-204</p>\n<p><b>Table 3:</b></p>\n<p><b>Potential\
-    \ Risk of Clinical Significance</b></p>\n<p><b>Summary of Data/Rationale for Risk</b></p>\n\
-    <p><b>Mitigation Strategy</b></p>\n<p><b>ALXN1840</b></p>\n<p>Dose-dependent elevations\
-    \ in transaminases (ALT and AST)</p>\n<p>Generally mild to moderate in severity,\
-    \ asymptomatic and reversible with dose adjustments were reported, usually after\
-    \ 3 - 6 weeks of treatment.</p>\n<p>Results obtained from studies of ALXN1840\
-    \ and ammonium tetrathiomolybdate in participants with WD; see the IB.</p>\n<p>Regular\
-    \ monitoring of liver function tests.</p>\n<p>Dose modification or discontinuation\
-    \ (Section 6.6).</p>\n<p>Anemia Anemia has been observed in participants with\
-    \ WD, attributed to overtreatment and resultant copper depletion; see the IB.</p>\n\
-    <p>Monitoring complete blood count. Dose modification or discontinuation (Section\
-    \ 6.6).</p>\n<p>Low white blood cell count (leukopenia, bone marrow toxicity)</p>\n\
-    <p>Leukopenia and bone marrow toxicity (myelosuppression) have been observed in\
-    \ participants with WD, attributed to overtreatment and resultant copper depletion.\
-    \ Results obtained from studies of ALXN1840 and ammonium tetrathiomolybdate in\
-    \ participants with WD; see the IB.</p>\n<p>Monitoring of complete blood count.\
-    \ Dose modification or discontinuation (Section 6.6).</p>\n<p>Neurological dysfunction\
-    \ Neurological worsening may occur due to copper mobilization. Peripheral neuropathy\
-    \ may be seen with over decoppering; however, symptoms such as myelosuppression\
-    \ is typically seen earlier.</p>\n<p>Regular monitoring for neurologic adverse\
-    \ events. Dose modification or discontinuation (Section 6.6).</p>\n<p><b>Study\
-    \ Procedures</b></p>\n<p>Risks associated with the study design and procedures</p>\n\
-    <p>Participants will undergo repeated blood draws to measure the PK of the study\
-    \ intervention and metabolism. Blood draws may result in ecchymosis, redness,\
-    \ and minor pain to the site. On rare occasion, infection or thrombophlebitis\
-    \ can occur.</p>\n<p>Blood draws are optimized for PK. A cannula may be placed\
-    \ to minimize needle sticks; however, a catheter may not be left in place for\
-    \ longer than 72 hours and should be flushed a minimum of every 8 hours.</p>\n\
-    <p><b>Potential Risks and Mitigation Strategy</b></p>\n<p>Abbreviations: ALT =\
-    \ alanine aminotransferase; AST = aspartate aminotransferase; IB = Investigator's\
-    \ Brochure; PK \n= pharmacokinetics; WD = Wilson disease.</p>\n<p><b>2.3.1.1.\
-    \ Coronavirus (SARS-CoV-2) Disease 2019</b></p>\n<p>The COVID-19 pandemic is active\
-    \ at the time of this protocol amendment. Given this unique circumstance, specific\
-    \ consideration has been given to the potential risks and mitigation measures\
-    \ due to COVID-19 vaccine (see Section 10.5).</p>\n<p><b>2.3.2. Benefit Assessment</b></p>\n\
-    <p>The main objective of effective WD treatment is to provide:</p>\n<p>ALXN1840-WD-204</p>\n\
-    <p>\u2022 Rapid and sustained control of copper and mitigation of clinical symptoms\
-    \ of WD \nthrough the formation of a stable tetrathiomolybdate-copper-albumin\
-    \ TPC. Copper \ncontrol may prevent tissue toxicity, including neurological deterioration\
-    \ that has been \nreported at the initiation of treatment with chelators. This\
-    \ hypothesis is supported by \nresults from Study\u202FWTX101-201 in participants\
-    \ with WD (Weiss, 2017).</p>\n<p>\u2022 Improved compliance over current chelator\
-    \ therapy through improved tolerability and the \nconvenience of a simplified\
-    \ dosing regimen (once daily) compared to current therapeutic \noptions (multiple\
-    \ daily dosing). \nPotential benefits of study participation for participants\
-    \ include:</p>\n<p>\u2022 Participation in a clinical study increases the participant's\
-    \ understanding of the \npathophysiology and treatment of WD.</p>\n<p>\u2022 Removal\
-    \ of total body copper as a definitive treatment for WD.</p>\n<p>\u2022 Participants\
-    \ in the study will contribute to improved care for other participants with WD\
-    \ \nin the future.</p>\n<p><b>2.3.3. Overall Benefit-Risk Conclusion</b></p>\n\
-    <p>Taking into account the measures implemented to minimize risk to participants\
-    \ in this study, the potential risks identified in association with ALXN1840 are\
-    \ justified by the anticipated benefits that may be afforded to participants with\
-    \ WD.</p>"
-2-3-2:
-  name: ''
-  sectionNumber: 2.3.2
-  sectionTitle: Benefit Assessment
-  text: "<p>The main objective of effective WD treatment is to provide:</p>\n<ul>\n\
-    <li><p>Rapid and sustained control of copper and mitigation of clinical symptoms\
-    \ of WD \nthrough the formation of a stable tetrathiomolybdate-copper-albumin\
-    \ TPC. Copper \ncontrol may prevent tissue toxicity, including neurological deterioration\
-    \ that has been \nreported at the initiation of treatment with chelators. This\
-    \ hypothesis is supported by \nresults from Study\u202FWTX101-201 in participants\
-    \ with WD (Weiss, 2017).</p></li>\n<li><p>Improved compliance over current chelator\
-    \ therapy through improved tolerability and the \nconvenience of a simplified\
-    \ dosing regimen (once daily) compared to current therapeutic \noptions (multiple\
-    \ daily dosing). </p></li>\n</ul>\n<p>Potential benefits of study participation\
-    \ for participants include:</p>\n<ul>\n<li><p>Participation in a clinical study\
-    \ increases the participant's understanding of the \npathophysiology and treatment\
-    \ of WD.</p></li>\n<li><p>Removal of total body copper as a definitive treatment\
-    \ for WD.</p>\n<li><p>Participants in the study will contribute to improved care\
-    \ for other participants with WD \nin the future.</p></li>\n<ul>"
-2-3-3:
-  name: ''
-  sectionNumber: 2.3.3
-  sectionTitle: Overall Benefit-Risk Conclusion
-  text: <p>Taking into account the measures implemented to minimize risk to participants
-    in this study, the potential risks identified in association with ALXN1840 are
-    justified by the anticipated benefits that may be afforded to participants with
-    WD.</p>
+  text: "<p>Detailed information about the known and expected benefits, risks, and\
+    \ reasonably expected adverse events (AEs) of ALXN1840 are presented in the IB.\
+    \ Information about the known or potential risks and benefits are detailed in\
+    \ the following sections.</p>\n<p><b>2.3.1. Risk Assessment</b></p>\n<p>Details\
+    \ of the potential risks and mitigation strategy are provided in Table 3.</p>\n\
+    <p>ALXN1840-WD-204</p>\n<p><b>Table 3:</b></p>\n<p><b>Potential Risk of Clinical\
+    \ Significance</b></p>\n<p><b>Summary of Data/Rationale for Risk</b></p>\n<p><b>Mitigation\
+    \ Strategy</b></p>\n<p><b>ALXN1840</b></p>\n<p>Dose-dependent elevations in transaminases\
+    \ (ALT and AST)</p>\n<p>Generally mild to moderate in severity, asymptomatic and\
+    \ reversible with dose adjustments were reported, usually after 3 - 6 weeks of\
+    \ treatment.</p>\n<p>Results obtained from studies of ALXN1840 and ammonium tetrathiomolybdate\
+    \ in participants with WD; see the IB.</p>\n<p>Regular monitoring of liver function\
+    \ tests.</p>\n<p>Dose modification or discontinuation (Section 6.6).</p>\n<p>Anemia\
+    \ Anemia has been observed in participants with WD, attributed to overtreatment\
+    \ and resultant copper depletion; see the IB.</p>\n<p>Monitoring complete blood\
+    \ count. Dose modification or discontinuation (Section 6.6).</p>\n<p>Low white\
+    \ blood cell count (leukopenia, bone marrow toxicity)</p>\n<p>Leukopenia and bone\
+    \ marrow toxicity (myelosuppression) have been observed in participants with WD,\
+    \ attributed to overtreatment and resultant copper depletion. Results obtained\
+    \ from studies of ALXN1840 and ammonium tetrathiomolybdate in participants with\
+    \ WD; see the IB.</p>\n<p>Monitoring of complete blood count. Dose modification\
+    \ or discontinuation (Section 6.6).</p>\n<p>Neurological dysfunction Neurological\
+    \ worsening may occur due to copper mobilization. Peripheral neuropathy may be\
+    \ seen with over decoppering; however, symptoms such as myelosuppression is typically\
+    \ seen earlier.</p>\n<p>Regular monitoring for neurologic adverse events. Dose\
+    \ modification or discontinuation (Section 6.6).</p>\n<p><b>Study Procedures</b></p>\n\
+    <p>Risks associated with the study design and procedures</p>\n<p>Participants\
+    \ will undergo repeated blood draws to measure the PK of the study intervention\
+    \ and metabolism. Blood draws may result in ecchymosis, redness, and minor pain\
+    \ to the site. On rare occasion, infection or thrombophlebitis can occur.</p>\n\
+    <p>Blood draws are optimized for PK. A cannula may be placed to minimize needle\
+    \ sticks; however, a catheter may not be left in place for longer than 72 hours\
+    \ and should be flushed a minimum of every 8 hours.</p>\n<p><b>Potential Risks\
+    \ and Mitigation Strategy</b></p>\n<p>Abbreviations: ALT = alanine aminotransferase;\
+    \ AST = aspartate aminotransferase; IB = Investigator's Brochure; PK \n= pharmacokinetics;\
+    \ WD = Wilson disease.</p>\n<p><b>2.3.1.1. Coronavirus (SARS-CoV-2) Disease 2019</b></p>\n\
+    <p>The COVID-19 pandemic is active at the time of this protocol amendment. Given\
+    \ this unique circumstance, specific consideration has been given to the potential\
+    \ risks and mitigation measures due to COVID-19 vaccine (see Section 10.5).</p>\n\
+    <p><b>2.3.2. Benefit Assessment</b></p>\n<p>The main objective of effective WD\
+    \ treatment is to provide:</p>\n<p>ALXN1840-WD-204</p>\n<p>\u2022 Rapid and sustained\
+    \ control of copper and mitigation of clinical symptoms of WD \nthrough the formation\
+    \ of a stable tetrathiomolybdate-copper-albumin TPC. Copper \ncontrol may prevent\
+    \ tissue toxicity, including neurological deterioration that has been \nreported\
+    \ at the initiation of treatment with chelators. This hypothesis is supported\
+    \ by \nresults from Study\u202FWTX101-201 in participants with WD (Weiss, 2017).</p>\n\
+    <p>\u2022 Improved compliance over current chelator therapy through improved tolerability\
+    \ and the \nconvenience of a simplified dosing regimen (once daily) compared to\
+    \ current therapeutic \noptions (multiple daily dosing). \nPotential benefits\
+    \ of study participation for participants include:</p>\n<p>\u2022 Participation\
+    \ in a clinical study increases the participant's understanding of the \npathophysiology\
+    \ and treatment of WD.</p>\n<p>\u2022 Removal of total body copper as a definitive\
+    \ treatment for WD.</p>\n<p>\u2022 Participants in the study will contribute to\
+    \ improved care for other participants with WD \nin the future.</p>\n<p><b>2.3.3.\
+    \ Overall Benefit-Risk Conclusion</b></p>\n<p>Taking into account the measures\
+    \ implemented to minimize risk to participants in this study, the potential risks\
+    \ identified in association with ALXN1840 are justified by the anticipated benefits\
+    \ that may be afforded to participants with WD.</p>"
 '3':
   name: ''
   sectionNumber: '3.'

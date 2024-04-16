@@ -118,7 +118,7 @@ async def document(request: Request, section: str):
 @app.post('/sections/{section}/addSibling')
 async def post_section(request: Request, section: str):
   check_simple_authentication(request)
-  new_section = database.add_section(section)
+  new_section = database.add_sibling_section(section)
   if new_section:
     data = database.get_section(new_section)
     can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
