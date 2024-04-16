@@ -68,274 +68,152 @@
   sectionTitle: Synopsis
   text: "<p><b>Protocol Title: </b><usdm:macro id=\"element\" name=\"study_full_title\"\
     />\n<p><b>Short Title: </b><usdm:macro id=\"element\" name=\"study_short_title\"\
-    /></p>\n<p><b>Rationale:</b></p>\n<p><b>Objectives and Endpoints</b></p>\n<p>ALXN1840-WD-204</p>\n\
-    <p><b>Objectives Endpoints</b></p>\n<p><b>Primary</b> Assess net copper balance\
-    \ with daily repeat-dose ALXN1840 treatment (15 mg and 30 mg) in participants\
-    \ with Wilson disease (WD)</p>\n<p>Mean daily copper balance where copper balance\
-    \ is measured by the calculated difference between copper intake (in food and\
-    \ drink) and copper output (in feces and urine) during ALXN1840 accumulation and\
-    \ steady-state periods for each dose</p>\n<p><b>Secondary</b> Assess change in\
-    \ copper balance in response to ALXN1840 15 mg/day and 30 mg/day during ALXN1840\
-    \ accumulation and at steady state periods versus the pretreatment baseline in\
-    \ participants with WD</p>\n<p>Change in mean daily copper balance as measured\
-    \ by the calculated difference between copper intake (in food and drink) and copper\
-    \ output (in feces and urine) from pretreatment baseline (Days -4 through -1)\
-    \ and ALXN1840 accumulation and steady-state periods for each dose</p>\n<p>Investigate\
-    \ the effect of ALXN1840 (15 mg/day and 30 mg/day) on the disposition of copper\
-    \ in participants with WD</p>\n<p>Copper quantified in food, drink, feces, and\
-    \ urine, including plasma total and labile bound copper (LBC) during ALXN1840\
-    \ accumulation and steady-state periods for each dose</p>\n<p>Investigate the\
-    \ effect of ALXN1840 on the disposition of molybdenum at steady state at 15 mg/day\
-    \ and 30 mg/day in participants with WD</p>\n<p>Molybdenum quantified in food,\
-    \ drink, feces, and urine, plasma total molybdenum at ALXN1840 steady state</p>\n\
-    <p>Assess steady-state total molybdenum balance as a measure of ALXN1840 15 mg/day\
-    \ and 30 mg/day in participants with WD</p>\n<p>Mean daily molybdenum balance\
-    \ as demonstrated through measurement of molybdenum intake (in food, drink and\
-    \ ALXN1840), and molybdenum output (feces and urine) representing ALXN1840 steady\
-    \ state</p>\n<p>Assess accumulation of molybdenum with ALXN1840 treatment at 15\
-    \ mg/day and 30 mg/day in participants with WD</p>\n<p>Accumulation of molybdenum\
-    \ as determined by molybdenum balance</p>\n<p>Determine the steady-state plasma\
-    \ pharmacokinetic (PK) of total molybdenum and plasma ultrafiltrate (PUF) molybdenum\
-    \ (as surrogate measures of ALXN1840, 15 mg and 30 mg) in participants with WD</p>\n\
-    <p>PK parameters for plasma total and PUF-molybdenum</p>\n<p><b>Safety</b> \n\
-    Evaluate the safety and tolerability of repeated-dose \nadministration of ALXN1840\
-    \ 15 mg/day and 30 \nmg/day in participants with WD</p>\n<p>Safety parameters:</p>\n\
-    <p>\u2022 Treatment emergent adverse events (TEAEs)/serious \nadverse events (SAEs)</p>\n\
-    <p>\u2022 Clinical laboratory assessments (serum chemistry, \nhematology, coagulation,\
-    \ and urinalysis)</p>\n<p>\u2022 Physical examinations</p>\n<p>\u2022 Heart rate,\
-    \ intervals (PR, QRS, QT and QTc), and \nclinically significant electrocardiogram\
-    \ (ECG) \nfindings as determined by triplicate 12-lead ECG</p>\n<p>\u2022 Vital\
-    \ sign assessments (blood pressure and heart rate)</p>\n<p><b>Exploratory</b>\
-    \ Determine dose response of ALXN1840 15 mg/day and 30 mg/day for copper balance\
-    \ in participants with WD</p>\n<p>Assess dose response of ALXN1840 on copper balance\
-    \ focusing on copper balance</p>\n<p>Determine the effect of treatment duration\
-    \ on copper balance in participants with WD</p>\n<p>Determine the effect of time\
-    \ following initiation of ALXN1840 treatment on copper balance</p>\n<p>Assess\
-    \ the effects of ALXN1840 on ceruloplasmin, ceruloplasmin-bound copper LBC profiles\
-    \ in plasma in participants with WD</p>\n<p>Ceruloplasmin, ceruloplasmin-bound\
-    \ copper, and LBC: Change in ceruloplasmin at Days 1, 8, 25, 29, 36, and Day 39\
-    \ compared with predose</p>\n<p>ALXN1840-WD-204</p>\n<p><b>Objectives Endpoints</b></p>\n\
-    <p>Assess dose proportionality at steady state of doses of ALXN1840 15 mg/day\
-    \ and 30 mg/day in participants with WD</p>\n<p>Based on PK parameters</p>\n<p>Assess\
-    \ effects ALXN1840 on copper:molybdenum ratio in plasma at steady state in participants\
-    \ with WD</p>\n<p>Measure plasma copper:molybdenum ratios at steady state compared\
-    \ with predose</p>\n<p>Assess the effects of repeat-dose ALXN1840 on copper:molybdenum\
-    \ ratio in urine and feces in participants with WD</p>\n<p>Mean daily copper:molybdenum\
-    \ ratio in urine and feces at steady state compared with predose baseline</p>\n\
-    <p>Note: The accumulation period refers to time from initiation of ALXN1840 (Day\
-    \ 1) to expected steady state at Day 10, based on 5 times the half-life of 2 days.</p>\n\
-    <p><b>Overall Design</b> This is a single-arm, open-label, repeat-dose study to\
-    \ evaluate the effects of ALXN1840 administration on copper balance in participants\
-    \ with WD. The safety and tolerability of ALXN1840 in participants with WD will\
-    \ also be assessed. ALXN1840 PK in plasma as measured via total molybdenum and\
-    \ plasma ultrafiltrate (PUF) molybdenum will be determined after repeated dosing\
-    \ along with total molybdenum mass balance at steady state.</p>\n<p><b>Disclosure\
-    \ Statement</b>: This is an open-label, 3-period study with 1 arm. <b>Number of\
-    \ Participants:</b></p>\n<p>The sample size will be approximately 10 participants\
-    \ which will allow a general characterization of copper balance in response to\
-    \ ALXN1840.</p>\n<p><span class=\"s16\"><b>N</b></span><span class=\"s17\"><b>ot</b></span><span\
-    \ class=\"s18\"><b>e</b></span><span class=\"s17\">:</span> \u201CEnrolled\u201D\
-    \ means all participants who sign the informed consent form (ICF), are eligible\
-    \ for the study, and are registered on Day -7 when participants are assigned a\
-    \ participant number.</p>\n<p><b>Intervention Groups and Duration:</b></p>\n<p>Treatment-experienced\
-    \ (which includes standard of care therapies or ALXN1840) and treatment-na\xEF\
-    ve participants are eligible for this study. Following screening and enrollment,\
-    \ participants will have a Run-in Period to support diet equilibration (Day -7\
-    \ through Day -5) and measurement of pretreatment copper and molybdenum balance\
-    \ (Day -4 through Day -1). Following the Run-in Period, participants will be administered\
-    \ ALXN1840 at 15 mg/day for a treatment period of approximately 28 days followed\
-    \ by titration up to 30 mg/day on Day 29. Before titration to 30 mg/day, the Safety\
-    \ Review Committee (SRC) will review available safety data through Day 23 for\
-    \ each participant.</p>\n<p>Participants will have intake and output collection\
-    \ periods from Day -4 through Day -1, from Day 1 through Day 8 (initial 15 mg/day\
-    \ collection period), and Day 25 through Day 39. The collection periods will support\
-    \ an assessment of both copper and molybdenum balance (as a measure of ALXN1840\
-    \ ADME) at the 15 mg/day and 30 mg/day doses and will allow assessment of the\
-    \ effects of duration of treatment on copper elimination and copper balance.</p>\n\
-    <p>Participants may be discharged from the clinical research unit (CRU) on Day\
-    \ 9 to return on Day 22 or Day 23 (predose); all procedures will start on Day\
-    \ 23. To ensure flexibility, the Outpatient Period during Treatment Period 1 may\
-    \ be extended up to an additional 14 days with Investigator approval. In this\
-    \ situation, participants will be given additional investigational product to\
-    \ support daily dosing throughout the Outpatient Period. In such cases, the actual\
-    \ Outpatient Period</p>\n<p>ALXN1840-WD-204</p>\n<p>duration will be recorded\
-    \ and the participant will continue Inpatient Period 2 at Day 23. During the Outpatient\
-    \ Period, participants will use SMS text messaging to confirm study intervention\
-    \ administration. At the CRU's discretion, participants may remain in the CRU\
-    \ during the outpatient period for safety or to maintain the integrity of the\
-    \ conduct of the study.</p>\n<p><b>Safety Review Committee:</b></p>\n<p>A Safety\
-    \ Review Committee (SRC), composed of a minimum of the Investigator, Alexion Medical\
-    \ Monitor, and Alexion Safety Physician, will meet at the end of 15 mg/day dosing\
-    \ to confirm proceeding to 30 mg/day and as necessary based on any emerging safety\
-    \ concerns.</p>\n<p><span class=\"s19\"><b>S</b></span><span class=\"s20\"><b>c</b></span><span\
-    \ class=\"s19\"><b>h</b></span><span class=\"s20\"><b>e</b></span><span class=\"\
-    s21\"><b>m</b></span><span class=\"s22\"><b>a</b></span> <b>1.2. Figure 1:</b></p>\n\
-    <p>ALXN1840-WD-204</p>\n<p><b>Study Schematic</b></p>\n<p>1. Participants eligible\
-    \ for the study will be enrolled on Day -7 and initiated on a copper- and molybdenumcontrolled\
-    \ diet, which will be continued during Treatment Period 1 and Treatment Period\
-    \ 2 when in the CRU, \nthrough Day 39.</p>\n<p>2. Participants will be admitted\
-    \ to the CRU for Treatment Period 1 on Day -8 and may be discharged on Day 9 \n\
-    or remain in the CRU for their own safety or to maintain the integrity of the\
-    \ conduct of the study. Participants \nwho are discharged will be re-admitted\
-    \ on Day 22 or Day 23 for Treatment Period 2 and will remain in house \nuntil\
-    \ Day 40. To ensure flexibility, the Outpatient Period may be extended up to an\
-    \ additional 14 days with \nInvestigator approval. In this situation, participants\
-    \ will be given additional investigational product to support \ndaily dosing throughout\
-    \ the Outpatient Period. In such cases, the actual Outpatient Period duration\
-    \ will be \nrecorded and the participant will continue Inpatient Period 2 at Day\
-    \ 23.</p>\n<p>3. Participants will be administered ALXN1840 at a dose of 15 mg/day\
-    \ on Day 1 through Day 28 and then \nincrease to 30 mg/day on Day 29 through Day\
-    \ 39. During the Outpatient Period, participants will use SMS \ntext messaging\
-    \ to confirm study intervention administration.</p>\n<p>4. Participants will have\
-    \ 3 intake and output collection periods including:</p>\n<p>\u2022 Baseline Day\
-    \ -4 through Day -1</p>\n<p>\u2022 Day 1 through Day 8 (I/O for 15 mg)</p>\n<p>\u2022\
-    \ Day 25 through Day 39 (Days 25 through 28, I/O for 15 mg; Days 29 through 39,\
-    \ I/O for 30 mg)</p>\n<p>5. During these periods all intake (including food and\
-    \ drink) and output (including urine and feces) will be \ncollected and assessed\
-    \ for copper and molybdenum.</p>\n<p>6. Blood sampling for PK/PD will be as follows:</p>\n\
-    <p>\u2022 PK/PD collection (24-hour): Days 1, 25, 29, and 39</p>\n<p>\u2022 Predose\
-    \ PK/PD sampling days: Days 4 - 7, Days 26 - 28, Days 30 - 38</p>\n<p>\u2022 End\
-    \ of Study Visit Day 54 +/- 2 days \nAbbreviations: AP = accumulation period;\
+    /></p>\n<p><b>Rationale: </b><usdm:macro id=\"element\" name=\"study_rationale\"\
+    /></p>\n<p><b>Objectives and Endpoints</b></p>\n<table class=\"table\">\n    <tr>\n\
+    \      <th>Objectives</th>\n      <th>Endpoints</th>\n    </tr>\n    <tr>\n  \
+    \    <td>\n        <p><b>Primary</b></p>\n        <p>\n          <usdm:macro id=\"\
+    xref\" name=\"OBJ1\" klass=\"Objective\" attribute=\"text\"></usdm:macro>\n  \
+    \      </p>\n      </td>\n      <td>\n        <p>\n          <usdm:macro id=\"\
+    xref\" name=\"END1\" klass=\"Endpoint\" attribute=\"text\"></usdm:macro>\n   \
+    \     </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <p><b>Secondary</b></p>\n\
+    \        <p><usdm:macro id=\"xref\" name=\"OBJ2\" klass=\"Objective\" attribute=\"\
+    text\"></usdm:macro></p>\n     </td>\n     <td>\n          <p><usdm:macro id=\"\
+    xref\" name=\"END2\" klass=\"Endpoint\" attribute=\"text\"></usdm:macro></p>\n\
+    \       </td>\n     </tr>    \n    <tr>\n      <td><p><usdm:macro id=\"xref\"\
+    \ name=\"OBJ3\" klass=\"Objective\" attribute=\"text\"></usdm:macro></p></td>\n\
+    \      <td><p><usdm:macro id=\"xref\" name=\"END3\" klass=\"Endpoint\" attribute=\"\
+    text\"></usdm:macro></p></td>\n    </tr>    \n    <tr>\n      <td><p><usdm:macro\
+    \ id=\"xref\" name=\"OBJ4\" klass=\"Objective\" attribute=\"text\"></usdm:macro></p></td>\n\
+    \      <td><p><usdm:macro id=\"xref\" name=\"END4\" klass=\"Endpoint\" attribute=\"\
+    text\"></usdm:macro></p></td>\n    </tr>    \n    <tr>\n      <td><p><usdm:macro\
+    \ id=\"xref\" name=\"OBJ5\" klass=\"Objective\" attribute=\"text\"></usdm:macro></p></td>\n\
+    \      <td><p><usdm:macro id=\"xref\" name=\"END5\" klass=\"Endpoint\" attribute=\"\
+    text\"></usdm:macro></p></td>\n    </tr>    \n    <tr>\n      <td><p><usdm:macro\
+    \ id=\"xref\" name=\"OBJ6\" klass=\"Objective\" attribute=\"text\"></usdm:macro></p></td>\n\
+    \      <td><p><usdm:macro id=\"xref\" name=\"END6\" klass=\"Endpoint\" attribute=\"\
+    text\"></usdm:macro></p></td>\n    </tr>    \n    <tr>\n      <td><p><usdm:macro\
+    \ id=\"xref\" name=\"OBJ7\" klass=\"Objective\" attribute=\"text\"></usdm:macro></p></td>\n\
+    \      <td><p><usdm:macro id=\"xref\" name=\"END7\" klass=\"Endpoint\" attribute=\"\
+    text\"></usdm:macro></p></td>\n    </tr>    \n    <tr>\n      <td>\n        <p><b>Safety</b></p>\n\
+    \        <p><usdm:macro id=\"xref\" name=\"OBJ8\" klass=\"Objective\" attribute=\"\
+    text\"></usdm:macro></p>\n     </td>\n     <td>\n          <p>Safety parameters:</p>\n\
+    \          <p><usdm:macro id=\"xref\" name=\"END8\" klass=\"Endpoint\" attribute=\"\
+    text\"></usdm:macro></p>\n       </td>\n     </tr>    \n    <tr>\n      <td>\n\
+    \        <p><b>Exploratory</b></p>\n        <p><usdm:macro id=\"xref\" name=\"\
+    OBJ9\" klass=\"Objective\" attribute=\"text\"></usdm:macro></p>\n     </td>\n\
+    \     <td>\n          <p><usdm:macro id=\"xref\" name=\"END9\" klass=\"Endpoint\"\
+    \ attribute=\"text\"></usdm:macro></p>\n       </td>\n     </tr>    \n    <tr>\n\
+    \      <td><p><usdm:macro id=\"xref\" name=\"OBJ10\" klass=\"Objective\" attribute=\"\
+    text\"></usdm:macro></p></td>\n      <td><p><usdm:macro id=\"xref\" name=\"END10\"\
+    \ klass=\"Endpoint\" attribute=\"text\"></usdm:macro></p></td>\n    </tr>    \n\
+    \    <tr>\n      <td><p><usdm:macro id=\"xref\" name=\"OBJ11\" klass=\"Objective\"\
+    \ attribute=\"text\"></usdm:macro></p></td>\n      <td><p><usdm:macro id=\"xref\"\
+    \ name=\"END11\" klass=\"Endpoint\" attribute=\"text\"></usdm:macro></p></td>\n\
+    \    </tr>    \n    <tr>\n      <td><p><usdm:macro id=\"xref\" name=\"OBJ12\"\
+    \ klass=\"Objective\" attribute=\"text\"></usdm:macro></p></td>\n      <td><p><usdm:macro\
+    \ id=\"xref\" name=\"END12\" klass=\"Endpoint\" attribute=\"text\"></usdm:macro></p></td>\n\
+    \    </tr>    \n    <tr>\n      <td><p><usdm:macro id=\"xref\" name=\"OBJ13\"\
+    \ klass=\"Objective\" attribute=\"text\"></usdm:macro></p></td>\n      <td><p><usdm:macro\
+    \ id=\"xref\" name=\"END13\" klass=\"Endpoint\" attribute=\"text\"></usdm:macro></p></td>\n\
+    \    </tr>    \n    <tr>\n      <td><p><usdm:macro id=\"xref\" name=\"OBJ14\"\
+    \ klass=\"Objective\" attribute=\"text\"></usdm:macro></p></td>\n      <td><p><usdm:macro\
+    \ id=\"xref\" name=\"END14\" klass=\"Endpoint\" attribute=\"text\"></usdm:macro></p></td>\n\
+    \    </tr>    \n  </table>\n<p>Note: The accumulation period refers to time from\
+    \ initiation of ALXN1840 (Day 1) to expected steady state at Day 10, based on\
+    \ 5 times the half-life of 2 days.</p>\n<p><b>Overall Design</b></p>\n<p>This\
+    \ is a single-arm, open-label, repeat-dose study to evaluate the effects of ALXN1840\
+    \ administration on copper balance in participants with WD. The safety and tolerability\
+    \ of ALXN1840 in participants with WD will also be assessed. ALXN1840 PK in plasma\
+    \ as measured via total molybdenum and plasma ultrafiltrate (PUF) molybdenum will\
+    \ be determined after repeated dosing along with total molybdenum mass balance\
+    \ at steady state.</p>\n<p><b>Disclosure Statement</b>: This is an open-label,\
+    \ 3-period study with 1 arm.</p>\n<p><b>Number of Participants:</b></p>\n<p>The\
+    \ sample size will be approximately 10 participants which will allow a general\
+    \ characterization of copper balance in response to ALXN1840.</p>\n<p><b><u>Note</u>:</b>\
+    \ \u201CEnrolled\u201D means all participants who sign the informed consent form\
+    \ (ICF), are eligible for the study, and are registered on Day -7 when participants\
+    \ are assigned a participant number.</p>\n<p><b>Intervention Groups and Duration:</b></p>\n\
+    <p>Treatment-experienced (which includes standard of care therapies or ALXN1840)\
+    \ and treatment-na\xEFve participants are eligible for this study. Following screening\
+    \ and enrollment, participants will have a Run-in Period to support diet equilibration\
+    \ (Day -7 through Day -5) and measurement of pretreatment copper and molybdenum\
+    \ balance (Day -4 through Day -1). Following the Run-in Period, participants will\
+    \ be administered ALXN1840 at 15 mg/day for a treatment period of approximately\
+    \ 28 days followed by titration up to 30 mg/day on Day 29. Before titration to\
+    \ 30 mg/day, the Safety Review Committee (SRC) will review available safety data\
+    \ through Day 23 for each participant.</p>\n<p>Participants will have intake and\
+    \ output collection periods from Day -4 through Day -1, from Day 1 through Day\
+    \ 8 (initial 15 mg/day collection period), and Day 25 through Day 39. The collection\
+    \ periods will support an assessment of both copper and molybdenum balance (as\
+    \ a measure of ALXN1840 ADME) at the 15 mg/day and 30 mg/day doses and will allow\
+    \ assessment of the effects of duration of treatment on copper elimination and\
+    \ copper balance</p>\n<p>Participants may be discharged from the clinical research\
+    \ unit (CRU) on Day 9 to return on Day 22 or Day 23 (predose); all procedures\
+    \ will start on Day 23. To ensure flexibility, the Outpatient Period during Treatment\
+    \ Period 1 may be extended up to an additional 14 days with Investigator approval.\
+    \ In this situation, participants will be given additional investigational product\
+    \ to support daily dosing throughout the Outpatient Period. In such cases, the\
+    \ actual Outpatient Period</p>\n<p>duration will be recorded and the participant\
+    \ will continue Inpatient Period 2 at Day 23. During the Outpatient Period, participants\
+    \ will use SMS text messaging to confirm study intervention administration. At\
+    \ the CRU's discretion, participants may remain in the CRU during the outpatient\
+    \ period for safety or to maintain the integrity of the conduct of the study.</p>\n\
+    <p><b>Safety Review Committee:</b></p>\n<p>A Safety Review Committee (SRC), composed\
+    \ of a minimum of the Investigator, Alexion Medical Monitor, and Alexion Safety\
+    \ Physician, will meet at the end of 15 mg/day dosing to confirm proceeding to\
+    \ 30 mg/day and as necessary based on any emerging safety concerns.</p>\n\n\n\n"
+1-2:
+  name: ''
+  sectionNumber: '1.2'
+  sectionTitle: Schema
+  text: "<b>Figure 1: Study Schematic</b></p>\n<usdm:macro id=\"image\" file=\"study_design.png\"\
+    \ type=\"png\"/>\n<ol>\n<li><p>Participants eligible for the study will be enrolled\
+    \ on Day -7 and initiated on a copper- and molybdenumcontrolled diet, which will\
+    \ be continued during Treatment Period 1 and Treatment Period 2 when in the CRU,\
+    \ through Day 39.</p></li>\n<li><p>Participants will be admitted to the CRU for\
+    \ Treatment Period 1 on Day -8 and may be discharged on Day 9 \nor remain in the\
+    \ CRU for their own safety or to maintain the integrity of the conduct of the\
+    \ study. Participants \nwho are discharged will be re-admitted on Day 22 or Day\
+    \ 23 for Treatment Period 2 and will remain in house \nuntil Day 40. To ensure\
+    \ flexibility, the Outpatient Period may be extended up to an additional 14 days\
+    \ with \nInvestigator approval. In this situation, participants will be given\
+    \ additional investigational product to support \ndaily dosing throughout the\
+    \ Outpatient Period. In such cases, the actual Outpatient Period duration will\
+    \ be \nrecorded and the participant will continue Inpatient Period 2 at Day 23.</p></li>\n\
+    <li><p>Participants will be administered ALXN1840 at a dose of 15 mg/day on Day\
+    \ 1 through Day 28 and then \nincrease to 30 mg/day on Day 29 through Day 39.\
+    \ During the Outpatient Period, participants will use SMS \ntext messaging to\
+    \ confirm study intervention administration.</p></li>\n<li><p>Participants will\
+    \ have 3 intake and output collection periods including:</p>\n<ul>\n<li><p>Baseline\
+    \ Day -4 through Day -1</p></li>\n<li><p>Day 1 through Day 8 (I/O for 15 mg)</p></li>\n\
+    <li><p>Day 25 through Day 39 (Days 25 through 28, I/O for 15 mg; Days 29 through\
+    \ 39, I/O for 30 mg)</p></li>\n</ul></li>\n<li><p>During these periods all intake\
+    \ (including food and drink) and output (including urine and feces) will be \n\
+    collected and assessed for copper and molybdenum.</p></li>\n<li><p>Blood sampling\
+    \ for PK/PD will be as follows:</p>\n<ul>\n<li><p>PK/PD collection (24-hour):\
+    \ Days 1, 25, 29, and 39</p></li>\n<li><p>Predose PK/PD sampling days: Days 4\
+    \ - 7, Days 26 - 28, Days 30 - 38</p></li>\n<li><p>End of Study Visit Day 54 +/-\
+    \ 2 days </p></li>\n</ul></li>\n</ol>\n<p>Abbreviations: AP = accumulation period;\
     \ CRU = clinical research unit; EOS = End of Study; I/O = input/output; \nPD =\
     \ pharmacodynamic; PK = pharmacokinetic; SS = steady state.</p>"
 1-3:
   name: ''
   sectionNumber: 1.3.
   sectionTitle: Schedule of Activities (SoA)
-  text: "<p>ALXN1840-WD-204</p>\n<p><b>Schedule of Activities</b></p>\n<p><b>Table\
-    \ 1:</b></p>\n<p class=\"p6\"><b>Study Procedures</b></p>\n<p class=\"p6\"><b>Screeninga\
-    \ C-Ib UNSd EOS or ETe</b></p>\n<p class=\"p6\"><b>Screening C-I Inpatient Period\
-    \ 1 OPc Inpatient Period 2</b></p>\n<p class=\"p6\"><b>Days - 42 to</b>\n<b>-9\
-    \ -21 -8 -7 - 6 through</b>\n<b>-5</b></p>\n<p class=\"p6\"><b>- 4 through</b></p>\n\
-    <p class=\"p6\"><b>-1 1 2-3 4-7 8 9 10-22 23 24 25 26-28 29 30-35 36 37-38 39\
-    \ 40 EOS</b>\n<b>Day 54+/-2</b></p>\n<p class=\"p6\"><b>Eligibility</b></p>\n\
-    <p class=\"p6\">Informed consent X</p>\n<p class=\"p6\">Admit to unit X X</p>\n\
-    <p class=\"p6\">Discharge from unitf X X</p>\n<p class=\"p6\">Outpatient visit\
-    \ or phone call Xg</p>\n<p class=\"p6\">Inclusion/exclusion X X X</p>\n<p class=\"\
-    p6\">Discuss/document contraception X X X X</p>\n<p class=\"p6\">Follicle-stimulating\
-    \ hormone (post-menopausal females onlyh )</p>\n<p class=\"p6\">X</p>\n<p class=\"\
-    p6\">Alcohol test X X</p>\n<p class=\"p6\">Urine drug screen X X</p>\n<p class=\"\
-    p6\">HIV, hepatitis B and C screen X</p>\n<p class=\"p6\"><b>Study Administration</b></p>\n\
-    <p class=\"p6\">Medical history/demographicsi X</p>\n<p class=\"p6\">WD historyj\
-    \ X</p>\n<p class=\"p6\">Prior WD treatmentj X X</p>\n<p class=\"p6\">Physical\
-    \ examinationk X X X X</p>\n<p class=\"p6\">Heightl , weight, and BMI X X X X</p>\n\
-    <p class=\"p6\"><b>Enrollment</b></p>\n<p class=\"p6\">Enrollment/inclusion X</p>\n\
-    <p class=\"p6\">Discontinue chelation therapy X</p>\n<p class=\"p6\">Discontinue\
-    \ zinc therapy X</p>\n<p class=\"p6\"><b>Administration of Study</b></p>\n<p class=\"\
-    p6\"><b>Interventionm</b></p>\n<p class=\"p6\">ALXN1840 15 mg/day X X X X X X\
-    \ X X X X</p>\n<p class=\"p6\">ALXN1840 30 mg/day X X X X X</p>\n<p class=\"p6\"\
-    >Study intervention compliance Xn X</p>\n<p class=\"p6\"><b>PK/PD Analyseso</b></p>\n\
-    <p class=\"p6\">Blood sampling for PK: Plasma total Mo and PUF-Mo Xp X Xp X Xp\
-    \ X X X Xp X</p>\n<p>ALXN1840-WD-204</p>\n<p class=\"p6\"><b>Study Procedures</b></p>\n\
-    <p class=\"p6\"><b>Screeninga C-Ib UNSd EOS or ETe</b></p>\n<p class=\"p6\"><b>Screening\
-    \ C-I Inpatient Period 1 OPc Inpatient Period 2</b></p>\n<p class=\"p6\"><b>Days\
-    \ - 42 to</b>\n<b>-9 -21 -8 -7 - 6 through</b>\n<b>-5</b></p>\n<p class=\"p6\"\
-    ><b>- 4 through</b></p>\n<p class=\"p6\"><b>-1 1 2-3 4-7 8 9 10-22 23 24 25 26-28\
-    \ 29 30-35 36 37-38 39 40 EOS</b>\n<b>Day 54+/-2</b></p>\n<p class=\"p6\">PD:\
-    \ Plasma total and PUF-Cu, LBC, ceruloplasmin, ceruloplasmin-bound Cu</p>\n<p\
-    \ class=\"p6\"><b>Safety Assessments / Laboratory Analyses</b></p>\n<p class=\"\
-    p6\">Chemistryq , hematology, Coagulation X X Xr X Xg X Xr X X X</p>\n<p class=\"\
-    p6\">Urinalysis X X X Xg X X X X</p>\n<p class=\"p6\">Urine/serum pregnancy tests\
-    \ X X X X</p>\n<p class=\"p6\">Retained serum sample (safety)t X</p>\n<p class=\"\
-    p6\">Vitals sign measurementsu X X X X X X X</p>\n<p class=\"p6\">12-lead ECG\
-    \ (triplicate) X X X X X X X</p>\n<p class=\"p6\">Adverse events X X X X X X X\
-    \ X X X X X X X X X X X X X X X</p>\n<p class=\"p6\"><b>Balance assessments</b></p>\n\
-    <p class=\"p6\">Cu/Mo-controlled mealsv X X X X X X X X X X X X X X X X</p>\n\
-    <p class=\"p6\">Light exercise regimen X X X X X X X X X X X X X X X X X X</p>\n\
-    <p class=\"p6\">Urination and bowel movement monitoring, menstruation checks</p>\n\
-    <p class=\"p6\">X X X X X X X X X X X X</p>\n<p class=\"p6\">24-hour urine for\
-    \ Cu and Mow X X X X X X X X X X X X</p>\n<p class=\"p6\">Feces for Cu and Mox\
-    \ X X X X X X X X X X X X</p>\n<p class=\"p6\"><b>Other</b></p>\n<p class=\"p6\"\
-    >Concomitant medication and \nnon-pharmacologic \ntherapy/procedure</p>\n<p class=\"\
-    p6\">X X X X X X X X X X X X X X X X X X X X X X</p>\n<p>a Within 42 days of ALXN1840\
-    \ administration. Details of procedures that may be performed by sites designated\
-    \ as \u201Cscreening sites\u201D (only in the US) are detailed in Section 8.</p>\n\
-    <p class=\"p7\">b c d e</p>\n<p class=\"p7\">f</p>\n<p class=\"p7\">g</p>\n<p\
-    \ class=\"p7\">h</p>\n<p>Participants will be admitted to the clinical research\
-    \ unit (CRU) at least 10 hours prior to enrollment and initiation of copper- and\
-    \ molybdenum-controlled diet. At the CRU's discretion, participants may remain\
-    \ in the CRU or be readmitted on Day 22 with all procedures starting on Day 23.</p>\n\
-    <p>Unscheduled study visits may occur at any time during the study and may include\
-    \ any study procedure as deemed necessary by the Investigator.</p>\n<p>Participants\
-    \ are required to return to the CRU Day 54+/-2; participants will be discontinued\
-    \ from ALXN1840 medication by their physician at the latest by the \nDay 54 follow-up.</p>\n\
-    <p>Discharge from the unit may occur after completion of all procedures on Day\
-    \ 9 and on Day 40 and after the Investigator has reviewed all safety assessment\
-    \ (including safety laboratory tests) and confirmed that the participant is appropriate\
-    \ for discharge.</p>\n<p>A single outpatient visit or phone call and safety laboratory\
-    \ assessment should occur between Day 14 and Day 18. A phone call may take place\
-    \ on a different day than the blood draw within the Day 14 through Day 18 period.</p>\n\
-    <p>If needed to confirm menopause.</p>\n<p class=\"p7\">i j</p>\n<p>Parameters\
-    \ include age and sex. Race and ethnicity will be collected where permitted by\
-    \ local regulations.</p>\n<p>ALXN1840-WD-204</p>\n<p>Wilson disease history will\
-    \ include diagnosis date, method of diagnosis, history of cirrhosis, details of\
-    \ any previous liver biopsies performed, and treatment received.</p>\n<p class=\"\
-    p7\">k</p>\n<p class=\"p7\">l m</p>\n<p class=\"p7\">n o</p>\n<p class=\"p7\"\
-    >p q</p>\n<p class=\"p7\">r s</p>\n<p class=\"p7\">t</p>\n<p class=\"p7\">u</p>\n\
-    <p>A full physical examination will be performed at Screening, at check-in for\
-    \ the study, and at the End of the study/Early Termination Visit. A physical examination\
-    \ should also be performed on any participants with ongoing adverse events prior\
-    \ to discharge from the unit. Otherwise, a symptom-driven physical examination\
-    \ may be performed at other times, at the Principal Investigator's discretion.</p>\n\
-    <p>Height at screening only.</p>\n<p>While in the CRU, study intervention will\
-    \ be administered after an overnight fast (ie, at least 10 hours) at the same\
-    \ time every morning; drug is to be administered with 240 mL of water and meals\
-    \ should be delayed a minimum of 2 hours after dosing. As an outpatient, participants\
-    \ are expected to take ALXN1840 at approximately the same time daily (+/-1 hour).\
-    \ Participants should take the medication with a glass of water on an empty stomach;\
-    \ meals should be delayed a minimum of 2 hours after dosing.</p>\n<p>During the\
-    \ outpatient period, participants will use SMS text messaging to confirm study\
-    \ intervention administration.</p>\n<p>Blood sampling for PK/PD will occur before\
-    \ ALXN1840 administration and represents a predose trough. See Table 2 for PK/PD\
-    \ sampling on Days 1, 25, 29, and 39.</p>\n<p>PK/PD collection will include timepoints\
-    \ described in the schedule of PK/PD assessment for Days 1, 25, 29, and 39 (Table\
-    \ 2).</p>\n<p>Samples for serum chemistry will be obtained following a fast of\
-    \ at least 8 hours at the Screening Visit and at check-in. In case of rechecks,\
-    \ and postdose serum chemistry, participants may not have fasted for 6 or 8 hours\
-    \ before the serum chemistry sample is taken.</p>\n<p>Laboratory assessment including\
-    \ chemistry, hematology, and coagulation parameters should be performed on Days\
-    \ -8, -1, 8, 23, and 28 only.</p>\n<p>Menstruation check is for women only; women\
-    \ of childbearing potential should only be enrolled after a negative serum pregnancy\
-    \ test result at Screening. Additional urine pregnancy testing will be standard\
-    \ for the protocol unless serum testing is required by site policies, local regulation,\
-    \ or Institutional Review Boards (IRBs)/Independent Ethics Committees ( IECs)\
-    \ (Section 10.2). In addition to pregnancy tests detailed at the visits in the\
-    \ SoA, females of childbearing potential will be required to perform urine pregnancy\
-    \ tests at least every 4 weeks at their home or the study site throughout their\
-    \ time in the study.</p>\n<p>A single 15 mL serum sample will be retained for\
-    \ evaluation in the event of an unexpected safety finding; retained samples may\
-    \ be destroyed after completion of the clinical study report.</p>\n<p>Vital signs\
-    \ measurements and ECGs should be performed predose, unless otherwise specified.\
-    \ Vitals signs include body temperature, heart rate, respiratory rate, and systolic\
-    \ and diastolic blood pressure.</p>\n<p>v Copper- and molybdenum-controlled diet\
-    \ will be initiated after registration/inclusion. Participants will remain on\
-    \ a copper/molybdenum controlled diet \nthroughout both the inpatient Period 1\
-    \ (Day -8 to Day 9) and inpatient Period 2 (Day 23 to Day 40); during this time\
-    \ participants will be strongly encouraged to \ncomplete all meals. While not\
-    \ in the CRU, participants will be encouraged to adhere to their usual copper-controlled\
-    \ diet. \nw \nFor each input/output balance period, 24-hour urine samples are\
-    \ to be collected for measurement of copper and molybdenum. \nx \nFor fecal samples,\
-    \ each individual sample will be independently collected with record of date,\
-    \ time, and weight of the sample.</p>\n<p>Abbreviations: AE = adverse event; BMI\
-    \ = body mass index; C-I = check-in; Cu = copper; D = day; ECG = electrocardiogram;\
-    \ EOS/ET = End of Study or Early \nTermination; HIV = human immunodeficiency virus;\
-    \ HR = heart rate; LBC = labile bound copper; Mo = molybdenum; OP = outpatient;\
-    \ \nPD = pharmacodynamic; PK = pharmacokinetics; PUF = plasma ultrafiltrate; UNS\
-    \ = unscheduled; WD = Wilson disease.</p>\n<p>ALXN1840-WD-204</p>\n<p><b>Table\
-    \ 2: Schedule of Pharmacokinetic and Pharmacodynamic Assessments on Days 1, 25,\
-    \ 29, and 39</b></p>\n<p><b>Time point (hours)a</b> \u2212<b>0.5 0 1 2 3 4 5 6\
-    \ 8 12 24</b></p>\n<p>Blood sampling for PK: Plasma total Mo and PUF-Mo PD: Plasma\
-    \ total and PUF-Cu, LBC, ceruloplasmin, ceruloplasmin-bound Cu</p>\n<p>X X X X\
-    \ X X X Xb</p>\n<p>Note: Windows for PK/PD time points will be defined as \xB1\
-    10% of the nominal time point. On Days 1 and 39, triplicate 12-lead ECG will be\
-    \ collected at 4 hours postdose. When multiple procedures are scheduled to occur\
-    \ at the same time, the following order of events should be strictly adhered to\
-    \ whenever possible: ECG, vital signs, blood sampling (eg, for PK/PD), study intervention\
-    \ administration, and meal.</p>\n<p>a \nTime points are relative to dosing (0\
-    \ hours). \nb \nHour 24 PK/PD sampling is to occur just prior to the next-day\
-    \ dose of ALXN1840.</p>\n<p>Abbreviations: Cu = copper; LBC = labile bound copper;\
+  text: "<usdm:macro id=\"section\" name=\"soa\" template=\"plain\"/>\n\n<p><small>Abbreviations:\
+    \ AE = adverse event; BMI = body mass index; C-I = check-in; Cu = copper; D =\
+    \ day; ECG = electrocardiogram; EOS/ET = End of Study or Early Termination; HIV\
+    \ = human immunodeficiency virus; HR = heart rate; LBC = labile bound copper;\
+    \ Mo = molybdenum; OP = outpatient; PD = pharmacodynamic; PK = pharmacokinetics;\
+    \ PUF = plasma ultrafiltrate; UNS = unscheduled; WD = Wilson disease.</small></p>\n\
+    \n<p>Note: Windows for PK/PD time points will be defined as \xB110% of the nominal\
+    \ time point. On Days 1 and 39, triplicate 12-lead ECG will be collected at 4\
+    \ hours postdose. When multiple procedures are scheduled to occur at the same\
+    \ time, the following order of events should be strictly adhered to whenever possible:\
+    \ ECG, vital signs, blood sampling (eg, for PK/PD), study intervention administration,\
+    \ and meal.</p>\n\n<p><small>Abbreviations: Cu = copper; LBC = labile bound copper;\
     \ Mo = molybdenum; PD = pharmacodynamic; \nPK = pharmacokinetic; PUF = plasma\
-    \ ultrafiltrate.</p>"
+    \ ultrafiltrate.</small></p>"
 '10':
   name: ''
   sectionNumber: '10.'
@@ -1048,10 +926,8 @@
   name: ''
   sectionNumber: '2.'
   sectionTitle: INTRODUCTION
-  text: '<p>ALXN1840-WD-204</p>
-
-    <p>ALXN1840 (bis-choline tetrathiomolybdate; formerly known as WTX101) is a novel
-    copper binding agent in development for the treatment of WD.</p>'
+  text: <p>ALXN1840 (bis-choline tetrathiomolybdate; formerly known as WTX101) is
+    a novel copper binding agent in development for the treatment of WD.</p>
 2-1:
   name: ''
   sectionNumber: 2.1.
@@ -1095,125 +971,190 @@
     \ with WD. Further data obtained may help support characterization of a \u201C\
     decoppering\u201D versus \u201Cmaintenance\u201D dose of ALXN1840, where a decoppering\
     \ dose would be a dose sufficient to drive a net negative copper balance and maintenance\
-    \ would support a more neutral copper balance.</p>\n<p>ALXN1840-WD-204</p>\n<p>The\
-    \ secondary aim of the study is to characterize the steady-state ADME (mass balance)\
-    \ of total molybdenum as a surrogate measure of ALXN1840 disposition in participants\
-    \ with WD. To confirm that steady state is adequately characterized by the plasma\
-    \ PK, a molybdenum mass balance assessment will be performed on Day 25 through\
-    \ Day 28 for the 15 mg/day dose and Day 36 through Day 39 for the 30 mg/day dose:\
-    \ if steady state is achieved, molybdenum(out) will equal molybdenum(in).</p>\n\
-    <p><b>2.2. Background</b></p>\n<p>ALXN1840 has been selected for development in\
-    \ WD due to its improved stability properties over ammonium tetrathiomolybdate,\
-    \ which has previously been studied in participants with WD and other indications.\
-    \ Ammonium tetrathiomolybdate and bis-choline tetrathiomolybdate nonclinical and\
-    \ clinical data reported to date support the efficacy and safety of ALXN1840.</p>\n\
-    <p>ALXN1840 rapidly forms stable tetrathiomolybdate-copper-albumin TPCs, which\
-    \ stabilize free copper leading to a reduction in the NCC concentrations after\
-    \ correction for free copper bound to TPC (NCCcorrected ).</p>\n<p>Studies in\
-    \ both healthy and WD animal models showed that treatment with tetrathiomolybdate\
-    \ results in removal of copper from the liver. Tetrathiomolybdate administered\
-    \ to healthy mice by intraperitoneal injection resulted in a dose-dependent reduction\
-    \ in liver copper concentration over a treatment range of 0 - 6 mg/kg/day (human\
-    \ equivalent dose [HED] by body surface area [BSA] scaling: 0 - 1 mg/kg/day).\
-    \ The results of these studies indicated that only 30% \u2011 40% of copper remained\
-    \ after 5 weeks of treatment. Similar liver decoppering (approximately 40% - 60%)\
-    \ was also reported in toxic milk mice (a WD animal model) at 5 mg/kg/ day for\
-    \ 14 days (HED by BSA scaling: 0.4 mg/kg/day; Mills, 1981; Czachor, 2002). In\
-    \ LEC WD model rats, 25 mg/kg/day of ALXN1840 (HED by BSA scaling: 4 mg/kg/day)\
-    \ administered by oral gavage for 10 days, resulted in an approximately 50% decrease\
-    \ in liver copper concentration. Because ALXN1840 has been shown to have a similar\
-    \ mechanism of action in healthy and WD animal models, a mechanism of action study\
-    \ in healthy participants is being performed (Study ALXN1840-HV-108) to demonstrate\
-    \ that ALXN1840 can result in a change from baseline in copper balance with repeat-dose\
-    \ ALXN1840 (30 mg/day) treatment.</p>\n<p>In the Phase 2 proof-of-concept Study\
-    \ WTX101-201 in participants with WD, ALXN1840 demonstrated a sustained control\
-    \ of free copper as measured by NCCcorrected . Importantly, ALXN1840 treatment\
-    \ resulted in improvements in disability and neurologic symptoms as measured by\
-    \ the Unified Wilson Disease Rating Scale (UWDRS, Parts II and III) and stabilization\
-    \ of liver function (Weiss, 2017). Treatment with ALXN1840 resulted in an acceptable\
-    \ safety and tolerability profile when initiated at 15 mg daily with Investigator-driven,\
-    \ individual participant titration of dose based on safety, NCCcorrected , and\
-    \ symptoms.</p>\n<p>Following single-dose administration of 60 mg ALXN1840, total\
-    \ molybdenum peaked at approximately 4.54 hours with a terminal elimination half-life\
-    \ measured at approximately 51 hours. In Study WTX101-201, the PK of ALXN1840,\
-    \ based on total molybdenum, indicated that exposure in participants with WD at\
-    \ a dose of 30 mg appeared consistent with previous results from healthy participants.\
-    \ The half-life was estimated to be approximately 24 hours at steady state on\
-    \ Days 84 and 168 and was shorter than estimated in previous studies. Based on\
-    \ a total molybdenum PK half-life of approximately 24 - 51 hours, total molybdenum\
-    \ steady state may conservatively be reached within approximately 10 - 12 days.\
-    \ Nevertheless, results (as</p>\n<p>ALXN1840-WD-204</p>\n<p>measured by total\
-    \ molybdenum) obtained from the ALXN1840 balance study in the LEC WD rat model\
-    \ suggested that approximately 30% of a single dose of ALXN1840 remained in the\
-    \ liver by Day 7, indicating the possibility of tissue accumulation, particularly\
-    \ in the setting of high liver copper concentration (Plitz, 2019).</p>\n<p>If\
-    \ the half-life of ALXN1840 in liver were longer than that of the systemic compartment,\
-    \ the accumulation may not be readily detected in the absence of a longer treatment\
-    \ period and with characterization of the terminal elimination period. An alternative\
-    \ approach to assessing steady state using total molybdenum PK is to assess whether\
-    \ the total molybdenum intake is equal to the total molybdenum output; this approach\
-    \ may detect any significant ongoing accumulation in the liver or other tissues.</p>\n\
-    <p>Detailed descriptions of the chemistry, pharmacology, efficacy, and safety\
-    \ of ALXN1840 are provided in the Investigator's Brochure (IB).</p>\n<p><b>2.3.\
-    \ Benefit-Risk Assessment</b></p>\n<p>Detailed information about the known and\
-    \ expected benefits, risks, and reasonably expected adverse events (AEs) of ALXN1840\
-    \ are presented in the IB. Information about the known or potential risks and\
-    \ benefits are detailed in the following sections.</p>\n<p><b>2.3.1. Risk Assessment</b></p>\n\
-    <p>Details of the potential risks and mitigation strategy are provided in Table\
-    \ 3.</p>\n<p>ALXN1840-WD-204</p>\n<p><b>Table 3:</b></p>\n<p><b>Potential Risk\
-    \ of Clinical Significance</b></p>\n<p><b>Summary of Data/Rationale for Risk</b></p>\n\
-    <p><b>Mitigation Strategy</b></p>\n<p><b>ALXN1840</b></p>\n<p>Dose-dependent elevations\
-    \ in transaminases (ALT and AST)</p>\n<p>Generally mild to moderate in severity,\
-    \ asymptomatic and reversible with dose adjustments were reported, usually after\
-    \ 3 - 6 weeks of treatment.</p>\n<p>Results obtained from studies of ALXN1840\
-    \ and ammonium tetrathiomolybdate in participants with WD; see the IB.</p>\n<p>Regular\
-    \ monitoring of liver function tests.</p>\n<p>Dose modification or discontinuation\
-    \ (Section 6.6).</p>\n<p>Anemia Anemia has been observed in participants with\
-    \ WD, attributed to overtreatment and resultant copper depletion; see the IB.</p>\n\
-    <p>Monitoring complete blood count. Dose modification or discontinuation (Section\
-    \ 6.6).</p>\n<p>Low white blood cell count (leukopenia, bone marrow toxicity)</p>\n\
-    <p>Leukopenia and bone marrow toxicity (myelosuppression) have been observed in\
-    \ participants with WD, attributed to overtreatment and resultant copper depletion.\
-    \ Results obtained from studies of ALXN1840 and ammonium tetrathiomolybdate in\
-    \ participants with WD; see the IB.</p>\n<p>Monitoring of complete blood count.\
-    \ Dose modification or discontinuation (Section 6.6).</p>\n<p>Neurological dysfunction\
-    \ Neurological worsening may occur due to copper mobilization. Peripheral neuropathy\
-    \ may be seen with over decoppering; however, symptoms such as myelosuppression\
-    \ is typically seen earlier.</p>\n<p>Regular monitoring for neurologic adverse\
-    \ events. Dose modification or discontinuation (Section 6.6).</p>\n<p><b>Study\
-    \ Procedures</b></p>\n<p>Risks associated with the study design and procedures</p>\n\
-    <p>Participants will undergo repeated blood draws to measure the PK of the study\
-    \ intervention and metabolism. Blood draws may result in ecchymosis, redness,\
-    \ and minor pain to the site. On rare occasion, infection or thrombophlebitis\
-    \ can occur.</p>\n<p>Blood draws are optimized for PK. A cannula may be placed\
-    \ to minimize needle sticks; however, a catheter may not be left in place for\
-    \ longer than 72 hours and should be flushed a minimum of every 8 hours.</p>\n\
-    <p><b>Potential Risks and Mitigation Strategy</b></p>\n<p>Abbreviations: ALT =\
-    \ alanine aminotransferase; AST = aspartate aminotransferase; IB = Investigator's\
-    \ Brochure; PK \n= pharmacokinetics; WD = Wilson disease.</p>\n<p><b>2.3.1.1.\
-    \ Coronavirus (SARS-CoV-2) Disease 2019</b></p>\n<p>The COVID-19 pandemic is active\
-    \ at the time of this protocol amendment. Given this unique circumstance, specific\
-    \ consideration has been given to the potential risks and mitigation measures\
-    \ due to COVID-19 vaccine (see Section 10.5).</p>\n<p><b>2.3.2. Benefit Assessment</b></p>\n\
-    <p>The main objective of effective WD treatment is to provide:</p>\n<p>ALXN1840-WD-204</p>\n\
-    <p>\u2022 Rapid and sustained control of copper and mitigation of clinical symptoms\
-    \ of WD \nthrough the formation of a stable tetrathiomolybdate-copper-albumin\
-    \ TPC. Copper \ncontrol may prevent tissue toxicity, including neurological deterioration\
-    \ that has been \nreported at the initiation of treatment with chelators. This\
-    \ hypothesis is supported by \nresults from Study\u202FWTX101-201 in participants\
-    \ with WD (Weiss, 2017).</p>\n<p>\u2022 Improved compliance over current chelator\
-    \ therapy through improved tolerability and the \nconvenience of a simplified\
-    \ dosing regimen (once daily) compared to current therapeutic \noptions (multiple\
-    \ daily dosing). \nPotential benefits of study participation for participants\
-    \ include:</p>\n<p>\u2022 Participation in a clinical study increases the participant's\
-    \ understanding of the \npathophysiology and treatment of WD.</p>\n<p>\u2022 Removal\
-    \ of total body copper as a definitive treatment for WD.</p>\n<p>\u2022 Participants\
-    \ in the study will contribute to improved care for other participants with WD\
-    \ \nin the future.</p>\n<p><b>2.3.3. Overall Benefit-Risk Conclusion</b></p>\n\
-    <p>Taking into account the measures implemented to minimize risk to participants\
-    \ in this study, the potential risks identified in association with ALXN1840 are\
-    \ justified by the anticipated benefits that may be afforded to participants with\
-    \ WD.</p>"
+    \ would support a more neutral copper balance.</p>\n\n<p>The secondary aim of\
+    \ the study is to characterize the steady-state ADME (mass balance) of total molybdenum\
+    \ as a surrogate measure of ALXN1840 disposition in participants with WD. To confirm\
+    \ that steady state is adequately characterized by the plasma PK, a molybdenum\
+    \ mass balance assessment will be performed on Day 25 through Day 28 for the 15\
+    \ mg/day dose and Day 36 through Day 39 for the 30 mg/day dose: if steady state\
+    \ is achieved, molybdenum(out) will equal molybdenum(in).</p>\n"
+2-2:
+  name: ''
+  sectionNumber: '2.2'
+  sectionTitle: Background
+  text: "<p>ALXN1840 has been selected for development in WD due to its improved stability\
+    \ properties over ammonium tetrathiomolybdate, which has previously been studied\
+    \ in participants with WD and other indications. Ammonium tetrathiomolybdate and\
+    \ bis-choline tetrathiomolybdate nonclinical and clinical data reported to date\
+    \ support the efficacy and safety of ALXN1840.</p>\n<p>ALXN1840 rapidly forms\
+    \ stable tetrathiomolybdate-copper-albumin TPCs, which stabilize free copper leading\
+    \ to a reduction in the NCC concentrations after correction for free copper bound\
+    \ to TPC (NCCcorrected ).</p>\n<p>Studies in both healthy and WD animal models\
+    \ showed that treatment with tetrathiomolybdate results in removal of copper from\
+    \ the liver. Tetrathiomolybdate administered to healthy mice by intraperitoneal\
+    \ injection resulted in a dose-dependent reduction in liver copper concentration\
+    \ over a treatment range of 0 - 6 mg/kg/day (human equivalent dose [HED] by body\
+    \ surface area [BSA] scaling: 0 - 1 mg/kg/day). The results of these studies indicated\
+    \ that only 30% \u2011 40% of copper remained after 5 weeks of treatment. Similar\
+    \ liver decoppering (approximately 40% - 60%) was also reported in toxic milk\
+    \ mice (a WD animal model) at 5 mg/kg/ day for 14 days (HED by BSA scaling: 0.4\
+    \ mg/kg/day; Mills, 1981; Czachor, 2002). In LEC WD model rats, 25 mg/kg/day of\
+    \ ALXN1840 (HED by BSA scaling: 4 mg/kg/day) administered by oral gavage for 10\
+    \ days, resulted in an approximately 50% decrease in liver copper concentration.\
+    \ Because ALXN1840 has been shown to have a similar mechanism of action in healthy\
+    \ and WD animal models, a mechanism of action study in healthy participants is\
+    \ being performed (Study ALXN1840-HV-108) to demonstrate that ALXN1840 can result\
+    \ in a change from baseline in copper balance with repeat-dose ALXN1840 (30 mg/day)\
+    \ treatment.</p>\n<p>In the Phase 2 proof-of-concept Study WTX101-201 in participants\
+    \ with WD, ALXN1840 demonstrated a sustained control of free copper as measured\
+    \ by NCCcorrected . Importantly, ALXN1840 treatment resulted in improvements in\
+    \ disability and neurologic symptoms as measured by the Unified Wilson Disease\
+    \ Rating Scale (UWDRS, Parts II and III) and stabilization of liver function (Weiss,\
+    \ 2017). Treatment with ALXN1840 resulted in an acceptable safety and tolerability\
+    \ profile when initiated at 15 mg daily with Investigator-driven, individual participant\
+    \ titration of dose based on safety, NCCcorrected , and symptoms.</p>\n<p>Following\
+    \ single-dose administration of 60 mg ALXN1840, total molybdenum peaked at approximately\
+    \ 4.54 hours with a terminal elimination half-life measured at approximately 51\
+    \ hours. In Study WTX101-201, the PK of ALXN1840, based on total molybdenum, indicated\
+    \ that exposure in participants with WD at a dose of 30 mg appeared consistent\
+    \ with previous results from healthy participants. The half-life was estimated\
+    \ to be approximately 24 hours at steady state on Days 84 and 168 and was shorter\
+    \ than estimated in previous studies. Based on a total molybdenum PK half-life\
+    \ of approximately 24 - 51 hours, total molybdenum steady state may conservatively\
+    \ be reached within approximately 10 - 12 days. Nevertheless, results (as</p>\n\
+    <p>measured by total molybdenum) obtained from the ALXN1840 balance study in the\
+    \ LEC WD rat model suggested that approximately 30% of a single dose of ALXN1840\
+    \ remained in the liver by Day 7, indicating the possibility of tissue accumulation,\
+    \ particularly in the setting of high liver copper concentration (Plitz, 2019).</p>\n\
+    <p>If the half-life of ALXN1840 in liver were longer than that of the systemic\
+    \ compartment, the accumulation may not be readily detected in the absence of\
+    \ a longer treatment period and with characterization of the terminal elimination\
+    \ period. An alternative approach to assessing steady state using total molybdenum\
+    \ PK is to assess whether the total molybdenum intake is equal to the total molybdenum\
+    \ output; this approach may detect any significant ongoing accumulation in the\
+    \ liver or other tissues.</p>\n<p>Detailed descriptions of the chemistry, pharmacology,\
+    \ efficacy, and safety of ALXN1840 are provided in the Investigator's Brochure\
+    \ (IB).</p>\n<p><b>2.3. Benefit-Risk Assessment</b></p>\n<p>Detailed information\
+    \ about the known and expected benefits, risks, and reasonably expected adverse\
+    \ events (AEs) of ALXN1840 are presented in the IB. Information about the known\
+    \ or potential risks and benefits are detailed in the following sections.</p>\n\
+    <p><b>2.3.1. Risk Assessment</b></p>\n<p>Details of the potential risks and mitigation\
+    \ strategy are provided in Table 3.</p>\n<p>ALXN1840-WD-204</p>\n<p><b>Table 3:</b></p>\n\
+    <p><b>Potential Risk of Clinical Significance</b></p>\n<p><b>Summary of Data/Rationale\
+    \ for Risk</b></p>\n<p><b>Mitigation Strategy</b></p>\n<p><b>ALXN1840</b></p>\n\
+    <p>Dose-dependent elevations in transaminases (ALT and AST)</p>\n<p>Generally\
+    \ mild to moderate in severity, asymptomatic and reversible with dose adjustments\
+    \ were reported, usually after 3 - 6 weeks of treatment.</p>\n<p>Results obtained\
+    \ from studies of ALXN1840 and ammonium tetrathiomolybdate in participants with\
+    \ WD; see the IB.</p>\n<p>Regular monitoring of liver function tests.</p>\n<p>Dose\
+    \ modification or discontinuation (Section 6.6).</p>\n<p>Anemia Anemia has been\
+    \ observed in participants with WD, attributed to overtreatment and resultant\
+    \ copper depletion; see the IB.</p>\n<p>Monitoring complete blood count. Dose\
+    \ modification or discontinuation (Section 6.6).</p>\n<p>Low white blood cell\
+    \ count (leukopenia, bone marrow toxicity)</p>\n<p>Leukopenia and bone marrow\
+    \ toxicity (myelosuppression) have been observed in participants with WD, attributed\
+    \ to overtreatment and resultant copper depletion. Results obtained from studies\
+    \ of ALXN1840 and ammonium tetrathiomolybdate in participants with WD; see the\
+    \ IB.</p>\n<p>Monitoring of complete blood count. Dose modification or discontinuation\
+    \ (Section 6.6).</p>\n<p>Neurological dysfunction Neurological worsening may occur\
+    \ due to copper mobilization. Peripheral neuropathy may be seen with over decoppering;\
+    \ however, symptoms such as myelosuppression is typically seen earlier.</p>\n\
+    <p>Regular monitoring for neurologic adverse events. Dose modification or discontinuation\
+    \ (Section 6.6).</p>\n<p><b>Study Procedures</b></p>\n<p>Risks associated with\
+    \ the study design and procedures</p>\n<p>Participants will undergo repeated blood\
+    \ draws to measure the PK of the study intervention and metabolism. Blood draws\
+    \ may result in ecchymosis, redness, and minor pain to the site. On rare occasion,\
+    \ infection or thrombophlebitis can occur.</p>\n<p>Blood draws are optimized for\
+    \ PK. A cannula may be placed to minimize needle sticks; however, a catheter may\
+    \ not be left in place for longer than 72 hours and should be flushed a minimum\
+    \ of every 8 hours.</p>\n<p><b>Potential Risks and Mitigation Strategy</b></p>\n\
+    <p>Abbreviations: ALT = alanine aminotransferase; AST = aspartate aminotransferase;\
+    \ IB = Investigator's Brochure; PK \n= pharmacokinetics; WD = Wilson disease.</p>\n\
+    <p><b>2.3.1.1. Coronavirus (SARS-CoV-2) Disease 2019</b></p>\n<p>The COVID-19\
+    \ pandemic is active at the time of this protocol amendment. Given this unique\
+    \ circumstance, specific consideration has been given to the potential risks and\
+    \ mitigation measures due to COVID-19 vaccine (see Section 10.5).</p>\n<p><b>2.3.2.\
+    \ Benefit Assessment</b></p>\n<p>The main objective of effective WD treatment\
+    \ is to provide:</p>\n<p>ALXN1840-WD-204</p>\n<p>\u2022 Rapid and sustained control\
+    \ of copper and mitigation of clinical symptoms of WD \nthrough the formation\
+    \ of a stable tetrathiomolybdate-copper-albumin TPC. Copper \ncontrol may prevent\
+    \ tissue toxicity, including neurological deterioration that has been \nreported\
+    \ at the initiation of treatment with chelators. This hypothesis is supported\
+    \ by \nresults from Study\u202FWTX101-201 in participants with WD (Weiss, 2017).</p>\n\
+    <p>\u2022 Improved compliance over current chelator therapy through improved tolerability\
+    \ and the \nconvenience of a simplified dosing regimen (once daily) compared to\
+    \ current therapeutic \noptions (multiple daily dosing). \nPotential benefits\
+    \ of study participation for participants include:</p>\n<p>\u2022 Participation\
+    \ in a clinical study increases the participant's understanding of the \npathophysiology\
+    \ and treatment of WD.</p>\n<p>\u2022 Removal of total body copper as a definitive\
+    \ treatment for WD.</p>\n<p>\u2022 Participants in the study will contribute to\
+    \ improved care for other participants with WD \nin the future.</p>\n<p><b>2.3.3.\
+    \ Overall Benefit-Risk Conclusion</b></p>\n<p>Taking into account the measures\
+    \ implemented to minimize risk to participants in this study, the potential risks\
+    \ identified in association with ALXN1840 are justified by the anticipated benefits\
+    \ that may be afforded to participants with WD.</p>"
+2-3:
+  name: ''
+  sectionNumber: '2.3'
+  sectionTitle: Benefit-Risk Assessment
+  text: "<p>Detailed information about the known and expected benefits, risks, and\
+    \ reasonably expected adverse events (AEs) of ALXN1840 are presented in the IB.\
+    \ Information about the known or potential risks and benefits are detailed in\
+    \ the following sections.</p>\n<p><b>2.3.1. Risk Assessment</b></p>\n<p>Details\
+    \ of the potential risks and mitigation strategy are provided in Table 3.</p>\n\
+    <p>ALXN1840-WD-204</p>\n<p><b>Table 3:</b></p>\n<p><b>Potential Risk of Clinical\
+    \ Significance</b></p>\n<p><b>Summary of Data/Rationale for Risk</b></p>\n<p><b>Mitigation\
+    \ Strategy</b></p>\n<p><b>ALXN1840</b></p>\n<p>Dose-dependent elevations in transaminases\
+    \ (ALT and AST)</p>\n<p>Generally mild to moderate in severity, asymptomatic and\
+    \ reversible with dose adjustments were reported, usually after 3 - 6 weeks of\
+    \ treatment.</p>\n<p>Results obtained from studies of ALXN1840 and ammonium tetrathiomolybdate\
+    \ in participants with WD; see the IB.</p>\n<p>Regular monitoring of liver function\
+    \ tests.</p>\n<p>Dose modification or discontinuation (Section 6.6).</p>\n<p>Anemia\
+    \ Anemia has been observed in participants with WD, attributed to overtreatment\
+    \ and resultant copper depletion; see the IB.</p>\n<p>Monitoring complete blood\
+    \ count. Dose modification or discontinuation (Section 6.6).</p>\n<p>Low white\
+    \ blood cell count (leukopenia, bone marrow toxicity)</p>\n<p>Leukopenia and bone\
+    \ marrow toxicity (myelosuppression) have been observed in participants with WD,\
+    \ attributed to overtreatment and resultant copper depletion. Results obtained\
+    \ from studies of ALXN1840 and ammonium tetrathiomolybdate in participants with\
+    \ WD; see the IB.</p>\n<p>Monitoring of complete blood count. Dose modification\
+    \ or discontinuation (Section 6.6).</p>\n<p>Neurological dysfunction Neurological\
+    \ worsening may occur due to copper mobilization. Peripheral neuropathy may be\
+    \ seen with over decoppering; however, symptoms such as myelosuppression is typically\
+    \ seen earlier.</p>\n<p>Regular monitoring for neurologic adverse events. Dose\
+    \ modification or discontinuation (Section 6.6).</p>\n<p><b>Study Procedures</b></p>\n\
+    <p>Risks associated with the study design and procedures</p>\n<p>Participants\
+    \ will undergo repeated blood draws to measure the PK of the study intervention\
+    \ and metabolism. Blood draws may result in ecchymosis, redness, and minor pain\
+    \ to the site. On rare occasion, infection or thrombophlebitis can occur.</p>\n\
+    <p>Blood draws are optimized for PK. A cannula may be placed to minimize needle\
+    \ sticks; however, a catheter may not be left in place for longer than 72 hours\
+    \ and should be flushed a minimum of every 8 hours.</p>\n<p><b>Potential Risks\
+    \ and Mitigation Strategy</b></p>\n<p>Abbreviations: ALT = alanine aminotransferase;\
+    \ AST = aspartate aminotransferase; IB = Investigator's Brochure; PK \n= pharmacokinetics;\
+    \ WD = Wilson disease.</p>\n<p><b>2.3.1.1. Coronavirus (SARS-CoV-2) Disease 2019</b></p>\n\
+    <p>The COVID-19 pandemic is active at the time of this protocol amendment. Given\
+    \ this unique circumstance, specific consideration has been given to the potential\
+    \ risks and mitigation measures due to COVID-19 vaccine (see Section 10.5).</p>\n\
+    <p><b>2.3.2. Benefit Assessment</b></p>\n<p>The main objective of effective WD\
+    \ treatment is to provide:</p>\n<p>ALXN1840-WD-204</p>\n<p>\u2022 Rapid and sustained\
+    \ control of copper and mitigation of clinical symptoms of WD \nthrough the formation\
+    \ of a stable tetrathiomolybdate-copper-albumin TPC. Copper \ncontrol may prevent\
+    \ tissue toxicity, including neurological deterioration that has been \nreported\
+    \ at the initiation of treatment with chelators. This hypothesis is supported\
+    \ by \nresults from Study\u202FWTX101-201 in participants with WD (Weiss, 2017).</p>\n\
+    <p>\u2022 Improved compliance over current chelator therapy through improved tolerability\
+    \ and the \nconvenience of a simplified dosing regimen (once daily) compared to\
+    \ current therapeutic \noptions (multiple daily dosing). \nPotential benefits\
+    \ of study participation for participants include:</p>\n<p>\u2022 Participation\
+    \ in a clinical study increases the participant's understanding of the \npathophysiology\
+    \ and treatment of WD.</p>\n<p>\u2022 Removal of total body copper as a definitive\
+    \ treatment for WD.</p>\n<p>\u2022 Participants in the study will contribute to\
+    \ improved care for other participants with WD \nin the future.</p>\n<p><b>2.3.3.\
+    \ Overall Benefit-Risk Conclusion</b></p>\n<p>Taking into account the measures\
+    \ implemented to minimize risk to participants in this study, the potential risks\
+    \ identified in association with ALXN1840 are justified by the anticipated benefits\
+    \ that may be afforded to participants with WD.</p>"
 '3':
   name: ''
   sectionNumber: '3.'
@@ -1372,108 +1313,7 @@
   name: ''
   sectionNumber: 4.2.
   sectionTitle: Scientific Rationale for Study Design
-  text: '<p>The study is designed as an open-label exploratory study to provide a
-    descriptive assessment of copper balance in participants with WD, the target population
-    for ALXN1840 therapy. The study is being conducted as a repeat-dose study to assess
-    the effect of duration of ALXN1840 treatment and the effects of intra-patient
-    dose increase on copper and molybdenum balance in participants with WD. The intra-patient
-    dose escalation schedule is similar to that employed in the current Phase 3 Study
-    WTX101-301. The similar schedule was chosen to characterize the decoppering effects
-    expected early with treatment. This study is designed to supplement the mechanism
-    of action study in healthy participants (Study ALXN1840-HV-108). While healthy
-    participants are expected to be adequate to assess the mechanism of action of
-    ALXN1840, characterization of copper balance in the WD population will help to
-    understand if there are differences in the magnitude of effect between the 2 populations
-    as this may be important to understand the doses that may support a net neutral
-    versus a net negative copper balance. Limited nonclinical data on copper elimination
-    with tetrathiomolybdate suggested copper excretion may be at least maintained
-    or increased with repeated dosing (refer to the current IB).</p>
-
-    <p>ALXN1840-WD-204</p>
-
-    <p>Therefore, the duration of the study and multiple collection periods will better
-    characterize the pattern of copper elimination over time. Such information may
-    be helpful in understanding the decoppering and maintenance phases.</p>
-
-    <p>As the study involves intensive diet control and sampling, the study is planned
-    to be conducted in a small number of participants with WD who will be admitted
-    to a CRU for 2 inpatient periods. Inpatient Period 1 includes a baseline and initial
-    15 mg/day collection period during the accumulation phase followed by an Outpatient
-    Period; Inpatient Period 2 with a second collection period to support analysis
-    of copper balance at 15 mg/day steady state and a 30 mg/day accumulation and steady
-    state.</p>
-
-    <p>During the Outpatient Period, participants will be encouraged to remain on
-    a copper-controlled diet; however, to avoid confounding, a diet equilibration
-    period is included in each study period. Overall, collection periods are a minimum
-    of 3 days and as long as 15 days (which will be subdivided for analyses). Collection
-    periods of at least 3 days were used to help minimize the impact of day-to-day
-    variability on measurements. In addition, the time period for analysis will take
-    into consideration the average bowel transit of approximately 40 hours (male:
-    33 hours; female: 47 hours) (Camilleri, 1986; Metcalf, 1987). Because the periods
-    are of different lengths, the study will calculate mean daily copper balance.</p>
-
-    <p>While the primary endpoint for the study is an assessment of net copper balance,
-    measurement of a pretreatment copper baseline will be helpful to understand the
-    magnitude of effect of ALXN1840. To assess the copper baseline during the Inpatient
-    Run-in Period, participants will be discontinued from their chelator therapy for
-    approximately 4 days prior to initiating ALXN1840. During this period, participants
-    will be maintained on a copper-controlled diet to minimize risk to the participants.
-    In the Phase 3 study ALXN1840-WD-301, participants discontinue their chelator
-    approximately 48 hours prior to initiation of ALXN1840 without reported complications.
-    Among participants who discontinue chelator due to intolerance or noncompliance,
-    the time from chelator discontinuation to the onset or worsening of symptoms varies
-    from as little as 1 or 2 weeks to as long as months or years (Scheinberg, 1987).
-    To prevent confounding of the study results, participants must be off zinc therapy
-    for a minimum of 21 days prior to Day 1 because zinc works through upregulation
-    of metallothionein (MT) in enterocytes resulting in elevation of fecal copper
-    excretion. Previously, reports in the literature suggest that it can take up to
-    3 weeks or longer for zinc treatment to have an efficacious effect on copper balance
-    (Brewer, 1983), so a delayed time to reversal of this effect could also occur.
-    However, the physiologic turnover of human gastrointestinal epithelial cells is
-    3 - 5 days (Darwich, 2014); therefore, the inhibitory effect of zinc on intestinal
-    copper absorption is expected to be minimal 21 days after discontinuation of zinc.</p>
-
-    <p>Following ALXN1840 administration, the active drug moiety tetrathiomolybdate
-    rapidly binds copper to form TPC, mostly in the liver and blood, and presents
-    as such in the systemic circulation. If TPC is not rapidly formed, tetrathiomolybdate
-    spontaneously undergoes serial hydrolysis to form molybdate, the most common form
-    of nutrient molybdenum, and is excreted in the urine. Total molybdenum concentration
-    has been measured as a surrogate of ALXN1840 PK; however, total molybdenum concentration
-    cannot distinguish whether the molybdenum is protein bound (mostly as TPC), free
-    active drug as ALXN1840, intermediate hydrolysis products, or molybdate. To better
-    characterize the amount of non-TPC-bound drug and its unbound degradation products,
-    plasma PUF-molybdenum has also been measured, which</p>
-
-    <p>ALXN1840-WD-204</p>
-
-    <p>represents the free parent drug (ALXN1840), short-lived intermediate hydrolysis
-    products, and molybdate, which may have originated from the tetrathiomolybdate
-    or from food intake as a micronutrient. Total molybdenum PK and free molybdenum
-    PK serve as surrogate measures of ALXN1840 PK. To better characterize the ADME
-    of ALXN1840, the PK of both total molybdenum and PUF-molybdenum will be characterized
-    and described.</p>
-
-    <p>This study is designed to provide an extensive assessment of copper and molybdenum
-    balance over the first 40 days of treatment with ALXN1840 and support a more robust
-    understanding of the effects of duration of treatment and dose of ALXN1840 on
-    copper balance. Half-life estimates for total molybdenum in Study WTX101-201 were
-    reported to be approximately 24 hours at steady state on Days 84 and 168, while
-    in healthy participants, total molybdenum half-life was measured closer to 51
-    hours. With a half-life within this range, the sample collection periods include
-    assessment of copper and molybdenum balance both during accumulation and at steady
-    state for both the 15 mg/day and 30 mg/day doses. The study will include both
-    intake and output collection as well as PK and copper assessments (ie, ceruloplasmin-bound
-    copper and labile bound copper [LBC]) to inform the relationship between balance
-    measurements and copper and molybdenum levels in the blood.</p>
-
-    <p>Finally, preclinical data from ALXN1840 ADME study suggest the potential for
-    molybdenum accumulation in the liver of participants with WD; therefore, an assessment
-    of molybdenum balance will help determine whether steady state has been reached
-    as defined by a molybdenum balance of neutral during the collection period. Because
-    molybdenum is a necessary micronutrient and serves as a cofactor for a number
-    of enzymes and may exist in intracellular stores, small variations in molybdenum
-    balance could be due to molybdate rather than ALXN1840.</p>
+  text: '
 
     <p><b>4.2.1. Participant Input into Design</b></p>
 
