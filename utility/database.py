@@ -223,7 +223,9 @@ class Database:
     elif type == "element":
       return self._insert_text(text, '<usdm:macro id="element" name="study_phase|study_short_title|study_full_title|study_acronym|study_rationale|study_version_identifier|study_identifier|study_regulatory_identifiers|study_date|approval_date|organization_name_and_address|amendment|amendment_scopes"/>', position)
     elif type == "section":
-      return self._insert_text(text, '<usdm:macro id="section" name="title_page|inclusion|exclusion|objective_endpoints" template="m11|plain"/>', position)
+      return self._insert_text(text, '<usdm:macro id="section" name="title_page|inclusion|exclusion|objective_endpoints|soa" template="m11|plain"/>', position)
+    elif type == "timeline":
+      return self._insert_text(text, '<usdm:macro id="section" name="timeline" template="m11|plain" timeline="..."/>', position)
     elif type == "note":
       return self._insert_text(text, '<usdm:macro id="note" text="note text"/>', position)
     else:
