@@ -10,7 +10,7 @@ from d4kms_ui import get_access_token, get_user_data
 
 import logging
 
-VERSION = '0.2'
+VERSION = '0.3'
 SYSTEM_NAME = "Protocol to USDM"
 
 app = FastAPI(
@@ -98,37 +98,42 @@ async def get_section(request: Request, section: str):
   check_simple_authentication(request)
   #database = Database()
   data = database.get_section(section)
-  can_add = database.can_add_section(section)
+  can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
   response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
   return response
 
 @app.post('/sections/{section}')
 async def post_section(request: Request, section: str, text: str = Form(...)):
   check_simple_authentication(request)
-  #database = Database()
   data = database.put_section(section, text)
-  #can_add = database.can_add_section(section)
-  #response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
-  #return response
   return {}
 
 @app.get('/sections/{section}/document')
 async def document(request: Request, section: str):
   check_simple_authentication(request)
-  #database = Database()
   data = database.get_section(section)
-  #print(f"DATA: {data}")
   response = templates.TemplateResponse('home/partials/document.html', { "request": request, 'key': section, 'data': data})
   return response
 
-@app.post('/sections/{section}/add')
+@app.post('/sections/{section}/addSibling')
 async def post_section(request: Request, section: str):
   check_simple_authentication(request)
-  #database = Database()
   new_section = database.add_section(section)
   if new_section:
     data = database.get_section(new_section)
-    can_add = database.can_add_section(new_section)
+    can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
+    toc = database.toc_sections()
+    return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': new_section, 'data': data, 'can_add': can_add, 'toc': toc})
+  else:
+    return templates.TemplateResponse('errors/partials/errors.html', {"request": request, 'data': {'error': f'Failed to add section {section}'}})
+
+@app.post('/sections/{section}/addChild')
+async def post_section(request: Request, section: str):
+  check_simple_authentication(request)
+  new_section = database.add_child_section(section)
+  if new_section:
+    data = database.get_section(new_section)
+    can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
     toc = database.toc_sections()
     return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': new_section, 'data': data, 'can_add': can_add, 'toc': toc})
   else:
@@ -140,8 +145,8 @@ async def post_section(request: Request, section: str):
   #database = Database()
   deleted = database.delete_section(section)
   if deleted:
-    data = database.get_section("1")
-    can_add = database.can_add_section("1")
+    data = database.get_section('1')
+    can_add = {'child': database.can_add_child_section('1'), 'sibling':  database.can_add_sibling_section('1')}
     toc = database.toc_sections()
     return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': '1', 'data': data, 'can_add': can_add, 'toc': toc})
   else:
@@ -152,8 +157,7 @@ async def post_section(request: Request, section: str, type: str, textCursor: in
   check_simple_authentication(request)
   print(f"USDM: {section} @ {textCursor}, {type}")
   data = database.insert_usdm(section, type, textCursor)
-  #data = database.get_section(section)
-  can_add = database.can_add_section(section)
+  can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
   response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
   return response
 
@@ -169,7 +173,7 @@ async def put_title(request: Request, section: str, section_title_input: str = F
   check_simple_authentication(request)
   data = database.put_section_title(section, section_title_input)
   data = database.get_section(section)
-  can_add = database.can_add_section(section)
+  can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
   toc = database.toc_sections()
   response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': toc})
   return response

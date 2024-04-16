@@ -102,14 +102,34 @@ class Database:
       self._lock.release()
       return False
 
-  def can_add_section(self, section_key):
+  def can_add_sibling_section(self, section_key):
     potential_section_key = self._increment_section_number(section_key)
     return self._section_is_permitted(potential_section_key)
-  
-  def add_section(self, section_key):
+
+  def can_add_child_section(self, section_key):
+    potential_section_key = self._child_section_number(section_key)
+    return self._section_is_permitted(potential_section_key)
+
+  def add_sibling_section(self, section_key):
     try:
       self._lock.acquire()
       new_section_key = self._increment_section_number(section_key)
+      if self._section_is_permitted(new_section_key):
+        self._data[new_section_key] = {'sectionNumber': new_section_key.replace('-', '.'), 'sectionTitle': 'To Be Provided', 'name': '', 'text': ''}
+        self._write()
+        result = new_section_key
+      else:
+        result = None
+      self._lock.release()
+      return result
+    except Exception as e:
+      application_logger.exception("Exception during section add", e)
+      return None
+
+  def add_child_section(self, section_key):
+    try:
+      self._lock.acquire()
+      new_section_key = self._child_section_number(section_key)
       if self._section_is_permitted(new_section_key):
         self._data[new_section_key] = {'sectionNumber': new_section_key.replace('-', '.'), 'sectionTitle': 'To Be Provided', 'name': '', 'text': ''}
         self._write()
@@ -179,6 +199,11 @@ class Database:
   def _increment_section_number(self, section_key):
     parts = section_key.split('-')
     parts[-1] = str(int(parts[-1]) + 1)
+    return '-'.join(parts)
+
+  def _child_section_number(self, section_key):
+    parts = section_key.split('-')
+    parts.append('1')
     return '-'.join(parts)
 
   def _section_is_permitted(self, section_key):

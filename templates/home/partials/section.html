@@ -55,23 +55,31 @@
     <i class="ps-2 bi bi-pencil"></i>
   </a>  
 </div>
-{% if can_add %}
-  <div id="add_section_div" hx-swap-oob="#add_section_div">
-    <a class="link-dark" style="font-size: 20px;" hx-post="/sections/{{key}}/add" hx-trigger="click" hx-target="#section_edit_div" role="button">
-      <i class="ps-2 bi bi-plus-circle"></i>
-    </a>    
-  </div>
-  <div id="delete_section_div" hx-swap-oob="#delete_section_div">
-    <a class="link-danger" style="font-size: 20px;" hx-delete="/sections/{{key}}" hx-trigger="click" hx-target="#section_edit_div" role="button">
-      <i class="ps-2 bi bi-dash-circle"></i>
+{% if can_add['sibling'] %}
+  <div id="add_section_sibling_div" hx-swap-oob="#add_section_sibling_div">
+    <a class="link-dark" style="font-size: 20px;" hx-post="/sections/{{key}}/addSibling" hx-trigger="click" hx-target="#section_edit_div" role="button">
+      <i class="ps-2 bi bi-arrow-down-circle"></i>
     </a>    
   </div>
 {% else %}
-  <div id="add_section_div" hx-swap-oob="#add_section_div">
-  </div>
-  <div id="delete_section_div" hx-swap-oob="#delete_section_div">
+  <div id="add_section_sibling_div" hx-swap-oob="#add_section_sibling_div">
   </div>
 {% endif %}
+{% if can_add['child'] %}
+  <div id="add_section_child_div" hx-swap-oob="#add_section_child_div">
+    <a class="link-dark" style="font-size: 20px;" hx-post="/sections/{{key}}/addChild" hx-trigger="click" hx-target="#section_edit_div" role="button">
+      <i class="ps-2 bi bi-arrow-down-right-circle"></i>
+    </a>    
+  </div>
+{% else %}
+  <div id="add_section_child_div" hx-swap-oob="#add_section_child_div">
+  </div>
+{% endif %}
+<div id="delete_section_div" hx-swap-oob="#delete_section_div">
+  <a class="link-danger" style="font-size: 20px;" hx-delete="/sections/{{key}}" hx-trigger="click" hx-target="#section_edit_div" role="button">
+    <i class="ps-2 bi bi-dash-circle"></i>
+  </a>    
+</div>
 <div id="section_results_div" hx-swap-oob="#section_results_div">
   {{data['text']|safe}}
 </div>
