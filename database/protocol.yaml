@@ -369,58 +369,291 @@
     \ the participant and should assure appropriate participant therapy and/or follow-up.</p>\n\
     <p><b>10.1.9. Publication Policy</b></p>\n<p>The full terms regarding publication\
     \ of the results of this study are outlined in the applicable Clinical Study Agreement.</p>"
+10-1-1:
+  name: ''
+  sectionNumber: 10.1.1
+  sectionTitle: Regulatory and Ethical Considerations
+  text: "<ul>\n<li><p>This study will be conducted in accordance with the protocol\
+    \ and with the following:</p></li> \n<p>\u2212 Consensus ethical principles derived\
+    \ from international guidelines including the Declaration of Helsinki and Council\
+    \ for International Organizations of Medical Sciences (CIOMS) International Ethical\
+    \ Guidelines</p>\n<p>\u2212 Applicable International Council for Harmonisation\
+    \ (ICH) Good Clinical Practice (GCP) Guidelines </p> \n<p>\u2212 Applicable laws\
+    \ and regulations </p> \n<li><p>The protocol, protocol substantial amendments,\
+    \ ICF, IB, and other relevant documents (eg, advertisements) must be submitted\
+    \ to an IRB/IEC by the Investigator and reviewed and approved by the IRB/IEC before\
+    \ the study is initiated.</p></li>\n<li><p>Any substantial amendments to the protocol\
+    \ will require IRB/IEC approval before implementation of changes made to the study\
+    \ design, except for changes necessary to eliminate an immediate hazard to study\
+    \ participants.</p></li>\n<li><p>The Investigator will notify the IRB/IEC of deviations\
+    \ from the study protocol or GCP as defined by UK legislation as a serious breach\
+    \ or as required by IRB/IEC procedures.</p></li>\n<li><p>The Investigator will\
+    \ be responsible for the following:</p></li>\n<p>\u2212 Providing written summaries\
+    \ of the status of the study to the IRB/IEC annually or more frequently in accordance\
+    \ with the requirements, policies, and procedures established by the IRB/IEC</p>\n\
+    <p>\u2212 Notifying the IRB/IEC of SAEs or other significant safety findings as\
+    \ required by IRB/IEC procedures</p>\n<p>\u2212 Providing oversight of the conduct\
+    \ of the study at the site and adherence to requirements of 21 Code of Federal\
+    \ Regulations (CFR), ICH guidelines, the IRB/IEC, Directive 2001/20/EC, European\
+    \ regulation 536/2014 for clinical studies (if applicable), and all other applicable\
+    \ local regulations</p>\n</ul>"
+10-1-2:
+  name: ''
+  sectionNumber: 10.1.2
+  sectionTitle: Financial Disclosure
+  text: '<p>Investigators and Subinvestigators will provide Alexion with sufficient,
+    accurate financial information as requested to allow Alexion to submit complete
+    and accurate financial certification or disclosure statements to the appropriate
+    regulatory authorities. Investigators are responsible for providing information
+    on financial interests during the course of the study and for 1 year after completion
+    of the study.</p>
+
+    '
+10-1-3:
+  name: ''
+  sectionNumber: 10.1.3
+  sectionTitle: Informed Consent Process
+  text: '<ul>
+
+    <li><p>It is the responsibility of the Investigator to obtain signed (written
+    or electronic signature) informed consent from all study participants prior to
+    any study-related procedures including screening assessments.</p></li>
+
+    <li><p>The Investigator or his/her representative will explain the nature of the
+    study (including but not limited to the objectives, potential benefits and risks,
+    inconveniences, and the participant''s rights and responsibilities) to the participant
+    or his/her legally authorized representative, defined according to local and country
+    regulations where the study is taking place, and answer all questions regarding
+    the study.</p></li>
+
+    <li><p>Participants must be informed that their participation is voluntary. Participants
+    or their legally authorized representative will be required to sign a statement
+    of informed consent or a certified translation if applicable, that meets the requirements
+    of 21 CFR 50, local regulations, EU General Data Protection Regulation (GDPR),
+    ICH guidelines, Health Insurance Portability and Accountability Act (HIPAA) requirements,
+    where applicable, and the IRB/IEC or study center.</p></li>
+
+    <li><p>The medical record must include a statement that signed (written or electronic)
+    informed consent was obtained before the participant was screened in the study
+    and the date the written consent was obtained. The authorized person obtaining
+    the informed consent must also sign the ICF/ICFs.</p></li>
+
+    <li><p>Participants must be reconsented to the most current version of the ICF/ICFs
+    during their participation in the study.</p></li>
+
+    <li><p>A copy of the signed (written or electronic) informed consent documentation
+    (ie, a complete set of participant information sheets and fully executed signature
+    pages) must be provided to the participant or the participant''s legally authorized
+    representative, as applicable. This document may require translation into the
+    local language. Signed (written or electronic) consent [or assent] forms must
+    remain in each participant''s study file and must be available for verification
+    at any time.</p></li>
+
+    </ul>
+
+    <p>The ICF will contain a separate section that addresses the use of remaining
+    mandatory samples for optional exploratory research. The Investigator or authorized
+    designee will explain to each participant or their legally authorized representative
+    the objectives of the exploratory research. If sharing exploratory research results
+    with the Investigator is not planned, the ICF should mention it. Participants
+    or their legally authorized representative will be told that they are free to
+    refuse to participate and may withdraw their consent at any time and for any reason
+    during the storage period. A separate signature will be required to document a
+    participant''s agreement to allow any remaining specimens to be used for exploratory
+    research. Participants who decline to participate in this optional research will
+    not provide this separate signature.</p>
+
+    '
+10-1-4:
+  name: ''
+  sectionNumber: 10.1.4
+  sectionTitle: Data Protection
+  text: '<ul>
+
+    <li><p>Participants will be assigned a unique identifier by Alexion. Any participant
+    records or datasets that are transferred to Alexion will contain the identifier
+    only; participant names or any information which would make the participant identifiable
+    will not be transferred.</p></li>
+
+    <li><p>Participants must be informed that their personal study-related data will
+    be used by Alexion in accordance with local data protection law. The level of
+    disclosure must also be explained to the participants who will be required to
+    give consent for their data to be used as described in the informed consent.</p></li>
+
+    <li><p>Participants must be informed that their medical records may be examined
+    by Clinical Quality Assurance auditors or other authorized personnel appointed
+    by Alexion, appropriate IRB/IEC members, and inspectors from regulatory authorities.</p></li>
+
+    </ul>
+
+    '
+10-1-5:
+  name: ''
+  sectionNumber: 10.1.5
+  sectionTitle: Dissemination of Clinical Study Data
+  text: '<p>Study-related information and study results may be posted on publicly
+    accessible clinical study databases (eg, www.clinicaltrials.gov or www.clinicaltrialsregister.eu),
+    as appropriate, and in accordance with national, regional, and local regulations.</p>
+
+    '
+10-1-6:
+  name: ''
+  sectionNumber: 10.1.6
+  sectionTitle: Data Quality Assurance
+  text: '<ul>
+
+    <li><p>All participant data relating to the study will be recorded on printed
+    or electronic CRF unless transmitted to Alexion or designee electronically (eg,
+    laboratory data). The Investigator is responsible for verifying that data entries
+    are accurate and correct by physically or electronically signing the CRF.</p></li>
+
+    <li><p>The Investigator must maintain accurate documentation (source data) that
+    supports the information entered in the CRF.</p></li>
+
+    <li><p>The Investigator must permit study-related monitoring, audits, IRB/IEC
+    review, and regulatory agency inspections and provide direct access to source
+    data documents.</p></li>
+
+    <li><p>Alexion or designee is responsible for the data management of this study
+    including quality checking of the data.</p></li>
+
+    <li><p>Study monitors will perform ongoing source data verification to confirm
+    that data entered into the CRF by authorized site personnel are accurate, complete,
+    and verifiable from source documents; that the safety and rights of participants
+    are being protected; and that the study is being conducted in accordance with
+    the currently approved protocol and any other study agreements, ICH GCP, and all
+    applicable regulatory requirements.</p></li>
+
+    <li><p>Records and documents, including signed ICFs, pertaining to the conduct
+    of this study must be retained by the Investigator for a minimum of 25 years after
+    study completion, unless local regulations or institutional policies require a
+    longer retention period. No records may be destroyed during the retention period
+    without the written approval of Alexion. No records may be transferred to another
+    location or party without written notification to Alexion.</p></li>
+
+    </ul>'
+10-1-7:
+  name: ''
+  sectionNumber: 10.1.7
+  sectionTitle: Source Documents
+  text: '<p>Source documents provide evidence for the existence of the participant
+    and substantiate the integrity of the data collected. The Investigator or designee
+    will prepare and maintain adequate</p>
+
+    <p>and accurate source documents (eg, medical records, ECGs, AE and concomitant
+    medication reporting, raw data collection forms) designed to record all observations
+    and other pertinent data for each participant.</p>
+
+    <p>Data reported on the CRF that are transcribed from source documents must be
+    consistent with the source documents or the discrepancies must be explained. The
+    Investigator may need to request previous medical records or transfer records,
+    depending on the study. Also, current medical records must be available. Source
+    documents are filed at the Investigator''s site.</p>
+
+    '
+10-1-8:
+  name: ''
+  sectionNumber: 10.1.8
+  sectionTitle: Study and Site Start and Closure
+  text: '<p>The study start date is the date on which the first participant is consented.</p>
+
+    <p>Alexion reserves the right to close the study site or terminate the study at
+    any time for any reason at the sole discretion of Alexion. Study sites will be
+    closed after the study is completed or following the decision to close or terminate
+    the study. A study site is considered closed when all participants have completed
+    the end of study or early discontinuation visit, all data have been collected
+    and entered into electronic data capture (EDC) system, all required documents
+    and study supplies have been collected, and a study-site closure visit has been
+    performed.</p>
+
+    <p>The Investigator may initiate study-site closure at any time, provided there
+    is reasonable cause and sufficient notice is given in advance of the intended
+    termination.</p>
+
+    <p>Reasons for the early closure of a study site by Alexion or Investigator may
+    include but are not limited to:</p>
+
+    <ul>
+
+    <li><p>Failure of the Investigator to comply with the protocol, the requirements
+    of the IRB/IEC or local health authorities, Alexion''s procedures, or GCP guidelines</p></li>
+
+    <li><p>Inadequate recruitment of participants by the Investigator</p></li>
+
+    <li><p>Discontinuation of further study intervention development</p></li>
+
+    </ul>
+
+    <p>If the study is prematurely terminated or suspended, Alexion shall promptly
+    inform the Investigators, the IECs/IRBs, the regulatory authorities, and any contract
+    research organization(s) used in the study of the reason for termination or suspension,
+    as specified by the applicable regulatory requirements. The Investigator shall
+    promptly inform the participant and should assure appropriate participant therapy
+    and/or follow-up.</p>
+
+    '
+10-1-9:
+  name: ''
+  sectionNumber: 10.1.9
+  sectionTitle: Publication Policy
+  text: <p>The full terms regarding publication of the results of this study are outlined
+    in the applicable Clinical Study Agreement.</p>
 10-2:
   name: ''
   sectionNumber: 10.2.
   sectionTitle: Clinical Laboratory Tests
-  text: "<p>ALXN1840-WD-204</p>\n<p>\u2022 The tests detailed in Table 9 will be performed\
-    \ by the local laboratory.</p>\n<p>\u2022 Protocol-specific requirements for inclusion\
-    \ or exclusion of participants are detailed \nin Section 5.</p>\n<p>\u2022 Additional\
-    \ tests may be performed at any time during the study as determined \nnecessary\
-    \ by the Investigator or required by local regulations.</p>\n<p>\u2022 Pregnancy\
-    \ testing: Women of childbearing potential should only be enrolled after a \n\
-    negative serum pregnancy test result at Screening. Additional urine pregnancy\
-    \ testing \nwill be standard for the protocol unless serum testing is required\
-    \ by site policies, local \nregulation, or IRB/IEC and should be performed per\
-    \ the time points specified in the \nSoA (Section 1.3). Screening pregnancy criteria\
-    \ are detailed in Section 5.1.</p>\n<p>ALXN1840-WD-204</p>\n<p><b>Table 9:</b></p>\n\
-    <p><b>Clinical Chemistry</b></p>\n<p>Blood urea nitrogen (BUN) Alanine aminotransferase</p>\n\
-    <p>Potassium Alkaline phosphatase</p>\n<p>Creatinine Urea</p>\n<p>Creatine kinase\
-    \ Magnesium</p>\n<p>Sodium Iron</p>\n<p>Chloride Zinc</p>\n<p>Potassium Total\
-    \ and direct bilirubin</p>\n<p>Glucose Total protein</p>\n<p>Total carbon dioxide\
-    \ Albumin</p>\n<p>Aspartate aminotransferase Calcium</p>\n<p>Gamma glutamyltransferase\
-    \ Phosphate</p>\n<p><b>Hematology</b></p>\n<p>Hematocrit Red blood cell counta</p>\n\
-    <p>Platelets Mean corpuscular volume</p>\n<p>White blood cell count Mean cell\
-    \ hemoglobin concentration</p>\n<p>Mean cell hemoglobin Lymphocytes</p>\n<p>Neutrophils\
-    \ Eosinophils</p>\n<p>Monocytes Prothrombin time</p>\n<p>Basophils International\
-    \ normalized ratio</p>\n<p>Hemoglobin Partial thromboplastin time</p>\n<p><b>Urinalysis</b></p>\n\
-    <p>Bilirubin Blood</p>\n<p>Glucose Ketones</p>\n<p>Leukocytes Microscopy</p>\n\
-    <p>Nitrite pH</p>\n<p>Protein Specific gravity</p>\n<p>Urobilinogen Red blood\
-    \ cells</p>\n<p>Bacteria</p>\n<p><b>Other Tests</b></p>\n<p>HIV, hepatitis B,\
-    \ and hepatitis C screen Total copper and total molybdenum</p>\n<p>Ceruloplasmin\
-    \ (serum and plasma) PUF-molybdenum and PUF-copper</p>\n<p>Ceruloplasmin-bound\
-    \ copper Labile bound copper</p>\n<p>24-hour urine copper and molybdenum Serum\
-    \ and urine pregnancy test</p>\n<p>Urine drug screen</p>\n<p><b>Protocol-Required\
-    \ Safety Laboratory Assessments</b></p>\n<p>a Including nucleated red blood cells.</p>\n\
-    <p>Details of liver chemistry stopping criteria and required actions and follow-up\
-    \ assessments after liver stopping or \nmonitoring event are given in Section\
-    \ 6.6 . A<span class=\"s49\">l</span>l even<span class=\"s49\">t</span>s of a<span\
-    \ class=\"s49\">l</span>an<span class=\"s49\">in</span>e a<span class=\"s49\"\
-    >mi</span>no<span class=\"s50\">t</span><span class=\"s51\">r</span>an<span class=\"\
-    s52\">s</span><span class=\"s51\">f</span>e<span class=\"s51\">r</span>a<span\
-    \ class=\"s52\">s</span>e <span class=\"s51\">(</span>A<span class=\"s52\">L</span><span\
-    \ class=\"s51\">T</span>) \u2265 3 \xD7 upper limit of \nno<span class=\"s51\"\
-    >r</span><span class=\"s49\">m</span>al <span class=\"s51\">(</span>U<span class=\"\
-    s52\">L</span>N) and b<span class=\"s49\">ili</span><span class=\"s51\">r</span>ub<span\
-    \ class=\"s49\">i</span>n \u2265 2 \xD7 ULN (&gt; 3<span class=\"s50\">5</span>%\
-    \ d<span class=\"s49\">i</span><span class=\"s52\">r</span>ect b<span class=\"\
-    s49\">ili</span><span class=\"s51\">r</span>ub<span class=\"s49\">i</span>n) or\
-    \ A<span class=\"s52\">L</span>T \u2265 3 \xD7 ULN and international normalized\
-    \ \nratio (INR) &gt; 1.5, if INR measured which may indicate severe liver injury\
-    \ (possible Hy's Law), must be reported \nas an SAE (excluding studies of hepatic\
-    \ impairment or cirrhosis).</p>\n<p>Abbreviations: HIV= human immunodeficiency\
-    \ virus; PUF = plasma ultrafiltrate; SAE = serious adverse event.</p>\n<p>Investigators\
-    \ must document their review of each laboratory safety report.</p>\n<p>ALXN1840-WD-204</p>"
+  text: "<ul>\n<li><p>The tests detailed in Table 9 will be performed by the local\
+    \ laboratory.</p></li>\n<li><p>Protocol-specific requirements for inclusion or\
+    \ exclusion of participants are detailed in Section 5.</p></li>\n<li><p>Additional\
+    \ tests may be performed at any time during the study as determined necessary\
+    \ by the Investigator or required by local regulations.</p></li>\n<li><p>Pregnancy\
+    \ testing: Women of childbearing potential should only be enrolled after a negative\
+    \ serum pregnancy test result at Screening. Additional urine pregnancy testing\
+    \ will be standard for the protocol unless serum testing is required by site policies,\
+    \ local regulation, or IRB/IEC and should be performed per the time points specified\
+    \ in the SoA (Section 1.3). Screening pregnancy criteria are detailed in Section\
+    \ 5.1.</p></li>\n</ul>\n<p><b>Table 9: Protocol-Required Safety Laboratory Assessments</b></p>\n\
+    \n<table class=\"table align-top table-bordered\">\n<tr>\n<td colspan=\"2\"><p><b>Clinical\
+    \ Chemistry</b></p></td>\n</tr>\n<tr>\n<td><p>Blood urea nitrogen (BUN)</p></td><td><p>Alanine\
+    \ aminotransferase</p></td>\n</tr>\n<tr>\n<td><p>Potassium</p></td><td><p>Alkaline\
+    \ phosphatase</p></td>\n</tr>\n<tr>\n<td><p>Creatinine</p></td><td><p>Urea</p></td>\n\
+    </tr>\n<tr>\n<td><p>Creatine kinase</p></td><td><p>Magnesium</p></td>\n</tr>\n\
+    <tr>\n<td><p>Sodium</p></td><td><p>Iron</p></td>\n</tr>\n<tr>\n<td><p>Chloride</p></td><td><p>Zinc</p></td>\n\
+    </tr>\n<tr>\n<td><p>Potassium</p></td><td><p>Total and direct bilirubin</p></td>\n\
+    </tr>\n<tr>\n<td><p>Glucose</p></td><td><p>Total protein</p></td>\n</tr>\n<tr>\n\
+    <td><p>Total carbon dioxide</p></td><td><p>Albumin</p></td>\n</tr>\n<tr>\n<td><p>Aspartate\
+    \ aminotransferase</p></td><td><p>Calcium</p></td>\n</tr>\n<tr>\n<td><p>Gamma\
+    \ glutamyltransferase</p></td><td><p>Phosphate</p></td>\n</tr>\n<tr>\n<td colspan=\"\
+    2\"><p><b>Hematology</b></p></td>\n</tr>\n<tr>\n<td><p>Hematocrit</p></td><td><p>Red\
+    \ blood cell count<sup>a</sup></p></td>\n</tr>\n<tr>\n<td><p>Platelets</p></td><td><p>Mean\
+    \ corpuscular volume</p></td>\n</tr>\n<tr>\n<td><p>White blood cell count</p></td><td><p>Mean\
+    \ cell hemoglobin concentration</p></td>\n</tr>\n<tr>\n<td><p>Mean cell hemoglobin</p></td><td><p>Lymphocytes</p></td>\n\
+    </tr>\n<tr>\n<td><p>Neutrophils</p></td><td><p>Eosinophils</p></td>\n</tr>\n<tr>\n\
+    <td><p>Monocytes</p></td><td><p>Prothrombin time</p></td>\n</tr>\n<tr>\n<td><p>Basophils</p></td><td><p>International\
+    \ normalized ratio</p></td>\n</tr>\n<tr>\n<td><p>Hemoglobin</p></td><td><p>Partial\
+    \ thromboplastin time</p></td>\n</tr>\n<tr>\n<td colspan=\"2\"><p><b>Urinalysis</b></p></td>\n\
+    </tr>\n<tr>\n<td><p>Bilirubin</p></td><td><p>Blood</p></td>\n</tr>\n<tr>\n<td><p>Glucose</p></td><td><p>Ketones</p></td>\n\
+    </tr>\n<tr>\n<td><p>Leukocytes</p></td><td><p>Microscopy</p></td>\n</tr>\n<tr>\n\
+    <td><p>Nitrite</p></td><td><p>pH</p></td>\n</tr>\n<tr>\n<td><p>Protein</p></td><td><p>Specific\
+    \ gravity</p></td>\n</tr>\n<tr>\n<td><p>Urobilinogen</p></td><td><p>Red blood\
+    \ cells</p></td>\n</tr>\n<tr>\n<td><p>Bacteria</p></td><td><p></p></td>\n</tr>\n\
+    <tr>\n<td colspan=\"2\"><p><b>Other Tests</b></p></td>\n</tr>\n<tr>\n<td><p>HIV,\
+    \ hepatitis B, and hepatitis C screen</p></td><td><p>Total copper and total molybdenum</p></td>\n\
+    </tr>\n<tr>\n<td><p>Ceruloplasmin (serum and plasma)</p></td><td><p>PUF-molybdenum\
+    \ and PUF-copper</p></td>\n</tr>\n<tr>\n<td><p>Ceruloplasmin-bound copper</p></td><td><p>Labile\
+    \ bound copper</p></td>\n</tr>\n<tr>\n<td><p>24-hour urine copper and molybdenum</p></td><td><p>Serum\
+    \ and urine pregnancy test</p></td>\n</tr>\n<tr>\n<td><p>Urine drug screen</p></td><td><p></p></td>\n\
+    </tr>\n</table>\n<p><sup>a</sup> Including nucleated red blood cells.</p>\n<p><small>Details\
+    \ of liver chemistry stopping criteria and required actions and follow-up assessments\
+    \ after liver stopping or monitoring event are given in Section 6.6 . All events\
+    \ of alanine aminotransferase (ALT) \u2265 3 \xD7 upper limit of normal (ULN)\
+    \ and bilirubin \u2265 2 \xD7 ULN (> 35% direct bilirubin) or ALT \u2265 3 \xD7\
+    \ ULN and international normalized ratio (INR) > 1.5, if INR measured which may\
+    \ indicate severe liver injury (possible Hy's Law), must be reported as an SAE\
+    \ (excluding studies of hepatic impairment or cirrhosis).</small></p>\n<p><small>Abbreviations:\
+    \ HIV= human immunodeficiency virus; PUF = plasma ultrafiltrate; SAE = serious\
+    \ adverse event.</small></p>\n<p>Investigators must document their review of each\
+    \ laboratory safety report.</p>\n"
 10-3:
   name: ''
   sectionNumber: 10.3.
@@ -2728,27 +2961,29 @@
     \ using noncompartmental methods with Phoenix\xAE WinNonlin\xAE (Certara USA Inc.,\
     \ Princeton, New Jersey) Version 8.0 or higher or SAS Version 9.3 or higher (SAS\
     \ Institute Inc., Cary, North Carolina), as applicable. Calculations will be based\
-    \ on the actual sampling times recorded during the study.</p>\n<ul>\n<p>\u2022\
-    \ Time delay between the time of dosing and time of appearance of molybdenum \n\
-    concentration (Tlag ) in plasma</p>\n<p>\u2022 Maximum observed concentration\
-    \ ( Cmax )</p>\n<p>\u2022 Time to maximum concentration (tmax )</p>\n<p>\u2022\
-    \ Trough (predose) concentration observed at the start of the dosing interval\
-    \ (Ctrough )</p>\n<p>\u2022 Area under the plasma concentration versus time curve\
-    \ (AUC) from time 0 to the last \nquantifiable concentration (AUCt )</p>\n<p>\u2022\
-    \ AUC over the dosing interval (AUCtau )</p>\n<p>\u2022 Accumulation ratio (AR)\
-    \ calculated as:</p>\n<p>For 15 mg/day:</p>\n<p>\u2212 Cmax,Day25 /Cmax,Day1</p>\n\
-    <p>\u2212 Ctrough,Day26 /Ctrough,Day2</p>\n<p>\u2212 AUCtau,Day25 /AUC For 30\
-    \ mg/day:</p>\n<p>tau,Day1</p>\n<p>\u2212 Cmax,Day39 /C max,Day29,adjusted \n\u2212\
-    \ Ctrough,Day40 /C trough,Day30,adjusted \n\u2212 AUCtau,Day39 /AUC tau,Day29,adjusted\
-    \ \nNote: total molybdenum and PUF molybdenum concentration-time profiles on Day\
-    \ 28</p>\n<p>after the last 15 mg ALXN1840 dose will be extrapolated to Day 29\
-    \ (0-24 hr) and subtracted from the observed Day 29 concentration-time profiles\
-    \ after the first 30 mg</p>\n<p>ALXN1840-WD-204</p>\n<p>ALXN1840 dose for the\
-    \ estimation of the C max,Day29,adjusted , C trough,Day30,adjusted , and AUC tau,Day29,adjusted\
-    \ .</p>\n<p>\u2022 Apparent terminal phase elimination rate constant (\u03BBz\
-    \ )</p>\n<p>\u2022 Terminal elimination half-life (t\xBD )</p>\n<p>\u2022 Apparent\
-    \ total body clearance (CL/F) of ALXN1840 from plasma</p>\n<p>\u2022 Apparent\
-    \ volume of distribution (Vd /F).</p>\n</ul>\n<p>Additional plasma PK parameters\
+    \ on the actual sampling times recorded during the study.</p>\n<ul>\n<li><p>Time\
+    \ delay between the time of dosing and time of appearance of molybdenum concentration\
+    \ (Tlag ) in plasma</p></li>\n<li><p>Maximum observed concentration ( Cmax )</p></li>\n\
+    <li><p>Time to maximum concentration (tmax )</p></li>\n<li><p>Trough (predose)\
+    \ concentration observed at the start of the dosing interval (Ctrough )</p></li>\n\
+    <li><p>Area under the plasma concentration versus time curve (AUC) from time 0\
+    \ to the last quantifiable concentration (AUCt )</p></li>\n<li><p>AUC over the\
+    \ dosing interval (AUCtau )</p></li>\n<li><p>Accumulation ratio (AR) calculated\
+    \ as:</p>\n<p>For 15 mg/day:</p>\n<p>\u2212 C<sub>max,Day25</sub>/C<sub>max,Day1</sub></p>\n\
+    <p>\u2212 C<sub>trough,Day26</sub> /Ctrough,Day2</sub></p>\n<p>\u2212 AUC<sub>tau,Day25</sub>\
+    \ /AUC<sub> tau,Day1</sub></p>\n<p>For 30 mg/day:</p>\n<p>\u2212 C<sub>max,Day39\
+    \ </sub>/C <sub>max,Day29,adjusted </sub></p>\n<p>\u2212 C<sub>trough,Day40</sub>\
+    \ /C <sub>trough,Day30,adjusted </sub></p>\n<p>\u2212 AUC<sub>tau,Day39 </sub>/AUC\
+    \ <sub>tau,Day29,adjusted </sub></p>\n<p>Note: total molybdenum and PUF molybdenum\
+    \ concentration-time profiles on Day 28 after the last 15 mg ALXN1840 dose will\
+    \ be extrapolated to Day 29 (0-24 hr) and subtracted from the observed Day 29\
+    \ concentration-time profiles after the first 30 mg</p>\n<p>ALXN1840 dose for\
+    \ the estimation of the C <sub>max,Day29,adjusted</sub> , C <sub>trough,Day30,adjusted</sub>\
+    \ , and AUC <sub>tau,Day29,adjusted</sub> .</p></li>\n<li><p>Apparent terminal\
+    \ phase elimination rate constant (\u03BB<sub>z</sub> )</p></li>\n<li><p>Terminal\
+    \ elimination half-life (t<sub>\xBD</sub> )</p></li>\n<li><p>Apparent total body\
+    \ clearance (CL/F) of ALXN1840 from plasma</p></li>\n<li><p>Apparent volume of\
+    \ distribution (V<sub>d</sub> /F).</p></li>\n</ul>\n<p>Additional plasma PK parameters\
     \ may be calculated if deemed appropriate.</p>\n<p>Plasma concentrations of total\
     \ molybdenum and PUF molybdenum vs. time data will be presented in a data listing\
     \ by participant. Plasma concentration data will be summarized separately by analyte\
@@ -2791,4 +3026,4 @@
     proceeding to 30 mg/day and as necessary based on any emerging safety concerns
     as described in Section 6.6.</p>
 
-    <p>ALXN1840-WD-204</p>'
+    '
