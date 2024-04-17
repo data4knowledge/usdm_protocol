@@ -19,14 +19,19 @@
             text: text
           },
           success: function(data){
+           textArea.selectionStart = textCursor.value
            htmx.ajax('GET', url2, '#section_results_div')
           }
         });
       } 
     });
+    textArea.selectionEnd = textArea.selectionStart = document.getElementById("textCursor").value;
+    //textArea.blur();
+    textArea.focus();
+    console.log("Cursor: " + textArea.selectionStart)
   </script>
   <input type="hidden" id="textSection" name="textSection" value="{{key}}">
-  <input type="hidden" id="textCursor" name="textCursor" value="0">
+  <input type="hidden" id="textCursor" name="textCursor" value={{cursor}}>
   <input type="hidden" id="textEnd" name="textEnd" value="0">
   <textarea class="form-control" rows="30" name="textEdit" id="textEdit" class="textEditDiv">{{data['text']}}</textarea>
 </div>

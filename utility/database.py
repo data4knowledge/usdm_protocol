@@ -234,9 +234,9 @@ class Database:
     elif type == "table":
       return self._insert_text(text, '<table class="table align-top"></table>', position)
     elif type == "table-row":
-      return self._insert_text(text, '<tr></tr>', position)
+      return text
     elif type == "table-cell":
-      return self._insert_row_item(text, position)
+      return self._insert_cell_item(text, position)
     else:
       application_logger.error(f"Failed to recognize usdm type '{type}'")
       return text
@@ -247,7 +247,7 @@ class Database:
   def _insert_list_item(self, s: str, index):
     return self._insert_item(s, index, 'li')
 
-  def _insert_row_item(self, s: str, index):
+  def _insert_cell_item(self, s: str, index):
     return self._insert_item(s, index, 'td')
 
   def _insert_item(self, s: str, index: int, tag: str):

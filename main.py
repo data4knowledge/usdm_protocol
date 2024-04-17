@@ -99,7 +99,7 @@ async def get_section(request: Request, section: str):
   #database = Database()
   data = database.get_section(section)
   can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
-  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
+  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None, 'cursor': 0})
   return response
 
 @app.post('/sections/{section}')
@@ -123,7 +123,7 @@ async def post_section(request: Request, section: str):
     data = database.get_section(new_section)
     can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
     toc = database.toc_sections()
-    return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': new_section, 'data': data, 'can_add': can_add, 'toc': toc})
+    return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': new_section, 'data': data, 'can_add': can_add, 'toc': toc, 'cursor': 0})
   else:
     return templates.TemplateResponse('errors/partials/errors.html', {"request": request, 'data': {'error': f'Failed to add section {section}'}})
 
@@ -135,7 +135,7 @@ async def post_section(request: Request, section: str):
     data = database.get_section(new_section)
     can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
     toc = database.toc_sections()
-    return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': new_section, 'data': data, 'can_add': can_add, 'toc': toc})
+    return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': new_section, 'data': data, 'can_add': can_add, 'toc': toc, 'cursor': 0})
   else:
     return templates.TemplateResponse('errors/partials/errors.html', {"request": request, 'data': {'error': f'Failed to add section {section}'}})
 
@@ -148,7 +148,7 @@ async def post_section(request: Request, section: str):
     data = database.get_section('1')
     can_add = {'child': database.can_add_child_section('1'), 'sibling':  database.can_add_sibling_section('1')}
     toc = database.toc_sections()
-    return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': '1', 'data': data, 'can_add': can_add, 'toc': toc})
+    return templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': '1', 'data': data, 'can_add': can_add, 'toc': toc, 'cursor': 0})
   else:
     return templates.TemplateResponse('errors/partials/errors.html', {"request": request, 'data': {'error': f'Failed to delete section {section}'}})
 
@@ -158,7 +158,7 @@ async def post_section(request: Request, section: str, type: str, textCursor: in
   print(f"USDM: Section={section} @ {textCursor} ... {textEnd}, {type}")
   data = database.insert_usdm(section, type, textCursor)
   can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
-  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})
+  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None, 'cursor': textCursor})
   return response
 
 @app.get('/sections/{section}/title')
@@ -175,7 +175,7 @@ async def put_title(request: Request, section: str, section_title_input: str = F
   data = database.get_section(section)
   can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
   toc = database.toc_sections()
-  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': toc})
+  response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': toc, 'cursor': 0})
   return response
 
 @app.get('/download')
