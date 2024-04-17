@@ -153,9 +153,9 @@ async def post_section(request: Request, section: str):
     return templates.TemplateResponse('errors/partials/errors.html', {"request": request, 'data': {'error': f'Failed to delete section {section}'}})
 
 @app.post('/sections/{section}/usdm')
-async def post_section(request: Request, section: str, type: str, textCursor: int = Form(...)):
+async def post_section(request: Request, section: str, type: str, textCursor: int = Form(...), textEnd: int = Form(default=None)):
   check_simple_authentication(request)
-  print(f"USDM: {section} @ {textCursor}, {type}")
+  print(f"USDM: Section={section} @ {textCursor} ... {textEnd}, {type}")
   data = database.insert_usdm(section, type, textCursor)
   can_add = {'child': database.can_add_child_section(section), 'sibling':  database.can_add_sibling_section(section)}
   response = templates.TemplateResponse('home/partials/section.html', { "request": request, 'key': section, 'data': data, 'can_add': can_add, 'toc': None})

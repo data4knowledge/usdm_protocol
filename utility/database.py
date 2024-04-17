@@ -1,4 +1,5 @@
 import os
+import re
 import yaml
 import threading 
 import csv
@@ -228,9 +229,35 @@ class Database:
       return self._insert_text(text, '<usdm:macro id="section" name="timeline" template="m11|plain" timeline="..."/>', position)
     elif type == "note":
       return self._insert_text(text, '<usdm:macro id="note" text="note text"/>', position)
+    elif type == "list-item":
+      return self._insert_list_item(text, position)
+    elif type == "table":
+      return self._insert_text(text, '<table class="table align-top"></table>', position)
+    elif type == "table-row":
+      return self._insert_text(text, '<tr></tr>', position)
+    elif type == "table-cell":
+      return self._insert_row_item(text, position)
     else:
       application_logger.error(f"Failed to recognize usdm type '{type}'")
-      return ""
+      return text
 
   def _insert_text(self, s, i, index):
     return s[:index] + i + s[index:]
+
+  def _insert_list_item(self, s: str, index):
+    return self._insert_item(s, index, 'li')
+
+  def _insert_row_item(self, s: str, index):
+    return self._insert_item(s, index, 'td')
+
+  def _insert_item(self, s: str, index: int, tag: str):
+    sub_s = s[index:]
+    match = re.search(r'^<p>(.*?)</p>', sub_s)
+    print(f"PARA: {match}")
+    if match:
+      para = match.group(0)
+      new_text = s[:index] + f"<{tag}>{para}</{tag}>" + s[index+len(para):]
+      print(f"NEW: {new_text}")
+      return new_text
+    else:
+      return s
