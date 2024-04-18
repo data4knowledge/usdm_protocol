@@ -1131,149 +1131,166 @@
   name: ''
   sectionNumber: 10.4.
   sectionTitle: Contraceptive Guidance and Collection of Pregnancy Information
-  text: "<p><b>10.4.1 . Definitions and Contraceptive Guidance</b></p>\n<p><b>CONTRACEPTIVESa\
+  text: '  '
+10-4-1:
+  name: ''
+  sectionNumber: 10.4.1
+  sectionTitle: Definitions and Contraceptive Guidance
+  text: "<table class=\"table align-top table-bordered\">\n<tr>\n<td><p><b>CONTRACEPTIVES<sup>a</sup>\
     \ ALLOWED DURING THE STUDY INCLUDE: Highly Effective Methodsb That Have Low User\
-    \ Dependency</b></p>\n<p>\u2022 Implantable progestogen-only hormone contraception\
-    \ associated with inhibition of ovulationc</p>\n<p>\u2022 Intrauterine device\
-    \ (IUD): female participants with a copper-containing IUD are excluded from study</p>\n\
-    <p>\u2022 Intrauterine hormone-releasing system (IUS)c</p>\n<p>\u2022 Bilateral\
-    \ tubal occlusion</p>\n<p>\u2022 Vasectomized partner \n<span class=\"s59\">o</span>\
-    \ Vasectomy is a highly effective contraceptive method provided that the partner\
-    \ is the sole sexual \npartner of the woman of childbearing potential and the\
-    \ absence of sperm has been confirmed. If not, an \nadditional highly effective\
-    \ method of contraception should be used. Spermatogenesis cycle is \napproximately\
-    \ 90 days.</p>\n<p><b>Highly Effective Methodsb That Are User Dependent</b></p>\n\
-    <p>\u2022 Combined (estrogen- and progestogen-containing) hormonal contraception\
-    \ associated with inhibition of \novulation \n<span class=\"s59\">o</span> Oral\
-    \ \n<span class=\"s59\">o</span> Injectable \n<span class=\"s59\">o</span> Intravaginal\
-    \ \n<span class=\"s59\">o</span> Transdermal</p>\n<p>\u2022 Progestogen-only hormone\
-    \ contraception associated with inhibition of ovulationc \n<span class=\"s59\"\
-    >o</span> Oral \n<span class=\"s59\">o</span> Injectable</p>\n<p>\u2022 Sexual\
-    \ abstinence \n<span class=\"s59\">o</span> Sexual abstinence is considered a\
-    \ highly effective method only if defined as refraining from \nheterosexual intercourse\
-    \ during the entire period of risk associated with the study intervention. The\
-    \ \nreliability of sexual abstinence needs to be evaluated in relation to the\
-    \ duration of the study and the \npreferred and usual lifestyle of the participant.</p>\n\
-    <p>Female participants of non-childbearing potential are exempt from contraception\
-    \ requirements. Non-childbearing potential for female participants is defined\
-    \ as any of the following:</p>\n<p>\u2022 Prior to first menses</p>\n<p>\u2022\
-    \ Postmenopausal, as documented by amenorrhea for at least 1 year prior to the\
-    \ Day 1 visit and \nfollicle stimulating hormone serum levels consistent with\
-    \ postmenopausal status</p>\n<p>\u2022 Permanent sterilization at least 6 weeks\
-    \ prior to the Day 1 visit:</p>\n<p>\u2212 Hysteroscopic sterilization \n\u2212\
-    \ Bilateral tubal ligation or bilateral salpingectomy \n\u2212 Hysterectomy \n\
-    <span class=\"s60\">\u2212</span> Bilateral oophorectomy \nNote: Periodic abstinence\
-    \ (calendar, symptothermal, post-ovulation methods), withdrawal (coitus interruptus),\
-    \ \nspermicides only, and lactational amenorrhea method (LAM) are not acceptable\
-    \ methods of contraception for this \nstudy. Male condom and female condom should\
-    \ not be used together (due to risk of failure with friction).</p>\n<p>a \nContraceptive\
-    \ use by men or women should be consistent with local regulations regarding the\
-    \ use of contraceptive \nmethods for those participating in clinical studies.</p>\n\
-    <p>b \nFailure rate of &lt; 1% per year when used consistently and correctly.\
-    \ Typical use failure rates differ from those \nwhen used consistently and correctly.</p>\n\
-    <p>c \nIf locally required, in accordance with Clinical Trial Facilitation Group\
-    \ (CTFG) guidelines, acceptable \ncontraceptive methods are limited to those which\
-    \ inhibit ovulation as the primary mode of action.</p>\n<p><b>10.4.2. Collection\
-    \ of Pregnancy Information</b></p>\n<p>ALXN1840-WD-204</p>\n<p>If a female participant\
-    \ or a male participant's female spouse/partner becomes pregnant after the first\
-    \ dose of ALXN1840 through 3 months after the end of systemic exposure of the\
-    \ study intervention, the Investigator must submit the \u201CPregnancy/Breastfeeding\
-    \ Reporting and Outcome Form\u201D to Alexion Global Drug Safety (GDS) via fax\
-    \ or email (see Section 10.3 for contact information). When the outcome of the\
-    \ pregnancy becomes known, the form should be updated and submitted to Alexion\
-    \ GDS. If additional follow-up is required, the Investigator will be requested\
-    \ to provide the information.</p>\n<p>Exposure of an infant to an Alexion product\
-    \ during breastfeeding must also be reported (via the \u201CPregnancy/Breastfeeding\
-    \ Reporting and Outcome Form\u201D) and any AEs experienced by the infant must\
-    \ be reported to Alexion GDS or designee via email or facsimile (see Section 10.3\
-    \ for contact information).</p>"
+    \ Dependency</b></p></td>\n</tr>\n<tr>\n<td><ul><li><p>Implantable progestogen-only\
+    \ hormone contraception associated with inhibition of ovulationc</p></li></ul></td>\n\
+    </tr>\n<tr>\n<td><ul><li><p>Intrauterine device (IUD): female participants with\
+    \ a copper-containing IUD are excluded from study</p></li></ul></td>\n</tr>\n\
+    <tr>\n<td><ul><li><p>Intrauterine hormone-releasing system (IUS)c</p></li></ul></td>\n\
+    </tr>\n<tr>\n<td><ul><li><p>Bilateral tubal occlusion</p></li></ul></td>\n</tr>\n\
+    <tr>\n<td><p><ul><li>Vasectomized partner </p>\n<ul><li><p>Vasectomy is a highly\
+    \ effective contraceptive method provided that the partner is the sole sexual\
+    \ partner of the woman of childbearing potential and the absence of sperm has\
+    \ been confirmed. If not, an additional highly effective method of contraception\
+    \ should be used. Spermatogenesis cycle is approximately 90 days.</p></li></ul></li></ul></td>\n\
+    </tr>\n<tr>\n<td><p><b>Highly Effective Methods<sup>b</sup> That Are User Dependent</b></p></td>\n\
+    </tr>\n<tr>\n<td><ul><li><p>Combined (estrogen- and progestogen-containing) hormonal\
+    \ contraception associated with inhibition of ovulation </p></li>\n<ul>\n<li><p>Oral</p></li>\
+    \ \n<li><p>Injectable </p></li>\n<li><p>Intravaginal </p></li>\n<li><p>Transdermal</p></li>\n\
+    </ul></ul>\n</tr>\n<tr>\n<td><ul><li><p>Progestogen-only hormone contraception\
+    \ associated with inhibition of ovulation<sup>c</sup></p>\n<ul>\n<li><p>Oral</p></li>\
+    \  \n<li><p>Injectable </p></li>\n</ul></ul>\n</tr>\n<tr>\n<td><ul><li><p>Sexual\
+    \ abstinence </p>\n<ul>\n<li><p>Sexual abstinence is considered a highly effective\
+    \ method only if defined as refraining from heterosexual intercourse during the\
+    \ entire period of risk associated with the study intervention. The reliability\
+    \ of sexual abstinence needs to be evaluated in relation to the duration of the\
+    \ study and the preferred and usual lifestyle of the participant.</p></l>\n</ul></ul>\n\
+    </tr>\n<tr>\n<td><p>Female participants of non-childbearing potential are exempt\
+    \ from contraception requirements. Non-childbearing potential for female participants\
+    \ is defined as any of the following:</p>\n<ul>\n<li><p>Prior to first menses</p>\n\
+    <li><p>Postmenopausal, as documented by amenorrhea for at least 1 year prior to\
+    \ the Day 1 visit and follicle stimulating hormone serum levels consistent with\
+    \ postmenopausal status</p>\n<li><p>Permanent sterilization at least 6 weeks prior\
+    \ to the Day 1 visit:</p></l>\n<li><p>Hysteroscopic sterilization</p></l> \n<li><p>Bilateral\
+    \ tubal ligation or bilateral salpingectomy </p></l>\n<li><p>Hysterectomy </p></l>\n\
+    <li><p>Bilateral oophorectomy</p></l>\n</ul></ul> \n</td>\n</table>\n\n<p><small>Note:\
+    \ Periodic abstinence (calendar, symptothermal, post-ovulation methods), withdrawal\
+    \ (coitus interruptus), spermicides only, and lactational amenorrhea method (LAM)\
+    \ are not acceptable methods of contraception for this study. Male condom and\
+    \ female condom should not be used together (due to risk of failure with friction).</small></p>\n\
+    <p><small><sup>a</sup>Contraceptive use by men or women should be consistent with\
+    \ local regulations regarding the use of contraceptive \nmethods for those participating\
+    \ in clinical studies.</small></p>\n<p><small><sup>b</sup>Failure rate of &lt;\
+    \ 1% per year when used consistently and correctly. Typical use failure rates\
+    \ differ from those when used consistently and correctly.</small></p>\n<p><small><sup>c</sup>If\
+    \ locally required, in accordance with Clinical Trial Facilitation Group (CTFG)\
+    \ guidelines, acceptable contraceptive methods are limited to those which inhibit\
+    \ ovulation as the primary mode of action.</small></p>"
+10-4-2:
+  name: ''
+  sectionNumber: 10.4.2
+  sectionTitle: Collection of Pregnancy Information
+  text: "<p>If a female participant or a male participant's female spouse/partner\
+    \ becomes pregnant after the first dose of ALXN1840 through 3 months after the\
+    \ end of systemic exposure of the study intervention, the Investigator must submit\
+    \ the \u201CPregnancy/Breastfeeding Reporting and Outcome Form\u201D to Alexion\
+    \ Global Drug Safety (GDS) via fax or email (see Section 10.3 for contact information).\
+    \ When the outcome of the pregnancy becomes known, the form should be updated\
+    \ and submitted to Alexion GDS. If additional follow-up is required, the Investigator\
+    \ will be requested to provide the information.</p>\n<p>Exposure of an infant\
+    \ to an Alexion product during breastfeeding must also be reported (via the \u201C\
+    Pregnancy/Breastfeeding Reporting and Outcome Form\u201D) and any AEs experienced\
+    \ by the infant must be reported to Alexion GDS or designee via email or facsimile\
+    \ (see Section 10.3 for contact information).</p>"
 10-5:
   name: ''
   sectionNumber: 10.5.
   sectionTitle: COVID-19 Vaccine Risk Assessment
-  text: '<p>ALXN1840-WD-204</p>
-
-    <p>To date, following a review of the limited available COVID-19 vaccine data
-    (eg, Pfizer/BioNTech, Moderna, AstraZeneca), it is unlikely that the immune response
-    to a COVID-19 vaccine will be diminished with concomitant ALXN1840 administration,
-    based on ALXN1840''s mechanism of action. There is currently no information available
-    evaluating the safety or efficacy of COVID-19 vaccines in participants treated
-    with ALXN1840.</p>
-
-    <p>Local and national guidelines should be consulted for recommendations related
-    to COVID-19 vaccination. Alexion suggests that participants complete vaccination
-    series before study participation, if feasible. The decision to allow COVID-19
-    vaccinated participants to continue in the study should be made by the investigator
-    on a participant-by-participant basis.</p>
-
-    <p>The potential risks identified and mitigation measures put in place in light
-    of the COVID-19 vaccination rollout are provided in Table 10.</p>
-
-    <p><b>Table 10:</b></p>
-
-    <p><b>Risks category Summary of Data/ Rationale for Risk</b></p>
-
-    <p><b>Mitigation Strategy</b></p>
-
-    <p><b>Potential risks</b></p>
-
-    <p>Data quality and integrity</p>
-
-    <p>Missing data due to appointments for COVID-19 vaccination or side effects of
-    COVID-19 vaccine may impact study visit schedules and increase missed visits and/or
-    participant study discontinuations, inadvertently resulting in missing data (eg,
-    for protocol-specified procedures).</p>
-
-    <p>It will be important to capture specific information in the eCRF that explains
-    the reason the data is missing (eg, missed study visits due to appointments for
-    COVID-19 vaccination or side effects of COVID-19 vaccine).</p>
-
-    <p><b>Potential Risks and Mitigation Measures due to COVID-19 Vaccine</b></p>
-
-    <p>Abbreviation: COVID-19 = coronavirus disease 2019.</p>'
+  text: "<p>ALXN1840-WD-204</p>\n<p>To date, following a review of the limited available\
+    \ COVID-19 vaccine data (eg, Pfizer/BioNTech, Moderna, AstraZeneca), it is unlikely\
+    \ that the immune response to a COVID-19 vaccine will be diminished with concomitant\
+    \ ALXN1840 administration, based on ALXN1840's mechanism of action. There is currently\
+    \ no information available evaluating the safety or efficacy of COVID-19 vaccines\
+    \ in participants treated with ALXN1840.</p>\n<p>Local and national guidelines\
+    \ should be consulted for recommendations related to COVID-19 vaccination. Alexion\
+    \ suggests that participants complete vaccination series before study participation,\
+    \ if feasible. The decision to allow COVID-19 vaccinated participants to continue\
+    \ in the study should be made by the investigator on a participant-by-participant\
+    \ basis.</p>\n<p>The potential risks identified and mitigation measures put in\
+    \ place in light of the COVID-19 vaccination rollout are provided in Table 10.</p>\n\
+    <p><b>Table 10: Potential Risks and Mitigation Measures due to COVID-19 Vaccine</b></p>\n\
+    <table class=\"table align-top table-bordered\">\n<tr>\n<td><p><b>Risks category</b></p></td><td><p>\
+    \ Summary of Data/ Rationale for Risk</b></p></td><td><p><b>Mitigation Strategy</b></p></td>\n\
+    </tr>\n<tr>\n<td colspan=\"3\"<p><b>Potential risks</b></p></td>\n</tr>\n<tr>\n\
+    <td><p>Data quality and integrity</p></td>\n<td><p>Missing data due to appointments\
+    \ for COVID-19 vaccination or side effects of COVID-19 vaccine may impact study\
+    \ visit schedules and \nincrease missed visits and/or participant study discontinuations,\
+    \ inadvertently resulting in missing data (eg, for protocol-specified procedures)./p></td>\n\
+    <td><p>It will be important to capture specific information in the eCRF that explains\
+    \ the reason the data is missing (eg, missed study visits due to appointments\
+    \ for COVID-19 vaccination or side effects of COVID-19 vaccine).</p></td>\n</table>\n\
+    <p><small>Abbreviation: COVID-19 = coronavirus disease 2019.</small></p>\n\n"
 10-6:
   name: ''
   sectionNumber: 10.6.
   sectionTitle: Abbreviations
-  text: "<p>ALXN1840-WD-204</p>\n<p>A list of abbreviations and terms used in this\
-    \ study protocol is provided in Table 11.</p>\n<p><b>Table 11:</b></p>\n<p><b>Abbreviation\
-    \ Definition</b></p>\n<p>\u03BBz apparent terminal-phase elimination rate constant</p>\n\
-    <p>ADME absorption, distribution, metabolism, and excretion</p>\n<p>AE adverse\
-    \ event</p>\n<p>ALT alanine aminotransferase</p>\n<p>AST aspartate aminotransferase</p>\n\
-    <p>AUC area under the plasma concentration versus time curve</p>\n<p>AUCt area\
+  text: "<p>A list of abbreviations and terms used in this study protocol is provided\
+    \ in Table 11.</p>\n<p><b>Table 11: List of Abbreviations and Definitions of Terms</b></p>\n\
+    <table class=\"table align-top table-bordered\">\n  <tr><th><p>Abbreviation</p></th><th><p>Definition</p></th></tr>\n\
+    \  <tr><td><p>\u03BBz</p></td><td><p>apparent terminal-phase elimination rate\
+    \ constant</p></td></tr>\n  <tr><td><p>ADME</p></td><td><p>absorption, distribution,\
+    \ metabolism, and excretion</p></td></tr>\n  <tr><td><p>AE</p></td><td><p>adverse\
+    \ event</p></td></tr>\n  <tr><td><p>ALT</p></td><td><p>alanine aminotransferase</p></td></tr>\n\
+    \  <tr><td><p>AST</p></td><td><p>aspartate aminotransferase</p></td></tr>\n  <tr><td><p>AUC</p></td><td><p>area\
+    \ under the plasma concentration versus time curve</p></td></tr>\n  <tr><td><p>AUCt</p></td><td><p>area\
     \ under the plasma concentration versus time curve from time 0 to the last quantifiable\
-    \ concentration</p>\n<p>AUC<span class=\"s61\">\u221E</span> area under the plasma\
-    \ concentration versus time curve from zero to infinity</p>\n<p>BSA body surface\
-    \ area</p>\n<p>CFR Code of Federal Regulations</p>\n<p>CIOMS Council for International\
-    \ Organizations of Medical Sciences</p>\n<p>CKD chronic kidney disease</p>\n<p>CL/F\
-    \ apparent total body clearance</p>\n<p>Cmax maximum observed concentration</p>\n\
-    <p>CONSORT Consolidated Standards of Reporting Trials</p>\n<p>COVID-19 Coronavirus\
-    \ disease</p>\n<p>CRF case report form</p>\n<p>CRU clinical research unit</p>\n\
-    <p>CTCAE Common Terminology Criteria for Adverse Events</p>\n<p>CYP cytochrome\
-    \ P450</p>\n<p>CYP2C9/2B6 cytochromes 2C9 and 2B6</p>\n<p>EDC electronic data\
-    \ capture</p>\n<p>EOS End of Study</p>\n<p>GCP Good Clinical Practice</p>\n<p>GDPR\
-    \ General Data Protection Regulation</p>\n<p>GDS Global Drug Safety</p>\n<p>HED\
-    \ human equivalent dose</p>\n<p>HIPAA Health Insurance Portability and Accountability\
-    \ Act</p>\n<p>HIV human immunodeficiency virus</p>\n<p>IB Investigator's Brochure</p>\n\
-    <p>ICH International Council for Harmonisation</p>\n<p>ICF informed consent form</p>\n\
-    <p>ICP-MS inductively coupled plasma mass spectrometry</p>\n<p>IEC Independent\
-    \ Ethics Committee</p>\n<p>IRB Institutional Review Board</p>\n<p><b>List of Abbreviations\
-    \ and Definitions of Terms</b></p>\n<p>ALXN1840-WD-204</p>\n<p>IUD intrauterine\
-    \ device</p>\n<p>IUS intrauterine hormone-releasing system</p>\n<p>LBC labile\
-    \ bound copper</p>\n<p>LEC Long-Evans Cinnamon</p>\n<p>MELD model for end-stage\
-    \ liver disease</p>\n<p>MT metallothionein</p>\n<p>NCC non-ceruloplasmin-bound\
-    \ copper</p>\n<p>NCCcorrected corrected NCC</p>\n<p>NHS National Health Service</p>\n\
-    <p>PD pharmacodynamic</p>\n<p>PK pharmacokinetic(s)</p>\n<p>PUF plasma ultrafiltrate</p>\n\
-    <p>QTcF QT interval corrected for heart rate using Fridericia's formula</p>\n\
-    <p>SAE serious adverse event</p>\n<p>SAP Statistical Analysis Plan</p>\n<p>SoA\
-    \ Schedule of Activities</p>\n<p>SRC Safety Review Committee</p>\n<p>SUSAR suspected\
-    \ unexpected serious adverse reaction</p>\n<p>TEAE treatment-emergent adverse\
-    \ event</p>\n<p>t\xBD terminal elimination half-life</p>\n<p>T<span class=\"s65\"\
-    >l</span>ag time delay between the time of dosing and time of appearance of molybdenum\
-    \ concentration</p>\n<p>tmax time to maximum concentration</p>\n<p>TPC tripartite\
-    \ complex</p>\n<p>TTM tetrathiomolybdate</p>\n<p>ULN upper limit of normal</p>\n\
-    <p>UWDRS Unified Wilson Disease Rating Scale</p>\n<p>Vd /F apparent volume of\
-    \ distribution</p>\n<p>WD Wilson disease</p>\n<p>WHO World Health Organization</p>"
+    \ concentration</p></td></tr>\n  <tr><td><p>AUC</p></td><td><p>area under the\
+    \ plasma concentration versus time curve from zero to infinity</p></td></tr>\n\
+    \  <tr><td><p>BSA</p></td><td><p>body surface area</p></td></tr>\n  <tr><td><p>CFR</p></td><td><p>Code\
+    \ of Federal Regulations</p></td></tr>\n  <tr><td><p>CIOMS</p></td><td><p>Council\
+    \ for International Organizations of Medical Sciences</p></td></tr>\n  <tr><td><p>CKD</p></td><td><p>chronic\
+    \ kidney disease</p></td></tr>\n  <tr><td><p>CL/F</p></td><td><p>apparent total\
+    \ body clearance</p></td></tr>\n  <tr><td><p>Cmax</p></td><td><p>maximum observed\
+    \ concentration</p></td></tr>\n  <tr><td><p>CONSORT</p></td><td><p>Consolidated\
+    \ Standards of Reporting Trials</p></td></tr>\n  <tr><td><p>COVID-19</p></td><td><p>Coronavirus\
+    \ disease</p></td></tr>\n  <tr><td><p>CRF</p></td><td><p>case report form</p></td></tr>\n\
+    \  <tr><td><p>CRU</p></td><td><p>clinical research unit</p></td></tr>\n  <tr><td><p>CTCAE</p></td><td><p>Common\
+    \ Terminology Criteria for Adverse Events</p></td></tr>\n  <tr><td><p>CYP</p></td><td><p>cytochrome\
+    \ P450</p></td></tr>\n  <tr><td><p>CYP2C9/2B6</p></td><td><p>cytochromes 2C9 and\
+    \ 2B6</p></td></tr>\n  <tr><td><p>EDC</p></td><td><p>electronic data capture</p></td></tr>\n\
+    \  <tr><td><p>EOS</p></td><td><p>End of Study</p></td></tr>\n  <tr><td><p>GCP</p></td><td><p>Good\
+    \ Clinical Practice</p></td></tr>\n  <tr><td><p>GDPR</p></td><td><p>General Data\
+    \ Protection Regulation</p></td></tr>\n  <tr><td><p>GDS</p></td><td><p>Global\
+    \ Drug Safety</p></td></tr>\n  <tr><td><p>HED</p></td><td><p>human equivalent\
+    \ dose</p></td></tr>\n  <tr><td><p>HIPAA</p></td><td><p>Health Insurance Portability\
+    \ and Accountability Act</p></td></tr>\n  <tr><td><p>HIV</p></td><td><p>human\
+    \ immunodeficiency virus</p></td></tr>\n  <tr><td><p>IB</p></td><td><p>Investigator's\
+    \ Brochure</p></td></tr>\n  <tr><td><p>ICH</p></td><td><p>International Council\
+    \ for Harmonisation</p></td></tr>\n  <tr><td><p>ICF</p></td><td><p>informed consent\
+    \ form</p></td></tr>\n  <tr><td><p>ICP-MS</p></td><td><p>inductively coupled plasma\
+    \ mass spectrometry</p></td></tr>\n  <tr><td><p>IEC</p></td><td><p>Independent\
+    \ Ethics Committee</p></td></tr>\n  <tr><td><p>IRB</p></td><td><p>Institutional\
+    \ Review Board</p></td></tr>\n  <tr><td><p>IUD</p></td><td><p>intrauterine device</p></td></tr>\n\
+    \  <tr><td><p>IUS</p></td><td><p>intrauterine hormone-releasing system</p></td></tr>\n\
+    \  <tr><td><p>LBC</p></td><td><p>labile bound copper</p></td></tr>\n  <tr><td><p>LEC</p></td><td><p>Long-Evans\
+    \ Cinnamon</p></td></tr>\n  <tr><td><p>MELD</p></td><td><p>model for end-stage\
+    \ liver disease</p></td></tr>\n  <tr><td><p>MT</p></td><td><p>metallothionein</p></td></tr>\n\
+    \  <tr><td><p>NCC</p></td><td><p>non-ceruloplasmin-bound copper</p></td></tr>\n\
+    \  <tr><td><p>NCCcorrected</p></td><td><p>corrected NCC</p></td></tr>\n  <tr><td><p>NHS</p></td><td><p>National\
+    \ Health Service</p></td></tr>\n  <tr><td><p>PD</p></td><td><p>pharmacodynamic</p></td></tr>\n\
+    \  <tr><td><p>PK</p></td><td><p>pharmacokinetic(s)</p></td></tr>\n  <tr><td><p>PUF</p></td><td><p>plasma\
+    \ ultrafiltrate</p></td></tr>\n  <tr><td><p>QTcF</p></td><td><p>QT interval corrected\
+    \ for heart rate using Fridericia's formula</p></td></tr>\n  <tr><td><p>SAE</p></td><td><p>serious\
+    \ adverse event</p></td></tr>\n  <tr><td><p>SAP</p></td><td><p>Statistical Analysis\
+    \ Plan</p></td></tr>\n  <tr><td><p>SoA</p></td><td><p>Schedule of Activities</p></td></tr>\n\
+    \  <tr><td><p>SRC</p></td><td><p>Safety Review Committee</p></td></tr>\n  <tr><td><p>SUSAR</p></td><td><p>suspected\
+    \ unexpected serious adverse reaction</p></td></tr>\n  <tr><td><p>TEAE</p></td><td><p>treatment-emergent\
+    \ adverse event</p></td></tr>\n  <tr><td><p>t\xBD</p></td><td><p>terminal elimination\
+    \ half-life</p></td></tr>\n  <tr><td><p>Tlag</p></td><td><p> time delay between\
+    \ the time of dosing and time of appearance of molybdenum concentration</p></td></tr>\n\
+    \  <tr><td><p>tmax</p></td><td><p>time to maximum concentration</p></td></tr>\n\
+    \  <tr><td><p>TPC</p></td><td><p>tripartite complex</p></td></tr>\n  <tr><td><p>TTM</p></td><td><p>tetrathiomolybdate</p></td></tr>\n\
+    \  <tr><td><p>ULN</p></td><td><p>upper limit of normal</p></td></tr>\n  <tr><td><p>UWDRS</p></td><td><p>Unified\
+    \ Wilson Disease Rating Scale</p></td></tr>\n  <tr><td><p>Vd /F</p></td><td><p>apparent\
+    \ volume of distribution</p></td></tr>\n  <tr><td><p>WD</p></td><td><p>Wilson\
+    \ disease</p></td></tr>\n  <tr><td><p>WHO</p></td><td><p>World Health Organization</p></td></tr>\n\
+    </table>"
 10-7:
   name: ''
   sectionNumber: 10.7.
@@ -1377,9 +1394,7 @@
   name: ''
   sectionNumber: '11.'
   sectionTitle: REFERENCES
-  text: '<p>ALXN1840-WD-204</p>
-
-    <p>Brewer GJ, Hill GM, Prasad AS, Cossack ZT. Biological roles of ionic zinc.
+  text: '<p>Brewer GJ, Hill GM, Prasad AS, Cossack ZT. Biological roles of ionic zinc.
     Prog Clin Biol Res. 1983;129:35-51.</p>
 
     <p>Camilleri M, Brown ML, Malagelada JR. Relationship between impaired gastric
@@ -1431,8 +1446,6 @@
     <p>Ogra Y, Chikusa H, Suzuki KT. Metabolic fate of the insoluble copper/tetrathiomolybdate
     complex formed in the liver of LEC rats with excess tetrathiomolybdate. J Inorg
     Biochem. 2000;78(2):123-128.</p>
-
-    <p>ALXN1840-WD-204</p>
 
     <p>Plitz T, Boyling L. Metabolic disposition of WTX101 (bis-choline tetrathiomolybdate)
     in a rat model of Wilson disease. Xenobiotica. 2019;49(3):332-338.</p>
