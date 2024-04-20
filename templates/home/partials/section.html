@@ -25,10 +25,10 @@
         });
       } 
     });
-    textArea.selectionEnd = textArea.selectionStart = document.getElementById("textCursor").value;
+    //textArea.selectionEnd = textArea.selectionStart = document.getElementById("textCursor").value;
     //textArea.blur();
-    textArea.focus();
-    console.log("Cursor: " + textArea.selectionStart)
+    //textArea.focus();
+    //console.log("Cursor: " + textArea.selectionStart)
   </script>
   <input type="hidden" id="textSection" name="textSection" value="{{key}}">
   <input type="hidden" id="textCursor" name="textCursor" value={{cursor}}>
@@ -52,6 +52,7 @@
       <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=xref" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">cross reference</a></li>
       <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=image" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">image</a></li>
       <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=element" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">element</a></li>
+      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=bc" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">bc reference</a></li>
       <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=section" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">section</a></li>
       <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=timeline" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">timeline</a></li>
       <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=note" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">note</a></li>

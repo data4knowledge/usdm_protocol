@@ -223,6 +223,8 @@ class Database:
       return self._insert_text(text, '<usdm:macro id="image" file="file name" type="png|jpg"/>', position)
     elif type == "element":
       return self._insert_text(text, '<usdm:macro id="element" name="study_phase|study_short_title|study_full_title|study_acronym|study_rationale|study_version_identifier|study_identifier|study_regulatory_identifiers|study_date|approval_date|organization_name|organization_address|organization_name_and_address|amendment|amendment_scopes"/>', position)
+    elif type == "bc":
+      return self._insert_text(text, '<usdm:macro id="bc" name="bc name" activity="activity name"/>', position)
     elif type == "section":
       return self._insert_text(text, '<usdm:macro id="section" name="title_page|inclusion|exclusion|objective_endpoints|soa" template="m11|plain"/>', position)
     elif type == "timeline":
