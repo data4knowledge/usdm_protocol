@@ -89,16 +89,28 @@ class DataFiles:
         }
         self.dir = application_configuration.data_file_path
         self.uuid = uuid
-        if uuid:
-            self._create_dir()
+
+    @classmethod
+    def dirs(cls):
+        results = []
+        file_path = application_configuration.data_file_path
+        application_logger.info(f"Listing USDM directories in '{file_path}'")
+        try:
+            for file in os.listdir(file_path):
+                path = os.path.join(file_path, file)
+                if os.path.isdir(path):
+                    results.append({"path": path, "file": file})
+                    application_logger.info(f"Adding '{path}' to dirs")
+            return results
+        except Exception as e:
+            application_logger.exception(f"Exception during listing'{file_path}'", e)
+            return []
 
     @classmethod
     def clean_and_tidy(cls):
         dir = application_configuration.mount_path
         keep = [
             application_configuration.data_file_path,
-            application_configuration.database_path,
-            application_configuration.local_file_path,
         ]
         application_logger.info(f"Running clean and tidy on '{dir}'")
         try:

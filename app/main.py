@@ -11,6 +11,8 @@ from app.github.github import get_access_token, get_user_data
 from app.file_handling.data_files import DataFiles
 from app.__info__ import VERSION, SYSTEM_NAME
 from app.configuration.configuration import application_configuration
+from usdm4 import USDM4
+from usdm4.api import Wrapper, Study
 
 app = FastAPI(
     title=SYSTEM_NAME,
@@ -27,10 +29,9 @@ templates_path = os.path.join(dir_path, "templates")
 templates = Jinja2Templates(directory=templates_path)
 application_logger.info(f"Template dir set to '{templates_path}'")
 
-uuid = application_configuration.uuid
-data_files = DataFiles(uuid)
+DataFiles.check()
+DataFiles.clean_and_tidy()
 
-database = Database()
 se = ServiceEnvironment()
 cookie_name = se.get("COOKIE_NAME")
 cookie_value = se.get("COOKIE_VALUE")
@@ -109,9 +110,15 @@ async def logout(request: Request):
 @app.get("/home")
 async def home(request: Request):
     check_simple_authentication(request)
-    # database = Database()
-    data = database.toc_sections()
-    # print(f"ToC: {data}")
+    data = []
+    dirs = DataFiles.dirs()
+    for dir in dirs:
+        print(f"DIR: {dir}")
+        usdm_df = DataFiles(dir["file"])
+        usdm_data = usdm_df.read("usdm")
+        usdm: Wrapper = USDM4.from_json(usdm_data)
+        study: Study = usdm.study
+        data.append({"summary": study.summary(), "templates": study.template()})
     response = templates.TemplateResponse(
         "home/home.html", {"request": request, "data": data}
     )
@@ -135,6 +142,7 @@ async def import_usdm_process(request: Request):
         contents = await v.read()
         file_root, file_extension = os.path.splitext(filename)
         if file_extension == "json":
+            data_files.new()
             data_files._save_json_file(contents, filename)
     return RedirectResponse("/home")
 

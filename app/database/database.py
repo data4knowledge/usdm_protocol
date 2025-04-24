@@ -5,23 +5,19 @@ import threading
 import csv
 from app.file_handling.data_files import DataFiles
 from d4k_ms_base.logger import application_logger
-from app.configuration.configuration import application_configuration
 
 class Database:
-    DIR = "app/database"
-    FILEPATH = os.path.join(DIR, "protocol.yaml")
 
-    def __init__(self):
-        uuid = application_configuration.uuid
+    def __init__(self, uuid: str):
         self._data_files = DataFiles(uuid)
         self._data = self._read()
-        self._lock = threading.Lock()
+        ##self._lock = threading.Lock()
 
     def toc_sections(self):
         try:
-            self._lock.acquire()
+            #self._lock.acquire()
             order = self._section_order()
-            self._lock.release()
+            #self._lock.release()
             return [
                 {
                     "key": x,
@@ -32,14 +28,14 @@ class Database:
             ]
         except Exception as e:
             application_logger.exception("Exception during toc sections", e)
-            self._lock.release()
+            #self._lock.release()
             return []
 
     def toc_level_1_sections(self):
         try:
-            self._lock.acquire()
+            #self._lock.acquire()
             order = self._section_order()
-            self._lock.release()
+            #self._lock.release()
             return [
                 {
                     "key": x,
@@ -51,7 +47,7 @@ class Database:
             ]
         except Exception as e:
             application_logger.exception("Exception during toc level 1 sections", e)
-            self._lock.release()
+            #self._lock.release()
             return []
 
     def get_section(self, section_key):
@@ -63,35 +59,35 @@ class Database:
 
     def put_section(self, section_key, text):
         try:
-            self._lock.acquire()
+            #self._lock.acquire()
             section = self.get_section(section_key)
             if section:
                 application_logger.info(f"Updatting section {section_key}")
                 self._data[section_key]["text"] = text
                 self._write()
-            self._lock.release()
+            #self._lock.release()
             return self._data[section_key]
         except Exception as e:
             application_logger.exception("Exception during section write", e)
-            self._lock.release()
+            #self._lock.release()
 
     def put_section_title(self, section_key, title):
         try:
-            self._lock.acquire()
+            #self._lock.acquire()
             section = self.get_section(section_key)
             if section:
                 application_logger.info(f"Updatting section title {section_key}")
                 self._data[section_key]["sectionTitle"] = title
                 self._write()
-            self._lock.release()
+            #self._lock.release()
             return self._data[section_key]
         except Exception as e:
             application_logger.exception("Exception during put section title", e)
-            self._lock.release()
+            #self._lock.release()
 
     def insert_usdm(self, section_key: str, type: str, position: int) -> str:
         try:
-            self._lock.acquire()
+            #self._lock.acquire()
             section = self.get_section(section_key)
             if section:
                 application_logger.info(
@@ -101,15 +97,15 @@ class Database:
                     self._data[section_key]["text"], type, position
                 )
                 self._write()
-            self._lock.release()
+            #self._lock.release()
             return self._data[section_key]
         except Exception as e:
             application_logger.exception("Exception during insert of USDM tag", e)
-            self._lock.release()
+            #self._lock.release()
 
     def delete_section(self, section_key):
         try:
-            self._lock.acquire()
+            #self._lock.acquire()
             section = self.get_section(section_key)
             if section:
                 self._data.pop(section_key)
@@ -117,11 +113,11 @@ class Database:
                 result = True
             else:
                 result = False
-            self._lock.release()
+            #self._lock.release()
             return result
         except Exception as e:
             application_logger.exception("Exception during section delete", e)
-            self._lock.release()
+            #self._lock.release()
             return False
 
     def can_add_sibling_section(self, section_key):
@@ -134,7 +130,7 @@ class Database:
 
     def add_sibling_section(self, section_key):
         try:
-            self._lock.acquire()
+            #self._lock.acquire()
             new_section_key = self._increment_section_number(section_key)
             if self._section_is_permitted(new_section_key):
                 self._data[new_section_key] = {
@@ -147,7 +143,7 @@ class Database:
                 result = new_section_key
             else:
                 result = None
-            self._lock.release()
+            #self._lock.release()
             return result
         except Exception as e:
             application_logger.exception("Exception during section add", e)
@@ -155,7 +151,7 @@ class Database:
 
     def add_child_section(self, section_key):
         try:
-            self._lock.acquire()
+            #self._lock.acquire()
             new_section_key = self._child_section_number(section_key)
             if self._section_is_permitted(new_section_key):
                 self._data[new_section_key] = {
@@ -168,7 +164,7 @@ class Database:
                 result = new_section_key
             else:
                 result = None
-            self._lock.release()
+            #self._lock.release()
             return result
         except Exception as e:
             application_logger.exception("Exception during section add", e)
