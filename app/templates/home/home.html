@@ -10,22 +10,14 @@
     }
   </style>
 {% endblock %}
+
+{% block menu_content %}
+  {% with data=data %}
+    {% include "shared/partials/import_menu.html" %}
+  {% endwith %} 
+{% endblock %}
+
 {% block main_content %}
-  {% set links=
-    [
-      {'href': '/download', 'icon': 'bi bi-download', 'tooltip': 'Download the CSV file'}
-    ] 
-  %}
-  {% set title = "Protocol to USDM " %}
-  {% set text = "Utility that allows protocols in HTML form to be prepared to be loaded into USDM" %}
-  {% set help = '<ol>
-      <li>Download the current state of the document using the donwload icon <span><i class="text-success bi bi-download"></i></span>.</li>
-    </ol>'
-  %}
-  {% with title=title, text=text, help=help, links=links %}
-    {% include "shared/partials/header.html" %}
-  {% endwith %}
-  XXXXXX
   <div class="mt-3 row align-items-start">
     <div class="col-6">
       <div class="card border-primary" style="height:80vh">

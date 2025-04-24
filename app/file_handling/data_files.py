@@ -80,9 +80,17 @@ class DataFiles:
                 "filename": "extra",
                 "extension": "yaml",
             },
+            "protocol": {
+                "method": self._save_yaml_file,
+                "use_original": False,
+                "filename": "protocol",
+                "extension": "yaml",
+            },
         }
-        self.uuid = uuid
         self.dir = application_configuration.data_file_path
+        self.uuid = uuid
+        if uuid:
+            self._create_dir()
 
     @classmethod
     def clean_and_tidy(cls):

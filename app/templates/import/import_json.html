@@ -1,16 +1,15 @@
-{% extends "shared/_main_layout.html" %}
+{% extends "shared/_layout.html" %}
 
 {% block main_content %}
   {% set title = "Import USDM JSON" %}
   {% set subtitle = "Import for USDM version 4 '.json' file" %}
   {% set text = "Select a single USDM file" %}
   {% set disable = False %}
-    <div class="mt-3 row row-cols-2">
-      <div class="col">
-        {% with url=url, title=title, subtitle=subtitle, text=text, disable=disable %}
-          {% include "import/partials/browser_file_select.html" %}
-        {% endwith %}
-      </div>
+  <div class="mt-3 row row-cols-2">
+    <div class="col">
+      {% with url=url, title=title, subtitle=subtitle, text=text, disable=disable %}
+        {% include "import/partials/browser_file_select.html" %}
+      {% endwith %}
     </div>
-  {% endif %}
+  </div>
 {% endblock %}
