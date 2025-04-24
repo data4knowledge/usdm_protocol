@@ -1,0 +1,113 @@
+<style>
+  .table-fit {
+    width: 1px;
+  }
+</style>
+<div class="mt-3" id="file_list_div">
+  <p class="lead text-center">{{data['dir']}}</p>
+  <table class="table responsive table-striped mt-1">
+    <thead>
+      <tr>
+        <td></td>
+        <td>Name</td>
+        <td>Created At</td>
+        <td>File Size</td>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in data['files'] %}
+        {% set is_folder = True if item['type'] == 'Folder' else False %}
+        {% set is_parent = True if item['name'] == '..' else False %}
+        {% set x = item['uid'] %}
+        {% if is_folder %}
+          <tr>
+        {% else %}
+          <tr onclick="toggleSelect(this, &quot;{{x}}&quot;);">
+        {% endif %}  
+          <td class="table-fit text-center">
+            {% if is_folder and is_parent%}
+              <button type="button" class="ps-0 pe-0 pt-0 pb-0 btn btn-xs btn-link" hx-get="/fileList?dir={{item['path']}}&url={{data['url']}}" hx-trigger="click" hx-target="#file_list_div" hx-swap="outerHTML">
+                .. 
+              </button>
+            {% elif is_folder %}
+              <i style="color: #808080" class="bi bi-folder"></i>
+            {% else %}
+              <i style="color: #808080" class="bi bi-file-earmark"></i>
+            {% endif %}
+          </td>  
+          <td>
+            {% if is_folder and is_parent%}
+              <i><small class="text-muted">parent directory</small></i> 
+            {% elif is_folder %}
+              <button type="button" class="ps-0 pe-0 pt-0 pb-0 btn btn-xs btn-link" hx-get="/fileList?dir={{item['path']}}&url={{data['url']}}" hx-trigger="click" hx-target="#file_list_div" hx-swap="outerHTML">
+                {{item['name']}}
+              </button>
+            {% else %}
+               <p class="card-text">{{item['name']}}</p>
+            {% endif %}
+          </td>  
+          <td>
+            <p class="card-text">{{item['created_at']}}</p>
+          </td>  
+          <td>
+            <p class="card-text">{{item['file_size']}}</p>
+          </td>  
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <form id='form' hx-post="{{data['url']}}?source={{data['source']}}" hx-target="#file_list_div" hx-swap="outerHTML">
+    <input type="hidden" id="file_list_input" name="file_list_input">
+    <button class="btn btn-outline-primary rounded-5">
+      <i class="bi bi-upload pe-2"></i>Upload File(s)
+    </button>
+  </form> 
+</div>
+
+<script>
+
+  var input = document.getElementById('file_list_input');
+  var required_ext = document.getElementById("required_ext").value;
+  var other_files = (document.getElementById("other_files").value === 'True');
+  var image_ext = ['jpeg', 'jpg', 'png']
+  input.value = JSON.stringify([]);
+  
+  function toggleSelect(x, value) {
+    var ext = value.split('.').pop();
+    var files = JSON.parse(input.value);
+    var ends_with = value.endsWith(required_ext);
+    var empty = files.length === 0;
+    var image = image_ext.includes(ext);
+    console.log("Value='" + value + "'");
+    console.log("Ext='" + required_ext + "'");
+    console.log("Other='" + other_files + "'");
+    console.log("Ends With='" + ends_with  + "'");
+    console.log("Empty='" + empty  + "'");
+    console.log("Files='" + files  + "'");
+    if (files.includes(value)) {
+      // console.log("Remove");
+      files = files.filter(e => e !== value); 
+      x.classList.toggle("table-success");
+    } else {
+      console.log("Add");
+      if (other_files && image) {
+        console.log("1");
+        files.push(value);
+        x.classList.toggle("table-success");
+      } else if (ends_with && empty) {
+        console.log("2");
+        files.push(value);
+        x.classList.toggle("table-success");
+      } else if (other_files) {  
+        console.log("3");
+        alert("Select a single '" + required_ext + "' file and additional image files only.")
+      } else {
+        console.log("4");
+        alert("Select a single '" + required_ext + "' file only.")
+      }
+    }
+    console.log("Files='" + files  + "'");
+    input.value = JSON.stringify(files);
+  }
+
+</script>

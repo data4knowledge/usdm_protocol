@@ -1,0 +1,25 @@
+<ul class="list-group">
+  <div class="alert alert-danger" role="alert">
+    {% if filename %}
+      Upload of {{type}} file '{{filename}}' failed! 
+    {% else %}
+      Upload of {{type}} file failed!
+    {% endif %}
+    <ul class="mt-3 list-group">
+      {% for message in messages %}
+        <li class="list-group-item list-group-item-danger">{{message}}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <div class="d-flex justify-right">
+        <a href="/index" >
+          <button type="button" class="btn btn-outline-primary rounded-5">
+             Home
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</ul>
