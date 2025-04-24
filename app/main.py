@@ -1,4 +1,5 @@
 import os
+import json
 from fastapi import FastAPI, Request, status, Form
 from fastapi.responses import RedirectResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -116,9 +117,12 @@ async def home(request: Request):
         print(f"DIR: {dir}")
         usdm_df = DataFiles(dir["file"])
         usdm_data = usdm_df.read("usdm")
-        usdm: Wrapper = USDM4.from_json(usdm_data)
+        usdm_dict = json.loads(usdm_data)
+        usdm: Wrapper = USDM4().from_json(usdm_dict)
         study: Study = usdm.study
-        data.append({"summary": study.summary(), "templates": study.template()})
+        result = {"id": dir["file"], "study": study.summary(), "templates": study.document_templates()}
+        print(f"RESULT: {result}")
+        data.append(result)
     response = templates.TemplateResponse(
         "home/home.html", {"request": request, "data": data}
     )
@@ -131,21 +135,37 @@ def import_usdm(request: Request):
     return templates.TemplateResponse(request, "import/import_json.html", {})
 
 
-@app.post("import/usdm")
+@app.post("/import/usdm")
 async def import_usdm_process(request: Request):
     check_simple_authentication(request)
+    print("XXXX1")
     form = await request.form()
     files = form.getlist("files")
     data_files = DataFiles()
+    print(f"FILES: {data_files}")
     for v in files:
         filename = v.filename
         contents = await v.read()
         file_root, file_extension = os.path.splitext(filename)
-        if file_extension == "json":
+        print(f"EXT: {file_root}, {file_extension}")
+        if file_extension == ".json":
             data_files.new()
             data_files._save_json_file(contents, filename)
-    return RedirectResponse("/home")
+    return templates.TemplateResponse(request, "import/partials/upload_success.html", {})
 
+
+@app.get("/edit/{uuid}")
+async def home(request: Request, uuid: str):
+    check_simple_authentication(request)
+    usdm_df = DataFiles(uuid)
+    usdm_data = usdm_df.read("usdm")
+    usdm_dict = json.loads(usdm_data)
+    usdm: Wrapper = USDM4().from_json(usdm_dict)
+    study: Study = usdm.study
+    response = templates.TemplateResponse(
+        "home/edit.html", {"request": request, "data": study}
+    )
+    return response
 
 @app.get("/sections/{section}")
 async def get_section(request: Request, section: str):
