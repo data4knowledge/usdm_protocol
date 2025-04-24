@@ -9,8 +9,6 @@ from d4k_ms_base.service_environment import ServiceEnvironment
 from d4k_ms_base import application_logger
 from app.github.github import get_access_token, get_user_data
 
-import logging
-
 VERSION = '0.4'
 SYSTEM_NAME = "USDM Protocl Editor"
 
@@ -100,6 +98,12 @@ async def home(request: Request):
   #print(f"ToC: {data}")
   response = templates.TemplateResponse('home/home.html', { "request": request, 'data': data})
   return response
+
+@app.get("/usdm")
+def import_usdm(request: Request):
+   check_simple_authentication(request)
+   return templates.TemplateResponse(request, "import_json.html", {})
+
 
 @app.get('/sections/{section}')
 async def get_section(request: Request, section: str):
