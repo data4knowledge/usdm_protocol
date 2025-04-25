@@ -115,7 +115,7 @@ async def home(request: Request):
     dirs = DataFiles.dirs()
     for dir in dirs:
         print(f"DIR: {dir}")
-        usdm_df = DataFiles(dir["file"])
+        usdm_df = DataFiles(uuid=dir["file"])
         usdm_data = usdm_df.read("usdm")
         usdm_dict = json.loads(usdm_data)
         usdm: Wrapper = USDM4().from_json(usdm_dict)
@@ -157,7 +157,7 @@ async def import_usdm_process(request: Request):
 @app.get("/edit/{uuid}")
 async def home(request: Request, uuid: str):
     check_simple_authentication(request)
-    usdm_df = DataFiles(uuid)
+    usdm_df = DataFiles(uuid=uuid)
     usdm_data = usdm_df.read("usdm")
     usdm_dict = json.loads(usdm_data)
     usdm: Wrapper = USDM4().from_json(usdm_dict)
