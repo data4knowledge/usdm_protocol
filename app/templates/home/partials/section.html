@@ -3,33 +3,65 @@
     var previous = "";
     var textArea = document.getElementById("textEdit")
     var textCursor = document.getElementById("textCursor")
-    $(document).on('change keyup paste click',"#textEdit", function() {
-      var url1 = "/sections/" + document.getElementById("textSection").value;
-      var url2 = url1 + "/document";
-      var text = textArea.value
-      textCursor.value = textArea.selectionStart;
-      textEnd.value = textArea.selectionEnd;
-      //console.log("Cursor: " + textCursor.value)
-      if (text != previous) {
-        previous = text;
-        $.ajax({
-          type: 'POST',
-          url: url1,
-          data: {
-            text: text
-          },
-          success: function(data){
-           textArea.selectionStart = textCursor.value
-           htmx.ajax('GET', url2, '#section_results_div')
-          }
-        });
-      } 
+    var uuid = document.getElementById("textUUID").value
+    var template = document.getElementById("textTemplate").value
+    var section = document.getElementById("textSection").value
+    var timeout = null
+    $(document).on('keyup',"#textEdit", function() {
+      clearTimeout(timeout);
+      timeout = setTimeout(function () {
+        var url1 = "/usdm/" + uuid + "/templates/" + template + "/sections/" + section;
+        var url2 = url1 + "/document";
+        var text = textArea.value
+        textCursor.value = textArea.selectionStart;
+        textEnd.value = textArea.selectionEnd;
+        //console.log("Cursor: " + textCursor.value)
+        if (text != previous) {
+          previous = text;
+          $.ajax({
+            type: 'POST',
+            url: url1,
+            data: {
+              text: text
+            },
+            success: function(data){
+             textArea.selectionStart = textCursor.value
+             htmx.ajax('GET', url2, '#section_results_div')
+            }
+          });
+        } 
+      }, 500);
     });
+
+    // $(document).on('change keyup paste click',"#textEdit", function() {
+    //   var url1 = "/usdm/" + uuid + "/templates/" + template + "/sections/" + section;
+    //   var url2 = url1 + "/document";
+    //   var text = textArea.value
+    //   textCursor.value = textArea.selectionStart;
+    //   textEnd.value = textArea.selectionEnd;
+    //   //console.log("Cursor: " + textCursor.value)
+    //   if (text != previous) {
+    //     previous = text;
+    //     $.ajax({
+    //       type: 'POST',
+    //       url: url1,
+    //       data: {
+    //         text: text
+    //       },
+    //       success: function(data){
+    //        textArea.selectionStart = textCursor.value
+    //        htmx.ajax('GET', url2, '#section_results_div')
+    //       }
+    //     });
+    //   } 
+    // });
     //textArea.selectionEnd = textArea.selectionStart = document.getElementById("textCursor").value;
     //textArea.blur();
     //textArea.focus();
     //console.log("Cursor: " + textArea.selectionStart)
   </script>
+  <input type="hidden" id="textUUID" name="textUUID" value="{{uuid}}">
+  <input type="hidden" id="textTemplate" name="textTemplate" value="{{template}}">
   <input type="hidden" id="textSection" name="textSection" value="{{key}}">
   <input type="hidden" id="textCursor" name="textCursor" value={{cursor}}>
   <input type="hidden" id="textEnd" name="textEnd" value="0">

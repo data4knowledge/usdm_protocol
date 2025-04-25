@@ -38,6 +38,7 @@ cookie_name = se.get("COOKIE_NAME")
 cookie_value = se.get("COOKIE_VALUE")
 backdoor = se.get("BACKDOOR")
 
+template_file = TemplateFile()
 
 class AuthenticationException(Exception):
     def __init__(self, name: str):
@@ -159,8 +160,7 @@ async def import_usdm_process(request: Request):
 @app.get("/usdm/{uuid}/templates/{template}")
 async def home(request: Request, uuid: str, template: str):
     check_simple_authentication(request)
-    template_file = TemplateFile(uuid=uuid, template=template)
-    data = template_file.from_usdm()
+    template_file.set_template(uuid=uuid, template=template)
     response = templates.TemplateResponse(
         "home/edit.html",
         {
@@ -176,7 +176,7 @@ async def home(request: Request, uuid: str, template: str):
 @app.get("/usdm/{uuid}/templates/{template}/sections/{section}")
 async def get_section(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    template_file = TemplateFile(uuid=uuid, template=template)
+    # template_file = TemplateFile(uuid=uuid, template=template)
     data = template_file.get_section(section)
     can_add = {
         "child": template_file.can_add_child_section(section),
@@ -203,7 +203,7 @@ async def post_section(
     request: Request, uuid: str, template: str, section: str, text: str = Form(...)
 ):
     check_simple_authentication(request)
-    template_file = TemplateFile(uuid=uuid, template=template)
+    # template_file = TemplateFile(uuid=uuid, template=template)
     data = template_file.put_section(section, text)
     return {}
 
@@ -211,7 +211,7 @@ async def post_section(
 @app.get("/usdm/{uuid}/templates/{template}/sections/{section}/document")
 async def document(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    template_file = TemplateFile(uuid=uuid, template=template)
+    # template_file = TemplateFile(uuid=uuid, template=template)
     data = template_file.get_section(section)
     response = templates.TemplateResponse(
         "home/partials/document.html",
@@ -229,7 +229,7 @@ async def document(request: Request, uuid: str, template: str, section: str):
 @app.post("/usdm/{uuid}/templates/{template}/sections/{section}/addSibling")
 async def post_section(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    template_file = TemplateFile(uuid=uuid, template=template)
+    # template_file = TemplateFile(uuid=uuid, template=template)
     new_section = template_file.add_sibling_section(section)
     if new_section:
         data = template_file.get_section(new_section)
@@ -261,7 +261,7 @@ async def post_section(request: Request, uuid: str, template: str, section: str)
 @app.post("/usdm/{uuid}/templates/{template}/sections/{section}/addChild")
 async def post_section(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    template_file = TemplateFile(uuid=uuid, template=template)
+    # template_file = TemplateFile(uuid=uuid, template=template)
     new_section = template_file.add_child_section(section)
     if new_section:
         data = template_file.get_section(new_section)
@@ -293,7 +293,7 @@ async def post_section(request: Request, uuid: str, template: str, section: str)
 @app.delete("/usdm/{uuid}/templates/{template}/sections/{section}")
 async def post_section(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    template_file = TemplateFile(uuid=uuid, template=template)
+    # template_file = TemplateFile(uuid=uuid, template=template)
 
     deleted = template_file.delete_section(section)
     if deleted:
@@ -338,7 +338,7 @@ async def post_section(
 ):
     check_simple_authentication(request)
     print(f"USDM: Section={section} @ {textCursor} ... {textEnd}, {type}")
-    template_file = TemplateFile(uuid=uuid, template=template)
+    # template_file = TemplateFile(uuid=uuid, template=template)
     data = template_file.insert_usdm(section, type, textCursor)
     can_add = {
         "child": template_file.can_add_child_section(section),
@@ -363,7 +363,7 @@ async def post_section(
 @app.get("/usdm/{uuid}/templates/{template}/sections/{section}/title")
 async def get_title(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    template_file = TemplateFile(uuid=uuid, template=template)
+    # template_file = TemplateFile(uuid=uuid, template=template)
     data = template_file.get_section(section)
     response = templates.TemplateResponse(
         "home/partials/section_title.html",
@@ -387,7 +387,7 @@ async def put_title(
     section_title_input: str = Form(...),
 ):
     check_simple_authentication(request)
-    template_file = TemplateFile(uuid=uuid, template=template)
+    # template_file = TemplateFile(uuid=uuid, template=template)
     data = template_file.put_section_title(section, section_title_input)
     data = template_file.get_section(section)
     can_add = {

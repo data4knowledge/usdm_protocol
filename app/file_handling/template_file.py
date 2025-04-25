@@ -8,11 +8,12 @@ from usdm4.api.study_version import StudyVersion
 
 
 class TemplateFile:
-    def __init__(self, uuid: str, template: str):
+    
+    def set_template(self, uuid: str, template: str):
         self._data_files = DataFiles(template=template, uuid=uuid)
         self._template = template
         self._uuid = uuid
-        self._data = self._read() if self._data_files.exists("protocol") else None
+        self._data = self._read() if self._data_files.exists("protocol") else self.from_usdm()
 
     def from_usdm(self):
         usdm = USDMFile(self._uuid)
@@ -72,15 +73,13 @@ class TemplateFile:
         ]
 
     def get_section(self, section_key) -> dict:
-        print(f"DATA: {self._data}")
-        print(f"KEY: {section_key}, {type(section_key)}")
         return self._data[section_key]
 
     def put_section(self, section_key, text):
         section = self.get_section(section_key)
         if section:
             application_logger.info(f"Updatting section {section_key}")
-            self._data[section_key]["text"] = text
+            self._data[section_key]["content_item"]["text"] = text
             self._write()
         return self._data[section_key]
 
@@ -88,7 +87,7 @@ class TemplateFile:
         section = self.get_section(section_key)
         if section:
             application_logger.info(f"Updatting section title {section_key}")
-            self._data[section_key]["sectionTitle"] = title
+            self._data[section_key]["content"]["sectionTitle"] = title
             self._write()
         return self._data[section_key]
 
@@ -98,8 +97,8 @@ class TemplateFile:
             application_logger.info(
                 f"USDM insert {section_key}, type {type}, @ {position}"
             )
-            self._data[section_key]["text"] = self._insert_usdm(
-                self._data[section_key]["text"], type, position
+            self._data[section_key]["content_item"]["text"] = self._insert_usdm(
+                self._data[section_key]["content_item"]["text"], type, position
             )
             self._write()
         # self._lock.release()
@@ -127,10 +126,14 @@ class TemplateFile:
         new_section_key = self._increment_section_number(section_key)
         if self._section_is_permitted(new_section_key):
             self._data[new_section_key] = {
-                "sectionNumber": self._key_to_section_number(new_section_key),
-                "sectionTitle": "To Be Provided",
-                "name": "",
-                "text": "",
+                "content": {
+                    "sectionNumber": self._key_to_section_number(new_section_key),
+                    "sectionTitle": "To Be Provided",
+                },
+                "content_item": {
+                    "name": "",
+                    "text": "",
+                }
             }
             self._write()
             result = new_section_key
@@ -142,10 +145,14 @@ class TemplateFile:
         new_section_key = self._child_section_number(section_key)
         if self._section_is_permitted(new_section_key):
             self._data[new_section_key] = {
-                "sectionNumber": self._key_to_section_number(new_section_key),
-                "sectionTitle": "To Be Provided",
-                "name": "",
-                "text": "",
+                "content": {
+                    "sectionNumber": self._key_to_section_number(new_section_key),
+                    "sectionTitle": "To Be Provided",
+                },
+                "content_item": {
+                    "name": "",
+                    "text": "",
+                }
             }
             self._write()
             result = new_section_key
