@@ -9,7 +9,7 @@ from d4k_ms_base.logger import application_logger
 class Database:
 
     def __init__(self, uuid: str):
-        self._data_files = DataFiles(uuid)
+        self._data_files = DataFiles(uuid=uuid)
         self._data = self._read()
         ##self._lock = threading.Lock()
 

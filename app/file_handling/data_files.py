@@ -12,84 +12,27 @@ class DataFiles:
     class LogicError(Exception):
         pass
 
-    def __init__(self, uuid=None):
+    def __init__(self, **kwargs):
         self.media_type = {
-            "xlsx": {
-                "method": self._save_excel_file,
-                "use_original": True,
-                "filename": "xl",
-                "extension": "xlsx",
-            },
-            "docx": {
-                "method": self._save_word_file,
-                "use_original": True,
-                "filename": "doc",
-                "extension": "docx",
-            },
             "usdm": {
                 "method": self._save_json_file,
                 "use_original": False,
                 "filename": "usdm",
                 "extension": "json",
-            },
-            "fhir": {
-                "method": self._save_json_file,
-                "use_original": False,
-                "filename": "fhir",
-                "extension": "json",
-            },
-            "fhir_v2": {
-                "method": self._save_json_file,
-                "use_original": False,
-                "filename": "fhir_v2",
-                "extension": "json",
-            },
-            "fhir_soa": {
-                "method": self._save_json_file,
-                "use_original": False,
-                "filename": "fhir_soa",
-                "extension": "json",
-            },
-            "errors": {
-                "method": self._save_csv_file,
-                "use_original": False,
-                "filename": "errors",
-                "extension": "csv",
+                "template": False
             },
             "protocol": {
-                "method": self._save_pdf_file,
-                "use_original": False,
-                "filename": "protocol",
-                "extension": "pdf",
-            },
-            "highlight": {
-                "method": self._save_html_file,
-                "use_original": False,
-                "filename": "highlight",
-                "extension": "html",
-            },
-            "image": {
-                "method": self._save_image_file,
+                "method": self._save_yaml_file,
                 "use_original": True,
-                "filename": "",
-                "extension": "",
-            },
-            "extra": {
-                "method": self._save_yaml_file,
-                "use_original": False,
-                "filename": "extra",
-                "extension": "yaml",
-            },
-            "protocol": {
-                "method": self._save_yaml_file,
-                "use_original": False,
                 "filename": "protocol",
                 "extension": "yaml",
+                "template": True
             },
         }
+        self.uuid = kwargs["uuid"] if "uuid" in kwargs else None
+        self.template = kwargs["template"] if "template" in kwargs else None
         self.dir = application_configuration.data_file_path
-        self.uuid = uuid
-
+        
     @classmethod
     def dirs(cls):
         results = []
@@ -328,8 +271,9 @@ class DataFiles:
         return os.path.join(self.dir, self.uuid, filename)
 
     def _form_filename(self, type):
+        suffix = f"_{self._template}" if self.media_type[type]['template'] else ""
         return (
-            f"{self.media_type[type]['filename']}.{self.media_type[type]['extension']}"
+            f"{self.media_type[type]['filename']}{suffix}.{self.media_type[type]['extension']}"
         )
 
     def _dir_files_by_extension(self, extension):
