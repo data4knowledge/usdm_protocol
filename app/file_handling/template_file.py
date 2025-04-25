@@ -1,10 +1,8 @@
-import os
 import re
-import yaml
-import threading
-import csv
 from app.file_handling.data_files import DataFiles
+from app.file_handling.usdm_file import USDMFile
 from d4k_ms_base.logger import application_logger
+from usdm4.api.study_version import StudyVersion
 
 class TemplateFile:
 
@@ -12,9 +10,26 @@ class TemplateFile:
         self._data_files = DataFiles(template=template, uuid=uuid)
         self._data = self._read()
         self._template = template
+        self._uuid = uuid
 
     def from_usdm(self):
-        pass
+        usdm = USDMFile(self._uuid)
+        study_version: StudyVersion = usdm.study.first_version()
+        ncis = study_version.narrative_content_item_map()
+        document = usdm.study.document_by_template_name(self._template)
+        document_version = None
+        for dv in document.versions:
+            if dv.id in study_version.documentVersionIds:
+                document_version = dv
+                break
+        self._data = []
+        if document_version:
+            ncs = document_version.narrative_content_in_order
+            ncis = study_version.narrative_content_item_map()
+            for nc in ncs:
+                nci = ncis[nc.contentItemId] if nc.contentItemId in ncis else None
+                self._data.append[{"content": nc, "content_item": nci}]
+        self._write()
 
     def to_usdm(self):
         pass

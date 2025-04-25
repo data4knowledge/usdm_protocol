@@ -13,6 +13,7 @@ from app.file_handling.data_files import DataFiles
 from app.__info__ import VERSION, SYSTEM_NAME
 from app.configuration.configuration import application_configuration
 from app.file_handling.usdm_file import USDMFile
+from app.file_handling.template_file import TemplateFile
 
 
 app = FastAPI(
@@ -151,12 +152,12 @@ async def import_usdm_process(request: Request):
 
 
 @app.get("/edit/{uuid}")
-async def home(request: Request, uuid: str):
+async def home(request: Request, uuid: str, template: str):
     check_simple_authentication(request)
-    usdm = USDMFile(uuid)
-    study = usdm.study
+    template = TemplateFile(uuid, template)
+    template.from_usdm()
     response = templates.TemplateResponse(
-        "home/edit.html", {"request": request, "data": study}
+        "home/edit.html", {"request": request, "data": template.toc_sections()}
     )
     return response
 
