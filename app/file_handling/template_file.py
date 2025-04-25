@@ -1,11 +1,16 @@
 import re
 import yaml
-from uuid import uuid4
 from app.file_handling.data_files import DataFiles
 from app.file_handling.usdm_file import USDMFile
 from d4k_ms_base.logger import application_logger
 from usdm4.api.study_version import StudyVersion
-
+from usdm4.api.narrative_content import NarrativeContent, NarrativeContentItem
+from usdm4.api.study_definition_document import StudyDefinitionDocument
+from usdm4.api.study_definition_document_version import StudyDefinitionDocumentVersion
+from usdm3.base.id_manager import IdManager
+from usdm3.base.api_instance import APIInstance
+from usdm4.builder.builder import Builder
+from usdm4.api import __all__ as all_klasses
 
 class TemplateFile:
     
@@ -16,18 +21,14 @@ class TemplateFile:
         self._data = self._read() if self._data_files.exists("protocol") else self.from_usdm()
 
     def from_usdm(self):
+        self._data = {}
         usdm = USDMFile(self._uuid)
         study_version: StudyVersion = usdm.study.first_version()
         ncis = study_version.narrative_content_item_map()
-        document = usdm.study.document_by_template_name(self._template)
-        document_version = None
-        for dv in document.versions:
-            if dv.id in study_version.documentVersionIds:
-                document_version = dv
-                break
-        self._data = {}
+        document_version = self._document_version(usdm)
         section = "0-1"
         if document_version:
+            self._document_version = document_version
             ncs = document_version.narrative_content_in_order()
             ncis = study_version.narrative_content_item_map()
             for nc in ncs:
@@ -47,7 +48,47 @@ class TemplateFile:
         return self._data
 
     def to_usdm(self):
-        pass
+        usdm_file = USDMFile(self._uuid)
+        id_manager = IdManager(all_klasses)
+        self._decompose(usdm_file.usdm.model_dump(), id_manager)
+        api = APIInstance(id_manager)
+        builder = Builder()
+        study_version: StudyVersion = usdm_file.study.first_version()
+        prev_ncis = study_version.narrative_content_item_map()
+        document_version = self._document_version(usdm_file)
+        if document_version:
+            document_version.narrative_content_in_order() 
+            order = self._section_order()
+            ncs = []
+            ncis = []
+            for x in order:
+                item = self._data[x]
+                ncs.append(api.create(NarrativeContent, item["content"]))
+                if "id" in item["content_item"]:
+                    prev_ncis[item["content_item"]["id"]].text = item["content_item"]["text"]
+                else:
+                    ncis.append(api.create(NarrativeContentItem, item["content_item"]))
+            study_version.narrativeContentItems += ncis
+            builder.double_link(ncs, "previousId", "nextId")
+            document_version.contents = ncs
+            self._data_files.save("usdm", usdm_file.usdm.to_json())
+            return True
+        else:
+            return False
+
+    def _document_version(self, usdm: USDMFile) -> StudyDefinitionDocumentVersion:
+        study_version: StudyVersion = usdm.study.first_version()
+        document = usdm.study.document_by_template_name(self._template)
+        document_version = None
+        for dv in document.versions:
+            if dv.id in study_version.documentVersionIds:
+                document_version = dv
+                break
+        return document_version
+    
+    def usdm_file(self) -> tuple[str, str, str]:
+        full_path, filename, _ =  self._data_files.path("usdm")
+        return full_path, filename, "application/json"
 
     def toc_sections(self) -> list:
         order = self._section_order()
@@ -125,16 +166,7 @@ class TemplateFile:
     def add_sibling_section(self, section_key):
         new_section_key = self._increment_section_number(section_key)
         if self._section_is_permitted(new_section_key):
-            self._data[new_section_key] = {
-                "content": {
-                    "sectionNumber": self._key_to_section_number(new_section_key),
-                    "sectionTitle": "To Be Provided",
-                },
-                "content_item": {
-                    "name": "",
-                    "text": "",
-                }
-            }
+            self._data[new_section_key] = self._section_entry(new_section_key)
             self._write()
             result = new_section_key
         else:
@@ -144,23 +176,34 @@ class TemplateFile:
     def add_child_section(self, section_key):
         new_section_key = self._child_section_number(section_key)
         if self._section_is_permitted(new_section_key):
-            self._data[new_section_key] = {
-                "content": {
-                    "sectionNumber": self._key_to_section_number(new_section_key),
-                    "sectionTitle": "To Be Provided",
-                },
-                "content_item": {
-                    "name": "",
-                    "text": "",
-                }
-            }
+            self._data[new_section_key] = self._section_entry(new_section_key)
             self._write()
             result = new_section_key
         else:
             result = None
-        # self._lock.release()
         return result
 
+    def _section_entry(self, section_key: str) -> dict:
+        return {
+            "content": {
+                "name": f"SECTION_{section_key}",
+                "sectionNumber": self._key_to_section_number(section_key),
+                "sectionTitle": "To Be Provided",
+                "displaySectionNumber": True,
+                "displaySectionTitle": True,
+                "childIds": [],
+                "previousId": None,
+                "nextId": None,
+                "contentItemId": None,
+                "instanceType": "NarrativeContent"
+            },
+            "content_item": {
+                "name":  f"CONTENT_{section_key}",
+                "text": "",
+                "instanceType": "NarrativeContentItem"
+            }
+        }
+        
     def _key_to_section_number(self, section_key: str) -> str:
         return section_key.replace("_", ".")
 
@@ -294,3 +337,14 @@ class TemplateFile:
             return new_text
         else:
             return s
+
+    def _decompose(self, data: dict, id_manager: IdManager) -> None:
+        if isinstance(data, dict):
+            if "id" in data and isinstance(data["id"], str):
+                id_manager.check_id(data["id"]) 
+            for key, value in data.items():
+                if isinstance(value, dict):
+                    self._decompose(value, id_manager)
+                elif isinstance(value, list):
+                    for index, item in enumerate(value):
+                        self._decompose(item, id_manager)

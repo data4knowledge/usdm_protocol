@@ -411,8 +411,14 @@ async def put_title(
     return response
 
 
-# @app.get("/download")
-# async def get_csv(request: Request):
-#     check_simple_authentication(request)
-#     full_path, filename, media_type = template_file.download_excel()
-#     return FileResponse(path=full_path, filename=filename, media_type=media_type)
+@app.get("/export/usdm/{uuid}")
+def import_usdm(request: Request, uuid: str):
+    check_simple_authentication(request)
+    result = template_file.to_usdm()
+    if result:
+        full_path, filename, media_type = template_file.usdm_file()
+        return FileResponse(
+            path=full_path, filename=filename, media_type=media_type
+        )
+    else:
+        raise
