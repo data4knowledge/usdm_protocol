@@ -12,8 +12,8 @@ from app.github.github import get_access_token, get_user_data
 from app.file_handling.data_files import DataFiles
 from app.__info__ import VERSION, SYSTEM_NAME
 from app.configuration.configuration import application_configuration
-from usdm4 import USDM4
-from usdm4.api import Wrapper, Study
+from app.file_handling.usdm_file import USDMFile
+
 
 app = FastAPI(
     title=SYSTEM_NAME,
@@ -115,12 +115,8 @@ async def home(request: Request):
     dirs = DataFiles.dirs()
     for dir in dirs:
         print(f"DIR: {dir}")
-        usdm_df = DataFiles(uuid=dir["file"])
-        usdm_data = usdm_df.read("usdm")
-        usdm_dict = json.loads(usdm_data)
-        usdm: Wrapper = USDM4().from_json(usdm_dict)
-        study: Study = usdm.study
-        result = {"id": dir["file"], "study": study.summary(), "templates": study.document_templates()}
+        usdm = USDMFile(dir["file"])
+        result = {"id": dir["file"], "study": usdm.study.summary(), "templates": usdm.study.document_templates()}
         print(f"RESULT: {result}")
         data.append(result)
     response = templates.TemplateResponse(
@@ -157,11 +153,8 @@ async def import_usdm_process(request: Request):
 @app.get("/edit/{uuid}")
 async def home(request: Request, uuid: str):
     check_simple_authentication(request)
-    usdm_df = DataFiles(uuid=uuid)
-    usdm_data = usdm_df.read("usdm")
-    usdm_dict = json.loads(usdm_data)
-    usdm: Wrapper = USDM4().from_json(usdm_dict)
-    study: Study = usdm.study
+    usdm = USDMFile(uuid)
+    study = usdm.study
     response = templates.TemplateResponse(
         "home/edit.html", {"request": request, "data": study}
     )
