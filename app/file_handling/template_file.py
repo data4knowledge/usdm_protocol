@@ -1,4 +1,5 @@
 import re
+from uuid import uuid4
 from app.file_handling.data_files import DataFiles
 from app.file_handling.usdm_file import USDMFile
 from d4k_ms_base.logger import application_logger
@@ -8,10 +9,10 @@ class TemplateFile:
 
     def __init__(self, uuid: str, template: str):
         self._data_files = DataFiles(template=template, uuid=uuid)
-        self._data = self._read()
         self._template = template
         self._uuid = uuid
-
+        self._data = None
+    
     def from_usdm(self):
         usdm = USDMFile(self._uuid)
         study_version: StudyVersion = usdm.study.first_version()
@@ -22,42 +23,52 @@ class TemplateFile:
             if dv.id in study_version.documentVersionIds:
                 document_version = dv
                 break
-        self._data = []
+        self._data = {}
+        section = "0-1"
         if document_version:
-            ncs = document_version.narrative_content_in_order
+            ncs = document_version.narrative_content_in_order()
             ncis = study_version.narrative_content_item_map()
             for nc in ncs:
+                print(f"SECTION NUMBER: {nc.sectionNumber} <- {section}")
                 nci = ncis[nc.contentItemId] if nc.contentItemId in ncis else None
-                self._data.append[{"content": nc, "content_item": nci}]
+                if nc.sectionNumber:
+                    section_key = self._section_number_to_key(nc.sectionNumber)
+                    section = str(section_key)
+                else:
+                    section_key = section
+                    section = self._increment_section_number(section)
+                self._data[section_key] = {"content": nc.model_dump(), "content_item": nci.model_dump()}
         self._write()
+        #print(f"DATA: {self._data}")
+        return self._data
 
     def to_usdm(self):
         pass
 
-    def toc_sections(self):
+    def toc_sections(self) -> list:
         order = self._section_order()
         return [
             {
                 "key": x,
-                "sectionNumber": self._data[x]["sectionNumber"],
-                "sectionTitle": self._data[x]["sectionTitle"],
+                "sectionNumber": self._data[x]["content"]["sectionNumber"],
+                "sectionTitle": self._data[x]["content"]["sectionTitle"],
             }
             for x in order
         ]
 
-    def toc_level_1_sections(self):
+    def toc_level_1_sections(self) -> list:
         order = self._section_order()
         return [
             {
                 "key": x,
-                "sectionNumber": self._data[x]["sectionNumber"],
-                "sectionTitle": self._data[x]["sectionTitle"],
+                "sectionNumber": self._data[x]["content"]["sectionNumber"],
+                "sectionTitle": self._data[x]["content"]["sectionTitle"],
             }
             for x in order
-            if self._level(self._data[x]["sectionNumber"]) == 1
+            if self._level(self._data[x]["content"]["sectionNumber"]) == 1
         ]
 
-    def get_section(self, section_key):
+    def get_section(self, section_key) -> dict:
         return self._data[section_key]
 
     def put_section(self, section_key, text):
@@ -111,7 +122,7 @@ class TemplateFile:
         new_section_key = self._increment_section_number(section_key)
         if self._section_is_permitted(new_section_key):
             self._data[new_section_key] = {
-                "sectionNumber": new_section_key.replace("-", "."),
+                "sectionNumber": self._key_to_section_number(new_section_key),
                 "sectionTitle": "To Be Provided",
                 "name": "",
                 "text": "",
@@ -126,7 +137,7 @@ class TemplateFile:
         new_section_key = self._child_section_number(section_key)
         if self._section_is_permitted(new_section_key):
             self._data[new_section_key] = {
-                "sectionNumber": new_section_key.replace("-", "."),
+                "sectionNumber": self._key_to_section_number(new_section_key),
                 "sectionTitle": "To Be Provided",
                 "name": "",
                 "text": "",
@@ -137,11 +148,21 @@ class TemplateFile:
             result = None
         #self._lock.release()
         return result
-    
-    def _level(self, section):
-        text = section[:-1] if section.endswith(".") else section
+
+    def _key_to_section_number(self, section_key: str) -> str:
+        return section_key.replace("_", ".")
+
+    def _section_number_to_key(self, section: str) -> str:
+        text = self._normalise_section(section)
+        return text.replace(".", "-")
+
+    def _level(self, section: str) -> int:
+        text = self._normalise_section(section)
         parts = text.split(".")
         return len(parts)
+
+    def _normalise_section(self, section):
+        return section[:-1] if section.endswith(".") else section
 
     def _read(self):
         return self._data_files.read("protocol")
@@ -161,6 +182,7 @@ class TemplateFile:
             )
 
     def _increment_section_number(self, section_key):
+        print(f"INCREMENT: {section_key}")
         parts = section_key.split("-")
         parts[-1] = str(int(parts[-1]) + 1)
         return "-".join(parts)

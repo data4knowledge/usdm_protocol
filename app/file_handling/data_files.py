@@ -23,7 +23,7 @@ class DataFiles:
             },
             "protocol": {
                 "method": self._save_yaml_file,
-                "use_original": True,
+                "use_original": False,
                 "filename": "protocol",
                 "extension": "yaml",
                 "template": True
@@ -125,6 +125,7 @@ class DataFiles:
             if self.media_type[type]["use_original"]
             else self._form_filename(type)
         )
+        print(f"FILENAME: {filename}")
         full_path = self.media_type[type]["method"](contents, filename)
         return full_path, filename
 
@@ -271,7 +272,7 @@ class DataFiles:
         return os.path.join(self.dir, self.uuid, filename)
 
     def _form_filename(self, type):
-        suffix = f"_{self._template}" if self.media_type[type]['template'] else ""
+        suffix = f"_{self.template.lower()}" if self.media_type[type]['template'] else ""
         return (
             f"{self.media_type[type]['filename']}{suffix}.{self.media_type[type]['extension']}"
         )

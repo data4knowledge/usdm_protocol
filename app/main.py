@@ -155,7 +155,7 @@ async def import_usdm_process(request: Request):
 async def home(request: Request, uuid: str, template: str):
     check_simple_authentication(request)
     template = TemplateFile(uuid, template)
-    template.from_usdm()
+    data = template.from_usdm()
     response = templates.TemplateResponse(
         "home/edit.html", {"request": request, "data": template.toc_sections()}
     )
