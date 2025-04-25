@@ -1,18 +1,19 @@
 import re
+import yaml
 from uuid import uuid4
 from app.file_handling.data_files import DataFiles
 from app.file_handling.usdm_file import USDMFile
 from d4k_ms_base.logger import application_logger
 from usdm4.api.study_version import StudyVersion
 
-class TemplateFile:
 
+class TemplateFile:
     def __init__(self, uuid: str, template: str):
         self._data_files = DataFiles(template=template, uuid=uuid)
         self._template = template
         self._uuid = uuid
-        self._data = None
-    
+        self._data = self._read() if self._data_files.exists("protocol") else None
+
     def from_usdm(self):
         usdm = USDMFile(self._uuid)
         study_version: StudyVersion = usdm.study.first_version()
@@ -37,9 +38,11 @@ class TemplateFile:
                 else:
                     section_key = section
                     section = self._increment_section_number(section)
-                self._data[section_key] = {"content": nc.model_dump(), "content_item": nci.model_dump()}
+                self._data[section_key] = {
+                    "content": nc.model_dump(),
+                    "content_item": nci.model_dump(),
+                }
         self._write()
-        #print(f"DATA: {self._data}")
         return self._data
 
     def to_usdm(self):
@@ -69,6 +72,8 @@ class TemplateFile:
         ]
 
     def get_section(self, section_key) -> dict:
+        print(f"DATA: {self._data}")
+        print(f"KEY: {section_key}, {type(section_key)}")
         return self._data[section_key]
 
     def put_section(self, section_key, text):
@@ -78,7 +83,7 @@ class TemplateFile:
             self._data[section_key]["text"] = text
             self._write()
         return self._data[section_key]
-        
+
     def put_section_title(self, section_key, title):
         section = self.get_section(section_key)
         if section:
@@ -86,7 +91,7 @@ class TemplateFile:
             self._data[section_key]["sectionTitle"] = title
             self._write()
         return self._data[section_key]
-    
+
     def insert_usdm(self, section_key: str, type: str, position: int) -> str:
         section = self.get_section(section_key)
         if section:
@@ -97,9 +102,9 @@ class TemplateFile:
                 self._data[section_key]["text"], type, position
             )
             self._write()
-        #self._lock.release()
+        # self._lock.release()
         return self._data[section_key]
-    
+
     def delete_section(self, section_key):
         section = self.get_section(section_key)
         if section:
@@ -109,7 +114,7 @@ class TemplateFile:
         else:
             result = False
         return result
-    
+
     def can_add_sibling_section(self, section_key):
         potential_section_key = self._increment_section_number(section_key)
         return self._section_is_permitted(potential_section_key)
@@ -146,7 +151,7 @@ class TemplateFile:
             result = new_section_key
         else:
             result = None
-        #self._lock.release()
+        # self._lock.release()
         return result
 
     def _key_to_section_number(self, section_key: str) -> str:
@@ -164,8 +169,8 @@ class TemplateFile:
     def _normalise_section(self, section):
         return section[:-1] if section.endswith(".") else section
 
-    def _read(self):
-        return self._data_files.read("protocol")
+    def _read(self) -> dict:
+        return yaml.safe_load(self._data_files.read("protocol"))
 
     def _write(self):
         self._data_files.save("protocol", self._data)

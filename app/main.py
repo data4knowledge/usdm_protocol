@@ -4,7 +4,6 @@ from fastapi import FastAPI, Request, status, Form
 from fastapi.responses import RedirectResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from app.database.database import Database
 from d4k_ms_ui.release_notes import ReleaseNotes
 from d4k_ms_base.service_environment import ServiceEnvironment
 from d4k_ms_base import application_logger
@@ -117,7 +116,11 @@ async def home(request: Request):
     for dir in dirs:
         print(f"DIR: {dir}")
         usdm = USDMFile(dir["file"])
-        result = {"id": dir["file"], "study": usdm.study.summary(), "templates": usdm.study.document_templates()}
+        result = {
+            "id": dir["file"],
+            "study": usdm.study.summary(),
+            "templates": usdm.study.document_templates(),
+        }
         print(f"RESULT: {result}")
         data.append(result)
     response = templates.TemplateResponse(
@@ -148,32 +151,43 @@ async def import_usdm_process(request: Request):
         if file_extension == ".json":
             data_files.new()
             data_files._save_json_file(contents, filename)
-    return templates.TemplateResponse(request, "import/partials/upload_success.html", {})
+    return templates.TemplateResponse(
+        request, "import/partials/upload_success.html", {}
+    )
 
 
-@app.get("/edit/{uuid}")
+@app.get("/usdm/{uuid}/templates/{template}")
 async def home(request: Request, uuid: str, template: str):
     check_simple_authentication(request)
-    template = TemplateFile(uuid, template)
-    data = template.from_usdm()
+    template_file = TemplateFile(uuid=uuid, template=template)
+    data = template_file.from_usdm()
     response = templates.TemplateResponse(
-        "home/edit.html", {"request": request, "data": template.toc_sections()}
+        "home/edit.html",
+        {
+            "request": request,
+            "uuid": uuid,
+            "template": template,
+            "data": template_file.toc_sections(),
+        },
     )
     return response
 
-@app.get("/sections/{section}")
-async def get_section(request: Request, section: str):
+
+@app.get("/usdm/{uuid}/templates/{template}/sections/{section}")
+async def get_section(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    # database = Database()
-    data = database.get_section(section)
+    template_file = TemplateFile(uuid=uuid, template=template)
+    data = template_file.get_section(section)
     can_add = {
-        "child": database.can_add_child_section(section),
-        "sibling": database.can_add_sibling_section(section),
+        "child": template_file.can_add_child_section(section),
+        "sibling": template_file.can_add_sibling_section(section),
     }
     response = templates.TemplateResponse(
         "home/partials/section.html",
         {
             "request": request,
+            "uuid": uuid,
+            "template": template,
             "key": section,
             "data": data,
             "can_add": can_add,
@@ -184,39 +198,52 @@ async def get_section(request: Request, section: str):
     return response
 
 
-@app.post("/sections/{section}")
-async def post_section(request: Request, section: str, text: str = Form(...)):
+@app.post("/usdm/{uuid}/templates/{template}/sections/{section}")
+async def post_section(
+    request: Request, uuid: str, template: str, section: str, text: str = Form(...)
+):
     check_simple_authentication(request)
-    data = database.put_section(section, text)
+    template_file = TemplateFile(uuid=uuid, template=template)
+    data = template_file.put_section(section, text)
     return {}
 
 
-@app.get("/sections/{section}/document")
-async def document(request: Request, section: str):
+@app.get("/usdm/{uuid}/templates/{template}/sections/{section}/document")
+async def document(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    data = database.get_section(section)
+    template_file = TemplateFile(uuid=uuid, template=template)
+    data = template_file.get_section(section)
     response = templates.TemplateResponse(
         "home/partials/document.html",
-        {"request": request, "key": section, "data": data},
+        {
+            "request": request,
+            "uuid": uuid,
+            "template": template,
+            "key": section,
+            "data": data,
+        },
     )
     return response
 
 
-@app.post("/sections/{section}/addSibling")
-async def post_section(request: Request, section: str):
+@app.post("/usdm/{uuid}/templates/{template}/sections/{section}/addSibling")
+async def post_section(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    new_section = database.add_sibling_section(section)
+    template_file = TemplateFile(uuid=uuid, template=template)
+    new_section = template_file.add_sibling_section(section)
     if new_section:
-        data = database.get_section(new_section)
+        data = template_file.get_section(new_section)
         can_add = {
-            "child": database.can_add_child_section(section),
-            "sibling": database.can_add_sibling_section(section),
+            "child": template.can_add_child_section(section),
+            "sibling": template.can_add_sibling_section(section),
         }
-        toc = database.toc_sections()
+        toc = template_file.toc_sections()
         return templates.TemplateResponse(
             "home/partials/section.html",
             {
                 "request": request,
+                "uuid": uuid,
+                "template": template,
                 "key": new_section,
                 "data": data,
                 "can_add": can_add,
@@ -231,21 +258,24 @@ async def post_section(request: Request, section: str):
         )
 
 
-@app.post("/sections/{section}/addChild")
-async def post_section(request: Request, section: str):
+@app.post("/usdm/{uuid}/templates/{template}/sections/{section}/addChild")
+async def post_section(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    new_section = database.add_child_section(section)
+    template_file = TemplateFile(uuid=uuid, template=template)
+    new_section = template_file.add_child_section(section)
     if new_section:
-        data = database.get_section(new_section)
+        data = template_file.get_section(new_section)
         can_add = {
-            "child": database.can_add_child_section(section),
-            "sibling": database.can_add_sibling_section(section),
+            "child": template.can_add_child_section(section),
+            "sibling": template.can_add_sibling_section(section),
         }
-        toc = database.toc_sections()
+        toc = template_file.toc_sections()
         return templates.TemplateResponse(
             "home/partials/section.html",
             {
                 "request": request,
+                "uuid": uuid,
+                "template": template,
                 "key": new_section,
                 "data": data,
                 "can_add": can_add,
@@ -260,22 +290,25 @@ async def post_section(request: Request, section: str):
         )
 
 
-@app.delete("/sections/{section}")
-async def post_section(request: Request, section: str):
+@app.delete("/usdm/{uuid}/templates/{template}/sections/{section}")
+async def post_section(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    # database = Database()
-    deleted = database.delete_section(section)
+    template_file = TemplateFile(uuid=uuid, template=template)
+
+    deleted = template_file.delete_section(section)
     if deleted:
-        data = database.get_section("1")
+        data = template_file.get_section("1")
         can_add = {
-            "child": database.can_add_child_section("1"),
-            "sibling": database.can_add_sibling_section("1"),
+            "child": template.can_add_child_section("1"),
+            "sibling": template.can_add_sibling_section("1"),
         }
-        toc = database.toc_sections()
+        toc = template_file.toc_sections()
         return templates.TemplateResponse(
             "home/partials/section.html",
             {
                 "request": request,
+                "uuid": uuid,
+                "template": template,
                 "key": "1",
                 "data": data,
                 "can_add": can_add,
@@ -293,9 +326,11 @@ async def post_section(request: Request, section: str):
         )
 
 
-@app.post("/sections/{section}/usdm")
+@app.post("/usdm/{uuid}/templates/{template}/sections/{section}/macro")
 async def post_section(
     request: Request,
+    uuid: str,
+    template: str,
     section: str,
     type: str,
     textCursor: int = Form(...),
@@ -303,15 +338,18 @@ async def post_section(
 ):
     check_simple_authentication(request)
     print(f"USDM: Section={section} @ {textCursor} ... {textEnd}, {type}")
-    data = database.insert_usdm(section, type, textCursor)
+    template_file = TemplateFile(uuid=uuid, template=template)
+    data = template_file.insert_usdm(section, type, textCursor)
     can_add = {
-        "child": database.can_add_child_section(section),
-        "sibling": database.can_add_sibling_section(section),
+        "child": template.can_add_child_section(section),
+        "sibling": template.can_add_sibling_section(section),
     }
     response = templates.TemplateResponse(
         "home/partials/section.html",
         {
             "request": request,
+            "uuid": uuid,
+            "template": template,
             "key": section,
             "data": data,
             "can_add": can_add,
@@ -322,10 +360,11 @@ async def post_section(
     return response
 
 
-@app.get("/sections/{section}/title")
-async def get_title(request: Request, section: str):
+@app.get("/usdm/{uuid}/templates/{template}/sections/{section}/title")
+async def get_title(request: Request, uuid: str, template: str, section: str):
     check_simple_authentication(request)
-    data = database.get_section(section)
+    template_file = TemplateFile(uuid=uuid, template=template)
+    data = template_file.get_section(section)
     response = templates.TemplateResponse(
         "home/partials/section_title.html",
         {"request": request, "key": section, "data": data},
@@ -333,22 +372,29 @@ async def get_title(request: Request, section: str):
     return response
 
 
-@app.post("/sections/{section}/title")
+@app.post("/usdm/{uuid}/templates/{template}/sections/{section}/title")
 async def put_title(
-    request: Request, section: str, section_title_input: str = Form(...)
+    request: Request,
+    uuid: str,
+    template: str,
+    section: str,
+    section_title_input: str = Form(...),
 ):
     check_simple_authentication(request)
-    data = database.put_section_title(section, section_title_input)
-    data = database.get_section(section)
+    template_file = TemplateFile(uuid=uuid, template=template)
+    data = template_file.put_section_title(section, section_title_input)
+    data = template_file.get_section(section)
     can_add = {
-        "child": database.can_add_child_section(section),
-        "sibling": database.can_add_sibling_section(section),
+        "child": template.can_add_child_section(section),
+        "sibling": template.can_add_sibling_section(section),
     }
-    toc = database.toc_sections()
+    toc = template_file.toc_sections()
     response = templates.TemplateResponse(
         "home/partials/section.html",
         {
             "request": request,
+            "uuid": uuid,
+            "template": template,
             "key": section,
             "data": data,
             "can_add": can_add,
@@ -359,8 +405,8 @@ async def put_title(
     return response
 
 
-@app.get("/download")
-async def get_csv(request: Request):
-    check_simple_authentication(request)
-    full_path, filename, media_type = database.download_excel()
-    return FileResponse(path=full_path, filename=filename, media_type=media_type)
+# @app.get("/download")
+# async def get_csv(request: Request):
+#     check_simple_authentication(request)
+#     full_path, filename, media_type = template_file.download_excel()
+#     return FileResponse(path=full_path, filename=filename, media_type=media_type)

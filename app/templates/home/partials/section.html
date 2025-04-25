@@ -33,13 +33,13 @@
   <input type="hidden" id="textSection" name="textSection" value="{{key}}">
   <input type="hidden" id="textCursor" name="textCursor" value={{cursor}}>
   <input type="hidden" id="textEnd" name="textEnd" value="0">
-  <textarea class="form-control" rows="30" name="textEdit" id="textEdit" class="textEditDiv">{{data['text']}}</textarea>
+  <textarea class="form-control" rows="30" name="textEdit" id="textEdit" class="textEditDiv">{{data['content_item']['text']}}</textarea>
 </div>
 <div id="section_number_div" class="p-2" hx-swap-oob="#section_number_div">
-  <h5>{{data['sectionNumber']}}</h5>
+  <h5>{{data['content']['sectionNumber']}}</h5>
 </div>
 <div id="section_title_div" class="p-2 flex-grow-1" hx-swap-oob="#section_title_div" hx-post="/sections/{{key}}/title" hx-trigger="click" hx-target="#section_title_div">
-  <h5>{{data['sectionTitle']}}</h5>
+  <h5>{{data['content']['sectionTitle']}}</h5>
 </div>
 <div id="usdm_section_div" hx-swap-oob="#usdm_section_div">
   <div class="dropdown">
@@ -94,7 +94,7 @@
   </a>    
 </div>
 <div id="section_results_div" hx-swap-oob="#section_results_div">
-  {{data['text']|safe}}
+  {{data['content_item']['text']|safe}}
 </div>
 {% if toc %}
   <div id="menu_div" hx-swap-oob="#menu_div">

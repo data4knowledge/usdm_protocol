@@ -19,20 +19,20 @@ class DataFiles:
                 "use_original": False,
                 "filename": "usdm",
                 "extension": "json",
-                "template": False
+                "template": False,
             },
             "protocol": {
                 "method": self._save_yaml_file,
                 "use_original": False,
                 "filename": "protocol",
                 "extension": "yaml",
-                "template": True
+                "template": True,
             },
         }
         self.uuid = kwargs["uuid"] if "uuid" in kwargs else None
         self.template = kwargs["template"] if "template" in kwargs else None
         self.dir = application_configuration.data_file_path
-        
+
     @classmethod
     def dirs(cls):
         results = []
@@ -125,7 +125,6 @@ class DataFiles:
             if self.media_type[type]["use_original"]
             else self._form_filename(type)
         )
-        print(f"FILENAME: {filename}")
         full_path = self.media_type[type]["method"](contents, filename)
         return full_path, filename
 
@@ -138,7 +137,6 @@ class DataFiles:
         exists = True
         if self.media_type[type]["use_original"]:
             files = self._dir_files_by_extension(self.media_type[type]["extension"])
-            # print(f"FILES: {files}")
             if len(files) == 1:
                 filename = files[0]
                 full_path = self._file_path(filename)
@@ -160,6 +158,9 @@ class DataFiles:
         exists = os.path.exists(full_path)
         return full_path, filename, exists
 
+    def exists(self, type: str) -> bool:
+        return self._file_exists(type)
+    
     def delete_all(self):
         try:
             for root, dirs, files in os.walk(self.dir):
@@ -265,6 +266,11 @@ class DataFiles:
             application_logger.exception(f"Exception creating dir '{self.uuid}'", e)
             return False
 
+    def _file_exists(self, type: str) -> bool:
+        filename = self._form_filename(type)
+        path = self._file_path(filename)
+        return os.path.isfile(path)
+
     def _dir_path(self):
         return os.path.join(self.dir, self.uuid)
 
@@ -272,10 +278,10 @@ class DataFiles:
         return os.path.join(self.dir, self.uuid, filename)
 
     def _form_filename(self, type):
-        suffix = f"_{self.template.lower()}" if self.media_type[type]['template'] else ""
-        return (
-            f"{self.media_type[type]['filename']}{suffix}.{self.media_type[type]['extension']}"
+        suffix = (
+            f"_{self.template.lower()}" if self.media_type[type]["template"] else ""
         )
+        return f"{self.media_type[type]['filename']}{suffix}.{self.media_type[type]['extension']}"
 
     def _dir_files_by_extension(self, extension):
         dir = self._dir_files()
