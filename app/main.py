@@ -234,8 +234,8 @@ async def post_section(request: Request, uuid: str, template: str, section: str)
     if new_section:
         data = template_file.get_section(new_section)
         can_add = {
-            "child": template.can_add_child_section(section),
-            "sibling": template.can_add_sibling_section(section),
+            "child": template_file.can_add_child_section(section),
+            "sibling": template_file.can_add_sibling_section(section),
         }
         toc = template_file.toc_sections()
         return templates.TemplateResponse(
@@ -266,8 +266,8 @@ async def post_section(request: Request, uuid: str, template: str, section: str)
     if new_section:
         data = template_file.get_section(new_section)
         can_add = {
-            "child": template.can_add_child_section(section),
-            "sibling": template.can_add_sibling_section(section),
+            "child": template_file.can_add_child_section(section),
+            "sibling": template_file.can_add_sibling_section(section),
         }
         toc = template_file.toc_sections()
         return templates.TemplateResponse(
@@ -299,8 +299,8 @@ async def post_section(request: Request, uuid: str, template: str, section: str)
     if deleted:
         data = template_file.get_section("1")
         can_add = {
-            "child": template.can_add_child_section("1"),
-            "sibling": template.can_add_sibling_section("1"),
+            "child": template_file.can_add_child_section("1"),
+            "sibling": template_file.can_add_sibling_section("1"),
         }
         toc = template_file.toc_sections()
         return templates.TemplateResponse(
@@ -341,8 +341,8 @@ async def post_section(
     template_file = TemplateFile(uuid=uuid, template=template)
     data = template_file.insert_usdm(section, type, textCursor)
     can_add = {
-        "child": template.can_add_child_section(section),
-        "sibling": template.can_add_sibling_section(section),
+        "child": template_file.can_add_child_section(section),
+        "sibling": template_file.can_add_sibling_section(section),
     }
     response = templates.TemplateResponse(
         "home/partials/section.html",
@@ -367,7 +367,13 @@ async def get_title(request: Request, uuid: str, template: str, section: str):
     data = template_file.get_section(section)
     response = templates.TemplateResponse(
         "home/partials/section_title.html",
-        {"request": request, "key": section, "data": data},
+        {
+            "request": request,
+            "uuid": uuid,
+            "template": template,
+            "key": section,
+            "data": data,
+        },
     )
     return response
 
@@ -385,8 +391,8 @@ async def put_title(
     data = template_file.put_section_title(section, section_title_input)
     data = template_file.get_section(section)
     can_add = {
-        "child": template.can_add_child_section(section),
-        "sibling": template.can_add_sibling_section(section),
+        "child": template_file.can_add_child_section(section),
+        "sibling": template_file.can_add_sibling_section(section),
     }
     toc = template_file.toc_sections()
     response = templates.TemplateResponse(

@@ -38,7 +38,7 @@
 <div id="section_number_div" class="p-2" hx-swap-oob="#section_number_div">
   <h5>{{data['content']['sectionNumber']}}</h5>
 </div>
-<div id="section_title_div" class="p-2 flex-grow-1" hx-swap-oob="#section_title_div" hx-post="/sections/{{key}}/title" hx-trigger="click" hx-target="#section_title_div">
+<div id="section_title_div" class="p-2 flex-grow-1" hx-swap-oob="#section_title_div" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/title" hx-trigger="click" hx-target="#section_title_div">
   <h5>{{data['content']['sectionTitle']}}</h5>
 </div>
 <div id="usdm_section_div" hx-swap-oob="#usdm_section_div">
@@ -47,30 +47,30 @@
       <i class="ps-2 bi bi-code"></i>
     </button>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=reference" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">reference</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=tag" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">tag</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=xref" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">cross reference</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=image" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">image</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=element" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">element</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=bc" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">bc reference</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=section" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">section</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=timeline" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">timeline</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=note" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">note</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=list-item" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">list item</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=table" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor'], [name='textEnd']" role="button">table</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=table-row" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">table row</a></li>
-      <li><a class="dropdown-item" hx-post="/sections/{{key}}/usdm?type=table-cell" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">table cell</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=reference" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">reference</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=tag" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">tag</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=xref" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">cross reference</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=image" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">image</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=element" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">element</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=bc" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">bc reference</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=section" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">section</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=timeline" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">timeline</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=note" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">note</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=list-item" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">list item</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=table" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor'], [name='textEnd']" role="button">table</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=table-row" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">table row</a></li>
+      <li><a class="dropdown-item" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/usdm?type=table-cell" hx-trigger="click" hx-target="#section_edit_div" hx-include="[name='textCursor']" role="button">table cell</a></li>
     </ul>
   </div>
 </div>
 <div id="edit_title_div" hx-swap-oob="#edit_title_div">
-  <a class="link-dark" style="font-size: 20px;" hx-get="/sections/{{key}}/title" hx-trigger="click" hx-target="#section_title_div" hx-swap="outerHTML" role="button">
+  <a class="link-dark" style="font-size: 20px;" hx-get="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/title" hx-trigger="click" hx-target="#section_title_div" hx-swap="outerHTML" role="button">
     <i class="ps-2 bi bi-pencil"></i>
   </a>  
 </div>
 {% if can_add['sibling'] %}
   <div id="add_section_sibling_div" hx-swap-oob="#add_section_sibling_div">
-    <a class="link-dark" style="font-size: 20px;" hx-post="/sections/{{key}}/addSibling" hx-trigger="click" hx-target="#section_edit_div" role="button">
+    <a class="link-dark" style="font-size: 20px;" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/addSibling" hx-trigger="click" hx-target="#section_edit_div" role="button">
       <i class="ps-2 bi bi-arrow-down-circle"></i>
     </a>    
   </div>
@@ -80,7 +80,7 @@
 {% endif %}
 {% if can_add['child'] %}
   <div id="add_section_child_div" hx-swap-oob="#add_section_child_div">
-    <a class="link-dark" style="font-size: 20px;" hx-post="/sections/{{key}}/addChild" hx-trigger="click" hx-target="#section_edit_div" role="button">
+    <a class="link-dark" style="font-size: 20px;" hx-post="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}/addChild" hx-trigger="click" hx-target="#section_edit_div" role="button">
       <i class="ps-2 bi bi-arrow-down-right-circle"></i>
     </a>    
   </div>
@@ -89,7 +89,7 @@
   </div>
 {% endif %}
 <div id="delete_section_div" hx-swap-oob="#delete_section_div">
-  <a class="link-danger" style="font-size: 20px;" hx-delete="/sections/{{key}}" hx-trigger="click" hx-target="#section_edit_div" role="button">
+  <a class="link-danger" style="font-size: 20px;" hx-delete="/usdm/{{uuid}}/templates/{{template}}/sections/{{key}}" hx-trigger="click" hx-target="#section_edit_div" role="button">
     <i class="ps-2 bi bi-dash-circle"></i>
   </a>    
 </div>

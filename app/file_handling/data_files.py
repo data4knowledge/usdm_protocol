@@ -160,7 +160,7 @@ class DataFiles:
 
     def exists(self, type: str) -> bool:
         return self._file_exists(type)
-    
+
     def delete_all(self):
         try:
             for root, dirs, files in os.walk(self.dir):
