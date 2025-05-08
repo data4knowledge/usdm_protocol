@@ -28,7 +28,6 @@ class TemplateFile:
         document_version = self._document_version(usdm)
         section = "0-1"
         if document_version:
-            self._document_version = document_version
             ncs = document_version.narrative_content_in_order()
             ncis = study_version.narrative_content_item_map()
             for nc in ncs:
@@ -65,8 +64,14 @@ class TemplateFile:
                 item = self._data[x]
                 ncs.append(api.create(NarrativeContent, item["content"]))
                 if "id" in item["content_item"]:
+                    print(f"ID PRESENT")
+                    x1 = prev_ncis[item["content_item"]["id"]].text
+                    x2 = item["content_item"]["text"]
+                    x3 = x1 == x2
+                    print(f"TEXT: {x1[0:20]}, {x2[0:20]}, {x3}")
                     prev_ncis[item["content_item"]["id"]].text = item["content_item"]["text"]
                 else:
+                    print(f"NEW ")
                     ncis.append(api.create(NarrativeContentItem, item["content_item"]))
             study_version.narrativeContentItems += ncis
             builder.double_link(ncs, "previousId", "nextId")

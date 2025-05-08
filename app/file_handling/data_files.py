@@ -222,7 +222,7 @@ class DataFiles:
         try:
             full_path = self._file_path(filename)
             with open(full_path, "w") as f:
-                yaml.dump(contents, f, default_flow_style=False)
+                yaml.dump(contents, f, default_flow_style=False, sort_keys=False)
             return full_path
         except Exception as e:
             application_logger.exception("Exception saving results file", e)
