@@ -119,8 +119,8 @@ async def home(request: Request):
         usdm = USDMFile(dir["file"])
         result = {
             "id": dir["file"],
-            "study": usdm.study.summary(),
-            "templates": usdm.study.document_templates(),
+            "study": usdm.summary(),
+            "templates": usdm.document_templates(),
         }
         print(f"RESULT: {result}")
         data.append(result)
