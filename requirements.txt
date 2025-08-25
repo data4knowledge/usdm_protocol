@@ -5,7 +5,7 @@ usdm4>=0.8.2
 d4k-ms-base>=0.2.0
 d4k-ms-service>=0.2.0
 d4k-ms-auth>=0.3.0
-d4k-ms-ui>=0.2.0
+d4k-ms-ui>=0.3.0
 markdown
 python-multipart
 
